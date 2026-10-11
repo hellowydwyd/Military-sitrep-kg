@@ -1,0 +1,22 @@
+[
+  {"a": "基辅", "b": "基辅市", "label": "same_as"},
+  {"a": "基辅", "b": "乌克兰首都基辅", "label": "same_as"},
+  {"a": "基辅", "b": "乌克兰首都基辅市", "label": "same_as"},
+  {"a": "中东", "b": "中东地区", "label": "same_as"},
+  {"a": "华盛顿", "b": "美国华盛顿", "label": "same_as"},
+  {"a": "加沙", "b": "加沙地带", "label": "same_as"},
+  {"a": "台岛以东", "b": "台岛以东海域", "label": "same_as"},
+  {"a": "阿布祖胡尔军用机场", "b": "叙利亚阿布祖胡尔空军基地", "label": "same_as"},
+  {"a": "中东", "b": "中东海域", "label": "related"},
+  {"a": "中东", "b": "中东地区海域", "label": "related"},
+  {"a": "中东", "b": "中东地区7个国家", "label": "related"},
+  {"a": "中东", "b": "中东地区国家", "label": "related"},
+  {"a": "纳季兰", "b": "纳季兰机场", "label": "related"},
+  {"a": "黎巴嫩", "b": "黎巴嫩南部", "label": "related"},
+  {"a": "白宫", "b": "白宫战情室", "label": "related"},
+  {"a": "科威特", "b": "科威特境内", "label": "related"},
+  {"a": "布什尔市", "b": "布什尔省", "label": "related"},
+  {"a": "加沙城", "b": "加沙地带", "label": "related"},
+  {"a": "霍尔木兹海峡", "b": "基辅", "label": "distinct"},
+  {"a": "霍尔木兹海峡", "b": "曼德海峡", "label": "distinct"}
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <title>态势主题演化</title>
+  <link rel="stylesheet" href="style.css?v=flow2" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand-row">
+      <div class="brand">
+        <p class="kicker">多源军事新闻 · 查询窗立题</p>
+        <h1>态势主题演化</h1>
+      </div>
+      <nav class="views" aria-label="视图">
+        <a class="on" href="index.html">主题</a>
+        <a href="actors.html">主体</a>
+      </nav>
+      <label class="win-pick">时间窗
+        <select id="months" aria-label="时间窗"></select>
+      </label>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </header>
+
+  <main>
+    <section class="panel hero">
+      <div class="panel-head">
+        <div>
+          <h2>河图 · 每日稿量</h2>
+          <p class="hint">带宽是每日见报量。彩色是核心议题，灰色是其余合计。</p>
+        </div>
+        <div class="playbar">
+          <button type="button" class="ghost" id="play">播放</button>
+          <input type="range" id="scrub" min="0" max="1" value="1" />
+          <span id="play-day" class="play-day"></span>
+          <button type="button" class="ghost" id="reset">清除筛选</button>
+        </div>
+      </div>
+      <svg id="river" viewBox="0 0 1180 320" role="img" aria-label="每日稿量河图"></svg>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <div class="grid-2">
+      <section class="panel" id="core-wrap">
+        <div class="panel-head">
+          <div>
+            <h2>气泡 · 核心议题</h2>
+            <p class="hint">圆的大小是总稿量。越靠上近日还在报，越靠右报道越偏月末。</p>
+          </div>
+        </div>
+        <svg id="bubbles" viewBox="0 0 560 280" role="img" aria-label="核心议题气泡"></svg>
+        <div class="core-cards" id="core"></div>
+      </section>
+
+      <section class="panel detail" id="detail-wrap">
+        <div class="panel-head">
+          <div>
+            <h2>选中议题</h2>
+            <p class="hint">先看这条线上发生了什么，下面是对应见报稿。</p>
+          </div>
+        </div>
+        <div id="detail"></div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>次要议题</h2>
+          <p class="hint">没进核心带宽，河图里算进灰色。</p>
+        </div>
+      </div>
+      <div class="chips" id="minors"></div>
+    </section>
+
+    <section class="panel" id="flow-panel">
+      <div class="panel-head">
+        <div>
+          <h2>稿量流向</h2>
+          <p class="hint" id="flow-hint">7 日列之间稿量怎么接，不是事态因果。</p>
+        </div>
+      </div>
+      <svg id="alluvial" viewBox="0 0 1180 280" role="img" aria-label="列间稿量流向"></svg>
+    </section>
+  </main>
+
+  <footer>
+    点河图、气泡或卡片看一条议题的事态和原文。
+  </footer>
+  <div class="tip" id="tip"></div>
+  <script src="data.js?v=aprsep1"></script>
+  <script src="app.js?v=flow2"></script>
+</body>
+</html>

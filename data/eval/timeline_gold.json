@@ -1,0 +1,43 @@
+{
+  "from": "2026-08-18",
+  "to": "2026-08-24",
+  "cases": [
+    {
+      "id": "kyiv_no_summit",
+      "kind": "location",
+      "name": "基辅",
+      "forbid_neighbor_triggers": ["表示"],
+      "seed_day_must_link_days": {
+        "2026-08-20": ["2026-08-16", "2026-08-20"]
+      },
+      "forbid_neighbor_days": ["2026-08-01"]
+    },
+    {
+      "id": "idf_actor_still_links_near",
+      "kind": "actor",
+      "name": "以军",
+      "seed_title_substr": "黎巴嫩南部",
+      "must_link_days": ["2026-08-19", "2026-08-17"],
+      "forbid_neighbor_days": ["2026-08-13"]
+    },
+    {
+      "id": "idf_lebanon_campaign",
+      "kind": "campaign",
+      "actor": "以军",
+      "location": "黎南",
+      "must_seed_title_substr": ["黎巴嫩南部"],
+      "forbid_neighbor_title_substr": ["耶路撒冷", "叙利亚", "逮捕"]
+    },
+    {
+      "id": "idf_discover_then_strike",
+      "kind": "tlink",
+      "name": "以军",
+      "seed_title_substr": "黎巴嫩南部",
+      "parent_trigger": "发现",
+      "child_trigger": "打击",
+      "cue": "随后",
+      "same_day": "2026-08-21",
+      "if_missing": "skip"
+    }
+  ]
+}

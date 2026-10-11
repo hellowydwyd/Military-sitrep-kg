@@ -1,0 +1,77 @@
+{
+  "kind": "locations",
+  "groups": [
+    {
+      "id": "loc:基辅",
+      "canonical": "基辅",
+      "aliases": [
+        "基辅",
+        "基辅市"
+      ],
+      "freq_sum": 6
+    },
+    {
+      "id": "loc:阿布祖胡尔军用机场",
+      "canonical": "阿布祖胡尔军用机场",
+      "aliases": [
+        "叙利亚阿布祖胡尔空军基地",
+        "阿布祖胡尔军用机场"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:中东海域",
+      "canonical": "中东海域",
+      "aliases": [
+        "中东地区海域",
+        "中东海域"
+      ],
+      "freq_sum": 2
+    }
+  ],
+  "labeled": [
+    {
+      "a": "中东",
+      "b": "中东地区7个国家",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东",
+      "b": "中东地区海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东",
+      "b": "中东海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "纳季兰",
+      "b": "纳季兰机场",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中东地区海域",
+      "b": "中东海域",
+      "label": "same_as",
+      "via": "llm"
+    },
+    {
+      "a": "叙利亚阿布祖胡尔空军基地",
+      "b": "阿布祖胡尔军用机场",
+      "label": "same_as",
+      "via": "llm"
+    }
+  ],
+  "missing": []
+}

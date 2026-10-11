@@ -1,0 +1,116 @@
+{
+  "docs": {
+    "lebanon_strike": {
+      "doc_id": "ee024cbf2b1d75fe9c7b75496cd48157a95dfd24",
+      "title": "以军再袭黎巴嫩南部地区",
+      "after_triggers": ["发现", "发动打击"],
+      "forbidden_pub_trigger": "发动打击"
+    },
+    "syria_airstrike": {
+      "doc_id": "9d925b9aa321ca614580522557f52af7c96b47fc",
+      "title": "以色列空袭叙利亚引发与美方“罕见冲突”",
+      "week_trigger": "空袭",
+      "not_on_days": ["2026-08-23", "2026-08-24"]
+    }
+  },
+  "phrases": [
+    {
+      "id": "week_ago",
+      "raw_time": "上周",
+      "publish_time": "2026-08-24",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-08-17", "time_precision": "week"}
+    },
+    {
+      "id": "a_few_days_ago",
+      "raw_time": "日前",
+      "publish_time": "2026-08-23",
+      "prev_abs_day": null,
+      "expect": {"event_time": "", "time_precision": "fuzzy", "tlink": "BEFORE"}
+    },
+    {
+      "id": "this_year_jan",
+      "raw_time": "今年1月",
+      "publish_time": "2026-08-18",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-01", "time_precision": "month"}
+    },
+    {
+      "id": "today",
+      "raw_time": "今天",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-08-21", "time_precision": "day"}
+    },
+    {
+      "id": "same_day_inherit",
+      "raw_time": "当天",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": "2026-08-18",
+      "expect": {"event_time": "2026-08-18", "time_precision": "day", "tlink": "SAME_DAY"}
+    },
+    {
+      "id": "same_day_no_prev",
+      "raw_time": "当天",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": null,
+      "expect": {"event_time": "", "time_precision": "unknown", "tlink": "SAME_DAY"}
+    },
+    {
+      "id": "same_day_earlier",
+      "raw_time": "当天早些时候",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": "2026-08-21",
+      "expect": {"event_time": "2026-08-21", "time_precision": "day", "tlink": "SAME_DAY"}
+    },
+    {
+      "id": "suihou",
+      "raw_time": "随后",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": "2026-08-21",
+      "expect": {"event_time": "2026-08-21", "time_precision": "day", "tlink": "AFTER"}
+    },
+    {
+      "id": "suihou_no_prev",
+      "raw_time": "随后",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": null,
+      "expect": {"event_time": "", "time_precision": "unknown", "tlink": "AFTER"}
+    },
+    {
+      "id": "day_only",
+      "raw_time": "19日",
+      "publish_time": "2026-08-24",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-08-19", "time_precision": "day"}
+    },
+    {
+      "id": "interval",
+      "raw_time": "8月17日至21日",
+      "publish_time": "2026-08-24",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-08-17", "event_time_end": "2026-08-21", "time_precision": "interval"}
+    },
+    {
+      "id": "empty_raw",
+      "raw_time": "",
+      "publish_time": "2026-08-24",
+      "prev_abs_day": null,
+      "expect": {"event_time": "", "time_precision": "unknown"}
+    },
+    {
+      "id": "year_end",
+      "raw_time": "年底",
+      "publish_time": "2026-08-01",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-12", "time_precision": "month", "forbid_day": "2026-12-31"}
+    },
+    {
+      "id": "yesterday",
+      "raw_time": "昨天",
+      "publish_time": "2026-08-21",
+      "prev_abs_day": null,
+      "expect": {"event_time": "2026-08-20", "time_precision": "day"}
+    }
+  ]
+}

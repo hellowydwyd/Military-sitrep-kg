@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IAA · 开放事件</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">A/B 一致率</div>
+    <a href="/">回标注</a>
+    <button type="button" id="btn-refresh">刷新</button>
+  </header>
+  <main class="iaa-main">
+    <section id="summary" class="iaa-summary muted">加载中…</section>
+    <section>
+      <h2>分歧块</h2>
+      <div id="disagreements"></div>
+    </section>
+  </main>
+  <script>
+    async function load() {
+      const r = await fetch("/api/iaa");
+      const d = await r.json();
+      const s = document.getElementById("summary");
+      const rate = d.chunk_exact_rate == null ? "—" : (d.chunk_exact_rate * 100).toFixed(1) + "%";
+      const jac = d.avg_fact_jaccard == null ? "—" : d.avg_fact_jaccard;
+      s.innerHTML = `
+        <p>试点 ${d.n_pilot} 块 · 双方已标 <b>${d.n_both_annotated}</b>
+        （仅 A ${d.n_only_a} / 仅 B ${d.n_only_b}）</p>
+        <p>块级完全一致：<b>${d.chunk_exact_match}</b> / ${d.n_both_annotated}（${rate}）</p>
+        <p>fact Jaccard 平均（kind|trigger|主体|对象）：<b>${jac}</b></p>
+      `;
+      const box = document.getElementById("disagreements");
+      if (!d.disagreements || !d.disagreements.length) {
+        box.innerHTML = "<p class='muted'>无分歧或尚未双方标注。</p>";
+        return;
+      }
+      box.innerHTML = d.disagreements.map(x => `
+        <article class="disagree">
+          <h3>${escapeHtml(x.title)} <span class="muted">${escapeHtml(x.chunk_id)}</span>
+            <span class="chip">J=${x.jaccard}</span></h3>
+          <p>A ${x.n_a} 条 · B ${x.n_b} 条</p>
+          <p><b>仅 A</b>: ${x.only_a.map(escapeHtml).join(" · ") || "—"}</p>
+          <p><b>仅 B</b>: ${x.only_b.map(escapeHtml).join(" · ") || "—"}</p>
+          <p><b>共有</b>: ${x.shared.map(escapeHtml).join(" · ") || "—"}</p>
+        </article>
+      `).join("");
+    }
+    function escapeHtml(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
+      })[c]);
+    }
+    document.getElementById("btn-refresh").onclick = load;
+    load();
+  </script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+{
+  "groups": [
+    {
+      "id": "actor:伊朗",
+      "canonical": "伊朗",
+      "aliases": [
+        "伊朗",
+        "伊方"
+      ],
+      "freq_sum": 140
+    },
+    {
+      "id": "actor:特朗普",
+      "canonical": "特朗普",
+      "aliases": [
+        "特朗普",
+        "美国总统特朗普"
+      ],
+      "freq_sum": 135
+    },
+    {
+      "id": "actor:美国",
+      "canonical": "美国",
+      "aliases": [
+        "美国",
+        "美方"
+      ],
+      "freq_sum": 124
+    },
+    {
+      "id": "actor:伊朗伊斯兰革命卫队",
+      "canonical": "伊朗伊斯兰革命卫队",
+      "aliases": [
+        "伊朗伊斯兰革命卫队",
+        "革命卫队"
+      ],
+      "freq_sum": 99
+    },
+    {
+      "id": "actor:以军",
+      "canonical": "以军",
+      "aliases": [
+        "以军",
+        "以色列国防军",
+        "以色列军队"
+      ],
+      "freq_sum": 97
+    },
+    {
+      "id": "actor:胡塞武装",
+      "canonical": "胡塞武装",
+      "aliases": [
+        "胡塞武装",
+        "也门胡塞武装"
+      ],
+      "freq_sum": 86
+    },
+    {
+      "id": "actor:日本",
+      "canonical": "日本",
+      "aliases": [
+        "日本",
+        "日方"
+      ],
+      "freq_sum": 68
+    },
+    {
+      "id": "actor:乌克兰",
+      "canonical": "乌克兰",
+      "aliases": [
+        "乌克兰",
+        "乌方"
+      ],
+      "freq_sum": 59
+    },
+    {
+      "id": "actor:以色列",
+      "canonical": "以色列",
+      "aliases": [
+        "以色列",
+        "以方"
+      ],
+      "freq_sum": 47
+    },
+    {
+      "id": "actor:俄方",
+      "canonical": "俄方",
+      "aliases": [
+        "俄方",
+        "俄罗斯"
+      ],
+      "freq_sum": 43
+    },
+    {
+      "id": "actor:伊朗军方",
+      "canonical": "伊朗军方",
+      "aliases": [
+        "伊朗军方",
+        "伊朗军队"
+      ],
+      "freq_sum": 36
+    },
+    {
+      "id": "actor:泽连斯基",
+      "canonical": "泽连斯基",
+      "aliases": [
+        "泽连斯基",
+        "乌克兰总统泽连斯基"
+      ],
+      "freq_sum": 33
+    },
+    {
+      "id": "actor:内塔尼亚胡",
+      "canonical": "内塔尼亚胡",
+      "aliases": [
+        "内塔尼亚胡",
+        "以色列总理内塔尼亚胡"
+      ],
+      "freq_sum": 29
+    }
+  ],
+  "labeled": [
+    {
+      "a": "乌克兰",
+      "b": "乌克兰总统泽连斯基",
+      "label": "related"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰无人机",
+      "label": "related"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰无人系统部队",
+      "label": "related"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌方",
+      "label": "same_as"
+    },
+    {
+      "a": "乌克兰总统泽连斯基",
+      "b": "泽连斯基",
+      "label": "same_as"
+    },
+    {
+      "a": "乌克兰无人机",
+      "b": "无人机",
+      "label": "related"
+    },
+    {
+      "a": "也门胡塞武装",
+      "b": "胡塞武装",
+      "label": "same_as"
+    },
+    {
+      "a": "以军",
+      "b": "以色列",
+      "label": "related"
+    },
+    {
+      "a": "以军",
+      "b": "以色列、美国和黎巴嫩",
+      "label": "distinct"
+    },
+    {
+      "a": "以军",
+      "b": "以色列军队",
+      "label": "same_as"
+    },
+    {
+      "a": "以军",
+      "b": "以色列国防军",
+      "label": "same_as"
+    },
+    {
+      "a": "以军",
+      "b": "以色列总理内塔尼亚胡",
+      "label": "related"
+    },
+    {
+      "a": "以方",
+      "b": "以色列",
+      "label": "same_as"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列、美国和黎巴嫩",
+      "label": "related"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列军队",
+      "label": "related"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列国防军",
+      "label": "related"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列总理内塔尼亚胡",
+      "label": "related"
+    },
+    {
+      "a": "以色列",
+      "b": "美国和以色列",
+      "label": "related"
+    },
+    {
+      "a": "以色列、美国和黎巴嫩",
+      "b": "美国",
+      "label": "related"
+    },
+    {
+      "a": "以色列军队",
+      "b": "以色列国防军",
+      "label": "same_as"
+    },
+    {
+      "a": "以色列总理内塔尼亚胡",
+      "b": "内塔尼亚胡",
+      "label": "same_as"
+    },
+    {
+      "a": "伊方",
+      "b": "伊朗",
+      "label": "same_as"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗伊斯兰革命卫队",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗军方",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗军队",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗外交部",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗外交部发言人巴加埃",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗外交部长阿拉格齐",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗武装力量",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗武装部队",
+      "label": "related"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗武装部队哈塔姆安比亚中央总部",
+      "label": "related"
+    },
+    {
+      "a": "伊朗伊斯兰革命卫队",
+      "b": "革命卫队",
+      "label": "same_as"
+    },
+    {
+      "a": "伊朗军方",
+      "b": "伊朗军队",
+      "label": "same_as"
+    },
+    {
+      "a": "伊朗军方",
+      "b": "军方",
+      "label": "related"
+    },
+    {
+      "a": "伊朗外交部",
+      "b": "伊朗外交部发言人巴加埃",
+      "label": "related"
+    },
+    {
+      "a": "伊朗外交部",
+      "b": "伊朗外交部长阿拉格齐",
+      "label": "related"
+    },
+    {
+      "a": "伊朗武装部队",
+      "b": "伊朗武装部队哈塔姆安比亚中央总部",
+      "label": "related"
+    },
+    {
+      "a": "伊朗武装部队",
+      "b": "俄武装部队",
+      "label": "distinct"
+    },
+    {
+      "a": "俄方",
+      "b": "俄罗斯",
+      "label": "same_as"
+    },
+    {
+      "a": "俄防空系统",
+      "b": "约旦防空系统",
+      "label": "distinct"
+    },
+    {
+      "a": "国防部",
+      "b": "美国国防部",
+      "label": "related"
+    },
+    {
+      "a": "安全部队",
+      "b": "巴安全部队",
+      "label": "related"
+    },
+    {
+      "a": "日方",
+      "b": "日本",
+      "label": "same_as"
+    },
+    {
+      "a": "日本",
+      "b": "日本执政当局",
+      "label": "related"
+    },
+    {
+      "a": "日本",
+      "b": "日本政府",
+      "label": "related"
+    },
+    {
+      "a": "日本",
+      "b": "日本防卫省",
+      "label": "related"
+    },
+    {
+      "a": "海军83舰编队",
+      "b": "编队",
+      "label": "related"
+    },
+    {
+      "a": "特朗普",
+      "b": "特朗普政府",
+      "label": "related"
+    },
+    {
+      "a": "特朗普",
+      "b": "美国总统特朗普",
+      "label": "same_as"
+    },
+    {
+      "a": "美军",
+      "b": "美军中央司令部",
+      "label": "related"
+    },
+    {
+      "a": "美国",
+      "b": "美国和以色列",
+      "label": "related"
+    },
+    {
+      "a": "美国",
+      "b": "美国国防部",
+      "label": "related"
+    },
+    {
+      "a": "美国",
+      "b": "美国总统特朗普",
+      "label": "related"
+    },
+    {
+      "a": "美国",
+      "b": "美国海军",
+      "label": "related"
+    },
+    {
+      "a": "美国",
+      "b": "美方",
+      "label": "same_as"
+    },
+    {
+      "a": "革命卫队",
+      "b": "革命卫队航空航天部队",
+      "label": "related"
+    }
+  ],
+  "missing": []
+}

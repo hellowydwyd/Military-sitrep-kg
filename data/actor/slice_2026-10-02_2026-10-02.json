@@ -1,0 +1,1404 @@
+{
+  "window": {
+    "from": "2026-10-02",
+    "to": "2026-10-02"
+  },
+  "metrics": {
+    "n_docs": 22,
+    "n_mentions": 101,
+    "n_entities": 27,
+    "n_edges": 4,
+    "n_rel": {
+      "attacks": 2,
+      "belongs_to": 2
+    },
+    "n_media": 6,
+    "media": [
+      {
+        "name": "环球网军事",
+        "n": 13
+      },
+      {
+        "name": "Euromaidan Press",
+        "n": 4
+      },
+      {
+        "name": "Jerusalem Post - Defense",
+        "n": 2
+      },
+      {
+        "name": "Defense Mirror",
+        "n": 1
+      },
+      {
+        "name": "TWZ - Land",
+        "n": 1
+      },
+      {
+        "name": "Air & Space Forces Magazine",
+        "n": 1
+      }
+    ]
+  },
+  "ranks": {
+    "Person": [
+      {
+        "id": "e:d014120916ce",
+        "name": "普京",
+        "mass": 2,
+        "degree": 0,
+        "n_source": 9,
+        "n_target": 0
+      },
+      {
+        "id": "e:8a35ada9b4c6",
+        "name": "德国国防部长皮斯托里乌斯",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:c459e0e45994",
+        "name": "泽连斯基",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:0e101b659fda",
+        "name": "特朗普",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 1
+      }
+    ],
+    "Org": [
+      {
+        "id": "e:6ea2acdca02f",
+        "name": "胡塞武装",
+        "mass": 6,
+        "degree": 2,
+        "n_source": 16,
+        "n_target": 8
+      },
+      {
+        "id": "e:7a3c1e737b9e",
+        "name": "多国联军",
+        "mass": 3,
+        "degree": 1,
+        "n_source": 4,
+        "n_target": 0
+      },
+      {
+        "id": "e:d43bef322453",
+        "name": "政府军",
+        "mass": 3,
+        "degree": 0,
+        "n_source": 3,
+        "n_target": 2
+      },
+      {
+        "id": "e:c820cf782b99",
+        "name": "美军",
+        "mass": 3,
+        "degree": 1,
+        "n_source": 4,
+        "n_target": 0
+      },
+      {
+        "id": "e:8fa4ca1577dd",
+        "name": "德军",
+        "mass": 2,
+        "degree": 0,
+        "n_source": 2,
+        "n_target": 0
+      },
+      {
+        "id": "e:3bae60c45634",
+        "name": "联军",
+        "mass": 2,
+        "degree": 0,
+        "n_source": 2,
+        "n_target": 0
+      },
+      {
+        "id": "e:9c4811c3fcab",
+        "name": "也门政府军",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:4f126d6ee19e",
+        "name": "以军",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:870b2f47cbd6",
+        "name": "俄军",
+        "mass": 1,
+        "degree": 1,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:92df88a5731b",
+        "name": "哈马斯",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 2,
+        "n_target": 0
+      },
+      {
+        "id": "e:e69bccb67681",
+        "name": "日本陆上自卫队",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      }
+    ],
+    "Country": [
+      {
+        "id": "e:16e2eda54e96",
+        "name": "乌克兰",
+        "mass": 7,
+        "degree": 0,
+        "n_source": 6,
+        "n_target": 5
+      },
+      {
+        "id": "e:a62d3d72b492",
+        "name": "伊朗",
+        "mass": 4,
+        "degree": 0,
+        "n_source": 3,
+        "n_target": 2
+      },
+      {
+        "id": "e:5bdcf826f29c",
+        "name": "俄罗斯",
+        "mass": 4,
+        "degree": 1,
+        "n_source": 7,
+        "n_target": 0
+      },
+      {
+        "id": "e:88359829ceaa",
+        "name": "沙特阿拉伯",
+        "mass": 2,
+        "degree": 1,
+        "n_source": 4,
+        "n_target": 0
+      },
+      {
+        "id": "e:2d1093550636",
+        "name": "美国",
+        "mass": 2,
+        "degree": 1,
+        "n_source": 1,
+        "n_target": 2
+      },
+      {
+        "id": "e:c28a67723962",
+        "name": "伊拉克",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:feada698e395",
+        "name": "新加坡",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      },
+      {
+        "id": "e:c3b039f0a8a0",
+        "name": "阿根廷",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      }
+    ],
+    "MilitaryEntity": [
+      {
+        "id": "e:3763dede6b40",
+        "name": "F-16",
+        "mass": 3,
+        "degree": 0,
+        "n_source": 0,
+        "n_target": 0
+      },
+      {
+        "id": "e:c11f2a1b2a5f",
+        "name": "萨德",
+        "mass": 2,
+        "degree": 0,
+        "n_source": 2,
+        "n_target": 0
+      },
+      {
+        "id": "e:2df3673a8e5b",
+        "name": "爱国者",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 0,
+        "n_target": 0
+      },
+      {
+        "id": "e:976ee649dd9f",
+        "name": "罗斯福号",
+        "mass": 1,
+        "degree": 0,
+        "n_source": 1,
+        "n_target": 0
+      }
+    ],
+    "Media": []
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "e:6ea2acdca02f",
+        "name": "胡塞武装",
+        "type": "Org",
+        "mass": 6,
+        "degree": 2,
+        "n_source": 16,
+        "n_target": 8
+      },
+      {
+        "id": "e:5bdcf826f29c",
+        "name": "俄罗斯",
+        "type": "Country",
+        "mass": 4,
+        "degree": 1,
+        "n_source": 7,
+        "n_target": 0
+      },
+      {
+        "id": "e:7a3c1e737b9e",
+        "name": "多国联军",
+        "type": "Org",
+        "mass": 3,
+        "degree": 1,
+        "n_source": 4,
+        "n_target": 0
+      },
+      {
+        "id": "e:c820cf782b99",
+        "name": "美军",
+        "type": "Org",
+        "mass": 3,
+        "degree": 1,
+        "n_source": 4,
+        "n_target": 0
+      },
+      {
+        "id": "e:88359829ceaa",
+        "name": "沙特阿拉伯",
+        "type": "Country",
+        "mass": 2,
+        "degree": 1,
+        "n_source": 4,
+        "n_target": 0
+      },
+      {
+        "id": "e:2d1093550636",
+        "name": "美国",
+        "type": "Country",
+        "mass": 2,
+        "degree": 1,
+        "n_source": 1,
+        "n_target": 2
+      },
+      {
+        "id": "e:870b2f47cbd6",
+        "name": "俄军",
+        "type": "Org",
+        "mass": 1,
+        "degree": 1,
+        "n_source": 1,
+        "n_target": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "e:7a3c1e737b9e",
+        "target": "e:6ea2acdca02f",
+        "kind": "attacks",
+        "label": "打击",
+        "trigger": "拦截并摧毁",
+        "n_docs": 2,
+        "weight": 2,
+        "first_day": "2026-10-02",
+        "last_day": "2026-10-02",
+        "examples": [
+          {
+            "day": "2026-10-02",
+            "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+            "source_name": "环球网军事"
+          },
+          {
+            "day": "2026-10-02",
+            "title": "导弹、无人机飞向沙特，也门多线激战",
+            "source_name": "环球网军事"
+          }
+        ]
+      },
+      {
+        "source": "e:88359829ceaa",
+        "target": "e:6ea2acdca02f",
+        "kind": "attacks",
+        "label": "打击",
+        "trigger": "空袭",
+        "n_docs": 1,
+        "weight": 1,
+        "first_day": "2026-10-02",
+        "last_day": "2026-10-02",
+        "examples": [
+          {
+            "day": "2026-10-02",
+            "title": "胡塞武装称沙特空袭也门多地 沙特方面暂无回应",
+            "source_name": "环球网军事"
+          }
+        ]
+      },
+      {
+        "source": "e:c820cf782b99",
+        "target": "e:2d1093550636",
+        "kind": "belongs_to",
+        "label": "从属",
+        "trigger": "隶属",
+        "n_docs": 3,
+        "weight": 3,
+        "first_day": "2026-10-02",
+        "last_day": "2026-10-02",
+        "examples": []
+      },
+      {
+        "source": "e:870b2f47cbd6",
+        "target": "e:5bdcf826f29c",
+        "kind": "belongs_to",
+        "label": "从属",
+        "trigger": "隶属",
+        "n_docs": 1,
+        "weight": 1,
+        "first_day": "2026-10-02",
+        "last_day": "2026-10-02",
+        "examples": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": "e:16e2eda54e96",
+      "name": "乌克兰",
+      "type": "Country",
+      "mass": 7,
+      "n_mentions": 11,
+      "n_source": 6,
+      "n_target": 5,
+      "aliases": [
+        "乌方"
+      ],
+      "articles": [
+        {
+          "doc_id": "6e1cbdf13bf8ee46d3b713554b24f4d0163e35aa",
+          "day": "2026-10-02",
+          "title": "Russia lost 2026-record 46,230 troops in September by Ukraine’s count, as fighting around Donetsk fortress cities grinds on",
+          "url": "https://euromaidanpress.com/2026/10/01/russia-lost-2026-record-46230-troops-in-september-by-ukraines-count-as-fighting-around-donetsk-fortress-cities-grinds-on",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "52b23668ce113199c23f1c7b78f1586586f06dd8",
+          "day": "2026-10-02",
+          "title": "Russo-Ukrainian war, day 1681: Russian drone hit Kyiv school sheltering more than 100 students and about 60 staff",
+          "url": "https://euromaidanpress.com/2026/10/02/russo-ukrainian-war-day-1681-russian-drone-hit-kyiv-school-sheltering-more-than-100-students-and-about-60-staff",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "622096b77c17a01e0d2284970dadc498d8d96cfd",
+          "day": "2026-10-02",
+          "title": "Spain, Belgium, and Poland are sending Ukraine F-16 cannon rounds to fight Russia’s jet drones",
+          "url": "https://euromaidanpress.com/2026/10/02/spain-belgium-and-poland-are-sending-ukraine-f-16-cannon-rounds-to-fight-russias-jet-drones",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "1ae14ff2ed7d78c99af543a4a2777fd52c40a47c",
+          "day": "2026-10-02",
+          "title": "Ukraine Claims First Combat Use Of FP-7 Ballistic Missile",
+          "url": "https://www.twz.com/news-features/ukraine-claims-first-combat-use-of-fp-7-ballistic-missile",
+          "source_name": "TWZ - Land"
+        },
+        {
+          "doc_id": "918823c441df8a1c06c3d72a2de9c00cf857561a",
+          "day": "2026-10-02",
+          "title": "Ukrainian firm fields 11 crewless boats and eight drones at NATO’s biggest naval drone drill",
+          "url": "https://euromaidanpress.com/2026/10/02/ukrainian-firm-fields-11-crewless-boats-and-eight-drones-at-natos-biggest-naval-drone-drill",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "5b90f7f319bc848935719b3ce1eb182b428ca151",
+          "day": "2026-10-02",
+          "title": "德国联邦国防军将组建首支无人系统作战团级部队",
+          "url": "https://mil.huanqiu.com/article/4TRTNsrR3xd",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "ff09add1e9b08d4355b8d7ddcac1e172ee4d88f5",
+          "day": "2026-10-02",
+          "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+          "url": "https://mil.huanqiu.com/article/4TRWfa3akCv",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 7,
+      "media": [
+        {
+          "name": "Euromaidan Press",
+          "n": 4
+        },
+        {
+          "name": "环球网军事",
+          "n": 2
+        },
+        {
+          "name": "TWZ - Land",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:6ea2acdca02f",
+      "name": "胡塞武装",
+      "type": "Org",
+      "mass": 6,
+      "n_mentions": 24,
+      "n_source": 16,
+      "n_target": 8,
+      "aliases": [
+        "也门胡塞武装"
+      ],
+      "articles": [
+        {
+          "doc_id": "6f55e23f9ee3cb9ceeca0c2f65f40c1cdebfa7ac",
+          "day": "2026-10-02",
+          "title": "也门西南省份战事加剧 30名胡塞武装人员被打死",
+          "url": "https://mil.huanqiu.com/article/4TRTJnaggwm",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+          "day": "2026-10-02",
+          "title": "导弹、无人机飞向沙特，也门多线激战",
+          "url": "https://mil.huanqiu.com/article/4TRXHyrHMRT",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "b5b61040c9dc162c631b4315854b1e2aef9305a2",
+          "day": "2026-10-02",
+          "title": "战事加剧 也门政府军和胡塞武装激战",
+          "url": "https://mil.huanqiu.com/article/4TRnmtcUWwv",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "d230f13ec8689ba1da3fbbe679d9393300c100ec",
+          "day": "2026-10-02",
+          "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+          "url": "https://mil.huanqiu.com/article/4TRWLVcQtvU",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "0a1f18833b7414c7689e1f29fbe4a2cabc4e6d40",
+          "day": "2026-10-02",
+          "title": "胡塞武装称沙特空袭也门多地 沙特方面暂无回应",
+          "url": "https://mil.huanqiu.com/article/4TRTXPwvIa2",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "053bf4ff5c4ce31a0de291dc5e5d2d1ebc62b856",
+          "day": "2026-10-02",
+          "title": "胡塞武装袭击地区军事设施 也门亚丁传出爆炸声",
+          "url": "https://mil.huanqiu.com/article/4TRaRxYRJTi",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 6,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 6
+        }
+      ],
+      "degree": 2
+    },
+    {
+      "id": "e:a62d3d72b492",
+      "name": "伊朗",
+      "type": "Country",
+      "mass": 4,
+      "n_mentions": 5,
+      "n_source": 3,
+      "n_target": 2,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "f4d8073b6ddb00bcfdb25bf07f9633bc541852f7",
+          "day": "2026-10-02",
+          "title": "F-22 Pilots Awarded Distinguished Flying Cross for Actions in CENTCOM, Including Midnight Hammer",
+          "url": "https://www.airandspaceforces.com/f-22-pilots-distinguished-flying-cross-middle-east-midnight-hammer",
+          "source_name": "Air & Space Forces Magazine"
+        },
+        {
+          "doc_id": "ada7a7d209e9157010d9e171af59a6ee146054d3",
+          "day": "2026-10-02",
+          "title": "Iran weighing options against US, Israel as nuclear talks stall, Israeli defense official says",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-910402",
+          "source_name": "Jerusalem Post - Defense"
+        },
+        {
+          "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+          "day": "2026-10-02",
+          "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+          "url": "https://www.defensemirror.com/news/42116",
+          "source_name": "Defense Mirror"
+        },
+        {
+          "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+          "day": "2026-10-02",
+          "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+          "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 4,
+      "media": [
+        {
+          "name": "Air & Space Forces Magazine",
+          "n": 1
+        },
+        {
+          "name": "Jerusalem Post - Defense",
+          "n": 1
+        },
+        {
+          "name": "Defense Mirror",
+          "n": 1
+        },
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:5bdcf826f29c",
+      "name": "俄罗斯",
+      "type": "Country",
+      "mass": 4,
+      "n_mentions": 7,
+      "n_source": 7,
+      "n_target": 0,
+      "aliases": [
+        "俄方"
+      ],
+      "articles": [
+        {
+          "doc_id": "6e1cbdf13bf8ee46d3b713554b24f4d0163e35aa",
+          "day": "2026-10-02",
+          "title": "Russia lost 2026-record 46,230 troops in September by Ukraine’s count, as fighting around Donetsk fortress cities grinds on",
+          "url": "https://euromaidanpress.com/2026/10/01/russia-lost-2026-record-46230-troops-in-september-by-ukraines-count-as-fighting-around-donetsk-fortress-cities-grinds-on",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "52b23668ce113199c23f1c7b78f1586586f06dd8",
+          "day": "2026-10-02",
+          "title": "Russo-Ukrainian war, day 1681: Russian drone hit Kyiv school sheltering more than 100 students and about 60 staff",
+          "url": "https://euromaidanpress.com/2026/10/02/russo-ukrainian-war-day-1681-russian-drone-hit-kyiv-school-sheltering-more-than-100-students-and-about-60-staff",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "622096b77c17a01e0d2284970dadc498d8d96cfd",
+          "day": "2026-10-02",
+          "title": "Spain, Belgium, and Poland are sending Ukraine F-16 cannon rounds to fight Russia’s jet drones",
+          "url": "https://euromaidanpress.com/2026/10/02/spain-belgium-and-poland-are-sending-ukraine-f-16-cannon-rounds-to-fight-russias-jet-drones",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "ff09add1e9b08d4355b8d7ddcac1e172ee4d88f5",
+          "day": "2026-10-02",
+          "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+          "url": "https://mil.huanqiu.com/article/4TRWfa3akCv",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 4,
+      "media": [
+        {
+          "name": "Euromaidan Press",
+          "n": 3
+        },
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 1
+    },
+    {
+      "id": "e:3763dede6b40",
+      "name": "F-16",
+      "type": "MilitaryEntity",
+      "mass": 3,
+      "n_mentions": 3,
+      "n_source": 0,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "52b23668ce113199c23f1c7b78f1586586f06dd8",
+          "day": "2026-10-02",
+          "title": "Russo-Ukrainian war, day 1681: Russian drone hit Kyiv school sheltering more than 100 students and about 60 staff",
+          "url": "https://euromaidanpress.com/2026/10/02/russo-ukrainian-war-day-1681-russian-drone-hit-kyiv-school-sheltering-more-than-100-students-and-about-60-staff",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "622096b77c17a01e0d2284970dadc498d8d96cfd",
+          "day": "2026-10-02",
+          "title": "Spain, Belgium, and Poland are sending Ukraine F-16 cannon rounds to fight Russia’s jet drones",
+          "url": "https://euromaidanpress.com/2026/10/02/spain-belgium-and-poland-are-sending-ukraine-f-16-cannon-rounds-to-fight-russias-jet-drones",
+          "source_name": "Euromaidan Press"
+        },
+        {
+          "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+          "day": "2026-10-02",
+          "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+          "url": "https://www.defensemirror.com/news/42116",
+          "source_name": "Defense Mirror"
+        }
+      ],
+      "n_articles": 3,
+      "media": [
+        {
+          "name": "Euromaidan Press",
+          "n": 2
+        },
+        {
+          "name": "Defense Mirror",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:7a3c1e737b9e",
+      "name": "多国联军",
+      "type": "Org",
+      "mass": 3,
+      "n_mentions": 4,
+      "n_source": 4,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+          "day": "2026-10-02",
+          "title": "导弹、无人机飞向沙特，也门多线激战",
+          "url": "https://mil.huanqiu.com/article/4TRXHyrHMRT",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "b5b61040c9dc162c631b4315854b1e2aef9305a2",
+          "day": "2026-10-02",
+          "title": "战事加剧 也门政府军和胡塞武装激战",
+          "url": "https://mil.huanqiu.com/article/4TRnmtcUWwv",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "d230f13ec8689ba1da3fbbe679d9393300c100ec",
+          "day": "2026-10-02",
+          "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+          "url": "https://mil.huanqiu.com/article/4TRWLVcQtvU",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 3,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 3
+        }
+      ],
+      "degree": 1
+    },
+    {
+      "id": "e:d43bef322453",
+      "name": "政府军",
+      "type": "Org",
+      "mass": 3,
+      "n_mentions": 5,
+      "n_source": 3,
+      "n_target": 2,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "6f55e23f9ee3cb9ceeca0c2f65f40c1cdebfa7ac",
+          "day": "2026-10-02",
+          "title": "也门西南省份战事加剧 30名胡塞武装人员被打死",
+          "url": "https://mil.huanqiu.com/article/4TRTJnaggwm",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+          "day": "2026-10-02",
+          "title": "导弹、无人机飞向沙特，也门多线激战",
+          "url": "https://mil.huanqiu.com/article/4TRXHyrHMRT",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "053bf4ff5c4ce31a0de291dc5e5d2d1ebc62b856",
+          "day": "2026-10-02",
+          "title": "胡塞武装袭击地区军事设施 也门亚丁传出爆炸声",
+          "url": "https://mil.huanqiu.com/article/4TRaRxYRJTi",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 3,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 3
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:c820cf782b99",
+      "name": "美军",
+      "type": "Org",
+      "mass": 3,
+      "n_mentions": 4,
+      "n_source": 4,
+      "n_target": 0,
+      "aliases": [
+        "美国军方"
+      ],
+      "articles": [
+        {
+          "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+          "day": "2026-10-02",
+          "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+          "url": "https://www.defensemirror.com/news/42116",
+          "source_name": "Defense Mirror"
+        },
+        {
+          "doc_id": "1496d0f6c28c285f3f43d0f6a8447a6d343585f5",
+          "day": "2026-10-02",
+          "title": "日本最西端将首次部署日美岸舰导弹",
+          "url": "https://mil.huanqiu.com/article/4TRda39JYYy",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+          "day": "2026-10-02",
+          "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+          "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 3,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 2
+        },
+        {
+          "name": "Defense Mirror",
+          "n": 1
+        }
+      ],
+      "degree": 1
+    },
+    {
+      "id": "e:8fa4ca1577dd",
+      "name": "德军",
+      "type": "Org",
+      "mass": 2,
+      "n_mentions": 2,
+      "n_source": 2,
+      "n_target": 0,
+      "aliases": [
+        "德国联邦国防军",
+        "联邦国防军"
+      ],
+      "articles": [
+        {
+          "doc_id": "5b90f7f319bc848935719b3ce1eb182b428ca151",
+          "day": "2026-10-02",
+          "title": "德国联邦国防军将组建首支无人系统作战团级部队",
+          "url": "https://mil.huanqiu.com/article/4TRTNsrR3xd",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "fd74cc12d130dfa4ec07b73e933f953b51441bb6",
+          "day": "2026-10-02",
+          "title": "德国防军将于2027年组建首个无人机团",
+          "url": "https://mil.huanqiu.com/article/4TRYEuHdfEA",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 2,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 2
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:d014120916ce",
+      "name": "普京",
+      "type": "Person",
+      "mass": 2,
+      "n_mentions": 9,
+      "n_source": 9,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "ff09add1e9b08d4355b8d7ddcac1e172ee4d88f5",
+          "day": "2026-10-02",
+          "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+          "url": "https://mil.huanqiu.com/article/4TRWfa3akCv",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "cf0ab734a841b771d52ccd0e2c1759f7fc15be05",
+          "day": "2026-10-02",
+          "title": "普京：宣称让俄遭遇“战略失败”将提高冲突升级风险",
+          "url": "https://mil.huanqiu.com/article/4TRYHHFuP6T",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 2,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 2
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:88359829ceaa",
+      "name": "沙特阿拉伯",
+      "type": "Country",
+      "mass": 2,
+      "n_mentions": 4,
+      "n_source": 4,
+      "n_target": 0,
+      "aliases": [
+        "沙特"
+      ],
+      "articles": [
+        {
+          "doc_id": "dbd4a5728f1d34676175aeba85d46044ce7cbf27",
+          "day": "2026-10-02",
+          "title": "也门胡塞武装称24小时内遭沙特空袭47次",
+          "url": "https://mil.huanqiu.com/article/4TRTROxmEOh",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "0a1f18833b7414c7689e1f29fbe4a2cabc4e6d40",
+          "day": "2026-10-02",
+          "title": "胡塞武装称沙特空袭也门多地 沙特方面暂无回应",
+          "url": "https://mil.huanqiu.com/article/4TRTXPwvIa2",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 2,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 2
+        }
+      ],
+      "degree": 1
+    },
+    {
+      "id": "e:2d1093550636",
+      "name": "美国",
+      "type": "Country",
+      "mass": 2,
+      "n_mentions": 3,
+      "n_source": 1,
+      "n_target": 2,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+          "day": "2026-10-02",
+          "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+          "url": "https://www.defensemirror.com/news/42116",
+          "source_name": "Defense Mirror"
+        },
+        {
+          "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+          "day": "2026-10-02",
+          "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+          "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 2,
+      "media": [
+        {
+          "name": "Defense Mirror",
+          "n": 1
+        },
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 1
+    },
+    {
+      "id": "e:3bae60c45634",
+      "name": "联军",
+      "type": "Org",
+      "mass": 2,
+      "n_mentions": 2,
+      "n_source": 2,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+          "day": "2026-10-02",
+          "title": "导弹、无人机飞向沙特，也门多线激战",
+          "url": "https://mil.huanqiu.com/article/4TRXHyrHMRT",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "d230f13ec8689ba1da3fbbe679d9393300c100ec",
+          "day": "2026-10-02",
+          "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+          "url": "https://mil.huanqiu.com/article/4TRWLVcQtvU",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 2,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 2
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:c11f2a1b2a5f",
+      "name": "萨德",
+      "type": "MilitaryEntity",
+      "mass": 2,
+      "n_mentions": 2,
+      "n_source": 2,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+          "day": "2026-10-02",
+          "title": "导弹、无人机飞向沙特，也门多线激战",
+          "url": "https://mil.huanqiu.com/article/4TRXHyrHMRT",
+          "source_name": "环球网军事"
+        },
+        {
+          "doc_id": "d230f13ec8689ba1da3fbbe679d9393300c100ec",
+          "day": "2026-10-02",
+          "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+          "url": "https://mil.huanqiu.com/article/4TRWLVcQtvU",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 2,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 2
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:9c4811c3fcab",
+      "name": "也门政府军",
+      "type": "Org",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "b5b61040c9dc162c631b4315854b1e2aef9305a2",
+          "day": "2026-10-02",
+          "title": "战事加剧 也门政府军和胡塞武装激战",
+          "url": "https://mil.huanqiu.com/article/4TRnmtcUWwv",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:4f126d6ee19e",
+      "name": "以军",
+      "type": "Org",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "ada7a7d209e9157010d9e171af59a6ee146054d3",
+          "day": "2026-10-02",
+          "title": "Iran weighing options against US, Israel as nuclear talks stall, Israeli defense official says",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-910402",
+          "source_name": "Jerusalem Post - Defense"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "Jerusalem Post - Defense",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:c28a67723962",
+      "name": "伊拉克",
+      "type": "Country",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "ada7a7d209e9157010d9e171af59a6ee146054d3",
+          "day": "2026-10-02",
+          "title": "Iran weighing options against US, Israel as nuclear talks stall, Israeli defense official says",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-910402",
+          "source_name": "Jerusalem Post - Defense"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "Jerusalem Post - Defense",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:870b2f47cbd6",
+      "name": "俄军",
+      "type": "Org",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "ff09add1e9b08d4355b8d7ddcac1e172ee4d88f5",
+          "day": "2026-10-02",
+          "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+          "url": "https://mil.huanqiu.com/article/4TRWfa3akCv",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 1
+    },
+    {
+      "id": "e:92df88a5731b",
+      "name": "哈马斯",
+      "type": "Org",
+      "mass": 1,
+      "n_mentions": 2,
+      "n_source": 2,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "6c65281f5df791cc0119985863e28c6bca39eb7b",
+          "day": "2026-10-02",
+          "title": "US Senate unanimously passes bipartisan resolution honoring American October 7 victims",
+          "url": "https://www.jpost.com/american-politics/article-910401",
+          "source_name": "Jerusalem Post - Defense"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "Jerusalem Post - Defense",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:8a35ada9b4c6",
+      "name": "德国国防部长皮斯托里乌斯",
+      "type": "Person",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "fd74cc12d130dfa4ec07b73e933f953b51441bb6",
+          "day": "2026-10-02",
+          "title": "德国防军将于2027年组建首个无人机团",
+          "url": "https://mil.huanqiu.com/article/4TRYEuHdfEA",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:feada698e395",
+      "name": "新加坡",
+      "type": "Country",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+          "day": "2026-10-02",
+          "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+          "url": "https://www.defensemirror.com/news/42116",
+          "source_name": "Defense Mirror"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "Defense Mirror",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:e69bccb67681",
+      "name": "日本陆上自卫队",
+      "type": "Org",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "1496d0f6c28c285f3f43d0f6a8447a6d343585f5",
+          "day": "2026-10-02",
+          "title": "日本最西端将首次部署日美岸舰导弹",
+          "url": "https://mil.huanqiu.com/article/4TRda39JYYy",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:c459e0e45994",
+      "name": "泽连斯基",
+      "type": "Person",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "1ae14ff2ed7d78c99af543a4a2777fd52c40a47c",
+          "day": "2026-10-02",
+          "title": "Ukraine Claims First Combat Use Of FP-7 Ballistic Missile",
+          "url": "https://www.twz.com/news-features/ukraine-claims-first-combat-use-of-fp-7-ballistic-missile",
+          "source_name": "TWZ - Land"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "TWZ - Land",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:2df3673a8e5b",
+      "name": "爱国者",
+      "type": "MilitaryEntity",
+      "mass": 1,
+      "n_mentions": 2,
+      "n_source": 0,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+          "day": "2026-10-02",
+          "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+          "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:0e101b659fda",
+      "name": "特朗普",
+      "type": "Person",
+      "mass": 1,
+      "n_mentions": 2,
+      "n_source": 1,
+      "n_target": 1,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+          "day": "2026-10-02",
+          "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+          "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:976ee649dd9f",
+      "name": "罗斯福号",
+      "type": "MilitaryEntity",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+          "day": "2026-10-02",
+          "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+          "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+          "source_name": "环球网军事"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "环球网军事",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    },
+    {
+      "id": "e:c3b039f0a8a0",
+      "name": "阿根廷",
+      "type": "Country",
+      "mass": 1,
+      "n_mentions": 1,
+      "n_source": 1,
+      "n_target": 0,
+      "aliases": [],
+      "articles": [
+        {
+          "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+          "day": "2026-10-02",
+          "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+          "url": "https://www.defensemirror.com/news/42116",
+          "source_name": "Defense Mirror"
+        }
+      ],
+      "n_articles": 1,
+      "media": [
+        {
+          "name": "Defense Mirror",
+          "n": 1
+        }
+      ],
+      "degree": 0
+    }
+  ],
+  "days": [
+    "2026-10-02"
+  ]
+}

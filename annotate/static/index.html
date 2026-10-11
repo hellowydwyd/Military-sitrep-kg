@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>开放事件标注 · P1</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">开放事件标注</div>
+    <label>标注员
+      <select id="annotator">
+        <option value="A">A</option>
+        <option value="B">B</option>
+      </select>
+    </label>
+    <span id="progress" class="muted">—</span>
+    <button type="button" id="btn-export">导出 gold</button>
+    <a href="/iaa.html" target="_blank">IAA</a>
+    <span id="toast" class="toast" hidden></span>
+  </header>
+
+  <div class="layout">
+    <aside class="queue">
+      <div class="queue-head">试点块</div>
+      <ul id="queue-list"></ul>
+    </aside>
+
+    <main class="main">
+      <section class="meta">
+        <h1 id="title">选择左侧块开始</h1>
+        <div class="meta-row">
+          <a id="url" href="#" target="_blank" rel="noopener"></a>
+          <span id="pub" class="muted"></span>
+          <span id="stratum" class="chip"></span>
+          <span id="source" class="chip"></span>
+        </div>
+      </section>
+
+      <section class="text-panel">
+        <div class="panel-head">
+          <span>正文（选中后填入右侧）</span>
+          <span class="fill-btns">
+            <button type="button" data-fill="trigger">→ trigger</button>
+            <button type="button" data-fill="raw_time">→ raw_time</button>
+            <button type="button" data-fill="evidence">→ evidence</button>
+            <button type="button" data-fill="arg">→ 论元</button>
+          </span>
+        </div>
+        <div id="chunk-text" class="chunk-text" tabindex="0"></div>
+      </section>
+
+      <section class="notes-panel">
+        <label>审查备注（多抽 / 漏抽 / kind / 时间 / 角色）
+          <textarea id="notes" rows="2"></textarea>
+        </label>
+        <div class="actions">
+          <button type="button" id="btn-save" class="primary">保存并完成 (s)</button>
+          <button type="button" id="btn-skip">跳过</button>
+          <button type="button" id="btn-add-event">+ 事件</button>
+        </div>
+        <pre id="errors" class="errors" hidden></pre>
+      </section>
+    </main>
+
+    <aside class="events-panel">
+      <div class="panel-head">事件</div>
+      <div id="events"></div>
+    </aside>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

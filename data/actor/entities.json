@@ -1,0 +1,9332 @@
+{
+  "n_entities": 1529,
+  "n_llm_typed": 0,
+  "n_untyped": 6134,
+  "n_dropped": 10288,
+  "entities": [
+    {
+      "id": "e:1e5e23a5d4e9",
+      "name": "B型导弹护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:32af649e9eee",
+      "name": "B型护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:bc276b9306d0",
+      "name": "D驱逐舰前部垂直发射单元",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d87af5ce81d7",
+      "name": "F-15EXEagleIIfighteraircraft",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7541f52d41c0",
+      "name": "F-15EXEagleIIfighters",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a4d956365d24",
+      "name": "F-15E型战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d49c1acde64e",
+      "name": "F-15E型打击鹰双座战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:8dd7bd2accf0",
+      "name": "F-15E战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:faf61d5f725c",
+      "name": "F-15E打击鹰双座战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1742e4ce7981",
+      "name": "F-15sandTyphoons",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3b5dcb0b1c4e",
+      "name": "F-15战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:fd0436ce96a3",
+      "name": "F-15战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3763dede6b40",
+      "name": "F-16",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9a8491ade21b",
+      "name": "F-18战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9917f73e4eec",
+      "name": "F-22战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3a1b08b58f88",
+      "name": "F-2战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:82a16804f4f2",
+      "name": "F-35",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:cb4cde8faa9d",
+      "name": "F-47",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9924c3d7733c",
+      "name": "F-47战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7c1f70583128",
+      "name": "KC-135RCLEAN63",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e4dbac892e42",
+      "name": "KC-46A空中加油机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:de30d927db78",
+      "name": "LEXIE号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:69ec065b98e0",
+      "name": "LianStar号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d95716f633a0",
+      "name": "MQ-20Avengerdrone",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3a571d7a29af",
+      "name": "MQ-28幽灵蝙蝠无人机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a17c4b503eb9",
+      "name": "MQ-9",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d8adeb28467c",
+      "name": "RBC-乌克兰通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:de524eaf3618",
+      "name": "Sariska号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:31c8d0e55801",
+      "name": "theMQ-1Predatordrone",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d071cd1cba1e",
+      "name": "一个以色列定居者组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fd630c559e45",
+      "name": "一些国会议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7802df8d4d88",
+      "name": "一些海事情报公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5e9fdc1fa4e5",
+      "name": "一些议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:06bfd9541212",
+      "name": "一般性志愿服务组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:481b39455b5a",
+      "name": "七国集团外长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dd667dc6b61d",
+      "name": "万特公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a6e5648b6c68",
+      "name": "上海合作组织成员国国防部长会议",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d43e6c56d293",
+      "name": "下一任北约军事委员会主席",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4567f7b119e8",
+      "name": "东帝汶总理夏纳纳",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d3032f1a2f85",
+      "name": "东帝汶总统奥尔塔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9d8312bfbd49",
+      "name": "东盟防长扩大会三叉戟决心实兵演习",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5c5a1d0806ce",
+      "name": "东盟防长扩大会人道主义扫雷专家组实兵演习",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2771329d03df",
+      "name": "东盟防长扩大会海上安全专家组实兵演习",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c72e46a2c453",
+      "name": "东部战区新闻发言人徐承华陆军大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d7389bf423f8",
+      "name": "丝路方舟号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:64575371f168",
+      "name": "两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cf4dbb8aca4e",
+      "name": "两名参议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a2943ad3b59b",
+      "name": "两名议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:01c93da96c69",
+      "name": "两国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6af204445ee8",
+      "name": "两国空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5e9027392347",
+      "name": "两栖船坞运输舰朱诺号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:cec3cf32d86d",
+      "name": "两艘意大利贝尔加米尼级护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:004a31a756b7",
+      "name": "两艘美军驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:241de2b0627f",
+      "name": "两艘美国海军导弹驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d55eb5da5f1d",
+      "name": "两艘驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a2ca12bc98ae",
+      "name": "两轮大使级会谈",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:64d6e8183558",
+      "name": "中俄两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:65a0afe3103e",
+      "name": "中俄两国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e433938cb6f7",
+      "name": "中共中央总书记、国家主席习近平",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b2ecf9231be0",
+      "name": "中南两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:96dea1f5e575",
+      "name": "中印尼两国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4e0f614cfcdb",
+      "name": "中印尼海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:101806f57c32",
+      "name": "中国",
+      "type": "Country",
+      "aliases": [
+        "中方"
+      ]
+    },
+    {
+      "id": "e:645cd637fb94",
+      "name": "中国人民解放军南部战区海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:42f11f61c5bc",
+      "name": "中国人民解放军海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:466a066a7f56",
+      "name": "中国人民解放军海军1艘战略核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2f3cfa39551d",
+      "name": "中国人民解放军海军战略核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f906ba8303e2",
+      "name": "中国人民解放军陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cd9d998fdf8c",
+      "name": "中国印尼海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:503f274fb0a8",
+      "name": "中国国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c4f5a833f996",
+      "name": "中国国防部发言人蒋斌",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7f4da4adcda9",
+      "name": "中国国防部新闻发言人蒋斌",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6c58535a55e2",
+      "name": "中国国防部新闻发言人陈曦",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:833836f0f972",
+      "name": "中国国防部新闻发言人陈曦大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d2ed2233dabe",
+      "name": "中国国防部新闻局副局长、国防部新闻发言人蒋斌",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:10db21b80088",
+      "name": "中国国防部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bf7f0336096d",
+      "name": "中国外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:efee6d3aaded",
+      "name": "中国外交部、国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f06bc61eeafb",
+      "name": "中国外交部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d77e7b6eaaeb",
+      "name": "中国外交部发言人林剑",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b2b6232d8959",
+      "name": "中国外交部发言人毛宁",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2fe8552d5047",
+      "name": "中国外交部发言人郭嘉昆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ee49c5f107ff",
+      "name": "中国常驻联合国代表傅聪大使",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:309d4ffcad0a",
+      "name": "中国援助柬埔寨首艘056型护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:09062f8a085b",
+      "name": "中国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ac2412be8383",
+      "name": "中国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cce70ee3e922",
+      "name": "中国海军052D型驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2d17a11bf255",
+      "name": "中国海警",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2c00ebd3f568",
+      "name": "中国海警局新闻发言人姜略",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5640ed9b639e",
+      "name": "中国空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1e2fbf9465c0",
+      "name": "中国空军一架运-20B军用大型运输机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:76a3183fc513",
+      "name": "中国航母辽宁舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9ed45b13a5e0",
+      "name": "中国驻日本大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d9588b5c2d55",
+      "name": "中国驻菲律宾大使馆官方脸书账号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9d55b33c3d54",
+      "name": "中央军委副主席张升民",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4421d5dc9e4d",
+      "name": "中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8493a125e7e7",
+      "name": "中央总部司令阿里·阿卜杜拉希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1f5713ec9c3e",
+      "name": "中央政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:eafcc1a6d5bb",
+      "name": "中新两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d8b6bb0ea38e",
+      "name": "中新两国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0ec8501a3eb8",
+      "name": "中方战略核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:79952b9070da",
+      "name": "中美两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1825ff956d46",
+      "name": "中蒙两国陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e1dfd1cae886",
+      "name": "中越海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9282a0d1d0b9",
+      "name": "中途岛号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4786b9b0e72d",
+      "name": "丹·凯恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c41882a5e882",
+      "name": "丹尼·达农",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3f7a09a0aaef",
+      "name": "丹尼·齐特里诺维茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:478d893463d0",
+      "name": "丹麦",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:0a7e027092b7",
+      "name": "丹麦军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1d2f733fe666",
+      "name": "丹麦政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b1e496fa92c2",
+      "name": "丹麦陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a3023f2d53f6",
+      "name": "丹麦陆军总司令博伊森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2f540475f2f3",
+      "name": "乌代理国防部长叶夫根尼·赫马拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:661f330f83db",
+      "name": "乌代理外长瑟比加",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:16e2eda54e96",
+      "name": "乌克兰",
+      "type": "Country",
+      "aliases": [
+        "乌方"
+      ]
+    },
+    {
+      "id": "e:0e87af86b60a",
+      "name": "乌克兰东方海军基地司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b7060d1d6d29",
+      "name": "乌克兰国家电力公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:09a7785bd855",
+      "name": "乌克兰国家科学院核研究所",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:57d0ae2564a4",
+      "name": "乌克兰国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7811c1b98a59",
+      "name": "乌克兰国防部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:228aa3d6aaf8",
+      "name": "乌克兰国防部长费奥多罗夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:880bfc8aa11e",
+      "name": "乌克兰外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f84fbe7cce93",
+      "name": "乌克兰外交部发言人季希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:25299e0caea0",
+      "name": "乌克兰外交部长瑟比加",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:200d81e00922",
+      "name": "乌克兰外长瑟比加",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2923b30d9de1",
+      "name": "乌克兰总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7bfa72fb321d",
+      "name": "乌克兰总理、内务部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ae153ca58866",
+      "name": "乌克兰总统办公室主任布达诺夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:df730bc908f7",
+      "name": "乌克兰武装部队总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2ff1916c33c2",
+      "name": "乌克兰空军发言人伊格纳特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3bea7b9ff91f",
+      "name": "乌克兰第三军团发言人亚历山大·博罗金",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5c7d043418e7",
+      "name": "乌克兰苏梅市代理市长阿尔乔姆·科布扎尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e4aca8089cf1",
+      "name": "乌克兰边防部队发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:24fa3600ae04",
+      "name": "乌兹别克斯坦空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3b9c2a25d4d1",
+      "name": "乌军",
+      "type": "Org",
+      "aliases": [
+        "乌克兰军方",
+        "乌克兰军队",
+        "乌克兰国防军",
+        "乌克兰武装力量",
+        "乌克兰武装部队",
+        "乌克兰空军",
+        "乌军方",
+        "乌国防军",
+        "乌武装部队",
+        "乌空军"
+      ]
+    },
+    {
+      "id": "e:b992cbd1f783",
+      "name": "乌军总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7be867490860",
+      "name": "乌国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1b80f78040a9",
+      "name": "乌外长西比加",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2e0927b22b75",
+      "name": "乌干达民主同盟军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b07e17c9a468",
+      "name": "乌总理科列茨基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:550d8be372d9",
+      "name": "乌总统办公室副主任帕维尔·帕利萨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:51d63e410b1c",
+      "name": "乌总统府官网",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2022aab780bc",
+      "name": "乌总统网站",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:31efb5e169b1",
+      "name": "乌政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ae8af3810aef",
+      "name": "乌斯季诺夫元帅号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e04bfcd08325",
+      "name": "乌无人系统部队司令布拉乌季",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:245995b21589",
+      "name": "乌无人系统部队司令布罗夫季",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:61af77d46da2",
+      "name": "乌武装部队总参谋部发言人科瓦廖夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6d933d9675ab",
+      "name": "乌武装部队联合部队发言人特列古博夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:547b72f0c0d4",
+      "name": "乌法号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ca5051713eda",
+      "name": "乌海军发言人普列坚丘克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:41ac083da00a",
+      "name": "乌财政部长马尔琴科",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6991a8291c3a",
+      "name": "乔治·H·W·布什号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:21a7963301e2",
+      "name": "乔治·华盛顿号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3c0f0691c159",
+      "name": "也门",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:201e5323ffde",
+      "name": "也门总统领导委员会",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f42e8fc4e90c",
+      "name": "也门政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9c4811c3fcab",
+      "name": "也门政府军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2bc895047674",
+      "name": "也门胡塞武装发言人叶海亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3e579a318411",
+      "name": "也门胡塞武装发言人叶海亚·萨雷亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:da1c2f6b5d23",
+      "name": "也门胡塞武装发言人穆罕默德·阿卜杜勒萨拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d9b1745a4e2f",
+      "name": "也门胡塞武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e180c96abcc0",
+      "name": "习近平主席",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fd00d7813996",
+      "name": "事故调查委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:31650c4ec67a",
+      "name": "二手护卫舰出口",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b0d6a038780f",
+      "name": "五角大楼",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:34a1b4b123ec",
+      "name": "五角大楼发言人肖恩·帕内尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5f283b9591c0",
+      "name": "五角大楼政策办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8f847e42de2e",
+      "name": "五角大楼首席发言人肖恩·帕内尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:74c6b33053c8",
+      "name": "亚伊尔·范德利因",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:119b0885e8a6",
+      "name": "亚伯拉罕·林肯号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f4f00941e1f6",
+      "name": "亚历山大·瑟尔斯基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:56e911fe578f",
+      "name": "亚美尼亚国防部长帕皮基扬",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:268fa6e85df5",
+      "name": "亲伊朗武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f5c2af5bebcc",
+      "name": "人民动员组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c05f0b036830",
+      "name": "人民海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bc8af418799d",
+      "name": "今日俄罗斯电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b773b04ae952",
+      "name": "从德国撤军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5e4d5048f3b6",
+      "name": "代理海军部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9d67a56f157c",
+      "name": "以交通部长雷格夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4f126d6ee19e",
+      "name": "以军",
+      "type": "Org",
+      "aliases": [
+        "以军方",
+        "以国防军",
+        "以空军",
+        "以色列军方",
+        "以色列军队",
+        "以色列国防军"
+      ]
+    },
+    {
+      "id": "e:2752d8f82919",
+      "name": "以军中央司令部司令",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:03f0731ffac2",
+      "name": "以军南方司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8fb947297d33",
+      "name": "以军发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e0c698e0782f",
+      "name": "以军后方司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:05eecacd23c0",
+      "name": "以军总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:24be285ac88e",
+      "name": "以军总参谋长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4a4170fa3125",
+      "name": "以军总参谋长埃亚勒·扎米尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0d6e20210732",
+      "name": "以军总参谋长扎米尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:038992b380aa",
+      "name": "以军本土守备司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7a5fe9af79d9",
+      "name": "以军阿拉伯语发言人阿德拉伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e4172d13399b",
+      "name": "以北部地方政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b813677c05d9",
+      "name": "以国防部长卡茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:647d25a16bc8",
+      "name": "以国防部高级官员阿米尔·巴拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a9b1c865be5b",
+      "name": "以总理办公室",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0046c63de0c2",
+      "name": "以政府部长级委员会",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6510eeb298f5",
+      "name": "以海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9d7279c8a0a0",
+      "name": "以美两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8c9d1eac7e21",
+      "name": "以色列",
+      "type": "Country",
+      "aliases": [
+        "以方"
+      ]
+    },
+    {
+      "id": "e:7b89af81b367",
+      "name": "以色列交通部长发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:af7f69ba935a",
+      "name": "以色列交通部长米里·雷格夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3f114e02b95a",
+      "name": "以色列公共广播公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c855ac6b5f1b",
+      "name": "以色列军方发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:16b653e4560c",
+      "name": "以色列北部城镇什洛米市长加比·纳曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bb4980f532da",
+      "name": "以色列国家安全部部长、极右翼政客本-格维尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fd18275e64d9",
+      "name": "以色列国有国防公司托默公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6f99aabc5620",
+      "name": "以色列国防军中央司令部司令阿维·布卢特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4e27624d1ea6",
+      "name": "以色列国防军北方司令部司令拉菲·米洛",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5ba8c652b02e",
+      "name": "以色列国防军发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:14c1fc27f552",
+      "name": "以色列国防军发言人埃菲·德弗林",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4da4ff36c7b1",
+      "name": "以色列国防军总参谋长扎米尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e4ca82876789",
+      "name": "以色列国防军阿拉伯语发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b91ed7b43dfb",
+      "name": "以色列国防军阿拉伯语发言人阿德拉伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:334422dcddd9",
+      "name": "以色列国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8e48b50d9550",
+      "name": "以色列国防部总干事阿米尔·巴拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dc00f0de9465",
+      "name": "以色列国防部长卡茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:10c90d9b0b2d",
+      "name": "以色列国防部高级官员阿米尔·巴拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:645eaaf783a6",
+      "name": "以色列埃尔比特系统公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9e691548c399",
+      "name": "以色列外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:584cb14f9bc6",
+      "name": "以色列总理办公室",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3567e0f59c19",
+      "name": "以色列总理府",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cdb65faacc76",
+      "name": "以色列政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5891c8c3dcc1",
+      "name": "以色列本土守备司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:91687704d27a",
+      "name": "以色列海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:17e7a49706b8",
+      "name": "以色列空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cca10444e247",
+      "name": "以色列空军司令奥默·蒂施勒",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bdd4ee5b8f26",
+      "name": "以色列第12频道电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:891e481e4afe",
+      "name": "以色列议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3f2264c42936",
+      "name": "以色列防长卡茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2f405f5f1945",
+      "name": "以色列驻美国大使耶希埃尔·莱特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c3a8a2d25b26",
+      "name": "以色列驻美大使耶希埃尔·莱特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a03034b4eed2",
+      "name": "以色列驻美大使馆一名发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:419f62a0be05",
+      "name": "以防长卡茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ae681756134d",
+      "name": "伊军",
+      "type": "Org",
+      "aliases": [
+        "伊军方",
+        "伊朗军方",
+        "伊朗军队",
+        "伊朗武装力量",
+        "伊朗武装部队",
+        "伊武装力量",
+        "伊武装部队"
+      ]
+    },
+    {
+      "id": "e:4b1335435098",
+      "name": "伊外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ee180bbe195c",
+      "name": "伊戈尔·别洛乌索夫号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:c28a67723962",
+      "name": "伊拉克",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:44c3821f48c9",
+      "name": "伊拉克什叶派民兵武装人民动员组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a614bc28ff91",
+      "name": "伊拉克什叶派民兵组织正义联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c0892903cd8d",
+      "name": "伊拉克军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:65ed1ae4d078",
+      "name": "伊拉克国民议会最大党团协调框架联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b2c05447eb1d",
+      "name": "伊拉克国民议会第一副议长阿德南·费汉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2dc97f0fcb8b",
+      "name": "伊拉克外交部长福阿德·侯赛因",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:30eff26526f8",
+      "name": "伊拉克总理兼武装部队总司令扎伊迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8b651793ec67",
+      "name": "伊拉克总理办公室",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:37b00db822b1",
+      "name": "伊拉克总理扎伊迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:80095f1d39b2",
+      "name": "伊拉克总理新闻办公室",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:104eaec7306d",
+      "name": "伊拉克总统府",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:744cfb2fe30f",
+      "name": "伊拉克政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:db0f8f015775",
+      "name": "伊拉克武装部队总司令发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c685a4452472",
+      "name": "伊拉克武装部队总司令发言人萨巴赫·努曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a9cfacb1a8cf",
+      "name": "伊拉克民兵武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4b3fcd8a92d1",
+      "name": "伊拉克民兵武装伊斯兰抵抗组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1f040e4c7653",
+      "name": "伊拉克空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:90815562cc38",
+      "name": "伊拉克驻巴林大使馆临时代办艾哈迈德·伊斯梅尔·卡拉维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e35493264972",
+      "name": "伊政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b4e633b0cdcd",
+      "name": "伊斯兰抵抗组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ced643d27330",
+      "name": "伊斯兰革命卫队发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a62d3d72b492",
+      "name": "伊朗",
+      "type": "Country",
+      "aliases": [
+        "伊方"
+      ]
+    },
+    {
+      "id": "e:dc68d06098e8",
+      "name": "伊朗代理国防部长伊本·礼萨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:456148dd5146",
+      "name": "伊朗伊斯兰议会国家安全委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1365f51c0dc6",
+      "name": "伊朗伊斯兰议会媒体办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:45c1f0ef98b2",
+      "name": "伊朗伊斯兰议会民事委员会主席",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:917087f2ff8c",
+      "name": "伊朗伊斯兰议会议员礼萨伊·库奇",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d4bb09a78259",
+      "name": "伊朗伊斯兰议会议员贝赫纳姆·赛义迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5a0b7354eda1",
+      "name": "伊朗伊斯兰革命卫队",
+      "type": "Org",
+      "aliases": [
+        "一座伊朗伊斯兰革命卫队通信塔",
+        "两名伊朗伊斯兰革命卫队成员",
+        "伊斯兰革命卫队",
+        "伊斯兰革命卫队海军",
+        "伊朗伊斯兰革命卫队一名高级指挥官",
+        "伊朗伊斯兰革命卫队人员",
+        "伊朗伊斯兰革命卫队军官",
+        "伊朗伊斯兰革命卫队圣城旅指挥官卡尼",
+        "伊朗伊斯兰革命卫队在该海峡所布设水雷",
+        "伊朗伊斯兰革命卫队多名武装人员",
+        "伊朗伊斯兰革命卫队布雷力量",
+        "伊朗伊斯兰革命卫队武装人员",
+        "伊朗伊斯兰革命卫队海军",
+        "伊朗伊斯兰革命卫队海军司令部",
+        "伊朗伊斯兰革命卫队海军基地",
+        "伊朗伊斯兰革命卫队海军政治副主任",
+        "伊朗伊斯兰革命卫队海军舰艇",
+        "伊朗伊斯兰革命卫队空军",
+        "伊朗伊斯兰革命卫队空天部队总部相关基础设施",
+        "伊朗伊斯兰革命卫队航空航天部队指挥官穆萨维",
+        "伊朗革命卫队",
+        "伊朗革命卫队人员",
+        "伊朗革命卫队海军",
+        "革命卫队",
+        "革命卫队海军",
+        "革命卫队海军司令部",
+        "革命卫队石油部门",
+        "革命卫队空军",
+        "革命卫队船只"
+      ]
+    },
+    {
+      "id": "e:5cf5f938e1db",
+      "name": "伊朗伊斯兰革命卫队前指挥官卡纳尼·穆加达姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7e1b7004c088",
+      "name": "伊朗伊斯兰革命卫队发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f13be655cbd0",
+      "name": "伊朗伊斯兰革命卫队发言人侯赛因·穆赫比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d1d645893493",
+      "name": "伊朗伊斯兰革命卫队海军司令坦格西里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dbcec647cf1b",
+      "name": "伊朗伊斯兰革命卫队海军官员穆罕默德·阿克巴尔扎德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cdde50ed2ad5",
+      "name": "伊朗伊斯兰革命卫队空军司令穆萨维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:039ec7cef5d5",
+      "name": "伊朗伊斯兰革命卫队航空航天部队司令穆萨维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:febb54d4e095",
+      "name": "伊朗伊斯兰革命卫队航空航天部队司令马吉德·穆萨维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:71410a78a777",
+      "name": "伊朗光明通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6331a751d165",
+      "name": "伊朗内政部长伊斯坎德尔·莫梅尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:226249952274",
+      "name": "伊朗军方发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8459ba543ca8",
+      "name": "伊朗军队总司令哈塔米",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ed9f89cac315",
+      "name": "伊朗前外长扎里夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7fb7615d334a",
+      "name": "伊朗副外长加里巴巴迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3f29b142b3e7",
+      "name": "伊朗副外长哈提卜扎德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5f75ff5cbd96",
+      "name": "伊朗南部霍尔木兹甘省政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:71d95c025786",
+      "name": "伊朗原子能组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:822038f9fb9b",
+      "name": "伊朗原子能组织主席伊斯拉米",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f727e9a42a7b",
+      "name": "伊朗司法部长阿明·侯赛因·拉希米",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:79055f643ae1",
+      "name": "伊朗哈塔姆·安比亚中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cbae6c3c302a",
+      "name": "伊朗哈塔姆安比亚中央总部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:232c6e2dd4f7",
+      "name": "伊朗国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:02c741eea7ad",
+      "name": "伊朗国防部一名发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:41db731d238a",
+      "name": "伊朗国防部发言人礼萨·塔莱尼克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:37f3ebb226cf",
+      "name": "伊朗图斯卡号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:5da3fbe9413a",
+      "name": "伊朗塔斯尼姆通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:88cf67592682",
+      "name": "伊朗外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:dc5b29c7c68e",
+      "name": "伊朗外交部一名发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dd77f8f312fb",
+      "name": "伊朗外交部副部长加里巴巴迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5edd362a0318",
+      "name": "伊朗外交部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:49762957d1de",
+      "name": "伊朗外交部长阿拉格齐等伊方官员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ebe833979994",
+      "name": "伊朗学生通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0582d848d708",
+      "name": "伊朗已有30所大学",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b9b6439cfe92",
+      "name": "伊朗平衡通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0286f4eb4bf6",
+      "name": "伊朗德赫洛兰县达什特阿巴斯地区民兵组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:da1a431ff3df",
+      "name": "伊朗总统",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d7ac08bb77d5",
+      "name": "伊朗政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0165dc29a7a4",
+      "name": "伊朗政府发言人穆哈杰拉尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6801df8bb5f7",
+      "name": "伊朗最高国家安全委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4ce427c3f8ef",
+      "name": "伊朗最高国家安全委员会秘书穆罕默德·巴盖尔·佐勒加德尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:66d463b96c3a",
+      "name": "伊朗最高国家安全委员会秘书穆赫辛·雷扎伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:95dae28ac72f",
+      "name": "伊朗最高领袖住所",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fcac87ec274d",
+      "name": "伊朗最高领袖办公室建筑",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e0dede6d2d45",
+      "name": "伊朗最高领袖哈梅内伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:328605743a81",
+      "name": "伊朗最高领袖穆杰塔巴",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7797f13ec200",
+      "name": "伊朗最高领袖穆杰塔巴·哈梅内伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c0b640146dec",
+      "name": "伊朗武装力量总参谋长阿里·阿卜杜拉希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e2270e0784c9",
+      "name": "伊朗武装部队发言人阿布法兹勒·谢卡尔希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a63803018d7e",
+      "name": "伊朗武装部队哈塔姆·安比亚中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cb9ade2f6d66",
+      "name": "伊朗武装部队哈塔姆·安比亚中央司令部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8509cad254cc",
+      "name": "伊朗武装部队哈塔姆·安比亚中央司令部发言人佐勒法加里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3a2930e5ee6a",
+      "name": "伊朗武装部队哈塔姆·安比亚中央总部",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:72fb457c3afa",
+      "name": "伊朗武装部队哈塔姆安比亚中央司令部司令",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:10380e7b01c8",
+      "name": "伊朗武装部队哈塔姆安比亚中央总部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:73c8644dd65e",
+      "name": "伊朗武装部队哈塔姆安比亚中央总部司令",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0e062fcb9aac",
+      "name": "伊朗武装部队哈塔姆安比亚中央总部司令阿里·阿卜杜拉希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2d3a3bd502d2",
+      "name": "伊朗武装部队总参谋长阿卜杜拉希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dd934fa988d5",
+      "name": "伊朗武装部队总参谋长阿里·阿卜杜拉希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cd1ec404838b",
+      "name": "伊朗汉达拉黑客组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3adb6f268e09",
+      "name": "伊朗法医组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:57eb252c9bf8",
+      "name": "伊朗法尔斯通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1f1b2a2d2c6c",
+      "name": "伊朗海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5e9013cda891",
+      "name": "伊朗海军司令",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5a69ec5698ad",
+      "name": "伊朗海军司令沙赫拉姆·伊拉尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c9e864966222",
+      "name": "伊朗海军德纳号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3ea8c48ebfb6",
+      "name": "伊朗科学部长侯赛因·西迈·萨拉夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:00eae454420e",
+      "name": "伊朗科技大学",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9d075ff5ba21",
+      "name": "伊朗第一副总统阿雷夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:502456fb383e",
+      "name": "伊朗联合也门武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f0ada9a0cf99",
+      "name": "伊朗议会国家安全委员会副主席阿拉丁·布鲁杰迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4f4818a3f4f6",
+      "name": "伊朗谢里夫理工大学",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:566b05b37e81",
+      "name": "伊朗货船Touska号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:5f2ecbb7108a",
+      "name": "伊朗迈赫尔通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a41fcea85e4e",
+      "name": "伊朗陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4d0a3f16ba01",
+      "name": "伊朗陆军发言人穆罕默德·阿克拉米尼亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:69a72ca72716",
+      "name": "伊朗陆军发言人阿克拉米尼亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:813f6d525002",
+      "name": "伊朗陆军司令阿里·贾汉沙希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4b4d2b405512",
+      "name": "伊朗驻保加利亚大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fa43e809a53d",
+      "name": "伊朗驻巴基斯坦使馆新闻官哈迪·戈尔里兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a16334285351",
+      "name": "伊琳娜·捷列赫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f27e0adbdc7a",
+      "name": "伊空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ab147233fd84",
+      "name": "伊陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e8249470a978",
+      "name": "位于基利亚港的乌克兰东方海军基地司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c42dae200d7e",
+      "name": "佩泽希齐扬",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f7ee3c28ea01",
+      "name": "佩琴加号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:954f834e02ba",
+      "name": "侯赛因·伊齐",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:870b2f47cbd6",
+      "name": "俄军",
+      "type": "Org",
+      "aliases": [
+        "俄武装力量",
+        "俄武装部队",
+        "俄罗斯军方",
+        "俄罗斯军队",
+        "俄罗斯武装力量",
+        "俄罗斯武装部队",
+        "俄联邦武装力量"
+      ]
+    },
+    {
+      "id": "e:b778ad3fd0b3",
+      "name": "俄军事专家弗拉基米尔·波波夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e2d5859f23a4",
+      "name": "俄军总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7c5e81ed175f",
+      "name": "俄军第4独立摩托化步兵旅旅长、少将安东·格鲁尼斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4d33e1cc8cdb",
+      "name": "俄军西部集团军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4a6c82c98af8",
+      "name": "俄军黑海舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:dde417f5cf75",
+      "name": "俄副总理诺瓦克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6765b2f3b6d3",
+      "name": "俄北方舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ebf7e7090419",
+      "name": "俄国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:73d7b235cc6f",
+      "name": "俄外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f51dc85be7b4",
+      "name": "俄外交部发言人扎哈罗娃",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:49ce86da3502",
+      "name": "俄外交部无任所大使米罗什尼克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f840d34c7035",
+      "name": "俄外长拉夫罗夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:42c4024957c3",
+      "name": "俄太平洋舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7bc5fb9ad243",
+      "name": "俄对外情报局局长谢尔盖·纳雷什金",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6a81fe120d61",
+      "name": "俄总统新闻秘书佩斯科夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:aab1181521b2",
+      "name": "俄总统特别代表德米特里耶夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:157be7d2a190",
+      "name": "俄战略火箭军司令",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3c59e06f8229",
+      "name": "俄政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:acaaf3855329",
+      "name": "俄武装力量最高统帅、总统普京",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1e1028f36bdb",
+      "name": "俄海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9f73206bb5e7",
+      "name": "俄粮食联盟主席兹洛切夫斯基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5bdcf826f29c",
+      "name": "俄罗斯",
+      "type": "Country",
+      "aliases": [
+        "俄方"
+      ]
+    },
+    {
+      "id": "e:28edd27be91a",
+      "name": "俄罗斯克里姆林宫",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cb0b7e89b475",
+      "name": "俄罗斯军事观察员维克托·巴拉涅茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8ef3c3b31400",
+      "name": "俄罗斯卫星通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7f7b4b24cf39",
+      "name": "俄罗斯国家原子能公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b7d0a5715655",
+      "name": "俄罗斯国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e1d21c04f13b",
+      "name": "俄罗斯国防部国际军事合作司首席专家瓦西里·科尔帕科夫中校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5453730caf51",
+      "name": "俄罗斯外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:dc2f3a8479d3",
+      "name": "俄罗斯外交部副部长格鲁什科",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f5cbf5c7e17a",
+      "name": "俄罗斯外长拉夫罗夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c9bb9672cef9",
+      "name": "俄罗斯大使",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e88bd26ff1e9",
+      "name": "俄罗斯太平洋舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:477834f3c8df",
+      "name": "俄罗斯常驻联合国代表瓦西里·涅边贾",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:49e53392b19d",
+      "name": "俄罗斯影子舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7ec586320553",
+      "name": "俄罗斯总统助理乌沙科夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ab429369786a",
+      "name": "俄罗斯总统新闻秘书佩斯科夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b839b030cec9",
+      "name": "俄罗斯武装力量总参谋长格拉西莫夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e6d7b6c93d06",
+      "name": "俄罗斯海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f7c4191e26f9",
+      "name": "俄罗斯海军凛冽号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:44a83f5c6e8e",
+      "name": "俄罗斯联邦侦查委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:faca8f5b5514",
+      "name": "俄罗斯联邦国家杜马主席、集安组织议会大会主席沃洛金",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fdaeaa15b7e6",
+      "name": "俄罗斯联邦委员会主席马特维延科",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:03cced24bfe3",
+      "name": "俄罗斯驻挪威大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:25b4ef9f3186",
+      "name": "俄罗斯驻英国大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:04f3f1e45d2e",
+      "name": "俄罗斯驻马里大使",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:56ec3032ef87",
+      "name": "俄罗斯黑海舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3aeb09a1e8fa",
+      "name": "俄联邦委员会国际事务委员会副主席贾巴罗夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c357de4f97ad",
+      "name": "俄联邦安全会议副主席梅德韦杰夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0e26b686682b",
+      "name": "俄西部集团军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f8b5f611e676",
+      "name": "俄防长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e549808d974e",
+      "name": "俄驻瑞典大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:081d625faf80",
+      "name": "俄黑海舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0110c5dfd81f",
+      "name": "保加利亚",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:4cc1e3e1c849",
+      "name": "保加利亚国防部长斯托扬诺夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e88af5d96730",
+      "name": "保加利亚外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:05e326cf6956",
+      "name": "保加利亚总统约托娃",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:89d81434ab2f",
+      "name": "保加利亚政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:59a1c1cc5d10",
+      "name": "保加利亚议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:20de68aa6c58",
+      "name": "保罗·杜特尔特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:932fcb57bfb7",
+      "name": "信号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0350facf84f5",
+      "name": "克副总理兼国防部长阿努希奇",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:36c835eb6419",
+      "name": "克罗地亚",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:0142d83c8e7f",
+      "name": "克罗地亚政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8acbba9ff948",
+      "name": "克里姆林宫",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7a8801b434a8",
+      "name": "克里姆林宫发言人佩斯科夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5972160ed083",
+      "name": "克里斯托弗·拉尼夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7969134f9c08",
+      "name": "全国广播公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b701b8afe3f1",
+      "name": "全球定位系统信号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:5d80806d7f55",
+      "name": "公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c4d7825297cc",
+      "name": "兰迪·乔治",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fb34f475a0d2",
+      "name": "内塔尼亚胡",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5b952f662d34",
+      "name": "军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6080a571f09f",
+      "name": "冯德莱恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7d7a6e4ec1a4",
+      "name": "冲突双方政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:aeb0cb3be327",
+      "name": "凛冽号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:5925e8a1397f",
+      "name": "凯撒·贾法里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:be5a59ae4a52",
+      "name": "凯莉·格里科",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e3b87e0b9742",
+      "name": "列宁格勒州州长亚历山大·德罗兹坚科",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a43335e81247",
+      "name": "刚果军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3c6abf08ecec",
+      "name": "刚果政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:07ceadb1dcdc",
+      "name": "刚果政府军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:75363cde7d1d",
+      "name": "到访国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8d14a1342341",
+      "name": "副总统万斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fb2f1511664a",
+      "name": "加布罗沃州州长克里斯蒂娜·西多罗娃",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d8a2b457be50",
+      "name": "加拿大",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:0d907244b2e4",
+      "name": "加拿大国防参谋长珍妮·卡里尼昂",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e18a3549d816",
+      "name": "加拿大总理卡尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:40b44a7aaed0",
+      "name": "加拿大总理马克·卡尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0a71c6f47e98",
+      "name": "加拿大政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1807e1c50fa6",
+      "name": "加沙国家行政委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e461d73c9e78",
+      "name": "加沙民防部门发言人马哈茂德·巴萨勒",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c64299b9a793",
+      "name": "努赫·马赫达维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fd5f240afa98",
+      "name": "勘察加彼得罗巴甫洛夫斯克号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d08d254c6fa5",
+      "name": "匈牙利",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:1c7997e46719",
+      "name": "匈牙利国防部长鲁辛-森迪·罗穆卢斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fd9de2c38215",
+      "name": "匈牙利总理毛焦尔·彼得",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:631cf440d209",
+      "name": "匈牙利新政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0c8481e632c6",
+      "name": "北极号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a141992ffe4b",
+      "name": "北约",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fc8ceff2753e",
+      "name": "北约军事委员会主席",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fe70b0545a5a",
+      "name": "北约发言人艾莉森·哈特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:16aa964f7df7",
+      "name": "北约欧洲盟军最高司令、美国空军上将亚力克苏斯·格林克维奇",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cf21a696816f",
+      "name": "北约盟军转型司令部司令旺迪耶",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:70454d3a83de",
+      "name": "北部地区部分武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3c53b04d3c52",
+      "name": "北部战区海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8b360177d278",
+      "name": "北部集团军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6d23dd9ca093",
+      "name": "半岛电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a04458f12f3b",
+      "name": "半岛电视台驻大马士革记者海蒂·佩特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:94029e9ff777",
+      "name": "华东师范大学政治学教授约瑟夫·马奥尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bd6107c08927",
+      "name": "华盛顿号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:6ce50258558f",
+      "name": "华盛顿近东政策研究所学者法尔津·纳迪米",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f9549e9df7bd",
+      "name": "协调框架联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:74928ca9e52c",
+      "name": "南苏丹全国选举委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d6a006d98348",
+      "name": "南苏丹政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d08b63fd6f94",
+      "name": "南苏丹政府军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5cf0bc5866cf",
+      "name": "南部战区发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:21597d8cfd96",
+      "name": "南部战区新闻发言人翟士臣",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c201e4fe47f2",
+      "name": "南部战区新闻发言人翟士臣海军大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:02fa02031e1a",
+      "name": "南部战区海空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:748efd00a47c",
+      "name": "南部战区空军新闻发言人李健健空军大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0629650f58e7",
+      "name": "南部边境联合特遣部队指挥官柯蒂斯·泰勒",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0d145c36a51f",
+      "name": "南部集团军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4ca6fea861cd",
+      "name": "卡塔尔",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:655b38ce3fa8",
+      "name": "卡塔尔半岛电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a38640ea1bda",
+      "name": "卡塔尔国际媒体办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c0eebd93d452",
+      "name": "卡塔尔外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ccac33f379f7",
+      "name": "卡塔尔外交部发言人安萨里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:163d378350da",
+      "name": "卡塔尔通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:39cb59a21fa0",
+      "name": "卡塔尔首相兼外交大臣穆罕默德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a2c4299e23c4",
+      "name": "卡斯滕·布罗伊尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f7e2b306e310",
+      "name": "卡米·赫拉尔多",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:52c16482f777",
+      "name": "卢武铉政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c2dd89797072",
+      "name": "印尼",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:d2b22c2b85cb",
+      "name": "印尼军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:af9585e7869c",
+      "name": "印尼国防部长沙夫里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:59bcd1e9014a",
+      "name": "印尼国防部长沙弗里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b40a3faaa555",
+      "name": "印尼外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cef474c2f0e0",
+      "name": "印尼政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ba1a86f737db",
+      "name": "印尼海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4866e189d577",
+      "name": "印度",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:bc68045e36c0",
+      "name": "印度军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:13a22be7a834",
+      "name": "印度国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:14a8c758f079",
+      "name": "印度国防部采购委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3a86f885a2c3",
+      "name": "印度国防部长拉杰纳特·辛格",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a999cf4ceade",
+      "name": "印度国防部长辛格",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f8db38923813",
+      "name": "印度尼西亚",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:f82807ce4a85",
+      "name": "印度尼西亚国防部长沙夫里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8fc10c0d41f7",
+      "name": "印度尼西亚海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:51b7eb50a704",
+      "name": "印度尼西亚等10国外长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d08ebe63b21a",
+      "name": "印度空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f50ebd7a851d",
+      "name": "印度空军发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:74e5d60aff55",
+      "name": "印度陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:355201982d94",
+      "name": "厄瓜多尔、智利等拉美国家海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c302ab42661b",
+      "name": "参议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4d78d0b8b7b7",
+      "name": "参议院军事委员会民主党成员杰克·里德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c2136808face",
+      "name": "反弹道导弹联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c056db6ea70b",
+      "name": "反政府武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e00b066972e1",
+      "name": "发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6038c86d0545",
+      "name": "叙利亚",
+      "type": "Country",
+      "aliases": [
+        "叙方"
+      ]
+    },
+    {
+      "id": "e:17dc6e35511e",
+      "name": "叙利亚裔美国学者萨利赫·穆巴拉克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e8c0131aa304",
+      "name": "叙利亚过渡政府外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:801d6397b281",
+      "name": "叙利亚过渡政府总统艾哈迈德·沙拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e98249da5d5f",
+      "name": "叙政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:805d68663993",
+      "name": "叙过渡政府国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2119549b4673",
+      "name": "古共中央第一书记、古巴国家主席迪亚斯-卡内尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5d2adbef3ee2",
+      "name": "古巴革命武装力量总参谋长罗伯托·莱格拉·索托隆戈",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d6aff90c9cc1",
+      "name": "台军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cbf623f5140f",
+      "name": "台军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5be7f8559ccf",
+      "name": "台国防部长顾立雄",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2fd2ef2b72a8",
+      "name": "台海军退役舰长吕礼诗等台湾同胞",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:91622d808c57",
+      "name": "台湾国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d2cb43cdfd5d",
+      "name": "台独武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ca6d65bc5dc8",
+      "name": "叶夫根尼·赫马拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4b607eb26f14",
+      "name": "叶海亚·萨雷亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1cdd9593a801",
+      "name": "号舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4845567a9f7a",
+      "name": "号舰多里斯·米勒号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a4d2b0ee9ccc",
+      "name": "各国国防部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cef327eceaf4",
+      "name": "各国大使",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:eb60619a8abc",
+      "name": "各国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e4b1a73a2f21",
+      "name": "各路红军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d0dc7d113628",
+      "name": "吉国防部长穆卡姆别托夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d15dbaf036cd",
+      "name": "吉尔吉斯斯坦国防部长穆卡姆别托夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fcfce8e0b8dc",
+      "name": "吉祥方舟号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7684a043731e",
+      "name": "哈尔·布兰兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:17022e0334a7",
+      "name": "哈希姆·萨菲丁",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:17e8654c036a",
+      "name": "哈拉尔德·库亚特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f641b127939c",
+      "name": "哈桑·法德拉拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:65c0f524de95",
+      "name": "哈桑·纳斯鲁拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e0b1874eed1a",
+      "name": "哈泽姆·塔维尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c6fd1506198e",
+      "name": "哈穆达·阿布·达卡",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:92df88a5731b",
+      "name": "哈马斯",
+      "type": "Org",
+      "aliases": [
+        "巴勒斯坦伊斯兰抵抗运动"
+      ]
+    },
+    {
+      "id": "e:b2f0c54201f0",
+      "name": "哈马斯下属军事派别卡桑旅指挥官伊兹丁·哈达德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:04f60d4b6832",
+      "name": "哈马斯军事分支小组指挥官伊斯梅尔·拉哈姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9edc7badf424",
+      "name": "哈马斯军事部门成员叶海亚·哈姆杜纳",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:879b007af887",
+      "name": "哈马斯努赫巴部队成员艾哈迈德·福阿德·哈利勒·哈拉斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:99c68b8563f1",
+      "name": "哈马斯发言人哈齐姆·卡西姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f38f3f69264f",
+      "name": "哈马斯新任军事领导人穆罕默德·奥达",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f75a3f4a201c",
+      "name": "哈马斯时任军事领导人伊兹丁·哈达德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8fa8f6105f9a",
+      "name": "哈马斯武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c1c471449834",
+      "name": "哈马斯解除武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:86c114d4436d",
+      "name": "哈马斯通信部门指挥官艾哈迈德·阿布·赫代拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ab3a93d079db",
+      "name": "哈马斯高级官员加齐·哈马德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c3c7cef49849",
+      "name": "响亮号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:c9ec3b0584a4",
+      "name": "哥伦比亚反政府武装哥伦比亚民族解放组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:89b56f04ca10",
+      "name": "哥伦比亚总统选举",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:efe7fed13793",
+      "name": "哥伦比亚总统选举首轮投票",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:faae562d7f8a",
+      "name": "国会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:54069e49af78",
+      "name": "国会议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d15577a7168e",
+      "name": "国务院总理李强",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:be0ad98887bd",
+      "name": "国防军副总参谋长塔米尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3c3d72cbb678",
+      "name": "国防大臣布鲁斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b62d0235e5ee",
+      "name": "国防大臣希利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f7f47aee9653",
+      "name": "国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:95cd1ba9a197",
+      "name": "国防部征兵办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1e10fe018e7a",
+      "name": "国防部新闻发言人张晓刚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c844f6067128",
+      "name": "国防部新闻发言人张晓刚大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b8e3423adfef",
+      "name": "国防部新闻发言人蒋斌",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e2ab51cba518",
+      "name": "国防部新闻发言人蒋斌大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5a48fb0589bf",
+      "name": "国防部新闻发言人陈曦大校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d86fc2a19610",
+      "name": "国防部长安圭伯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ad0653bb4b36",
+      "name": "国防部长普雷斯蒂",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bb6683ad226f",
+      "name": "国防部长赫格塞思",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:68210bcbb0e1",
+      "name": "国际原子能机构",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cde4dafca016",
+      "name": "国际海事组织法律委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6d64bec97549",
+      "name": "国际禁止化学武器组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ae0ed0fa41de",
+      "name": "图尔基·马利基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:59cf557b507d",
+      "name": "土军",
+      "type": "Org",
+      "aliases": [
+        "土耳其军队"
+      ]
+    },
+    {
+      "id": "e:0fa1d3476e64",
+      "name": "土耳其",
+      "type": "Country",
+      "aliases": [
+        "土方"
+      ]
+    },
+    {
+      "id": "e:21cbece989ea",
+      "name": "土耳其外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:88c1576b9ea5",
+      "name": "土耳其外交部长费丹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8658a7a06844",
+      "name": "土耳其外长费丹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7988fb976eb0",
+      "name": "土耳其总统埃尔多安",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:167f39d0054a",
+      "name": "土耳其政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:437a406368fa",
+      "name": "土耳其海岸警卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cbe716fca0cf",
+      "name": "土耳其航空航天工业公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:df46c422dc7d",
+      "name": "土耳其通信局",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e66029334aac",
+      "name": "地方议员拉万·赞奈",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9dcd67cd7786",
+      "name": "坚定号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:353e1f2a9004",
+      "name": "型驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:099be6a84152",
+      "name": "型驱逐舰龙号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:6f01618928f9",
+      "name": "埃尔多安",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:00d9fc827f93",
+      "name": "埃尔布里奇·科尔比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4f8d7592277e",
+      "name": "埃维卡·希莉娜",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:047bee68c209",
+      "name": "埃韦林·雷沃列多",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7c1996a88286",
+      "name": "塔季扬娜·金",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:543cd88aa87c",
+      "name": "塔拉瓦级两栖攻击舰贝里琉号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:8ed0b74d7bb7",
+      "name": "塔斯尼姆通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b5a183ea4072",
+      "name": "塞思·莫尔顿",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4524ac4af132",
+      "name": "塞舌尔",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:d20e93b5f331",
+      "name": "墨西哥贩毒集团",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2f68805753d9",
+      "name": "外交部发言人林剑",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:636680718465",
+      "name": "外交部发言人毛宁",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:60425a5d6254",
+      "name": "外交部发言人郭嘉昆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:403b8532fd1a",
+      "name": "多名国会议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7a3c1e737b9e",
+      "name": "多国联军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f77284814753",
+      "name": "多国联军司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:74d47a2a76cc",
+      "name": "多里斯·米勒",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e12e25d76b15",
+      "name": "多里斯·米勒号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d46b85726ded",
+      "name": "多里纳号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b91e03dee563",
+      "name": "大会理事会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9bc03ab5ce3b",
+      "name": "太空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:51462f3c326e",
+      "name": "奥列格·基佩尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3d183f71af83",
+      "name": "奥地利",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:f11e3e3dd032",
+      "name": "奥地利国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2046af404059",
+      "name": "奥库斯核潜艇项目",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a385d7c88ba0",
+      "name": "奥廖尔号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ab3009a1b518",
+      "name": "奥特亚罗瓦号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:99b6e7988a0c",
+      "name": "好人理查德号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:df2d1b4c5ce8",
+      "name": "委内瑞拉政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1cf1a247005c",
+      "name": "委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:52135ca7843e",
+      "name": "委政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:361ed76458bf",
+      "name": "姜健号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:c2c89e66c171",
+      "name": "威尔士亲王号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f72a39b9c66e",
+      "name": "宇宙作战集团",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:239d2f45be8a",
+      "name": "安德烈·斯捷潘诺夫号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:eb41db816e47",
+      "name": "安德里斯·斯普鲁兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bf00a9dca08c",
+      "name": "安理会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1dd97018b5ef",
+      "name": "完美号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:8adb38be7c23",
+      "name": "宙斯盾舰爱宕号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0fe681731bfa",
+      "name": "富查伊拉媒体办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7783877e9e40",
+      "name": "导弹号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:750fdfa7ff45",
+      "name": "小股俄军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c35c1210fc9a",
+      "name": "尹锡悦政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:17c87c274803",
+      "name": "尼军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a20809fcdfde",
+      "name": "尼古拉·姆拉德诺夫等人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:21368084e9e4",
+      "name": "尼日利亚军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5096247ed4c6",
+      "name": "尼日利亚军方发言人萨马伊拉·乌巴",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:edcc3d928799",
+      "name": "尼武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:643f28983133",
+      "name": "尼空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:955c42fe13bc",
+      "name": "尼米兹号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4bfd5f6ac148",
+      "name": "尼米兹级核动力航空母舰布什号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4eab5d124569",
+      "name": "尼米兹级航母乔治·H·W·布什号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2c7f3ba27128",
+      "name": "尽快引进核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:321b2f65c5fa",
+      "name": "崔贤号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:243fce700e7a",
+      "name": "左翼政党",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2ab616551eeb",
+      "name": "巴内政部长纳克维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:99051e2a5bde",
+      "name": "巴军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:93468f40ef6e",
+      "name": "巴军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1820fcfa2e7e",
+      "name": "巴军方发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3539ac90c3d7",
+      "name": "巴副总理兼外交部长达尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:18a7d3147273",
+      "name": "巴加埃",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3cee0eebdfda",
+      "name": "巴勒斯坦伊斯兰抵抗运动军事领导人伊兹丁·哈达德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6cf407f00602",
+      "name": "巴勒斯坦伊斯兰抵抗运动加沙北部旅指挥官伊兹·丁·比克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:651290fc5ab9",
+      "name": "巴勒斯坦伊斯兰抵抗运动新任军事领导人穆罕默德·奥达",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:da91ff900042",
+      "name": "巴勒斯坦伊斯兰抵抗运动核心情报人员穆罕默德·阿布·马鲁赫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d09d6526b7f8",
+      "name": "巴勒斯坦伊斯兰抵抗运动高级官员哈利勒·哈亚之子",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:99f9843cd34c",
+      "name": "巴勒斯坦副总统、巴解组织执委会副主席谢赫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:37aa529f2014",
+      "name": "巴勒斯坦技术官僚委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a02ac88e3f74",
+      "name": "巴勒斯坦技术官僚政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:326207e6d10e",
+      "name": "巴基斯坦",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:a5c320caf0ec",
+      "name": "巴基斯坦内政部长纳克维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:03080babaadf",
+      "name": "巴基斯坦军方",
+      "type": "Org",
+      "aliases": [
+        "巴基斯坦军队"
+      ]
+    },
+    {
+      "id": "e:2410bb3cd6f4",
+      "name": "巴基斯坦军方发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:95cc5c7f40b6",
+      "name": "巴基斯坦军方发言人艾哈迈德·谢里夫·乔杜里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8d804f71b673",
+      "name": "巴基斯坦副总理兼外长达尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b94a767e955d",
+      "name": "巴基斯坦外交部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e61b5b229a1b",
+      "name": "巴基斯坦外交部发言人塔希尔·安德拉比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:aced93961959",
+      "name": "巴基斯坦外交部发言人安德拉比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:467cac33e8f8",
+      "name": "巴基斯坦总理夏巴兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:65fbbd18ed46",
+      "name": "巴基斯坦总理夏巴兹·谢里夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:62b8b80fe48a",
+      "name": "巴基斯坦总理夏巴兹提议",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:22c1e3d0aeff",
+      "name": "巴基斯坦总统扎尔达里、海军参谋长阿什拉夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8fb3fe3cd251",
+      "name": "巴基斯坦政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9b999e9e43df",
+      "name": "巴基斯坦海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e985f043ae1a",
+      "name": "巴基斯坦陆军元帅赛义德·阿西姆·穆尼尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:50af04a4452c",
+      "name": "巴基斯坦陆军参谋长穆尼尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7b397973b813",
+      "name": "巴希娅号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a9101ff327df",
+      "name": "巴林",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:d58b71d9fa82",
+      "name": "巴林军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:66df9d4b18c9",
+      "name": "巴林国防军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:857d80bb60c4",
+      "name": "巴林外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7b1fa37e2bf8",
+      "name": "巴林外交部双边关系司司长阿卜杜拉·本·阿里·阿勒哈利法",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e124dc07a016",
+      "name": "巴林武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4b8edadf45cd",
+      "name": "巴纳·瓦加纳·易卜拉欣",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:22d8e826cb6d",
+      "name": "巴西尔·巴尔什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0b15f395fce4",
+      "name": "布什号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:405bf289b97c",
+      "name": "布什尔号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0d724e6c663e",
+      "name": "布赖恩·克拉克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4ff56d4d8f4c",
+      "name": "布赖恩·菲纽肯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2008e91615ba",
+      "name": "布雷特·韦利科维奇",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a7284accedb7",
+      "name": "希腊",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:095528c101f6",
+      "name": "希腊政府国家安全委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2aa693238f9a",
+      "name": "希金斯号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0828e44d5a2a",
+      "name": "帕图森特号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4df7ea4c01aa",
+      "name": "帕维尔办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:aede07712789",
+      "name": "帕蒂·默里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0bf1d5b21302",
+      "name": "平克尼号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d91d30369b95",
+      "name": "幽灵鲨号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0f330c7d8bca",
+      "name": "康斯伯格公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:36c61f1f070e",
+      "name": "当地一武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:db20e851e575",
+      "name": "当地政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bf99a29238b9",
+      "name": "当地电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:89520e93ff9b",
+      "name": "影子国防大臣卡特里奇",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:22aba2410982",
+      "name": "彼得·帕维尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5b0d24074887",
+      "name": "得克萨斯州联邦众议员华金·卡斯特罗等30名民主党人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:813446986f22",
+      "name": "得州贝尔县治安官办公室发言人克利夫·科尔曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5f6219286c7e",
+      "name": "微信公众号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:87f403681052",
+      "name": "德克尔·埃弗利思等人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8fa4ca1577dd",
+      "name": "德军",
+      "type": "Org",
+      "aliases": [
+        "德国军方",
+        "德国联邦国防军",
+        "联邦国防军"
+      ]
+    },
+    {
+      "id": "e:503a462f0c09",
+      "name": "德国",
+      "type": "Country",
+      "aliases": [
+        "德方"
+      ]
+    },
+    {
+      "id": "e:5bdf16c16cb5",
+      "name": "德国公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4606e7ae6c90",
+      "name": "德国前副总理兼外长菲舍尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b66a03f13109",
+      "name": "德国国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8a35ada9b4c6",
+      "name": "德国国防部长皮斯托里乌斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:975a3c2a18a2",
+      "name": "德国国防部长鲍里斯·皮斯托里乌斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d9f5b354bb90",
+      "name": "德国基尔世界经济研究所",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fb456c070311",
+      "name": "德国外交部长瓦德富尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cbfe4f4889ee",
+      "name": "德国外长瓦德富尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d595b015162a",
+      "name": "德国奔驰公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:77c164df47d8",
+      "name": "德国总理默茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:46de6067f6ca",
+      "name": "德国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:17e0af60515d",
+      "name": "德国政府一名发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d49014c50d60",
+      "name": "德国联邦国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0f63be089cb1",
+      "name": "德国蒂森克虏伯海洋系统公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5d23ec912265",
+      "name": "德国防长皮斯托里乌斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:81b4a57b167e",
+      "name": "德尔伯特·D·布莱克号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:5770074a6154",
+      "name": "德米特里·波利扬斯基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b6ffd2e1525a",
+      "name": "德米特里·特列宁",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6ad7d6968c6e",
+      "name": "德纳号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2b826a2a8baf",
+      "name": "德鲁伊特号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:dda71eac9501",
+      "name": "德黑兰沙希德·贝赫什提大学",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e0b3d86873a5",
+      "name": "志愿联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:74d43a90cf5e",
+      "name": "总理毛焦尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:786f02f78731",
+      "name": "总统",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3b3976728d4e",
+      "name": "总统令",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:58b61fe8c3af",
+      "name": "总统会晤",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8532816f6e65",
+      "name": "总统曾因此发脾气",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fc3af19c9fb8",
+      "name": "恐怖主义联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bb2c6ade0cf0",
+      "name": "意大利",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:eb64f656956b",
+      "name": "意大利外交部长塔亚尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f3ce2a04ae6e",
+      "name": "意大利政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9fa29a690a5e",
+      "name": "意大利海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c44049022fc4",
+      "name": "意大利海军上将朱塞佩·卡沃·德拉戈内",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9bf1f3300f80",
+      "name": "慈善组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:55710e51772e",
+      "name": "戈洛夫科海军上将号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:aff0e2b51044",
+      "name": "我海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fa20f504aa7a",
+      "name": "战略核潜艇长征18号艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0949c2a0a91b",
+      "name": "戴高乐号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7727d096185d",
+      "name": "扎赫拉·贾法里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:567ec85ae260",
+      "name": "打击伊斯兰国国际联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5e4fa058d2ca",
+      "name": "托默公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c7930ba6202c",
+      "name": "执政党",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cff9623e07ba",
+      "name": "护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:8dbac5e9e34f",
+      "name": "护卫舰升级计划",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:371925f5d344",
+      "name": "拉国家武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f4eb83c32771",
+      "name": "拉斐尔·佩拉尔塔号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:166cfd351590",
+      "name": "拉脱维亚国家安全局总干事诺曼德斯·梅兹维茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4222f55a71ee",
+      "name": "拉议会反对党议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ae50ca1a3c81",
+      "name": "拜登",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4c1cda80c64f",
+      "name": "拜登政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4f2cd187a424",
+      "name": "拳师号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:c4ec67ecb6da",
+      "name": "挪威",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:62e69c2b8a8f",
+      "name": "挪威政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:717dccc395bd",
+      "name": "挪威政治学者格伦·迪森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:712259d709ac",
+      "name": "挪威首相斯特勒",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1c7b54938c86",
+      "name": "捷克安全情报局局长米哈尔·库德尔卡",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1665ac796a26",
+      "name": "捷克总理安德烈·巴比什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7f6d64995012",
+      "name": "提康德罗加级巡洋舰莫比尔湾号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:df2794549919",
+      "name": "摩尔多瓦",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:29c8df7a3dcd",
+      "name": "摩洛哥军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bb3a18c414d5",
+      "name": "撤军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:64543197779c",
+      "name": "政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d43bef322453",
+      "name": "政府军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e7ccc10c98d3",
+      "name": "政府军发言人马吉德·努扎伊利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:aa1e6cc68776",
+      "name": "政府武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:103d169f000a",
+      "name": "敌方驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f3a07e95936a",
+      "name": "数十名民主党籍联邦众议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fbf7ba3b6eca",
+      "name": "数十名美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:aca49fd2747e",
+      "name": "文在寅政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:387fd53a7f21",
+      "name": "文莱国防部主管部长哈尔比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:11e5ad37e5d9",
+      "name": "文莱海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a263e600c92a",
+      "name": "斯塔默",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:34ebe73344d4",
+      "name": "斯普鲁恩斯号",
+      "type": "MilitaryEntity",
+      "aliases": [
+        "导弹驱逐舰斯普鲁恩斯号"
+      ]
+    },
+    {
+      "id": "e:e68014fc9ebf",
+      "name": "斯洛伐克",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:af37579fab2d",
+      "name": "斯洛伐克总理菲佐",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c7cbedffa723",
+      "name": "斯海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:43536cf3d0fd",
+      "name": "斯里兰卡军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b5538f4e7f36",
+      "name": "斯里兰卡国防部副部长阿鲁纳·贾亚塞克拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f113f902af80",
+      "name": "新人民军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:07e6990a65f0",
+      "name": "新任英国国防大臣贾维斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:feada698e395",
+      "name": "新加坡",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:5b063add303a",
+      "name": "新加坡海军坚定号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3b6e0b8b6ef4",
+      "name": "新方坚定号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1e960caee0ab",
+      "name": "新西兰",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:1d484b7c5c09",
+      "name": "新西兰外长彼得斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ee545b9f3f27",
+      "name": "新西兰总理拉克森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3f3434e9d462",
+      "name": "无人机作战司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:70029d60f437",
+      "name": "无人防卫能力推广办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:44da6bbcf285",
+      "name": "日本",
+      "type": "Country",
+      "aliases": [
+        "日方"
+      ]
+    },
+    {
+      "id": "e:0ed17c780a98",
+      "name": "日本冲绳县议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6bb6f0ecd093",
+      "name": "日本升级版最上级护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ffc8306787ef",
+      "name": "日本参议院议员伊波洋一",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:acff78a65f7c",
+      "name": "日本国会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:dc5ebca57e16",
+      "name": "日本政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f570580d60f2",
+      "name": "日本时任防卫大臣中谷元",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0f1dd686b1af",
+      "name": "日本海上自卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5cec27f0f42b",
+      "name": "日本海上自卫队一艘驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:431d89f4d443",
+      "name": "日本海上自卫队舰艇雷号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3ecc0ea6f737",
+      "name": "日本海上自卫队雷号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:fe75c68b0a3a",
+      "name": "日本狮子号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:38a5e259fc6a",
+      "name": "日本现政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e776294a1a6d",
+      "name": "日本瑞宝丸号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4b26a870257a",
+      "name": "日本自卫队雷号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1fa92a849edc",
+      "name": "日本航空宇宙自卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a1b9b9091bfe",
+      "name": "日本航空自卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9c59a8c40f68",
+      "name": "日本长崎县议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:53aedad731b0",
+      "name": "日本防卫大臣",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fae999a2b1c3",
+      "name": "日本防卫大臣小泉进次郎",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4edf3aa2e9ff",
+      "name": "日本防卫大臣小泉进次郎等",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8de4c67b78e3",
+      "name": "日本防卫省",
+      "type": "Org",
+      "aliases": [
+        "防卫省"
+      ]
+    },
+    {
+      "id": "e:e69bccb67681",
+      "name": "日本陆上自卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ab08797555b4",
+      "name": "日本雷号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:60e4559ad784",
+      "name": "日本驻俄大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:62249ed6becd",
+      "name": "日本驻美大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:318bc7851016",
+      "name": "日本鸟海号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e727df230340",
+      "name": "日本鹤丸号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e5f12e4301a3",
+      "name": "日防卫大臣",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9a1446cf4931",
+      "name": "日防卫省",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:05406ea25df6",
+      "name": "时任美国总统布什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ab012a259d47",
+      "name": "时任美国防部代理审计长朱尔斯·赫斯特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:83aad11c15b5",
+      "name": "时任陆军副参谋长克里斯托弗·拉尼夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fbd233878c52",
+      "name": "易卜拉欣·阿齐兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d014120916ce",
+      "name": "普京",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4977caab39b0",
+      "name": "更多美国驻军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d46462936552",
+      "name": "最先进航空母舰福特号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f24c14e08af2",
+      "name": "朝方",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:7a20478c03d1",
+      "name": "朝鲜",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:925a18644d82",
+      "name": "朝鲜人民军海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1e832c1c2085",
+      "name": "朝鲜外务省发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:603142cb41d5",
+      "name": "朝鲜海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d37d548553a4",
+      "name": "未来·海军国际学员领导力淬锋营活动",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:358ef8f26d38",
+      "name": "本国国防部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c58f98f00a61",
+      "name": "本国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:352b83a54e35",
+      "name": "本地区各国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ab034d4d2bdc",
+      "name": "本次试射潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:94e828d911d4",
+      "name": "本福尔德号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ccabc36b7891",
+      "name": "李在明",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:66d262aa817e",
+      "name": "李在明政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f3221c656682",
+      "name": "杰哈德成员苏卜希·哈德尔·阿萨姆·巴特里希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a4a80fe8cdf0",
+      "name": "杰哈德成员阿卜杜勒·胡达里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1ab2495c9288",
+      "name": "杰夫·默克利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c2077436b224",
+      "name": "极端组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1c5599e74aff",
+      "name": "极端组织伊斯兰国高级头目阿里·侯赛因·阿尔-乌莱维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ff4f29f94fbe",
+      "name": "林肯号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:835be395991b",
+      "name": "柬埔寨",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:7629337205b3",
+      "name": "柬埔寨参议院主席洪森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6a81c30a1be2",
+      "name": "柬埔寨国民议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:79b253ee74ab",
+      "name": "柬埔寨首相洪玛奈",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e8bf34adb967",
+      "name": "核潜艇合作",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b6a9a2813661",
+      "name": "格奥尔基·列舍季洛夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bc5fbbd9227f",
+      "name": "格里德利号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:769294576228",
+      "name": "格雷厄姆·梅特兰",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e63b346d70eb",
+      "name": "格雷戈里·米克斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c7b8f2c054b8",
+      "name": "模拟敌方潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7d7815da8d17",
+      "name": "欧洲导弹集团",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b95a9fc61ba9",
+      "name": "欧洲援乌克兰志愿联盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:12f83587f440",
+      "name": "欧盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5b6aae5d877d",
+      "name": "欧盟各国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1a0be1554c1c",
+      "name": "欧盟委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f7382ecc2034",
+      "name": "欧盟委员会主席冯德莱恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a6e135bc5ad1",
+      "name": "欧盟成员国防长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0fc604072638",
+      "name": "欧盟理事会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:afae2813ba1a",
+      "name": "欧盟防长会",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d4bbae70f1cd",
+      "name": "欧盟驻基辅大使马特诺娃",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d6a275b81e78",
+      "name": "武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f7fa5466491e",
+      "name": "武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:16d617fd3c8d",
+      "name": "武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:067a132443d0",
+      "name": "死神无人机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:dbffe5696e08",
+      "name": "歼-10CE战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1c2ce2dac691",
+      "name": "歼-16战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:78cb193d1e51",
+      "name": "歼-20",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f4830801a8ed",
+      "name": "歼-20战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3557d23cc057",
+      "name": "毕玛苏吉号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:073cbeefca31",
+      "name": "民主同盟军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1037e3f31e8a",
+      "name": "民兵动员穷人组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3e9f240ee2d3",
+      "name": "汉光42号兵棋推演",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e864ebd16270",
+      "name": "汉光42号演习",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d959f1bec84a",
+      "name": "汤姆·夏普",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7eb9b13ac5bd",
+      "name": "汤姆·巴拉克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e588cde19c3b",
+      "name": "汤姆·赖特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8f24d657e0ba",
+      "name": "沙特军队",
+      "type": "Org",
+      "aliases": [
+        "沙特阿拉伯武装部队"
+      ]
+    },
+    {
+      "id": "e:6d50fdf92e17",
+      "name": "沙特国防大臣",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:691ab3bbe3d3",
+      "name": "沙特国防大臣哈立德·本·萨勒曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:29a7ee5e17cf",
+      "name": "沙特国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d229e3c00a7a",
+      "name": "沙特外交大臣",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:56662b0267a0",
+      "name": "沙特外交大臣费萨尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:85b1fc20b1c9",
+      "name": "沙特外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ed90097ca867",
+      "name": "沙特政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:dd598bcd00ca",
+      "name": "沙特王储兼首相穆罕默德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e2c44c808df5",
+      "name": "沙特王储穆罕默德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8393ab41b713",
+      "name": "沙特空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bfea591efef8",
+      "name": "沙特空袭胡塞武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:88359829ceaa",
+      "name": "沙特阿拉伯",
+      "type": "Country",
+      "aliases": [
+        "沙特"
+      ]
+    },
+    {
+      "id": "e:3a9fda6707f9",
+      "name": "沙特阿拉伯国家石油公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ab7d3c8c7734",
+      "name": "沙特阿拉伯外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3efeb716b3ad",
+      "name": "沙特阿拉伯王储兼首相穆罕默德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2132df7899a5",
+      "name": "沙特阿拉伯阿拉比亚电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:67103e7c346e",
+      "name": "沙特阿美公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4833caf5fabc",
+      "name": "法军",
+      "type": "Org",
+      "aliases": [
+        "法国军方"
+      ]
+    },
+    {
+      "id": "e:d4ac60484d7e",
+      "name": "法国",
+      "type": "Country",
+      "aliases": [
+        "法方"
+      ]
+    },
+    {
+      "id": "e:afc5b8bc7bc7",
+      "name": "法国国民议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:afab60e4640a",
+      "name": "法国国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d105d95fa59c",
+      "name": "法国国防部长卡特琳·沃特兰",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9f30098f535c",
+      "name": "法国国防部长沃特兰",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e1445bd4d9d7",
+      "name": "法国外长巴罗",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9a08ba31455a",
+      "name": "法国戴高乐号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:549a7c1cd921",
+      "name": "法国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:107c588f0ec8",
+      "name": "法国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6abc1b3af6c9",
+      "name": "法国海军戴高乐号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1dc0fc0f9942",
+      "name": "法国海军集团",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b683b5c91016",
+      "name": "法尔斯通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:87fd853beb5e",
+      "name": "波兰",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:6260dc7d19db",
+      "name": "波兰副总理兼国防部长瓦迪斯瓦夫·科西尼亚克－卡梅什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e81b755623db",
+      "name": "波兰副总理兼国防部长科西尼亚克-卡梅什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:eb508b906e67",
+      "name": "波兰国防部副部长帕维尔·扎莱夫斯基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:837e00a1227c",
+      "name": "波兰国防部副部长斯坦尼斯瓦夫·弗齐亚特克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:faac827fdc05",
+      "name": "波兰国防部副部长采扎雷·托姆奇克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:55a68327aab7",
+      "name": "波兰国防部国务秘书采扎雷·托姆奇克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b28923fe8353",
+      "name": "波兰国防部长瓦迪斯瓦夫·科西尼亚克－卡梅什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:aaac6a7c3f35",
+      "name": "波兰外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e39ca41301c6",
+      "name": "波兰外交部长西科尔斯基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bf88e516604a",
+      "name": "波兰总理唐纳德·图斯克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1861f025a583",
+      "name": "波兰总理图斯克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dfa5041fd9a1",
+      "name": "波兰总统纳夫罗茨基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3ed7b76dfd2a",
+      "name": "波兰总统纳夫罗茨基、副总理兼国防部长科西尼亚克-卡梅什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9355a65cf322",
+      "name": "波兰政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:28d691488d9d",
+      "name": "波兰武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ea65b3d82742",
+      "name": "波兰武装部队作战司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:32499035c5d2",
+      "name": "波音公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:624837d27d24",
+      "name": "波音澳大利亚防务公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ccc789066395",
+      "name": "泰国",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:2c294fbc45bd",
+      "name": "泰国总理、文莱苏丹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dca52d07ae65",
+      "name": "泰国总理阿努廷",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c459e0e45994",
+      "name": "泽连斯基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:844ed614d323",
+      "name": "泽顿·阿尔基纳尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b26c54b08dd8",
+      "name": "洛克希德·马丁公司",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:afd9970692f8",
+      "name": "海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:aa83304588d2",
+      "name": "海军丝路方舟号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e878af4c88ba",
+      "name": "海军少将乔治·布雷斯尼汉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d82799f757f5",
+      "name": "海军航空大学",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5d426dcbfbc7",
+      "name": "海警",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:286c71f4f8b3",
+      "name": "海马斯",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1c55aefcd343",
+      "name": "涅曼黎明党党主席雷米吉尤斯·泽迈泰蒂斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:88d26bec7d52",
+      "name": "混合型海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:34a375afa038",
+      "name": "温沃德公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:539678034b00",
+      "name": "温沃德海事分析公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2e2f8da76d40",
+      "name": "澳副总理兼国防部长马尔斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:55f9793ada4c",
+      "name": "澳国防部长马尔斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d07c176571d3",
+      "name": "澳大利亚",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:f7a60ab8307b",
+      "name": "澳大利亚国库部长吉姆·查默斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2155bd11d592",
+      "name": "澳大利亚国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ba472ccfe727",
+      "name": "澳大利亚国防部长理查德·马尔斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1a14b6b43ccc",
+      "name": "澳大利亚国防部长马尔斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ded995cbf453",
+      "name": "澳大利亚总理安东尼·阿尔巴尼斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8e63d7a89b58",
+      "name": "澳大利亚政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b1732e6bfb6f",
+      "name": "澳大利亚海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4dbf11300599",
+      "name": "澳大利亚空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:83ad8863fcd3",
+      "name": "澳大利亚联邦政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a728c7dabf41",
+      "name": "澳大利亚议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:08c9bae8980e",
+      "name": "澳政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:15f1ac778bdb",
+      "name": "澳方购买美国核潜艇项目",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:97b97ebc6185",
+      "name": "澳海军现役澳新军团级护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b0ee04cf0dfe",
+      "name": "澳潜艇舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2bbf843ac2eb",
+      "name": "澳空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:983d69ce78bb",
+      "name": "澳防长、新西兰防长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5d2930261129",
+      "name": "火箭军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b310ee31256e",
+      "name": "燃点公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2df3673a8e5b",
+      "name": "爱国者",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:70b85acc15f5",
+      "name": "爱沙尼亚",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:1c509c779fa9",
+      "name": "爱沙尼亚国防部长佩夫库尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:aace41eb4343",
+      "name": "爱沙尼亚议会外事委员会主席米克尔松",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0e101b659fda",
+      "name": "特朗普",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a12b0e7e5c23",
+      "name": "特朗普号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:025617e145c9",
+      "name": "特朗普政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b317cdc8c830",
+      "name": "特殊战术信号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1049980d0ff5",
+      "name": "特洛伊·迈因克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:381107a91745",
+      "name": "特玛纳号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d3d3cca24c7e",
+      "name": "玻利维亚空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:1fdddef340c4",
+      "name": "玻空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:345fdba605ac",
+      "name": "珊瑚海号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:600df6d742a9",
+      "name": "理查德·马尔斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8e03384df099",
+      "name": "瑞典",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:920d5508a7fe",
+      "name": "瑞典国防大臣波尔·荣松",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:93b2167d100b",
+      "name": "瑞典外交大臣斯蒂纳加德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6bda2570faf8",
+      "name": "瑞典政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:22a1815a53ed",
+      "name": "瑞典首相克里斯特松",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:757106f17c38",
+      "name": "瑞士",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:61975b249ee9",
+      "name": "瑞士国防军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6896f76bf3b3",
+      "name": "瑞士外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3b17a6a96b82",
+      "name": "瑞士空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b7e7375eb89b",
+      "name": "瑞宝丸号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:092c5235cc0f",
+      "name": "瓦列里·格拉西莫夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6254dd4ed2c6",
+      "name": "瓦良格号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f5bb1cb21d02",
+      "name": "瓦迪斯瓦夫·科西尼亚克－卡梅什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:596f0cc3ccb4",
+      "name": "电力公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7da383027dcb",
+      "name": "白俄罗斯",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:f886205dc49b",
+      "name": "白俄罗斯国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:25cf81bdd24b",
+      "name": "白俄罗斯国防部长赫列宁",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d6d83afbd47c",
+      "name": "白俄罗斯总统卢卡申科",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4f1abf4fabfe",
+      "name": "白宫",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0472d0f44b4f",
+      "name": "白宫副新闻秘书安娜·凯利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:67111fa10fc3",
+      "name": "白宫发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ebb0ef151529",
+      "name": "白宫发言人安娜·凯利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3022855f4f0e",
+      "name": "皇家海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a69e555bc117",
+      "name": "相关国际组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c172e21fbc63",
+      "name": "相关型号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:521e0d6b415b",
+      "name": "相关武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a863d8e5a3de",
+      "name": "真主党",
+      "type": "Org",
+      "aliases": [
+        "黎巴嫩真主党"
+      ]
+    },
+    {
+      "id": "e:3d2187f701b5",
+      "name": "真主党武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5e0383589e64",
+      "name": "真主党组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:192adbe6fc78",
+      "name": "真主党领导人纳伊姆·卡西姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f7f4a523da12",
+      "name": "神剑号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b6429565d5e1",
+      "name": "神舟二十号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:4dfb769749cc",
+      "name": "福建海警",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e63fd708b004",
+      "name": "福特号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:efa82eed1e81",
+      "name": "福特级航母",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:fdec88dcc3d4",
+      "name": "福阿德·伊扎迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6262614b5f38",
+      "name": "科军",
+      "type": "Org",
+      "aliases": [
+        "科军方",
+        "科威特军方",
+        "科威特武装部队",
+        "科武装部队"
+      ]
+    },
+    {
+      "id": "e:bc745a555f8b",
+      "name": "科威特",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:83b9fb02ee80",
+      "name": "科威特国民警卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:31412507208f",
+      "name": "科威特国防部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:74993e96dedd",
+      "name": "科威特外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:832ab7a3c32c",
+      "name": "科威特政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:15b303ed6553",
+      "name": "科威特武装部队总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b05042a1f19f",
+      "name": "科威特驻军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a5997c2ecdb6",
+      "name": "秘鲁政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:80658a70affc",
+      "name": "穆斯塔法·伊扎迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e825c153b232",
+      "name": "穆杰塔巴·哈梅内伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:744db5856902",
+      "name": "穆罕默德·亚祖里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5cdd7b25c41e",
+      "name": "穆罕默德·卡拉米",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:205dcd3a6389",
+      "name": "穆罕默德·布海提",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:686fa23dc5e5",
+      "name": "穆罕默德·拉法伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:37b79f492ecc",
+      "name": "穆罕默德·瓦海迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8f85ecf2bc2a",
+      "name": "穆罕默德·纳伊姆·詹迪亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5faea52ec49c",
+      "name": "穆罕默德·阿克巴尔扎德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:076ed6c2c14c",
+      "name": "穆罕默德·阿卜杜勒萨拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d7de9ae12ac5",
+      "name": "穆赫辛·雷扎伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2e0ffeb79114",
+      "name": "空中加油机KC-330",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0c33b85c40b7",
+      "name": "空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4e941181f85d",
+      "name": "空军一号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7ad07e782e11",
+      "name": "空军二号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:74eda7168c9d",
+      "name": "立陶宛军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2430e4f7f4ca",
+      "name": "立陶宛国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:51704000cd22",
+      "name": "立陶宛总统瑙塞达",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d9374aebfbd0",
+      "name": "第12频道电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5f398b64b6bb",
+      "name": "第七舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8ce8247ceefd",
+      "name": "第四艘福特级核动力航母",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:8b612c01e82b",
+      "name": "第聂伯罗彼得罗夫斯克州州长亚历山大·甘扎",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:75d0e23002bd",
+      "name": "等型号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:cf014c825657",
+      "name": "米利厄斯号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:71ed19fb8106",
+      "name": "米勒号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:cd8c5cd2e1da",
+      "name": "米哈伊尔·德拉帕特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:04237c116b11",
+      "name": "米哈尔·斯特尔纳德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3a4a888560ce",
+      "name": "索菲娅·贝施",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8efe0c03d422",
+      "name": "紧急状态信号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:acde3a79193e",
+      "name": "红军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7225ec8ec58f",
+      "name": "红十字会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2f9941dc999c",
+      "name": "红四方面军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b2f993d78531",
+      "name": "约旦",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:02898d0369ad",
+      "name": "约旦国王阿卜杜拉二世",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6e2dacd62a1f",
+      "name": "约旦武装部队",
+      "type": "Org",
+      "aliases": [
+        "约旦军方"
+      ]
+    },
+    {
+      "id": "e:c138a168dbf9",
+      "name": "约旦武装部队总司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8d20911bbd1e",
+      "name": "约旦皇家空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:49d5c75be1f9",
+      "name": "约翰·帕特里克上校",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5faed58556c3",
+      "name": "约翰·芬号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:8a3a9cc7f1cb",
+      "name": "约翰·费伦",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0a0419478bc6",
+      "name": "纳伊勒·阿提耶·穆罕默德·阿布·奥贝德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4aa7472bdd89",
+      "name": "纳伊姆·卡西姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a3540e824bd4",
+      "name": "组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a3561d62cb83",
+      "name": "维克托·索博列夫中将",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1e09e5bde64b",
+      "name": "缅甸国防部长吞昂",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f4ee2ee9140c",
+      "name": "罗伯特·布拉乌季",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9d4d57169ac9",
+      "name": "罗伯特·戈德曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3ef7e859ba06",
+      "name": "罗伯特·斯莫尔斯号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:976ee649dd9f",
+      "name": "罗斯福号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:68fc0c156e2e",
+      "name": "罗曼·戈夫曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:838bea256c98",
+      "name": "美中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b6d571ca4644",
+      "name": "美五角大楼",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c820cf782b99",
+      "name": "美军",
+      "type": "Org",
+      "aliases": [
+        "美军方",
+        "美国军方",
+        "美国军队"
+      ]
+    },
+    {
+      "id": "e:a1df7dfc4b07",
+      "name": "美军一艘导弹驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:17ac24763fe5",
+      "name": "美军中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:14f4c0a9703c",
+      "name": "美军中央司令部一名发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fa357c1239c3",
+      "name": "美军中央司令部前司令约瑟夫·沃特尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:484a8214e364",
+      "name": "美军中央司令部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8a053aaf4d07",
+      "name": "美军中央司令部发言人蒂姆·霍金斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3de3c154bb89",
+      "name": "美军中央司令部司令布拉德·库珀",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c0bdb3b4c425",
+      "name": "美军中央司令部司令库珀",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:49969a049b9b",
+      "name": "美军中央司令部总部",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2e09eb34e3a8",
+      "name": "美军南方司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:402d8ce1c400",
+      "name": "美军南方司令部司令多诺万",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:314364f2b28e",
+      "name": "美军南方司令部司令弗朗西斯·多诺万",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1a61314d66f8",
+      "name": "美军印太司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:992ec1a83d1d",
+      "name": "美军印太战略司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3abaa7df5ac2",
+      "name": "美军参谋长联席会议",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c886f23c47c6",
+      "name": "美军参谋长联席会议主席丹·凯恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f8c3cb6cd1a1",
+      "name": "美军参谋长联席会议主席凯恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cbb4006cc9c6",
+      "name": "美军发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3695f44fa256",
+      "name": "美军太平洋司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3d782ae6bc64",
+      "name": "美军朱姆沃尔特级驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0ba87564e09f",
+      "name": "美军欧洲司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:51ae7189df94",
+      "name": "美军死神无人机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7f2748d97f41",
+      "name": "美军潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:63a5ee46ac26",
+      "name": "美军非洲司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fe37cc09dd48",
+      "name": "美军驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2d1093550636",
+      "name": "美国",
+      "type": "Country",
+      "aliases": [
+        "美政府",
+        "美方"
+      ]
+    },
+    {
+      "id": "e:daeaed02b70f",
+      "name": "美国中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5720eba08ac6",
+      "name": "美国中央司令部司令布拉德·库珀",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cfd50ad62d5f",
+      "name": "美国二手攻击核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0658e7e07f53",
+      "name": "美国代理海军部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f700e4b3421b",
+      "name": "美国企业研究所",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fbee3daeb786",
+      "name": "美国会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5c3f41b65149",
+      "name": "美国会众议院拨款委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:72152ea44001",
+      "name": "美国全国广播公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2cbce1d5ff29",
+      "name": "美国副总统万斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:60dd9b60e875",
+      "name": "美国副防长科尔比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6b47fed0baf9",
+      "name": "美国务院发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:75790bf8e416",
+      "name": "美国助理国防部长帮办达娜·斯特劳尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:43aa7ec443ed",
+      "name": "美国参议员安格斯·金",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f140970f588a",
+      "name": "美国哥伦比亚广播公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:932784c93cd9",
+      "name": "美国国会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:429e28bd8b46",
+      "name": "美国国会一些议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:808ac702b05a",
+      "name": "美国国会众议员格雷戈里·米克斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2a024d0e5fed",
+      "name": "美国国会众议院两名民主党议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:baaa42ea56e2",
+      "name": "美国国会相关委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:06be4c471e7d",
+      "name": "美国国会议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a8240ed448bb",
+      "name": "美国国会部分议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9487f309b9f6",
+      "name": "美国国务院发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:08a85a7cdde2",
+      "name": "美国国务院发言人皮戈特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2a1414240e80",
+      "name": "美国国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:497be47717db",
+      "name": "美国国防部代理新闻秘书乔尔·瓦尔迪兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ab816be3553c",
+      "name": "美国国防部前波斯湾政策官员戴维·德罗什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fb3d8a8ae7bb",
+      "name": "美国国防部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:79c9f35e3a1e",
+      "name": "美国国防部长赫格塞思",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:476a4748db30",
+      "name": "美国太空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:423ad6be4ed7",
+      "name": "美国太空探索技术公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9be53339a9ba",
+      "name": "美国弗吉尼亚级核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:00dbeb46be37",
+      "name": "美国总统",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c2495c73d74c",
+      "name": "美国总统特使威特科夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:42dd02d638a8",
+      "name": "美国总统特朗普专机",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1dc849d4c0c9",
+      "name": "美国总统特朗普威胁袭击伊朗桥梁或发电厂",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8d9e3ccc4800",
+      "name": "美国情报公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d3041e44ecab",
+      "name": "美国攻击型核潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3b471827cc30",
+      "name": "美国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bb4e4e73ea80",
+      "name": "美国智库保卫民主基金会土耳其项目主任锡南·吉迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d0ebeafd790b",
+      "name": "美国智库新美国安全研究中心高级研究员德雷克·格罗斯曼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2781dd523a57",
+      "name": "美国洛克希德—马丁公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:69fa2e02167f",
+      "name": "美国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:410d3024996c",
+      "name": "美国海军两艘阿利·伯克级导弹驱逐舰",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:56123cea6df9",
+      "name": "美国海军两艘驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d2278be20669",
+      "name": "美国海军中央司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ffd6e4d1528d",
+      "name": "美国海军作战部长达里尔·考德尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b51f62b5685e",
+      "name": "美国海军作战部长达里尔·考德尔上将",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:06d558d0e29c",
+      "name": "美国海军发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b3d1c717e43d",
+      "name": "美国海军第七舰队发言人马特·科默",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:72f415e28bc9",
+      "name": "美国海军阿利·伯克级驱逐舰",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6544a6e7086d",
+      "name": "美国海军驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0a3f82e53539",
+      "name": "美国白宫",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4a4521be6b90",
+      "name": "美国空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5b334b6b0981",
+      "name": "美国空军KC-135空中加油机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ff9ce21f9886",
+      "name": "美国空军一架F-15E型打击鹰双座战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b6ddd2960518",
+      "name": "美国空军部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:823b32e08d09",
+      "name": "美国空军部长特洛伊·迈因克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dd087b2e5db3",
+      "name": "美国空军部长迈因克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cc55342870e9",
+      "name": "美国联邦参议员里克·斯科特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9f83e43cfae8",
+      "name": "美国能源部长赖特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:26e917149e1e",
+      "name": "美国财政部外国资产控制办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:eb567b5a02cf",
+      "name": "美国财政部长贝森特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a5e085fc92b8",
+      "name": "美国退役海军中将罗伯特·哈沃德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c66387947392",
+      "name": "美国通用原子公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8f18ce6426ca",
+      "name": "美国通用电气公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:db1fa05c0b73",
+      "name": "美国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:24b4d68db2d5",
+      "name": "美国防部副部长斯蒂芬·范伯格",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:76ef8c930cc9",
+      "name": "美国防部发言人肖恩·帕内尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dcce2699fb02",
+      "name": "美国防部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3f7c561171db",
+      "name": "美国防部长赫格塞思",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:39e711c1891c",
+      "name": "美国防长赫格塞思",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:90dfb6d7a798",
+      "name": "美国陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:98be74e42b41",
+      "name": "美国陆军参谋长兰迪·乔治",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4526afc2ecab",
+      "name": "美国陆海空三军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:309fbac62091",
+      "name": "美国雷神公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:eab455f6ccf2",
+      "name": "美国驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:aad029ec90fc",
+      "name": "美国驻中东多国大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:080c286fda1b",
+      "name": "美国驻以色列大使迈克·赫卡比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c06db8a79cf3",
+      "name": "美国驻日太空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:26a4523585b5",
+      "name": "美国驻欧非陆军司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:aa1c520e89c5",
+      "name": "美国驻阿根廷大使彼得·拉梅拉斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2a929c095470",
+      "name": "美国驻黎巴嫩大使米歇尔·伊萨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4f81f38fcbef",
+      "name": "美委两国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:15f4503872af",
+      "name": "美方舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:59650ea3e30a",
+      "name": "美海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:902db6a0f6ee",
+      "name": "美海军代理部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6291d4498b80",
+      "name": "美海军舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ad8392fd8363",
+      "name": "美海军部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:14f4c16df223",
+      "name": "美英澳三国防长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1f8066e3ccb4",
+      "name": "美防长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f4b594a182a7",
+      "name": "美防长在香格里拉对话会主旨演说",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9b1cbda1ae54",
+      "name": "美防长赫格塞思",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8c20d84db440",
+      "name": "美陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fbacfad26d03",
+      "name": "美韩军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2c938007ff2b",
+      "name": "美驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:c02b1c997427",
+      "name": "美驻黎巴嫩大使米歇尔·伊萨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cc7002a22348",
+      "name": "老挝人民军总后勤部部长、中方指导协调组组长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d9e352dbff70",
+      "name": "老挝人民军总后勤部部长占迪少将",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:335f097e492f",
+      "name": "老挝人民革命党中央总书记、国家主席通伦",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ff0bce400c23",
+      "name": "老挝副总理兼国防部长坎良",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3bae60c45634",
+      "name": "联军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4cd97272eee0",
+      "name": "联军发言人图尔基·马利基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0d2ce6f1ec78",
+      "name": "联军司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:98c5b43cd9c3",
+      "name": "联南苏团总司令莫汉·苏布拉马尼扬",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ea63ffac7745",
+      "name": "联合国",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:80483bc98fe3",
+      "name": "联合国教科文组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:14357e425fa2",
+      "name": "联合国难民署发言人巴洛赫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:761a767edc5e",
+      "name": "联合国驻黎巴嫩临时部队发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:735011ff9427",
+      "name": "联合部队司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:da14553b7ff6",
+      "name": "肖恩·帕内尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bcfe4a1644e9",
+      "name": "肯尼亚",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:6ea2acdca02f",
+      "name": "胡塞武装",
+      "type": "Org",
+      "aliases": [
+        "也门胡塞武装"
+      ]
+    },
+    {
+      "id": "e:9d7d319c81b7",
+      "name": "胡塞武装军事发言人叶海亚·萨雷亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5bf4e8231372",
+      "name": "胡塞武装发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3e9f2215282b",
+      "name": "胡塞武装发言人叶海亚·萨雷亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5d490c3e9bf7",
+      "name": "胡塞武装发言人萨雷亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8d59dcf8dab0",
+      "name": "胡塞武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:fdf96aee2f6f",
+      "name": "胡塞武装领导人阿卜杜勒·马利克·胡塞",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ac51ce2190ff",
+      "name": "胡塞武装高层成员穆罕默德·布海提",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:12c1692cce74",
+      "name": "自主作战司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:85ded58b3fee",
+      "name": "自主能手公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:255293e6a7cd",
+      "name": "自卫队",
+      "type": "Org",
+      "aliases": [
+        "日本自卫队",
+        "航空自卫队"
+      ]
+    },
+    {
+      "id": "e:d77d8822828a",
+      "name": "航母",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0ff5b1e9f39a",
+      "name": "航母建设",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a8ca34059954",
+      "name": "航空宇宙自卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b2c72a0a8a94",
+      "name": "航空自卫队F-2战斗机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:fea41ef4ea76",
+      "name": "艾克拉姆·卡比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:93e51ce98c6b",
+      "name": "艾哈迈德·叶海亚·易卜拉欣·巴特什",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cd78ec5265c6",
+      "name": "艾森豪威尔号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9590be3aa2df",
+      "name": "艾莉森·迈纳",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:845e27b6f699",
+      "name": "芬兰",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:5aaa3aa7ca47",
+      "name": "芬兰总统斯图布",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a6dca46e38d8",
+      "name": "芬兰政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bba48f75809e",
+      "name": "芬兰议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6387605e64f0",
+      "name": "苍龙级、大鲸级柴电潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:85a7e7a01612",
+      "name": "苏-24轰炸机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f4c23b5956a0",
+      "name": "苏-25战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:08ef28e53e5d",
+      "name": "苏-30、苏-24等战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:de5ec702711d",
+      "name": "苏-34战机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e43a4e8af121",
+      "name": "苏丹政府军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c01c6eed13ef",
+      "name": "苏丹武装部队",
+      "type": "Org",
+      "aliases": [
+        "苏丹军方"
+      ]
+    },
+    {
+      "id": "e:cc5bd00c3652",
+      "name": "苏林总书记、国家主席",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:511804b120ad",
+      "name": "英军",
+      "type": "Org",
+      "aliases": [
+        "英国武装部队"
+      ]
+    },
+    {
+      "id": "e:ec90e84c8fa4",
+      "name": "英国",
+      "type": "Country",
+      "aliases": [
+        "英方"
+      ]
+    },
+    {
+      "id": "e:d36f902fdd5c",
+      "name": "英国国防大臣希利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bef6c2a65fcc",
+      "name": "英国国防大臣斯特里廷",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5d11f1972cb8",
+      "name": "英国国防大臣约翰·希利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:89e16c414dc8",
+      "name": "英国国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c3b276e1fb80",
+      "name": "英国国防部发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8af35a5d3546",
+      "name": "英国国际战略研究所高级研究员道格拉斯·巴里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:64277d955576",
+      "name": "英国广播公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4cb43775e33d",
+      "name": "英国弗里曼航空航天研究所研究员阿伦·道森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2206b605a9ae",
+      "name": "英国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:605ab5d7565d",
+      "name": "英国智库皇家三军研究所研究员西达尔特·考沙尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a790df6b8ac3",
+      "name": "英国海上贸易行动办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c9daa7cb2e13",
+      "name": "英国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c19000598fc3",
+      "name": "英国皇家海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f0aaa2115e75",
+      "name": "英国首相伯纳姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:756a9af6019e",
+      "name": "英国龙号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9969b6e70f06",
+      "name": "荷兰",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:0e00d945c8ca",
+      "name": "荷兰国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:61f74860acfe",
+      "name": "荷兰德鲁伊特号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:55b6396d6b4a",
+      "name": "荷兰海军德鲁伊特号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f122cbfb7a87",
+      "name": "莫比尔湾号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2bcd1fde8ff7",
+      "name": "莱号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ce472157a6ce",
+      "name": "莱茵金属公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2420783dd2f0",
+      "name": "菲军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:666a24f7cb99",
+      "name": "菲国内二战受害者团体、民间组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:81259d04eb23",
+      "name": "菲国家安全委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:559ecb558123",
+      "name": "菲国家海事委员会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2dc27ff2ba33",
+      "name": "菲国防部长特奥多罗",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:238c4c09c79f",
+      "name": "菲外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4014d8b57d05",
+      "name": "菲律宾",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:23ac8c2487b4",
+      "name": "菲律宾军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5c2d69522c48",
+      "name": "菲律宾总统马科斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2637a50a349a",
+      "name": "菲律宾政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a2c7be497c71",
+      "name": "菲律宾武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:26a595ebe95e",
+      "name": "菲律宾海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d61ef7058a7d",
+      "name": "菲律宾海岸警卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d974d89293f4",
+      "name": "菲律宾防长特奥多罗",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:71e185250c07",
+      "name": "菲德尔·卡斯特罗",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:92036cb93d89",
+      "name": "菲智库Stratbase研究所",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:52dd44fabfd3",
+      "name": "菲海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:914e99e8d82d",
+      "name": "菲海警9702号船",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:ab6de4f73a67",
+      "name": "菲茨杰拉德号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9bc6d35a83d0",
+      "name": "萨博集团",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b2affec24d2c",
+      "name": "萨姆·布朗带",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c11f2a1b2a5f",
+      "name": "萨德",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:e25fca94605a",
+      "name": "萨达尔·谢卡奇",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ba6da8ec88c0",
+      "name": "萨达尔·阿萨迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:979e63216a62",
+      "name": "萨迪奥·卡马拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1faf702c6080",
+      "name": "萨里斯卡号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:dc00fd660248",
+      "name": "董军",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7625f37b3dd0",
+      "name": "董军部长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:93210e2650eb",
+      "name": "蒂森克虏伯海洋系统公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8d34c8774a11",
+      "name": "蒂法妮号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:7cc8942ac43b",
+      "name": "蒙巴萨号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:594937e9aa86",
+      "name": "蓝星3号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:2160854210ed",
+      "name": "行星实验室公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8212c3f0f1d9",
+      "name": "被保障舰舰长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d0671a2a77ab",
+      "name": "西弗吉尼亚号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:30aff18daf09",
+      "name": "西澳大利亚州州长罗杰·库克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b332b9e3935c",
+      "name": "西班牙",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:acc87db8ee75",
+      "name": "西班牙外交大臣阿尔瓦雷斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b63ca8466035",
+      "name": "西班牙政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:34eb35001daf",
+      "name": "西班牙首相桑切斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1a869469fc64",
+      "name": "西部集团军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:bdb7c39c24e6",
+      "name": "解放军",
+      "type": "Org",
+      "aliases": [
+        "中国军方",
+        "中国军队"
+      ]
+    },
+    {
+      "id": "e:d4450c05ae9f",
+      "name": "解放军南部战区海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:78bb98706100",
+      "name": "解除黎真主党武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:257209aa75b5",
+      "name": "詹姆斯·斯旺",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:229512a0cffb",
+      "name": "让-皮埃尔·拉克鲁瓦",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5f9eff7d85d8",
+      "name": "议会",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9a4f0b5103a1",
+      "name": "诺曼德斯·梅兹维茨",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5ded01309e41",
+      "name": "谢尔盖·纳雷什金",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1407c5704f19",
+      "name": "谢里夫理工大学",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:322c1132441a",
+      "name": "贝尔直升机德事隆公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e3ff6de67a0d",
+      "name": "贝赫纳姆·赛义迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:52433ab83419",
+      "name": "费萨尔国王空军基地居住区",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2940c2066893",
+      "name": "贾姆希德·埃沙基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a7ccbb2c31da",
+      "name": "贾斯廷·洛根",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:465b277ae1b9",
+      "name": "赖维斯·梅尔尼斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:13d4f703a821",
+      "name": "越南",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:fb723a530109",
+      "name": "越南副总理兼国防部长潘文江",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a277d69909c8",
+      "name": "越南海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4b4e1fb4c941",
+      "name": "辽宁舰航母",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:01ccd2b9346e",
+      "name": "达多·巴尔·卡利法少将",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5ed9a5b36f8c",
+      "name": "达纳·斯特劳尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8b5245b7e10f",
+      "name": "迈克·赫卡比",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c6674d466353",
+      "name": "迈克尔·奥诺贾",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5ab8edc3d974",
+      "name": "迈克尔·拉特尼",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:923b78ed6429",
+      "name": "迈赫尔通讯社",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8a59d910f9c2",
+      "name": "运-20",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:90e8f51849d1",
+      "name": "运-20A、3架运-20B组成运输机梯队",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:b9ee86c6568b",
+      "name": "运-20B",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f1a71654d1ee",
+      "name": "运-20B军用大型运输机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:dd5f3ed34c87",
+      "name": "运-20大型运输机",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:906d1f10edcb",
+      "name": "这两名参议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ed9b65acee54",
+      "name": "这两名议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1cf0e5798f4a",
+      "name": "这名发言人",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5251a24c9670",
+      "name": "这家电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6d7869898deb",
+      "name": "这批新型护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d9696ab752f5",
+      "name": "这批美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:be890112902c",
+      "name": "这支库尔德武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:257df16128f8",
+      "name": "这艘航母",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:858c4a520a25",
+      "name": "这艘英国航母",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:3c17b73ec12e",
+      "name": "这艘驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:5f5aa7a90ec3",
+      "name": "远程打击司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c129acfbf3eb",
+      "name": "迪奥里·哈马尼国际机场",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:bf0c59ba3a27",
+      "name": "迪奥里·哈马尼机场",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4fe0e58c8b10",
+      "name": "迪娜·泰特斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:30049a8992b6",
+      "name": "迪沙号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:654986cbf928",
+      "name": "退役军人志愿服务组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:7bbfe69baddb",
+      "name": "部分国会民主党籍议员",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ef1add6bc485",
+      "name": "部分环保组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:05c4382436aa",
+      "name": "部分美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4db97044a88f",
+      "name": "鄂木斯克号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:308abc011eaa",
+      "name": "里科·普拉穆迪亚",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8935c5131923",
+      "name": "金正恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:22dfc38ddb92",
+      "name": "防卫大臣小泉进次郎",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:24dd871515b1",
+      "name": "防长赫格塞思",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9a20ccc9cf3b",
+      "name": "阿军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a6e56a88bb97",
+      "name": "阿卜杜勒-卡迪尔·穆尔塔达",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:39ff50efb16f",
+      "name": "阿卜杜勒·马利克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:e6e4c5f36471",
+      "name": "阿卜杜勒·马利克·胡塞",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:55275df8580f",
+      "name": "阿塞拜疆国防部长加桑诺夫",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b7db46caafea",
+      "name": "阿夫拉·祖巴",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a3ee91661bb4",
+      "name": "阿富汗",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:7dd3d7cb08e5",
+      "name": "阿富汗政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:59b0e32b4286",
+      "name": "阿富汗政府副发言人哈姆杜拉·菲特拉特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ba35f666ee97",
+      "name": "阿富汗政府发言人穆贾希德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:4d817ab84b91",
+      "name": "阿布-比拉勒·米努基",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3d86a4c1d966",
+      "name": "阿帕奇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:55ef02d20fd6",
+      "name": "阿拉伯联合酋长国",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:0b98442676ec",
+      "name": "阿拉格齐",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f04e9831f420",
+      "name": "阿政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d5e729b0dbc7",
+      "name": "阿明·帕佩格",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8c69b5bb3f7d",
+      "name": "阿曼",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:d0b4912c5562",
+      "name": "阿曼外交大臣巴德尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:83f834dddb65",
+      "name": "阿曼外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c3b039f0a8a0",
+      "name": "阿根廷",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:fef91cd838cb",
+      "name": "阿根廷国防部长卡洛斯·普雷斯蒂",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2ba46a197812",
+      "name": "阿根廷国防部长卡洛斯·阿尔韦托·普雷斯蒂",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:af58d20de76d",
+      "name": "阿根廷总统米莱",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d063b2f37c38",
+      "name": "阿根廷政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e4b2770c6cf8",
+      "name": "阿根廷海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:8fd0a3568394",
+      "name": "阿根廷海军总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0e28ab5108e5",
+      "name": "阿盟",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c89069c04b05",
+      "name": "阿米尔·阿里·米尔贾法里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:90d79063b243",
+      "name": "阿联酋",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:5a593b90905c",
+      "name": "阿联酋副总理兼外交部长阿卜杜拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f0e979252200",
+      "name": "阿联酋国防国务部长马兹鲁伊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:dc2d64f751bc",
+      "name": "阿联酋国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:e3e587ed460a",
+      "name": "阿联酋外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5aec594fca15",
+      "name": "阿联酋武装部队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5fef2826e78c",
+      "name": "阿联酋迪拜媒体办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:84b984c7f688",
+      "name": "阿里·塔赫尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:237554fd7385",
+      "name": "阿里·萨利姆空军基地",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:b27973799b86",
+      "name": "阿里·阿卜杜拉希",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8792bc11f54b",
+      "name": "阿里礼萨·坦格西里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:a0730a15d92a",
+      "name": "陆上自卫队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:108229ee5586",
+      "name": "陆上自卫队西部方面队司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:64e34b43e278",
+      "name": "陆军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:be2cf126bc19",
+      "name": "陆军军医大学",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:30cb689bd860",
+      "name": "陆军参谋长",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0d13727fe1c5",
+      "name": "陆军参谋长兰迪·乔治",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:324c1b85403a",
+      "name": "陆军参谋长穆尼尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2a58d60aea8b",
+      "name": "陆军第82空降师司令部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:5da82b50e438",
+      "name": "陆军部长丹尼尔·德里斯科尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0d1f30776675",
+      "name": "陈兴道号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1206f9197d3d",
+      "name": "集安组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6b3a5a28d1b3",
+      "name": "集装箱船亚尼纳号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:d86269c049f8",
+      "name": "雷号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:9b95f2f9de21",
+      "name": "韩军",
+      "type": "Org",
+      "aliases": [
+        "韩国军方",
+        "韩国军队"
+      ]
+    },
+    {
+      "id": "e:56ca73c9c7a8",
+      "name": "韩国",
+      "type": "Country",
+      "aliases": [
+        "韩方"
+      ]
+    },
+    {
+      "id": "e:fcb339aa3a20",
+      "name": "韩国国防部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:15c42a69de48",
+      "name": "韩国国防部长官安圭伯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f0cf0ea01864",
+      "name": "韩国外交部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:807123e7db10",
+      "name": "韩国外交部发言人朴一",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9426047a60ce",
+      "name": "韩国外长赵显",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:872e1957fe02",
+      "name": "韩国广播公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0730c4e88559",
+      "name": "韩国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:041d15db29e6",
+      "name": "韩国海军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:cc08ea7f26ba",
+      "name": "韩国空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a112e98ecc6a",
+      "name": "韩国联合参谋本部",
+      "type": "Org",
+      "aliases": [
+        "韩军联参"
+      ]
+    },
+    {
+      "id": "e:0b185baa0878",
+      "name": "韩国韩华海洋公司",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:668ae43a343c",
+      "name": "韩美两军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b294078c4de4",
+      "name": "韩美军方",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:2562119c40e5",
+      "name": "韩美空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:eca6f988bb6d",
+      "name": "首艘护卫舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:0b21ded01e66",
+      "name": "首艘朱姆沃尔特级驱逐舰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:45fb980a4030",
+      "name": "首艘麒麟级常规潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:fd266a329f5d",
+      "name": "香港特别行政区政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6045b3fe05bf",
+      "name": "马克·坎西恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:cbf89cd30bb1",
+      "name": "马克西米利安·布雷默",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:fe85f9d519c5",
+      "name": "马克龙",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:334452876616",
+      "name": "马兹卢姆·阿卜迪",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c9faf2bc143b",
+      "name": "马吉德·哈德米",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:90a55d4b4f86",
+      "name": "马吉德·穆萨维",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d13b4df38516",
+      "name": "马尔斯、新西兰国防部长彭克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:c5a32f4cf8b1",
+      "name": "马斯克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:30e60aab6eb4",
+      "name": "马西拉电视台",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9be0ee807bbd",
+      "name": "马里",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:ccac855a5a59",
+      "name": "马里军方",
+      "type": "Org",
+      "aliases": [
+        "马里军队",
+        "马里武装部队"
+      ]
+    },
+    {
+      "id": "e:5e6fb1a9a88d",
+      "name": "马里北部加奥区政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:b12d4a64cf40",
+      "name": "马里政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:49db672bc41b",
+      "name": "马里极端组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f7181dfb8b59",
+      "name": "马里武装部队总参谋部",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:757578827013",
+      "name": "马里空军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:4ca8f4a8c446",
+      "name": "马里过渡总统戈伊塔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d62644938773",
+      "name": "马里过渡政府总理阿卜杜拉耶·马伊加",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ad598ebec3d8",
+      "name": "驻中东美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:ee1c0d24606e",
+      "name": "驻军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:f0e283af2d7b",
+      "name": "驻德国美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:92d87c3779ff",
+      "name": "驻德美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:9e0ce23716c3",
+      "name": "驻日美军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:3b14f2180c47",
+      "name": "驻韩国美军司令泽维尔·布伦森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:74e1c6c4fb38",
+      "name": "驻韩美军司令泽维尔·布伦森",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6db764c23725",
+      "name": "驻香港部队官方公众号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a6a5bd9a158d",
+      "name": "高市政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:40f19dad29b3",
+      "name": "高市早苗",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:750d7274df4e",
+      "name": "高市早苗政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:83060d226071",
+      "name": "鲁斯兰·奥利尼克",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6e3c1d75ed9c",
+      "name": "鲁道夫·海卡尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0ac817e2f183",
+      "name": "鸟海号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:f0e50bc30219",
+      "name": "麒麟级常规动力潜艇首艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:c6b07cf6fc76",
+      "name": "麒麟级潜艇",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:a208feba22ba",
+      "name": "麦凯恩号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:1165099234dc",
+      "name": "黄金舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:404045a64165",
+      "name": "黎军",
+      "type": "Org",
+      "aliases": [
+        "黎军队",
+        "黎巴嫩军方",
+        "黎巴嫩军队",
+        "黎巴嫩武装部队",
+        "黎武装部队"
+      ]
+    },
+    {
+      "id": "e:1f383add2d44",
+      "name": "黎巴嫩",
+      "type": "Country",
+      "aliases": []
+    },
+    {
+      "id": "e:5a2066e8144e",
+      "name": "黎巴嫩军队司令鲁道夫·海卡尔",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:671044d9438d",
+      "name": "黎巴嫩南部阿里·塔赫尔山脊",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:098e2f6e01dc",
+      "name": "黎巴嫩总理纳瓦夫·萨拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f6fcd77bfab8",
+      "name": "黎巴嫩总理萨拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6d7a223cdef3",
+      "name": "黎巴嫩总统奥恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ea6bbc2e5c8c",
+      "name": "黎巴嫩总统府",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:aa8df01639ba",
+      "name": "黎巴嫩总统约瑟夫·奥恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7daee960e6a5",
+      "name": "黎巴嫩政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6155cfc44c1e",
+      "name": "黎巴嫩政府军",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:6f5041dbd516",
+      "name": "黎巴嫩文化部长萨拉梅",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:8d8171260381",
+      "name": "黎巴嫩真主党南方阵线指挥官哈吉·哈希姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:58e8c6c827ad",
+      "name": "黎巴嫩真主党媒体办公室",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:92e2ee65e714",
+      "name": "黎巴嫩真主党工程部队负责人阿比德·哈尔卜",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:d8dd3df34818",
+      "name": "黎巴嫩真主党拉德万部队指挥官艾哈迈德·加利卜·巴卢特",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ceb2dd28579e",
+      "name": "黎巴嫩真主党政治委员会副主席马哈茂德·卡迈提",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6a41e6b9c72f",
+      "name": "黎巴嫩真主党武装",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:0ebb120e592a",
+      "name": "黎巴嫩真主党籍议员阿里·法耶兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1b2e29f76031",
+      "name": "黎巴嫩真主党议员哈桑·法德拉拉",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:f512f916513d",
+      "name": "黎巴嫩真主党议员阿里·法耶兹",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:57e7b9492441",
+      "name": "黎巴嫩真主党领导人纳伊姆·卡西姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:1a8388972962",
+      "name": "黎巴嫩真主党高级官员马哈茂德·库马提",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:9eef1d9c8481",
+      "name": "黎巴嫩真主党高级指挥官阿里·穆罕默德·法赫尔丁",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:ebcf8ce1634a",
+      "name": "黎巴嫩议会议长纳比·贝里",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:3d6bab4419c4",
+      "name": "黎巴嫩驻美国大使馆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:57e906481ad3",
+      "name": "黎巴嫩驻美大使娜达·哈马德·穆阿瓦德",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:2ee96b9cfaf4",
+      "name": "黎总理萨拉姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:0595ed801426",
+      "name": "黎总统奥恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:6ce2c325155d",
+      "name": "黎总统约瑟夫·奥恩",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5258e55f5768",
+      "name": "黎政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c57876775b25",
+      "name": "黎波里号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:233bda20af7f",
+      "name": "黎真主党宾特朱拜勒战区指挥官阿里·里达·阿巴斯",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:5280527b325c",
+      "name": "黎真主党武装组织",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:c4895889b1bb",
+      "name": "黎真主党领导人纳伊姆·卡西姆",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:65d29971731a",
+      "name": "黎美两国政府",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:d0aba53e4a35",
+      "name": "黑海舰队",
+      "type": "Org",
+      "aliases": []
+    },
+    {
+      "id": "e:a6e330706485",
+      "name": "黑鹰",
+      "type": "MilitaryEntity",
+      "aliases": []
+    },
+    {
+      "id": "e:85b9e4cf532b",
+      "name": "齐皮·霍托夫利",
+      "type": "Person",
+      "aliases": []
+    },
+    {
+      "id": "e:7f503a001022",
+      "name": "龙号",
+      "type": "MilitaryEntity",
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,7946 @@
+{
+  "kind": "locations",
+  "groups": [
+    {
+      "id": "loc:基辅",
+      "canonical": "基辅",
+      "aliases": [
+        "基辅市",
+        "乌克兰首都基辅",
+        "基辅",
+        "乌克兰首都基辅市",
+        "基辅市内"
+      ],
+      "freq_sum": 35
+    },
+    {
+      "id": "loc:中东",
+      "canonical": "中东",
+      "aliases": [
+        "中东",
+        "中东地区",
+        "中东各地"
+      ],
+      "freq_sum": 23
+    },
+    {
+      "id": "loc:黎巴嫩南部",
+      "canonical": "黎巴嫩南部",
+      "aliases": [
+        "黎巴嫩南部",
+        "黎南部地区",
+        "黎南地区",
+        "黎南部",
+        "黎南部分地区",
+        "黎南部多地"
+      ],
+      "freq_sum": 18
+    },
+    {
+      "id": "loc:台岛以东",
+      "canonical": "台岛以东",
+      "aliases": [
+        "台岛以东海域",
+        "中国台湾岛以东海域",
+        "台岛以东",
+        "台湾岛以东海域",
+        "台湾岛东部海域"
+      ],
+      "freq_sum": 13
+    },
+    {
+      "id": "loc:加沙地带",
+      "canonical": "加沙地带",
+      "aliases": [
+        "加沙地带",
+        "加沙"
+      ],
+      "freq_sum": 9
+    },
+    {
+      "id": "loc:约旦阿兹拉克美军基地",
+      "canonical": "约旦阿兹拉克美军基地",
+      "aliases": [
+        "约旦阿兹拉克美军基地",
+        "位于约旦阿兹拉克的美军基地",
+        "位于约旦境内阿兹拉克的美军基地",
+        "位于阿兹拉克的美军基地",
+        "约旦境内阿兹拉克的美军基地"
+      ],
+      "freq_sum": 9
+    },
+    {
+      "id": "loc:华盛顿",
+      "canonical": "华盛顿",
+      "aliases": [
+        "华盛顿",
+        "美国华盛顿"
+      ],
+      "freq_sum": 8
+    },
+    {
+      "id": "loc:里海",
+      "canonical": "里海",
+      "aliases": [
+        "里海水域",
+        "里海"
+      ],
+      "freq_sum": 8
+    },
+    {
+      "id": "loc:黑海",
+      "canonical": "黑海",
+      "aliases": [
+        "黑海",
+        "黑海水域",
+        "黑海海域"
+      ],
+      "freq_sum": 7
+    },
+    {
+      "id": "loc:伊朗南部",
+      "canonical": "伊朗南部",
+      "aliases": [
+        "伊朗南部",
+        "伊朗南部多地"
+      ],
+      "freq_sum": 6
+    },
+    {
+      "id": "loc:阿巴斯港",
+      "canonical": "阿巴斯港",
+      "aliases": [
+        "阿巴斯港",
+        "伊朗南部阿巴斯港"
+      ],
+      "freq_sum": 6
+    },
+    {
+      "id": "loc:意大利罗马",
+      "canonical": "意大利罗马",
+      "aliases": [
+        "意大利罗马",
+        "罗马"
+      ],
+      "freq_sum": 5
+    },
+    {
+      "id": "loc:昂船洲军营码头",
+      "canonical": "昂船洲军营码头",
+      "aliases": [
+        "昂船洲军营码头",
+        "驻香港部队昂船洲军营码头"
+      ],
+      "freq_sum": 5
+    },
+    {
+      "id": "loc:南海海域",
+      "canonical": "南海海域",
+      "aliases": [
+        "南海海域",
+        "南海"
+      ],
+      "freq_sum": 5
+    },
+    {
+      "id": "loc:约旦美军基地",
+      "canonical": "约旦美军基地",
+      "aliases": [
+        "约旦境内的一处美国空军基地和指挥中心",
+        "约旦境内的美军基地",
+        "约旦境内美军基地",
+        "约旦美军基地"
+      ],
+      "freq_sum": 5
+    },
+    {
+      "id": "loc:美军驻科威特基地",
+      "canonical": "美军驻科威特基地",
+      "aliases": [
+        "位于科威特境内的多个美军目标",
+        "位于科威特的美国军事基地",
+        "美军位于科威特的基地",
+        "美军驻科威特基地",
+        "驻科威特美军基地"
+      ],
+      "freq_sum": 5
+    },
+    {
+      "id": "loc:开罗",
+      "canonical": "开罗",
+      "aliases": [
+        "开罗",
+        "埃及首都开罗"
+      ],
+      "freq_sum": 4
+    },
+    {
+      "id": "loc:青岛附近海空域",
+      "canonical": "青岛附近海空域",
+      "aliases": [
+        "青岛附近海空域",
+        "中国青岛及附近海空域"
+      ],
+      "freq_sum": 4
+    },
+    {
+      "id": "loc:太平洋相关海域",
+      "canonical": "太平洋相关海域",
+      "aliases": [
+        "太平洋相关海域",
+        "太平洋海域"
+      ],
+      "freq_sum": 4
+    },
+    {
+      "id": "loc:霍尔木兹海峡周边",
+      "canonical": "霍尔木兹海峡周边",
+      "aliases": [
+        "霍尔木兹海峡周边",
+        "霍尔木兹海峡附近"
+      ],
+      "freq_sum": 4
+    },
+    {
+      "id": "loc:美军卡塔尔乌代德空军基地",
+      "canonical": "美军卡塔尔乌代德空军基地",
+      "aliases": [
+        "美军卡塔尔乌代德空军基地",
+        "位于卡塔尔的美军乌代德空军基地",
+        "卡塔尔的美军乌代德空军基地"
+      ],
+      "freq_sum": 4
+    },
+    {
+      "id": "loc:克里米亚",
+      "canonical": "克里米亚",
+      "aliases": [
+        "克里米亚地区",
+        "克里米亚"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:圣彼得堡",
+      "canonical": "圣彼得堡",
+      "aliases": [
+        "圣彼得堡市",
+        "圣彼得堡"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:胡志明市",
+      "canonical": "胡志明市",
+      "aliases": [
+        "越南胡志明市",
+        "胡志明市"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:土耳其安卡拉",
+      "canonical": "土耳其安卡拉",
+      "aliases": [
+        "土耳其首都安卡拉",
+        "土耳其安卡拉"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:亚速海",
+      "canonical": "亚速海",
+      "aliases": [
+        "亚速海水域",
+        "亚速海"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:海湾",
+      "canonical": "海湾",
+      "aliases": [
+        "海湾地区",
+        "海湾"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:布什尔",
+      "canonical": "布什尔",
+      "aliases": [
+        "布什尔市",
+        "布什尔"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:美军位于巴林的基地",
+      "canonical": "美军位于巴林的基地",
+      "aliases": [
+        "位于巴林的后勤补给基地",
+        "美军位于巴林一处基地",
+        "美军位于巴林的基地"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:莫斯科州一物流中心",
+      "canonical": "莫斯科州一物流中心",
+      "aliases": [
+        "莫斯科州一处大型物流仓库",
+        "莫斯科州一处物流中心",
+        "莫斯科州一物流中心"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:吉赞",
+      "canonical": "吉赞",
+      "aliases": [
+        "吉赞",
+        "沙特吉赞",
+        "沙特阿拉伯西南部吉赞地区"
+      ],
+      "freq_sum": 3
+    },
+    {
+      "id": "loc:阿勒颇附近的空军基地",
+      "canonical": "阿勒颇附近的空军基地",
+      "aliases": [
+        "阿勒颇附近的一个空军基地",
+        "阿勒颇附近的空军基地"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:中东海域",
+      "canonical": "中东海域",
+      "aliases": [
+        "中东地区海域",
+        "中东海域"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:澳大利亚国内",
+      "canonical": "澳大利亚国内",
+      "aliases": [
+        "澳大利亚国内",
+        "澳大利亚境内"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:哈尔科夫州",
+      "canonical": "哈尔科夫州",
+      "aliases": [
+        "哈尔科夫地区",
+        "哈尔科夫州"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:德黑兰",
+      "canonical": "德黑兰",
+      "aliases": [
+        "伊朗首都德黑兰",
+        "德黑兰"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:黎巴嫩南部迈季代勒尊",
+      "canonical": "黎巴嫩南部迈季代勒尊",
+      "aliases": [
+        "黎南部“安全区”内的迈季代勒尊地区",
+        "黎巴嫩南部迈季代勒尊"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:博福特岭",
+      "canonical": "博福特岭",
+      "aliases": [
+        "博福特岭",
+        "黎巴嫩南部的博福特岭"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:安卡拉北约峰会",
+      "canonical": "安卡拉北约峰会",
+      "aliases": [
+        "土耳其安卡拉北约峰会",
+        "安卡拉北约峰会"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:加沙地带汗尤尼斯",
+      "canonical": "加沙地带汗尤尼斯",
+      "aliases": [
+        "加沙地带南部汗尤尼斯地区",
+        "加沙地带汗尤尼斯"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "canonical": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "aliases": [
+        "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+        "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:莲花港码头",
+      "canonical": "莲花港码头",
+      "aliases": [
+        "莲花港码头",
+        "越南胡志明市莲花港码头"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:位于巴林的美国第五舰队",
+      "canonical": "位于巴林的美国第五舰队",
+      "aliases": [
+        "位于巴林的美国海军第五舰队",
+        "位于巴林的美国第五舰队"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:位于科威特的阿里_萨利姆空军基地",
+      "canonical": "位于科威特的阿里·萨利姆空军基地",
+      "aliases": [
+        "位于科威特的阿里·萨利姆空军基地",
+        "美军在科威特的阿里·萨利姆空军基地"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:波斯湾及霍尔木兹海峡水域",
+      "canonical": "波斯湾及霍尔木兹海峡水域",
+      "aliases": [
+        "波斯湾及霍尔木兹海峡水域",
+        "波斯湾和霍尔木兹海峡约24万平方公里海域"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:阿曼穆桑代姆省近海",
+      "canonical": "阿曼穆桑代姆省近海",
+      "aliases": [
+        "距离穆桑代姆省海岸约8.5海里处",
+        "阿曼穆桑代姆省近海"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:位于俄罗斯萨拉托夫州的恩格斯军用机场",
+      "canonical": "位于俄罗斯萨拉托夫州的恩格斯军用机场",
+      "aliases": [
+        "位于俄罗斯萨拉托夫州的恩格斯军用机场",
+        "距乌边境约800公里的俄罗斯萨拉托夫州的恩格斯空军基地"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:以色列南部",
+      "canonical": "以色列南部",
+      "aliases": [
+        "以色列南部",
+        "以色列南部部分地区"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:中国仁爱礁附近海域",
+      "canonical": "中国仁爱礁附近海域",
+      "aliases": [
+        "中国仁爱礁附近海域",
+        "仁爱礁及其附近海域"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:伊朗格什姆岛附近",
+      "canonical": "伊朗格什姆岛附近",
+      "aliases": [
+        "伊朗南部霍尔木兹甘省格什姆岛附近",
+        "伊朗格什姆岛附近"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:一处美军人员驻地",
+      "canonical": "一处美军人员驻地",
+      "aliases": [
+        "一处美军人员驻地",
+        "一处美方人员驻地"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:伊拉克多地",
+      "canonical": "伊拉克多地",
+      "aliases": [
+        "伊拉克境内多地",
+        "伊拉克多地"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:埃及地中海港口",
+      "canonical": "埃及地中海港口",
+      "aliases": [
+        "埃及地中海沿岸的达米埃塔港",
+        "埃及地中海港口"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:伊朗南部格什姆岛居民区",
+      "canonical": "伊朗南部格什姆岛居民区",
+      "aliases": [
+        "伊朗南部格什姆岛一处人口稠密的居民区",
+        "伊朗南部格什姆岛居民区"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:朱巴",
+      "canonical": "朱巴",
+      "aliases": [
+        "南苏丹首都朱巴",
+        "朱巴"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:阿曼海塞卜东北约20海里处",
+      "canonical": "阿曼海塞卜东北约20海里处",
+      "aliases": [
+        "阿曼海塞卜东北约20海里处",
+        "阿曼海塞卜东北约20海里处海域"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:哈尔科夫地区一个居民点",
+      "canonical": "哈尔科夫地区一个居民点",
+      "aliases": [
+        "哈尔科夫地区一个居民点",
+        "哈尔科夫地区的库迪耶夫卡"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:_事事通_服务站",
+      "canonical": "“事事通”服务站",
+      "aliases": [
+        "“事事通”服务站",
+        "支队“事事通”服务站"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:黑海港口",
+      "canonical": "黑海港口",
+      "aliases": [
+        "俄罗斯的黑海港口",
+        "黑海港口"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:摩卡港",
+      "canonical": "摩卡港",
+      "aliases": [
+        "也门西南部摩卡港",
+        "摩卡港"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:迪尔扎赫拉尼镇",
+      "canonical": "迪尔扎赫拉尼镇",
+      "aliases": [
+        "迪尔扎赫拉尼镇",
+        "黎巴嫩南部代尔扎赫拉尼"
+      ],
+      "freq_sum": 2
+    },
+    {
+      "id": "loc:苏比克湾",
+      "canonical": "苏比克湾",
+      "aliases": [
+        "苏比克湾",
+        "菲律宾苏比克湾"
+      ],
+      "freq_sum": 2
+    }
+  ],
+  "labeled": [
+    {
+      "a": "15处地点",
+      "b": "18处地点",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "“事事通”服务站",
+      "b": "支队“事事通”服务站",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "一处美军人员驻地",
+      "b": "一处美方人员驻地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "上海",
+      "b": "中国海军上海某基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "与乌克兰接壤的布良斯克州",
+      "b": "与乌克兰接壤的欧洲国家",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "与乌克兰接壤的布良斯克州",
+      "b": "乌克兰",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "与乌克兰接壤的布良斯克州",
+      "b": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "与乌克兰接壤的布良斯克州",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "与乌克兰接壤的欧洲国家",
+      "b": "乌克兰",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "东耶路撒冷和约旦河西岸部分地区",
+      "b": "约旦",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "东耶路撒冷和约旦河西岸部分地区",
+      "b": "约旦河西岸",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "东耶路撒冷和约旦河西岸部分地区",
+      "b": "约旦河西岸和耶路撒冷多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中东",
+      "b": "中东各地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东",
+      "b": "中东地区",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "中东",
+      "b": "中东地区7个国家",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东",
+      "b": "中东地区国家",
+      "label": "related",
+      "via": "set_suffix"
+    },
+    {
+      "a": "中东",
+      "b": "中东地区海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东",
+      "b": "中东地区近20个地点",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东",
+      "b": "中东海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中东各地",
+      "b": "中东地区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "中东地区",
+      "b": "中东地区7个国家",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中东地区",
+      "b": "中东地区国家",
+      "label": "related",
+      "via": "set_suffix"
+    },
+    {
+      "a": "中东地区",
+      "b": "中东地区海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中东地区",
+      "b": "中东地区近20个地点",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中东地区7个国家",
+      "b": "中东地区国家",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中东地区海域",
+      "b": "中东海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "中国",
+      "b": "中国人民解放军驻香港部队昂船洲军营",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国仁爱礁附近海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国台湾岛以东海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国岛礁领海",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国海军上海某基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国空军某训练中心",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国赤尾屿领海",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国青岛及附近海空域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国黄岩岛管辖海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国黄岩岛领海",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国",
+      "b": "中国黄岩岛领空",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "中国人民解放军驻香港部队昂船洲军营",
+      "b": "昂船洲军营码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国人民解放军驻香港部队昂船洲军营",
+      "b": "香港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国人民解放军驻香港部队昂船洲军营",
+      "b": "驻香港部队昂船洲军营码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国仁爱礁附近海域",
+      "b": "仁爱礁",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中国仁爱礁附近海域",
+      "b": "仁爱礁及其附近海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "中国仁爱礁附近海域",
+      "b": "仁爱礁附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中国仁爱礁附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中国台湾岛以东海域",
+      "b": "台岛以东海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "中国台湾岛以东海域",
+      "b": "台湾岛东部海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "中国台湾岛以东海域",
+      "b": "台湾岛以东海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中国岛礁领海",
+      "b": "中国黄岩岛领海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国青岛及附近海空域",
+      "b": "青岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "中国青岛及附近海空域",
+      "b": "青岛附近海空域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "中国黄岩岛管辖海域",
+      "b": "中国黄岩岛领海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国黄岩岛管辖海域",
+      "b": "中国黄岩岛领空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国黄岩岛领海",
+      "b": "中国黄岩岛领空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "中国黄岩岛领海",
+      "b": "黄岩岛领海、领空和周边海空域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "中国黄岩岛领空",
+      "b": "领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰一知名电商平台的一处仓库",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰与摩尔多瓦边境的塔巴基国际口岸",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰克里沃伊罗格市",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰哈尔科夫州",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰国家安全局“A”特种作战中心",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰基辅州",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰基辅市和基辅州",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰多地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰部分邻国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰首都基辅",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰首都基辅及其周边地区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰首都基辅市",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "位于黑海的乌克兰切尔诺莫斯克港",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰",
+      "b": "车里雅宾斯克州沙戈尔机场和更远的阿穆尔州乌克兰卡机场附近",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "乌克兰与摩尔多瓦边境的塔巴基国际口岸",
+      "b": "边境",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰哈尔科夫州",
+      "b": "哈尔科夫州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰基辅州",
+      "b": "乌克兰基辅市和基辅州",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰基辅州",
+      "b": "乌克兰首都基辅",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰基辅州",
+      "b": "基辅",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰基辅州",
+      "b": "基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰基辅市和基辅州",
+      "b": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰基辅市和基辅州",
+      "b": "位于基辅市和基辅州用于生产、存储和运输无人机零部件的物流及配送中心",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "乌克兰基辅市和基辅州",
+      "b": "基辅",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰基辅市和基辅州",
+      "b": "基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰基辅市和基辅州",
+      "b": "基辅市",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰基辅市和基辅州",
+      "b": "基辅市和基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰首都基辅",
+      "b": "乌克兰首都基辅及其周边地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰首都基辅",
+      "b": "乌克兰首都基辅市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "乌克兰首都基辅",
+      "b": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰首都基辅",
+      "b": "基辅",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "乌克兰首都基辅",
+      "b": "基辅市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "乌克兰首都基辅及其周边地区",
+      "b": "乌克兰首都基辅市",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰首都基辅及其周边地区",
+      "b": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰首都基辅及其周边地区",
+      "b": "基辅",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "乌克兰首都基辅市",
+      "b": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰首都基辅市",
+      "b": "基辅",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "乌克兰首都基辅市",
+      "b": "基辅市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "b": "位于基辅市和基辅州用于生产、存储和运输无人机零部件的物流及配送中心",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "b": "基辅",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "b": "基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "b": "基辅市",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌克兰首都基辅市和基辅州多处军工企业和物流中心",
+      "b": "基辅市和基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌境内",
+      "b": "乌境内33处地点",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌敖德萨港附近黑海海域",
+      "b": "敖德萨港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌敖德萨港附近黑海海域",
+      "b": "黑海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乌敖德萨港附近黑海海域",
+      "b": "黑海海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "乔加达克市附近的一处军事基地",
+      "b": "俄罗斯克拉斯诺达尔边疆区格连吉克市附近的黑海沿岸热门度假地阿尔希波—奥西波夫卡镇",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "乔加达克市附近的一处军事基地",
+      "b": "达什提县的一处军事基地",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "乔加达克市附近的一处军事基地",
+      "b": "锡里克附近的一处地点",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "也门",
+      "b": "也门东南部哈德拉毛省一处政府军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门东部马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门塔伊兹省摩卡港和摩卡市",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门塔伊兹省红海沿岸的摩卡港政府军集结点和武器库",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门摩卡港附近红海海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门西南部摩卡港",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门西部沿海禁区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门领空",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门",
+      "b": "也门首都萨那国际机场",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "也门东南部哈德拉毛省一处政府军基地",
+      "b": "也门东部马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "也门东南部哈德拉毛省一处政府军基地",
+      "b": "该国东南部舍卜沃省一处政府军阵地",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "也门东南部哈德拉毛省一处政府军基地",
+      "b": "马里卜省和哈德拉毛省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "也门东南部哈德拉毛省一处政府军基地",
+      "b": "马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "也门东部马里卜省和哈德拉毛省的政府军军营和阵地",
+      "b": "马里",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门东部马里卜省和哈德拉毛省的政府军军营和阵地",
+      "b": "马里卜省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门东部马里卜省和哈德拉毛省的政府军军营和阵地",
+      "b": "马里卜省和哈德拉毛省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门东部马里卜省和哈德拉毛省的政府军军营和阵地",
+      "b": "马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门塔伊兹省摩卡港和摩卡市",
+      "b": "也门塔伊兹省红海沿岸的摩卡港政府军集结点和武器库",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "也门塔伊兹省摩卡港和摩卡市",
+      "b": "摩卡港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门塔伊兹省红海沿岸的摩卡港政府军集结点和武器库",
+      "b": "摩卡港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门塔伊兹省红海沿岸的摩卡港政府军集结点和武器库",
+      "b": "红海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门塔伊兹省红海沿岸的摩卡港政府军集结点和武器库",
+      "b": "红海沿岸的荷台达省",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "也门摩卡港附近红海海域",
+      "b": "摩卡港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门摩卡港附近红海海域",
+      "b": "红海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门西南部摩卡港",
+      "b": "摩卡港",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "也门领空",
+      "b": "领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "也门首都萨那国际机场",
+      "b": "萨那国际机场",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "亚丁湾",
+      "b": "亚丁湾、索马里海域",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "亚丁湾",
+      "b": "索马里沿海及亚丁湾海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "亚丁湾",
+      "b": "红海和亚丁湾海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "亚丁湾、索马里海域",
+      "b": "里海",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "亚丁湾、索马里海域",
+      "b": "马里",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "亚速海",
+      "b": "亚速海水域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "亚速海",
+      "b": "多地及亚速海水域上空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "亚速海",
+      "b": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "亚速海",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "亚速海",
+      "b": "近20个联邦主体以及亚速海和黑海上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "亚速海",
+      "b": "黑海和亚速海水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "亚速海水域",
+      "b": "多地及亚速海水域上空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "亚速海水域",
+      "b": "黑海和亚速海水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "仁爱礁",
+      "b": "仁爱礁及其附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "仁爱礁",
+      "b": "仁爱礁附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "仁爱礁",
+      "b": "包括仁爱礁在内的南沙群岛及其附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "仁爱礁及其附近海域",
+      "b": "仁爱礁附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "仁爱礁及其附近海域",
+      "b": "包括仁爱礁在内的南沙群岛及其附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "仁爱礁及其附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "仁爱礁附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎以边境和黎巴嫩南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部“安全区”附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部两个“试点区域”中的一个",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以军在黎巴嫩南部设立的“安全区”",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列、约旦等国",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列中部一试验场",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列南部",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列南部部分地区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列国防军一军事基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列",
+      "b": "以色列空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列",
+      "b": "到访的以色列总理内塔尼亚胡",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列",
+      "b": "黎巴嫩和以色列",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "以色列、约旦等国",
+      "b": "约旦",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "以色列南部",
+      "b": "以色列南部部分地区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊南部码头一艘油轮附近",
+      "b": "码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克东部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克东部多处“属于恐怖分子的后勤与武器设施”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克北部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克埃尔比勒",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克境内",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克境内多地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克多地的基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊拉克瓦西特省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克",
+      "b": "伊朗与伊拉克接壤",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克",
+      "b": "美国驻伊拉克埃尔比勒领馆附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克东部",
+      "b": "伊拉克东部多处“属于恐怖分子的后勤与武器设施”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克东部",
+      "b": "伊拉克北部",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克埃尔比勒",
+      "b": "美国驻伊拉克埃尔比勒领馆附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克境内",
+      "b": "伊拉克境内多地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克境内多地",
+      "b": "伊拉克多地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克境内多地",
+      "b": "多地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克多地",
+      "b": "伊拉克多地的基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊拉克多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊拉克多地的基地",
+      "b": "多地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗与伊拉克接壤",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗东南部锡斯坦-俾路支斯坦省班普尔地区一处陆军营地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗东阿塞拜疆省省会城市大不里士西南区的军事区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗北部",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部和西南部多地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部城市设拉子、中部城市伊斯法罕",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部多地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部格什姆岛",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部格什姆岛一处人口稠密的居民区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部格什姆岛居民区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部沿海多地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部沿海数个监测和监管中心",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部海岸线",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部的基础设施",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部阿巴斯港",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部霍尔木兹甘省一港口城市",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗吉兰省一处伊朗伊斯兰革命卫队海军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗和阿曼之间",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗哈米尔港大桥",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗多地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗安迪梅什克上空",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗布什尔核电站周边区域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗格什姆岛附近",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗沙赫尔市",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗沙赫尔机场",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗沿海地区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗的袭击中",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗西南部胡齐斯坦省霍梅尼港附近",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗西南部胡齐斯坦省首府阿瓦士市郊",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗西南部马赫沙赫尔港、霍梅尼港以及南部港口城市锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗阿巴斯港、锡里克地区等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗阿瓦士",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗霍尔木兹甘省附近海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "伊朗首都德黑兰",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "美军对伊朗沙拉姆切赫地区发动的空袭",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省",
+      "b": "伊朗东南部锡斯坦-俾路支斯坦省班普尔地区一处陆军营地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省",
+      "b": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省班普尔地区一处陆军营地",
+      "b": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省班普尔地区一处陆军营地",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗东南部锡斯坦-俾路支斯坦省班普尔地区一处陆军营地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗东阿塞拜疆省省会城市大不里士西南区的军事区",
+      "b": "大不里士",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗北部",
+      "b": "伊朗南部",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部和西南部多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部城市设拉子、中部城市伊斯法罕",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部多地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部格什姆岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部格什姆岛一处人口稠密的居民区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部格什姆岛居民区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部沿海多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部沿海数个监测和监管中心",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部海岸线",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部的基础设施",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部阿巴斯港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部霍尔木兹甘省一港口城市",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部",
+      "b": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部和西南部多地",
+      "b": "伊朗南部多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部和西南部多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部多地",
+      "b": "伊朗南部沿海多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部多地",
+      "b": "伊朗多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部多地",
+      "b": "黎南部多地",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部格什姆岛",
+      "b": "伊朗南部格什姆岛一处人口稠密的居民区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部格什姆岛",
+      "b": "伊朗南部格什姆岛居民区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部格什姆岛",
+      "b": "伊朗格什姆岛附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部格什姆岛",
+      "b": "格什姆岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部格什姆岛一处人口稠密的居民区",
+      "b": "伊朗南部格什姆岛居民区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部格什姆岛一处人口稠密的居民区",
+      "b": "居民区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部格什姆岛一处人口稠密的居民区",
+      "b": "格什姆岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部格什姆岛居民区",
+      "b": "居民区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部格什姆岛居民区",
+      "b": "格什姆岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部沿海多地",
+      "b": "伊朗南部沿海数个监测和监管中心",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部沿海多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部的基础设施",
+      "b": "巴林境内的美国亚马逊公司的基础设施",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "伊朗阿巴斯港、锡里克地区等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "格什姆岛",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部锡里克地区、阿巴斯港、格什姆岛等地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部阿巴斯港",
+      "b": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部阿巴斯港",
+      "b": "阿巴斯港",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "b": "伊朗阿巴斯港、锡里克地区等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部阿巴斯港、锡里克、格什姆等地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "伊朗霍尔木兹甘省附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省一港口城市",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "伊朗霍尔木兹甘省附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省北部一处环境保护站",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "伊朗霍尔木兹甘省附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省和东南部锡斯坦-俾路支斯坦省",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "伊朗格什姆岛附近",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "伊朗霍尔木兹甘省附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "格什姆岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "阿巴斯港和格什姆岛附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗南部霍尔木兹甘省格什姆岛附近",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗和阿曼之间",
+      "b": "阿曼",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "伊朗境内",
+      "b": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "b": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "b": "布什尔",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "b": "科纳拉克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗境内布什尔、恰巴哈尔、贾斯克、科纳拉克、阿布穆萨岛和阿巴斯港等地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "伊朗布什尔核电站周边区域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "布什尔",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "美军在巴林、约旦、科威特等地的多处军事设施",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔、恰巴哈尔港、阿巴斯港等地的多处军事目标",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗布什尔核电站周边区域",
+      "b": "布什尔",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗格什姆岛附近",
+      "b": "格什姆岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗格什姆岛附近",
+      "b": "阿巴斯港和格什姆岛附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗沙赫尔市",
+      "b": "伊朗沙赫尔机场",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗沿海地区",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省霍梅尼港附近",
+      "b": "伊朗西南部胡齐斯坦省首府阿瓦士市郊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省霍梅尼港附近",
+      "b": "伊朗西南部马赫沙赫尔港、霍梅尼港以及南部港口城市锡里克",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省霍梅尼港附近",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省霍梅尼港附近",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省霍梅尼港附近",
+      "b": "霍梅尼港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省首府阿瓦士市郊",
+      "b": "伊朗西南部马赫沙赫尔港、霍梅尼港以及南部港口城市锡里克",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省首府阿瓦士市郊",
+      "b": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省首府阿瓦士市郊",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部胡齐斯坦省首府阿瓦士市郊",
+      "b": "阿瓦士市",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗西南部马赫沙赫尔港、霍梅尼港以及南部港口城市锡里克",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗西南部马赫沙赫尔港、霍梅尼港以及南部港口城市锡里克",
+      "b": "霍梅尼港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "b": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "b": "多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港等多地",
+      "b": "阿巴斯港和格什姆岛附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗锡里克、阿巴斯港和恰巴哈尔港附近",
+      "b": "阿巴斯港和格什姆岛附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗阿巴斯港、锡里克地区等多地",
+      "b": "多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗阿巴斯港、锡里克地区等多地",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗阿巴斯港、锡里克地区等多地",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗阿巴斯港、锡里克地区等多地",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗阿巴斯港、锡里克地区等多地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "b": "伊朗霍尔木兹甘省附近海域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "b": "多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省、锡斯坦-俾路支斯坦省和胡齐斯坦省多地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省附近海域",
+      "b": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省附近海域",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省附近海域",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "伊朗霍尔木兹甘省附近海域",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊朗首都德黑兰",
+      "b": "德黑兰",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "布什尔",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "布什尔省",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "锡里克",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "阿瓦士市",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "伊霍尔木兹甘省锡里克县、胡齐斯坦省阿瓦士市、布什尔省布什尔县等地",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "伏尔加河通往里海的港外锚地",
+      "b": "里海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "伦敦",
+      "b": "英国伦敦的该组织总部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于俄罗斯萨拉托夫州的恩格斯军用机场",
+      "b": "位于俄罗斯西南部巴什科尔托斯坦共和国的一大型炼油厂",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "位于俄罗斯萨拉托夫州的恩格斯军用机场",
+      "b": "俄罗斯萨马拉州、萨拉托夫州等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "位于俄罗斯萨拉托夫州的恩格斯军用机场",
+      "b": "距乌边境约800公里的俄罗斯萨拉托夫州的恩格斯空军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于俄罗斯西南部巴什科尔托斯坦共和国的一大型炼油厂",
+      "b": "俄罗斯鞑靼斯坦共和国下卡姆斯克市的一座炼油厂",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "位于俄罗斯西南部巴什科尔托斯坦共和国的一大型炼油厂",
+      "b": "巴什科尔托斯坦共和国",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于克里米亚近卫军村的俄军攻击型无人机的存储和发射地点",
+      "b": "克里米亚",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于卡塔尔的美军乌代德空军基地",
+      "b": "卡塔尔",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于卡塔尔的美军乌代德空军基地",
+      "b": "卡塔尔的美军乌代德空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于卡塔尔的美军乌代德空军基地",
+      "b": "美军卡塔尔乌代德空军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于叙利亚坦夫地区的美军特种作战指挥中心",
+      "b": "叙利亚",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于基辅市和基辅州用于生产、存储和运输无人机零部件的物流及配送中心",
+      "b": "基辅",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于基辅市和基辅州用于生产、存储和运输无人机零部件的物流及配送中心",
+      "b": "基辅州",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于基辅市和基辅州用于生产、存储和运输无人机零部件的物流及配送中心",
+      "b": "基辅市",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于基辅市和基辅州用于生产、存储和运输无人机零部件的物流及配送中心",
+      "b": "基辅市和基辅州",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于巴林的一处美军设施和基础设施",
+      "b": "位于巴林的后勤补给基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的一处美军设施和基础设施",
+      "b": "位于巴林的美国海军第五舰队",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的一处美军设施和基础设施",
+      "b": "位于巴林的美国第五舰队",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的一处美军设施和基础设施",
+      "b": "巴林",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于巴林的一处美军设施和基础设施",
+      "b": "美军位于巴林的基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的一处美军设施和基础设施",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的后勤补给基地",
+      "b": "位于巴林的美国海军第五舰队",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的后勤补给基地",
+      "b": "位于巴林的美国第五舰队",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的后勤补给基地",
+      "b": "巴林",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于巴林的后勤补给基地",
+      "b": "美军位于巴林的基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的后勤补给基地",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的美国海军第五舰队",
+      "b": "位于巴林的美国第五舰队",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的美国海军第五舰队",
+      "b": "巴林",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于巴林的美国海军第五舰队",
+      "b": "美军位于巴林的基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的美国海军第五舰队",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的美国海军第五舰队",
+      "b": "美国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于巴林的美国第五舰队",
+      "b": "巴林",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于巴林的美国第五舰队",
+      "b": "美军位于巴林的基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的美国第五舰队",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于巴林的美国第五舰队",
+      "b": "美国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于沙特吉赞的沙特阿美公司炼油厂",
+      "b": "吉赞",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于沙特吉赞的沙特阿美公司炼油厂",
+      "b": "沙特吉赞",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特乌代里的美军装备仓库",
+      "b": "位于科威特境内的多个美军目标",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特乌代里的美军装备仓库",
+      "b": "位于科威特的美国军事基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特乌代里的美军装备仓库",
+      "b": "位于科威特的阿里·萨利姆空军基地",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特乌代里的美军装备仓库",
+      "b": "科威特",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于科威特乌代里的美军装备仓库",
+      "b": "美军位于科威特的基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特乌代里的美军装备仓库",
+      "b": "美军位于科威特西部的多哈军营",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "位于科威特的美国军事基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "位于科威特的阿里·萨利姆空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "科威特",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "科威特境内",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "约旦和科威特境内",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "美军位于科威特的基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特境内的多个美军目标",
+      "b": "美军位于科威特西部的多哈军营",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "位于科威特的阿里·萨利姆空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "位于约旦、巴林和科威特的美军空军基地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "科威特",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "约旦、巴林和科威特的美军基地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "美军位于科威特的基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "美军位于科威特西部的多哈军营",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的美国军事基地",
+      "b": "美国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于科威特的阿里·萨利姆空军基地",
+      "b": "科威特",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于科威特的阿里·萨利姆空军基地",
+      "b": "美军位于科威特的基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的阿里·萨利姆空军基地",
+      "b": "美军位于科威特西部的多哈军营",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的阿里·萨利姆空军基地",
+      "b": "美军在科威特的阿里·萨利姆空军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的阿里·萨利姆空军基地",
+      "b": "美军在科威特的阿里·萨利姆空军基地一处大型军火库",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于科威特的阿里·萨利姆空军基地",
+      "b": "阿里·萨利姆空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于约旦、巴林和科威特的美军空军基地",
+      "b": "巴林",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于约旦、巴林和科威特的美军空军基地",
+      "b": "科威特",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于约旦、巴林和科威特的美军空军基地",
+      "b": "约旦",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "位于约旦、巴林和科威特的美军空军基地",
+      "b": "约旦、巴林和科威特的美军基地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "位于约旦阿兹拉克的美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "位于阿兹拉克的美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "约旦",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "约旦境内",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "约旦境内的美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦境内阿兹拉克的美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于约旦的穆沃费格萨勒提空军基地",
+      "b": "穆沃费格萨勒提空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于约旦的穆沃费格萨勒提空军基地",
+      "b": "约旦",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于约旦阿兹拉克的美军基地",
+      "b": "位于阿兹拉克的美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦阿兹拉克的美军基地",
+      "b": "约旦",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于约旦阿兹拉克的美军基地",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦阿兹拉克的美军基地",
+      "b": "约旦阿兹拉克",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于约旦阿兹拉克的美军基地",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于约旦阿兹拉克的美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于阿兹拉克的美军基地",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于阿兹拉克的美军基地",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "位于阿兹拉克的美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "位于阿曼境内",
+      "b": "阿曼",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "位于黑海的乌克兰切尔诺莫斯克港",
+      "b": "敖德萨港、切尔诺莫斯克港和伊兹梅尔港",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "位于黑海的乌克兰切尔诺莫斯克港",
+      "b": "敖德萨港和切尔诺莫斯克港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "位于黑海的乌克兰切尔诺莫斯克港",
+      "b": "黑海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄别尔哥罗德州",
+      "b": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄别尔哥罗德州",
+      "b": "别尔哥罗德州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄别尔哥罗德州",
+      "b": "别尔哥罗德州境内16个市镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄别尔哥罗德州",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄别尔哥罗德州",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄库尔斯克州一处能源设施",
+      "b": "库尔斯克州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄热门度假地",
+      "b": "俄罗斯克拉斯诺达尔边疆区格连吉克市附近的黑海沿岸热门度假地阿尔希波—奥西波夫卡镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯、越南、文莱、印度尼西亚",
+      "b": "印度",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯、越南、文莱、印度尼西亚",
+      "b": "印度尼西亚泗水",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯、越南、文莱、印度尼西亚",
+      "b": "印度尼西亚泗水丹戎佩拉港",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯、越南、文莱、印度尼西亚",
+      "b": "文莱",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区和萨马拉州",
+      "b": "俄罗斯克拉斯诺达尔边疆区格连吉克市附近的黑海沿岸热门度假地阿尔希波—奥西波夫卡镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区和萨马拉州",
+      "b": "俄罗斯克拉斯诺达尔边疆区沃尔纳镇的一处石油码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区和萨马拉州",
+      "b": "克拉斯诺达尔边疆区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区格连吉克市附近的黑海沿岸热门度假地阿尔希波—奥西波夫卡镇",
+      "b": "俄罗斯克拉斯诺达尔边疆区沃尔纳镇的一处石油码头",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区格连吉克市附近的黑海沿岸热门度假地阿尔希波—奥西波夫卡镇",
+      "b": "克拉斯诺达尔边疆区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区格连吉克市附近的黑海沿岸热门度假地阿尔希波—奥西波夫卡镇",
+      "b": "黑海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区沃尔纳镇的一处石油码头",
+      "b": "克拉斯诺达尔边疆区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯克拉斯诺达尔边疆区沃尔纳镇的一处石油码头",
+      "b": "码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯的黑海港口",
+      "b": "黑海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯的黑海港口",
+      "b": "黑海港口",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯罗斯托夫州",
+      "b": "俄罗斯罗斯托夫州的“卡缅斯基联合企业”",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄罗斯罗斯托夫州",
+      "b": "俄罗斯雅罗斯拉夫尔州",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "俄罗斯萨马拉州、萨拉托夫州等多地",
+      "b": "多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯萨马拉州、萨拉托夫州等多地",
+      "b": "距乌边境约800公里的俄罗斯萨拉托夫州的恩格斯空军基地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯雅罗斯拉夫尔州",
+      "b": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "俄罗斯雅罗斯拉夫尔州",
+      "b": "雅罗斯拉夫尔州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄罗斯鞑靼斯坦共和国下卡姆斯克市的一座炼油厂",
+      "b": "巴什科尔托斯坦共和国",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "俄莫斯科州和坦波夫州两处物流中心",
+      "b": "莫斯科",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄莫斯科州和坦波夫州两处物流中心",
+      "b": "莫斯科州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "俄莫斯科州和坦波夫州两处物流中心",
+      "b": "莫斯科州一处物流中心",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "保加利亚",
+      "b": "保加利亚贝兹梅尔空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "保加利亚",
+      "b": "美国在保加利亚等东南欧国家的军事设施",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "保加利亚贝兹梅尔空军基地",
+      "b": "贝兹梅尔空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "偏远地区",
+      "b": "约旦南部偏远地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "克里米亚",
+      "b": "克里米亚地区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "内阁会议",
+      "b": "每周内阁会议",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "军港",
+      "b": "山东青岛某军港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "军港",
+      "b": "山东青岛某军港码头",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "军港",
+      "b": "某军港码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "军港",
+      "b": "海南三亚某军港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "军港",
+      "b": "青岛某军港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "冲之鸟礁西南海域",
+      "b": "南海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "冲绳那霸机场跑道",
+      "b": "跑道",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "列宁格勒州",
+      "b": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "b": "别尔哥罗德州",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "b": "别尔哥罗德州境内16个市镇",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "列宁格勒州、布良斯克州、别尔哥罗德州、雅罗斯拉夫尔州等地",
+      "b": "雅罗斯拉夫尔州",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "别尔哥罗德州",
+      "b": "别尔哥罗德州境内16个市镇",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "别尔哥罗德州",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "别尔哥罗德州",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "别尔哥罗德州境内16个市镇",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "别尔哥罗德州境内16个市镇",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "加奥",
+      "b": "加奥和塞瓦雷",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加奥",
+      "b": "阿盖洛克、阿内菲斯、加奥以及中部塞瓦雷等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "加奥和塞瓦雷",
+      "b": "塞瓦雷",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙内部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带中部努赛赖特难民营一辆汽车",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带中部城市代尔拜拉赫",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带中部城市代尔拜拉赫一辆吉普车",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带北部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带北部和南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带北部杰巴利耶难民营附近人群",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带南部城市拉法",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带南部汗尤尼斯地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带汗尤尼斯",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙地带部分地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙城",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙城、汗尤尼斯市和代尔巴拉赫市居民公寓",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙城两处社区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙城中心一处公寓楼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙城港口附近一处安置流离失所者的帐篷",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "加沙城西南沿海的拉希德公路",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙",
+      "b": "黎巴嫩、巴勒斯坦加沙地带和叙利亚的所谓“安全区”",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带中部努赛赖特难民营一辆汽车",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带中部城市代尔拜拉赫",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带中部城市代尔拜拉赫一辆吉普车",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带北部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带北部和南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带北部杰巴利耶难民营附近人群",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带南部城市拉法",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带南部汗尤尼斯地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带汗尤尼斯",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "加沙地带部分地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带",
+      "b": "黎巴嫩、巴勒斯坦加沙地带和叙利亚的所谓“安全区”",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "加沙地带中部努赛赖特难民营一辆汽车",
+      "b": "加沙地带中部城市代尔拜拉赫",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带中部努赛赖特难民营一辆汽车",
+      "b": "加沙地带中部城市代尔拜拉赫一辆吉普车",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带中部城市代尔拜拉赫",
+      "b": "加沙地带中部城市代尔拜拉赫一辆吉普车",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带北部",
+      "b": "加沙地带北部和南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带北部",
+      "b": "加沙地带北部杰巴利耶难民营附近人群",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带北部",
+      "b": "加沙地带南部",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带北部和南部",
+      "b": "加沙地带北部杰巴利耶难民营附近人群",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带北部和南部",
+      "b": "加沙地带南部",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带南部",
+      "b": "加沙地带南部城市拉法",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带南部",
+      "b": "加沙地带南部汗尤尼斯地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带南部城市拉法",
+      "b": "加沙地带南部汗尤尼斯地区",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带南部汗尤尼斯地区",
+      "b": "加沙地带汗尤尼斯",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "加沙地带多地",
+      "b": "多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙城",
+      "b": "加沙城、汗尤尼斯市和代尔巴拉赫市居民公寓",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "加沙城",
+      "b": "加沙城两处社区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙城",
+      "b": "加沙城中心一处公寓楼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙城",
+      "b": "加沙城港口附近一处安置流离失所者的帐篷",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "加沙城",
+      "b": "加沙城西南沿海的拉希德公路",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "包括仁爱礁在内的南沙群岛及其附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "华盛顿",
+      "b": "美国华盛顿",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "南海",
+      "b": "南海海域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "南海",
+      "b": "越南海军部队和胡志明人文社科大学",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "南海海域",
+      "b": "黑海海域",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "南苏丹首都朱巴",
+      "b": "朱巴",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "南非",
+      "b": "约翰内斯堡、德班、比勒陀利亚在内的南非多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "博福特岭",
+      "b": "博福特岭据点",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "博福特岭",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "卡塔尔",
+      "b": "卡塔尔的美军乌代德空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "卡塔尔",
+      "b": "卡塔尔首都多哈",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "卡塔尔",
+      "b": "美军卡塔尔乌代德空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "卡塔尔的美军乌代德空军基地",
+      "b": "美军卡塔尔乌代德空军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "印度",
+      "b": "印度尼西亚泗水",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "印度",
+      "b": "印度尼西亚泗水丹戎佩拉港",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "印度",
+      "b": "澳大利亚和印度",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "印度尼西亚泗水",
+      "b": "印度尼西亚泗水丹戎佩拉港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "叙利亚",
+      "b": "叙利亚阿布祖胡尔空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "叙利亚",
+      "b": "毗邻土耳其边境的叙利亚军事设施",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "叙利亚",
+      "b": "黎巴嫩、巴勒斯坦加沙地带和叙利亚的所谓“安全区”",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "台岛东南",
+      "b": "台岛以东",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "台岛东南",
+      "b": "台岛西南",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "台岛以东",
+      "b": "台岛以东海域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "台岛以东",
+      "b": "台湾岛以东海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "台岛以东海域",
+      "b": "台湾岛东部海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "台岛以东海域",
+      "b": "台湾岛以东海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "台湾岛东部海域",
+      "b": "台湾岛以东海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "各哨位",
+      "b": "哨位",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "吉赞",
+      "b": "沙特吉赞",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "吉赞",
+      "b": "沙特阿拉伯西南部吉赞地区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "哈尔科夫地区",
+      "b": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区",
+      "b": "哈尔科夫地区一个居民点",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "哈尔科夫地区",
+      "b": "哈尔科夫地区的库迪耶夫卡",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "哈尔科夫地区",
+      "b": "哈尔科夫州",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "哈尔科夫地区一个居民点",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "哈尔科夫地区的库迪耶夫卡",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "顿涅茨克地区",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "顿涅茨克地区别利茨科耶居民点",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区、苏梅地区和顿涅茨克地区的4处定居点",
+      "b": "顿涅茨克地区等多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "哈尔科夫地区一个居民点",
+      "b": "哈尔科夫地区的库迪耶夫卡",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "哨位",
+      "b": "弹药库哨位",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "哨位",
+      "b": "营门哨位",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "国防伤亡分析系统数据库",
+      "b": "国防部伤亡分析系统",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "土耳其",
+      "b": "土耳其安卡拉",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "土耳其",
+      "b": "土耳其安卡拉北约峰会",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "土耳其",
+      "b": "土耳其首都安卡拉",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "土耳其",
+      "b": "毗邻土耳其边境的叙利亚军事设施",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "土耳其安卡拉",
+      "b": "土耳其安卡拉北约峰会",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "土耳其安卡拉",
+      "b": "土耳其首都安卡拉",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "土耳其安卡拉北约峰会",
+      "b": "安卡拉北约峰会",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "圣彼得堡",
+      "b": "圣彼得堡市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "地中海",
+      "b": "地中海和红海海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "地中海",
+      "b": "地中海潘泰莱里亚以西海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "地中海",
+      "b": "埃及地中海沿岸的达米埃塔港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "地中海",
+      "b": "埃及地中海港口",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "地中海和红海海域",
+      "b": "红海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "埃及地中海沿岸的达米埃塔港",
+      "b": "埃及地中海港口",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "埃及首都开罗",
+      "b": "开罗",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅一处燃料库",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅州一处接收、存储、组装无人机的物流中心",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市内",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市和基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市和扎波罗热市",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市奥博隆区、斯维亚托申区两处仓储设施",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅市奥博隆区一处非住宅建筑区域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "基辅",
+      "b": "基辅达尔尼察区与斯维亚托申区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "基辅",
+      "b": "敖德萨、哈尔科夫、第聂伯罗彼得罗夫斯克、基辅等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "基辅州",
+      "b": "基辅州一处接收、存储、组装无人机的物流中心",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "基辅州",
+      "b": "基辅市和基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "基辅市",
+      "b": "基辅市内",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "基辅市",
+      "b": "基辅市和基辅州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "基辅市",
+      "b": "基辅市和扎波罗热市",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "基辅市",
+      "b": "基辅市奥博隆区、斯维亚托申区两处仓储设施",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "基辅市",
+      "b": "基辅市奥博隆区一处非住宅建筑区域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "基辅市和扎波罗热市",
+      "b": "扎波罗热市",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "基辅市奥博隆区、斯维亚托申区两处仓储设施",
+      "b": "基辅市奥博隆区一处非住宅建筑区域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "基辅市奥博隆区、斯维亚托申区两处仓储设施",
+      "b": "基辅达尔尼察区与斯维亚托申区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "基辅市奥博隆区、斯维亚托申区两处仓储设施",
+      "b": "杰斯尼扬斯基区、舍甫琴科夫斯基区、斯维亚托申斯基区和索洛缅斯基区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "基辅达尔尼察区与斯维亚托申区",
+      "b": "杰斯尼扬斯基区、舍甫琴科夫斯基区、斯维亚托申斯基区和索洛缅斯基区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "塞瓦雷",
+      "b": "阿盖洛克、阿内菲斯、加奥以及中部塞瓦雷等地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "多个州及黑海水域上空",
+      "b": "多地及亚速海水域上空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "多个州及黑海水域上空",
+      "b": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "多个州及黑海水域上空",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "多个州及黑海水域上空",
+      "b": "黑海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "多个州及黑海水域上空",
+      "b": "黑海水域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "多地",
+      "b": "多地及亚速海水域上空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "多地",
+      "b": "广西多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "多地",
+      "b": "敖德萨、哈尔科夫、第聂伯罗彼得罗夫斯克、基辅等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "多地",
+      "b": "约旦河西岸和耶路撒冷多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "多地",
+      "b": "约翰内斯堡、德班、比勒陀利亚在内的南非多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "多地",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "多地",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "多地",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "多地",
+      "b": "顿涅茨克地区等多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "多地",
+      "b": "黎南部多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "多地及亚速海水域上空",
+      "b": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "多地及亚速海水域上空",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "多地及亚速海水域上空",
+      "b": "黑海和亚速海水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "太平洋",
+      "b": "太平洋海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "太平洋",
+      "b": "太平洋相关公海海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "太平洋",
+      "b": "太平洋相关海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "太平洋",
+      "b": "西太平洋及鄂霍次克海、日本海等海域",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "太平洋",
+      "b": "这些企图实施的海域和包括太平洋舰队责任区域在内的其他任何海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "太平洋海域",
+      "b": "太平洋相关海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "太平洋相关公海海域",
+      "b": "太平洋相关海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "安卡拉北约峰会",
+      "b": "安卡拉峰会",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "居民区",
+      "b": "达尔尼茨基区一处居民区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "居民区",
+      "b": "阿巴斯港一居民区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "山东青岛某军港",
+      "b": "山东青岛某军港码头",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "山东青岛某军港",
+      "b": "青岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "山东青岛某军港",
+      "b": "青岛某军港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "山东青岛某军港码头",
+      "b": "某军港码头",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "山东青岛某军港码头",
+      "b": "码头",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "山东青岛某军港码头",
+      "b": "青岛",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "山东青岛某军港码头",
+      "b": "青岛某军港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林、科威特、约旦境内",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林全国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林境内的美国亚马逊公司的基础设施",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林朱费尔",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林等海湾国家",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林萨勒曼港",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "巴林萨基尔空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "约旦、巴林和科威特的美军基地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "巴林",
+      "b": "美军位于巴林一处基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "美军位于巴林的基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林",
+      "b": "美军在巴林、约旦、科威特等地的多处军事设施",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "巴林、科威特、约旦境内",
+      "b": "科威特",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "巴林、科威特、约旦境内",
+      "b": "约旦",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "巴林、科威特、约旦境内",
+      "b": "约旦境内",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "巴林境内",
+      "b": "巴林境内的美国亚马逊公司的基础设施",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "巴林境内的美国亚马逊公司的基础设施",
+      "b": "美国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "巴林等海湾国家",
+      "b": "海湾",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "布什尔",
+      "b": "布什尔市",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "布什尔",
+      "b": "布什尔省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "布什尔",
+      "b": "布什尔省霍尔穆季市上空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "布什尔",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "布什尔市",
+      "b": "布什尔省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "布什尔省",
+      "b": "布什尔省霍尔穆季市上空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "广岛",
+      "b": "广岛市和平纪念公园",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "开伯尔－普什图省",
+      "b": "开伯尔－普什图省和西南部俾路支省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "开伯尔－普什图省",
+      "b": "开伯尔－普什图省开伯尔地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "开伯尔－普什图省",
+      "b": "该国西北部开伯尔－普什图省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "开伯尔－普什图省和西南部俾路支省",
+      "b": "开伯尔－普什图省开伯尔地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "开伯尔－普什图省和西南部俾路支省",
+      "b": "该国西北部开伯尔－普什图省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "开伯尔－普什图省和西南部俾路支省",
+      "b": "该国西南部俾路支省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "开伯尔－普什图省开伯尔地区",
+      "b": "该国西北部开伯尔－普什图省",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "当地一座石油码头",
+      "b": "码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "当地院校",
+      "b": "院校",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "德国",
+      "b": "德国兰施图尔地区医疗中心",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "德国",
+      "b": "德国北莱茵-威斯特法伦州",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "德黑兰",
+      "b": "德黑兰省东部",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "德黑兰",
+      "b": "德黑兰省东部地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "德黑兰省东部",
+      "b": "德黑兰省东部地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "意大利罗马",
+      "b": "罗马",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "我钓鱼岛及其附属岛屿领海内",
+      "b": "钓鱼岛及其附属岛屿领海内",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "扎波罗热地区",
+      "b": "扎波罗热市",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "波斯湾及霍尔木兹海峡水域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "阿曼湾及霍尔木兹海峡附近海域",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡以南布设水雷的航道",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡入口处",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡周边",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "拉腊克岛、亨加姆岛以南地区，即霍尔木兹海峡一带",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "接近莫斯科市时",
+      "b": "莫斯科",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "敖德萨港",
+      "b": "敖德萨港、切尔诺莫斯克港和伊兹梅尔港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "敖德萨港",
+      "b": "敖德萨港和切尔诺莫斯克港",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "敖德萨港、切尔诺莫斯克港和伊兹梅尔港",
+      "b": "敖德萨港和切尔诺莫斯克港",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "斯拉维扬斯克和克拉马托尔斯克的城区",
+      "b": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "斯拉维扬斯克和克拉马托尔斯克的城区",
+      "b": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "新疆",
+      "b": "新疆和田",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "日本",
+      "b": "日本《防卫白皮书》的封面",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "日本",
+      "b": "日本专属经济区内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "日本",
+      "b": "日本周边用于国际航行的海峡",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "日本",
+      "b": "日本国内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "日本",
+      "b": "日本海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "日本",
+      "b": "日本神奈川县横须贺",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "日本",
+      "b": "西太平洋及鄂霍次克海、日本海等海域",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "昂船洲军营码头",
+      "b": "码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "昂船洲军营码头",
+      "b": "驻香港部队昂船洲军营码头",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "曼德海峡",
+      "b": "曼德海峡附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "机场附近",
+      "b": "车里雅宾斯克州沙戈尔机场和更远的阿穆尔州乌克兰卡机场附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "某军港码头",
+      "b": "码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "格什姆岛",
+      "b": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "格什姆岛",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "格什姆岛",
+      "b": "格什姆岛上空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "格什姆岛",
+      "b": "格什姆岛南部",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "格什姆岛",
+      "b": "阿巴斯港和格什姆岛附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "b": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "b": "阿巴斯港",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "格什姆岛、基什岛、阿巴斯港、阿巴丹和布什尔",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "b": "霍尔木兹甘省",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "格什姆岛、基什岛在内的霍尔木兹甘省部分地区",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "死海附近、与约旦接壤的边境地区",
+      "b": "约旦",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "死海附近、与约旦接壤的边境地区",
+      "b": "边境",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "毗邻土耳其边境的叙利亚军事设施",
+      "b": "边境",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "沙拉姆切赫口岸",
+      "b": "美军对伊朗沙拉姆切赫地区发动的空袭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "沙赫尔机场的建筑物和跑道",
+      "b": "跑道",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "法国",
+      "b": "法国武装部队核演习",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "波兰领空",
+      "b": "领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "波斯湾",
+      "b": "波斯湾及霍尔木兹海峡水域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "波斯湾",
+      "b": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "波斯湾",
+      "b": "波斯湾沿岸国家",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "阿曼湾及霍尔木兹海峡附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡以南布设水雷的航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡入口处",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾及霍尔木兹海峡水域",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "里海",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "阿曼湾及霍尔木兹海峡附近海域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡以南布设水雷的航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡入口处",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "波斯湾和霍尔木兹海峡约24万平方公里海域",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "泰卜尼特村和西扎乌塔尔等地",
+      "b": "西扎乌塔尔",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "海湾",
+      "b": "海湾地区",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "澳大利亚",
+      "b": "澳大利亚北部地区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "澳大利亚",
+      "b": "澳大利亚和印度",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "澳大利亚",
+      "b": "澳大利亚国内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "澳大利亚",
+      "b": "澳大利亚境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "澳大利亚",
+      "b": "澳大利亚首都堪培拉",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "澳大利亚国内",
+      "b": "澳大利亚境内",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "白俄罗斯戈梅利州边境地区",
+      "b": "边境",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "白宫",
+      "b": "白宫战情室",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "白宫",
+      "b": "白宫记者会",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "码头",
+      "b": "莲花港码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "码头",
+      "b": "该市基洛夫区的石油码头区域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "码头",
+      "b": "越南胡志明市莲花港码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "码头",
+      "b": "驻香港部队昂船洲军营码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "科威特",
+      "b": "科威特境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "科威特等国",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "科威特",
+      "b": "科威特阿里夫詹美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "科威特领空",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "约旦、巴林和科威特的美军基地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "科威特",
+      "b": "约旦和科威特境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "美军位于科威特的基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "美军位于科威特西部的多哈军营",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "美军在巴林、约旦、科威特等地的多处军事设施",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "科威特",
+      "b": "美军在科威特的阿里·萨利姆空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "美军在科威特的阿里·萨利姆空军基地一处大型军火库",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "美军驻科威特基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "驻科威特美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特",
+      "b": "驻科威特美军的地对地导弹基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "科威特境内",
+      "b": "约旦和科威特境内",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "科威特阿里夫詹美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "科威特阿里夫詹美军基地",
+      "b": "驻科威特美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "科威特领空",
+      "b": "领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "科纳拉克",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "穆桑代姆省部分地区",
+      "b": "距离穆桑代姆省海岸约8.5海里处",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "穆桑代姆省部分地区",
+      "b": "阿曼穆桑代姆省近海",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "空袭",
+      "b": "美军对伊朗沙拉姆切赫地区发动的空袭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "索马里沿海及亚丁湾海域",
+      "b": "马里",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "红海",
+      "b": "红海北部、沙特延布沿岸附近",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "红海",
+      "b": "红海北部、沙特港口城市延布附近",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "红海",
+      "b": "红海和亚丁湾海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "红海",
+      "b": "红海沿岸的荷台达省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "红海",
+      "b": "红海附近区域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "红海北部、沙特延布沿岸附近",
+      "b": "红海北部、沙特港口城市延布附近",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "红海沿岸的荷台达省",
+      "b": "荷台达省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦、巴林和科威特的美军基地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦医院",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦南部偏远地区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦和科威特境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦境内",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦境内的一处美国空军基地和指挥中心",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦境内的基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦境内的美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦境内美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦河西岸",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦河西岸和耶路撒冷多地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦阿兹拉克",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦领土",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "约旦领空",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "美军在巴林、约旦、科威特等地的多处军事设施",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "约旦",
+      "b": "美军在约旦的一个空军基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦",
+      "b": "驻约旦的美军",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦、巴林和科威特的美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "约旦境内",
+      "b": "约旦境内的一处美国空军基地和指挥中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内",
+      "b": "约旦境内的基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内",
+      "b": "约旦境内的美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内",
+      "b": "约旦境内美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内的一处美国空军基地和指挥中心",
+      "b": "约旦境内的基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的一处美国空军基地和指挥中心",
+      "b": "约旦境内的美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的一处美国空军基地和指挥中心",
+      "b": "美国",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "约旦境内的基地",
+      "b": "约旦境内的美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的基地",
+      "b": "约旦境内美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的美军基地",
+      "b": "约旦境内美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的美军基地",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的美军基地",
+      "b": "约旦美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内的美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内美军基地",
+      "b": "约旦境内阿兹拉克的美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内美军基地",
+      "b": "约旦美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦境内阿兹拉克的美军基地",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "约旦境内阿兹拉克的美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦河西岸",
+      "b": "约旦河西岸和耶路撒冷多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦美军基地",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦阿兹拉克",
+      "b": "约旦阿兹拉克美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦阿兹拉克美军基地",
+      "b": "美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "约旦领土",
+      "b": "约旦领空",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "约旦领空",
+      "b": "领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "美军位于巴林一处基地",
+      "b": "美军位于巴林的基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "美军位于巴林一处基地",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "美军位于巴林的基地",
+      "b": "美军位于巴林的谢赫伊萨空军基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "美军位于巴林的基地",
+      "b": "美军位于科威特的基地",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "美军位于科威特的基地",
+      "b": "美军位于科威特西部的多哈军营",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "美军位于科威特的基地",
+      "b": "美军驻科威特基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "美军在科威特的阿里·萨利姆空军基地",
+      "b": "美军在科威特的阿里·萨利姆空军基地一处大型军火库",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "美军在科威特的阿里·萨利姆空军基地",
+      "b": "阿里·萨利姆空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "美军在科威特的阿里·萨利姆空军基地一处大型军火库",
+      "b": "阿里·萨利姆空军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "美军基地",
+      "b": "驻科威特美军基地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "美军驻科威特基地",
+      "b": "驻科威特美军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "美国",
+      "b": "美国中央司令部责任区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "美国",
+      "b": "美国会参议院拨款委员会听证会",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "美国",
+      "b": "美国关岛",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "美国",
+      "b": "美国华盛顿",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "美国",
+      "b": "美国在保加利亚等东南欧国家的军事设施",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "美国",
+      "b": "美国大使馆外部防御薄弱的部位",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "美国",
+      "b": "美国驻伊拉克埃尔比勒领馆附近",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "胡志明人文社科大学",
+      "b": "越南海军部队和胡志明人文社科大学",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "胡志明市",
+      "b": "越南胡志明市",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "胡志明市",
+      "b": "越南胡志明市莲花港码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "苏比克湾",
+      "b": "菲律宾苏比克湾",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "英国",
+      "b": "英国伦敦的该组织总部",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "英国",
+      "b": "英国军事基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "英国",
+      "b": "英国费尔福德基地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科及周边地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州一处大型物流仓库",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州一处物流中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州一物流中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州伊斯特拉市皮奥涅尔斯基镇",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科",
+      "b": "莫斯科州索尔涅奇诺戈尔斯克",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科",
+      "b": "飞近莫斯科过程中",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "莫斯科及周边地区",
+      "b": "莫斯科地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "莫斯科地区",
+      "b": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "b": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "b": "近20个联邦主体以及亚速海和黑海上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "b": "黑海",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区及另外16个州、1个边疆区以及亚速海、黑海水域上空",
+      "b": "黑海水域",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "b": "近20个联邦主体以及亚速海和黑海上空",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "b": "黑海",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科地区等多地以及亚速海和黑海水域上空",
+      "b": "黑海水域",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科州",
+      "b": "莫斯科州、别尔哥罗德州等多地",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科州",
+      "b": "莫斯科州一处大型物流仓库",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科州",
+      "b": "莫斯科州一处物流中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科州",
+      "b": "莫斯科州一物流中心",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科州",
+      "b": "莫斯科州伊斯特拉市皮奥涅尔斯基镇",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科州",
+      "b": "莫斯科州索尔涅奇诺戈尔斯克",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "莫斯科州、别尔哥罗德州等多地",
+      "b": "阿尔汉格尔斯克州、别尔哥罗德州、布良斯克州以及莫斯科地区等俄多地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "莫斯科州一处大型物流仓库",
+      "b": "莫斯科州一处物流中心",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "莫斯科州一处大型物流仓库",
+      "b": "莫斯科州一物流中心",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "莫斯科州一处物流中心",
+      "b": "莫斯科州一物流中心",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "莲花港码头",
+      "b": "越南胡志明市莲花港码头",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "萨基军用机场",
+      "b": "萨基机场",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "该国",
+      "b": "该国东南部舍卜沃省一处政府军阵地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "该国",
+      "b": "该国中部地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "该国",
+      "b": "该国西北部开伯尔－普什图省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "该国",
+      "b": "该国西南部俾路支省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "该国",
+      "b": "该国领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "该国领空",
+      "b": "领空",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "该市",
+      "b": "该市基洛夫区的石油码头区域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "越南胡志明市",
+      "b": "越南胡志明市莲花港码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "距乌边境约800公里的俄罗斯萨拉托夫州的恩格斯空军基地",
+      "b": "边境",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "距离穆桑代姆省海岸约8.5海里处",
+      "b": "阿曼穆桑代姆省近海",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "边境",
+      "b": "靠近朝鲜的边境地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "边境",
+      "b": "黎以边境和黎巴嫩南部",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "近20个联邦主体以及亚速海和黑海上空",
+      "b": "黑海",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "迪尔扎赫拉尼镇",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "迪戈加西亚基地",
+      "b": "迪戈加西亚岛",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "里海",
+      "b": "里海水域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "里海水域",
+      "b": "黑海水域",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "锡里克",
+      "b": "锡里克附近的一处地点",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "锡里克",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "阿勒颇附近的一个空军基地",
+      "b": "阿勒颇附近的空军基地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "阿巴斯港",
+      "b": "阿巴斯港一居民区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "阿巴斯港",
+      "b": "阿巴斯港和格什姆岛附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿巴斯港",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "阿巴斯港和格什姆岛附近",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼东南省附近海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼库姆扎尔西北约8海里",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼杜库姆港",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼海塞卜东北约20海里处",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼海塞卜东北约20海里处海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼湾",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼湾及霍尔木兹海峡附近海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼湾海域",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼",
+      "b": "阿曼穆桑代姆省近海",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "阿曼东南省附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿曼海塞卜东北约20海里处",
+      "b": "阿曼海塞卜东北约20海里处海域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "阿曼湾",
+      "b": "阿曼湾及霍尔木兹海峡附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿曼湾",
+      "b": "阿曼湾海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "附近海域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡以南布设水雷的航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡入口处",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "阿曼湾及霍尔木兹海峡附近海域",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "附近海域",
+      "b": "青岛附近海空域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡",
+      "b": "霍尔木兹海峡以南布设水雷的航道",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹海峡",
+      "b": "霍尔木兹海峡入口处",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹海峡",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹海峡",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹海峡",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹海峡",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹海峡以南布设水雷的航道",
+      "b": "霍尔木兹海峡入口处",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡以南布设水雷的航道",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡以南布设水雷的航道",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡以南布设水雷的航道",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡以南布设水雷的航道",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡入口处",
+      "b": "霍尔木兹海峡南部航道",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡入口处",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡入口处",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡入口处",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡南部航道",
+      "b": "霍尔木兹海峡周边",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡南部航道",
+      "b": "霍尔木兹海峡附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡南部航道",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡周边",
+      "b": "霍尔木兹海峡附近",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡周边",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "霍尔木兹海峡附近",
+      "b": "霍尔木兹海峡附近及伊朗沿海地区",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "霍尔木兹甘省",
+      "b": "霍尔木兹甘省的阿巴斯港、锡里克、伦格港和格什姆等县以及锡斯坦-俾路支斯坦省的恰巴哈尔、科纳拉克等县",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "青岛",
+      "b": "青岛某军港",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "青岛",
+      "b": "青岛附近海空域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "韩国",
+      "b": "韩国《韩民族日报》",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "韩国",
+      "b": "韩国国防部",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "顿涅茨克地区",
+      "b": "顿涅茨克地区别利茨科耶居民点",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区",
+      "b": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区",
+      "b": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区",
+      "b": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区",
+      "b": "顿涅茨克地区等多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区别利茨科耶居民点",
+      "b": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区别利茨科耶居民点",
+      "b": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区别利茨科耶居民点",
+      "b": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区别利茨科耶居民点",
+      "b": "顿涅茨克地区等多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "b": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "b": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "b": "顿涅茨克地区等多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的佩尔绍马里耶夫卡",
+      "b": "马里",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "b": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的斯拉维扬斯克和克拉马托尔斯克两座“堡垒”城市前线40公里纵深",
+      "b": "顿涅茨克地区等多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "顿涅茨克地区的斯拉维扬斯克等9座城镇附近",
+      "b": "顿涅茨克地区等多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "领空",
+      "b": "黄岩岛领海、领空和周边海空域",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "香港",
+      "b": "驻香港部队昂船洲军营码头",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "马里",
+      "b": "马里卜市以西",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "马里",
+      "b": "马里卜省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "马里",
+      "b": "马里卜省和哈德拉毛省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "马里",
+      "b": "马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "马里卜省",
+      "b": "马里卜省和哈德拉毛省",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "马里卜省",
+      "b": "马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "马里卜省和哈德拉毛省",
+      "b": "马里卜省和哈德拉毛省的政府军军营和阵地",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "驻科威特美军基地",
+      "b": "驻科威特美军的地对地导弹基地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部“安全区”附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部两个“试点区域”中的一个",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎以边境和黎巴嫩南部",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南地区",
+      "b": "黎南部分地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南地区",
+      "b": "黎南部地区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部“安全区”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部“安全区”内的迈季代勒尊地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部“安全缓冲区”内巴拉希特地区的一栋建筑",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部三个村镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部东扎乌塔尔镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部两个已清除黎巴嫩真主党军事设施的小范围区域",
+      "label": "related",
+      "via": "contain_feature"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部分地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部地区",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部多地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部宾特朱拜勒地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部宾特朱拜勒地区的多处目标",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部的3个村庄",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部纳巴提耶地区一个高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎南部纳巴蒂耶和安萨尔地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部",
+      "b": "黎巴嫩南部",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全区”",
+      "b": "黎南部“安全区”内的迈季代勒尊地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全区”",
+      "b": "黎南部“安全缓冲区”内巴拉希特地区的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎南部“安全区”",
+      "b": "黎南部地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全区”",
+      "b": "黎巴嫩南部“安全区”附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全区”内的迈季代勒尊地区",
+      "b": "黎南部“安全缓冲区”内巴拉希特地区的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎南部“安全区”内的迈季代勒尊地区",
+      "b": "黎巴嫩南部“安全区”附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全区”内的迈季代勒尊地区",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全区”内的迈季代勒尊地区",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部“安全缓冲区”内巴拉希特地区的一栋建筑",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎南部两个已清除黎巴嫩真主党军事设施的小范围区域",
+      "b": "黎巴嫩",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎南部分地区",
+      "b": "黎南部地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部分地区",
+      "b": "黎南部多地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部地区",
+      "b": "黎南部多地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部宾特朱拜勒地区",
+      "b": "黎南部宾特朱拜勒地区的多处目标",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎南部宾特朱拜勒地区",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎南部宾特朱拜勒地区的多处目标",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎南部纳巴提耶地区一个高地",
+      "b": "黎南部纳巴蒂耶和安萨尔地区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩、巴勒斯坦加沙地带和叙利亚的所谓“安全区”",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部“安全区”附近",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部两个“试点区域”中的一个",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩",
+      "b": "黎巴嫩和以色列",
+      "label": "related",
+      "via": "region_substr"
+    },
+    {
+      "a": "黎巴嫩、巴勒斯坦加沙地带和叙利亚的所谓“安全区”",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部“安全区”附近",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部两个“试点区域”中的一个",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "related",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部两个“试点区域”中的一个",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部“安全区”附近",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部代尔扎赫拉尼",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部两个“试点区域”中的一个",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部多个城镇",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部代尔扎赫拉尼",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部多个城镇",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "b": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "same_as",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "distinct",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部奈拜提耶地区的阿里塔希尔林区",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "b": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部宾特朱拜勒、贝特亚洪、库宁和布拉希特等地区",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "b": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全区”内的阿里·塔希尔高地",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "b": "黎巴嫩南部的博福特岭",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部所谓“安全缓冲区”内的一栋建筑",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "distinct",
+      "via": "compound"
+    },
+    {
+      "a": "黎巴嫩南部的博福特岭",
+      "b": "黎巴嫩南部迈季代勒尊",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部的博福特岭",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黎巴嫩南部迈季代勒尊",
+      "b": "黎巴嫩南部首个“试点区域”",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黑海",
+      "b": "黑海东北部水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黑海",
+      "b": "黑海和亚速海水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黑海",
+      "b": "黑海水域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "黑海",
+      "b": "黑海海域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "黑海",
+      "b": "黑海港口",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黑海",
+      "b": "黑海等水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黑海东北部水域",
+      "b": "黑海水域",
+      "label": "related",
+      "via": "cache"
+    },
+    {
+      "a": "黑海水域",
+      "b": "黑海海域",
+      "label": "same_as",
+      "via": "alias_suffix"
+    },
+    {
+      "a": "黑海水域",
+      "b": "黑海等水域",
+      "label": "related",
+      "via": "cache"
+    }
+  ],
+  "missing": []
+}

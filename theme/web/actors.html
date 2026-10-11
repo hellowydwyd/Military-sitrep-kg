@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <title>态势多主体</title>
+  <link rel="stylesheet" href="style.css?v=ux1" />
+</head>
+<body class="actors">
+  <header class="actor-bar">
+    <h1>多主体</h1>
+    <nav class="views" aria-label="视图">
+      <a href="index.html">主题</a>
+      <a class="on" href="actors.html">主体</a>
+    </nav>
+    <p class="lede" id="lede"></p>
+    <label class="win-pick">时间窗
+      <select id="months" aria-label="时间窗"></select>
+    </label>
+  </header>
+
+  <main class="actor-shell">
+    <section class="actor-stage">
+      <div class="graph-stage" id="graph-stage">
+        <div class="graph-tools">
+          <span class="graph-caption" id="graph-caption"></span>
+          <button type="button" id="g-zoom-in" title="放大">+</button>
+          <button type="button" id="g-zoom-out" title="缩小">−</button>
+          <button type="button" id="g-fit">全图</button>
+        </div>
+        <div class="kind-bar canvas-hud hud-l" id="legend"></div>
+        <div class="shape-legend canvas-hud hud-r" id="shape-legend"></div>
+        <svg id="graph" viewBox="0 0 1180 720" role="img" aria-label="关系画布"></svg>
+      </div>
+      <div class="headlines" id="rel-list"></div>
+    </section>
+
+    <aside class="inspector">
+      <div class="type-tabs" id="type-tabs"></div>
+      <div class="rank-list" id="rank"></div>
+      <div class="inspector-detail" id="detail"></div>
+    </aside>
+  </main>
+  <div class="tip" id="tip"></div>
+  <script src="actor-data.js?v=media1"></script>
+  <script src="actors.js?v=ux1"></script>
+</body>
+</html>

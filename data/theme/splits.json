@@ -1,0 +1,28 @@
+{
+  "tune": [
+    "2026-03-29",
+    "2026-08-31"
+  ],
+  "test": [
+    "2026-09-01",
+    "2026-10-02"
+  ],
+  "gold": [
+    "2026-09-19",
+    "2026-10-02"
+  ],
+  "source": "huanqiu_mil",
+  "sources": [
+    "huanqiu_mil",
+    "rss_api"
+  ],
+  "min_body_chars": 80,
+  "n_kept": 2713,
+  "n_dropped": 7,
+  "splits": {
+    "tune": 2221,
+    "test": 436,
+    "other": 56
+  },
+  "n_gold": 245
+}

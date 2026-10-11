@@ -1,0 +1,307 @@
+{"parent": "s0002", "child": "s0015", "day": "2026-03-30", "n_parent": 6, "n_child": 2, "cosine": 0.8203, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "伊朗最高领袖和总统就革命卫队海军司令遇害发唁电"}
+{"parent": "s0002", "child": "s0016", "day": "2026-03-30", "n_parent": 4, "n_child": 2, "cosine": 0.8286, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "伊朗革命卫队：作为对等回应 将美以大学列为“合法打击目标”"}
+{"parent": "s0002", "child": "s0024", "day": "2026-03-31", "n_parent": 9, "n_child": 6, "cosine": 0.896, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "美以军事高官会晤 讨论对伊朗军事行动"}
+{"parent": "s0002", "child": "s0025", "day": "2026-03-31", "n_parent": 7, "n_child": 2, "cosine": 0.8605, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础"}
+{"parent": "s0024", "child": "s0026", "day": "2026-03-31", "n_parent": 3, "n_child": 3, "cosine": 0.8684, "parent_title": "美以军事高官会晤 讨论对伊朗军事行动", "child_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”"}
+{"parent": "s0002", "child": "s0027", "day": "2026-03-31", "n_parent": 4, "n_child": 3, "cosine": 0.8858, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "以军称打击1600公里外的伊朗防空设施"}
+{"parent": "s0002", "child": "s0035", "day": "2026-04-01", "n_parent": 5, "n_child": 4, "cosine": 0.8939, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "美以对伊朗军事打击战事速览（29日下午版）"}
+{"parent": "s0004", "child": "s0036", "day": "2026-04-01", "n_parent": 5, "n_child": 3, "cosine": 0.8748, "parent_title": "伊朗称美军一架E－3预警机“被击毁”", "child_title": "伊朗外长喊话沙特“是时候驱逐美军了”"}
+{"parent": "s0026", "child": "s0037", "day": "2026-04-01", "n_parent": 8, "n_child": 2, "cosine": 0.8135, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "弹药不足美军欲调用“爱国者” 波兰：不行"}
+{"parent": "s0002", "child": "s0039", "day": "2026-04-02", "n_parent": 4, "n_child": 2, "cosine": 0.8515, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "伊朗称打击以色列多处军工设施"}
+{"parent": "s0006", "child": "s0040", "day": "2026-04-02", "n_parent": 6, "n_child": 3, "cosine": 0.8177, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "特朗普称美军将很快撤出伊朗战事"}
+{"parent": "s0035", "child": "s0041", "day": "2026-04-02", "n_parent": 4, "n_child": 2, "cosine": 0.8998, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "美以对伊朗军事打击战事速览（29日下午版）"}
+{"parent": "s0006", "child": "s0042", "day": "2026-04-02", "n_parent": 4, "n_child": 2, "cosine": 0.8549, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "伊朗官员：没有为敌对国家运送货物的船只通过霍尔木兹海峡"}
+{"parent": "s0004", "child": "s0051", "day": "2026-04-03", "n_parent": 7, "n_child": 3, "cosine": 0.8236, "parent_title": "伊朗称美军一架E－3预警机“被击毁”", "child_title": "伊朗悬赏活捉早先被击落的美战斗机飞行员"}
+{"parent": "s0025", "child": "s0052", "day": "2026-04-03", "n_parent": 4, "n_child": 2, "cosine": 0.7565, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "伊朗一道路工程代表作遭美以袭击受损"}
+{"parent": "s0026", "child": "s0053", "day": "2026-04-03", "n_parent": 13, "n_child": 2, "cosine": 0.7955, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "英国宣布向海湾地区增派防空力量"}
+{"parent": "s0004", "child": "s0054", "day": "2026-04-03", "n_parent": 4, "n_child": 3, "cosine": 0.8194, "parent_title": "伊朗称美军一架E－3预警机“被击毁”", "child_title": "伊朗称击落一架MQ－9“死神”无人机"}
+{"parent": "s0026", "child": "s0055", "day": "2026-04-03", "n_parent": 8, "n_child": 5, "cosine": 0.8934, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”"}
+{"parent": "s0006", "child": "s0058", "day": "2026-04-04", "n_parent": 3, "n_child": 3, "cosine": 0.8409, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁"}
+{"parent": "s0002", "child": "s0063", "day": "2026-04-05", "n_parent": 7, "n_child": 2, "cosine": 0.7607, "parent_title": "伊朗：美以袭击科研机构意在削弱伊方发展基础", "child_title": "美媒：美军全球调拨隐形巡航导弹打伊朗"}
+{"parent": "s0035", "child": "s0064", "day": "2026-04-05", "n_parent": 11, "n_child": 4, "cosine": 0.8553, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "胡塞武装称向以色列特拉维夫发射弹道导弹"}
+{"parent": "s0036", "child": "s0065", "day": "2026-04-05", "n_parent": 8, "n_child": 4, "cosine": 0.8932, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗外长喊话沙特“是时候驱逐美军了”"}
+{"parent": "s0035", "child": "s0066", "day": "2026-04-05", "n_parent": 9, "n_child": 2, "cosine": 0.8623, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "以军称打死伊朗导弹部队一指挥官"}
+{"parent": "s0036", "child": "s0067", "day": "2026-04-05", "n_parent": 5, "n_child": 3, "cosine": 0.8448, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗恰拉克港口遭袭 4艘登陆艇受损 1人遇难"}
+{"parent": "s0018", "child": "s0068", "day": "2026-04-06", "n_parent": 12, "n_child": 4, "cosine": 0.8967, "parent_title": "以军称摧毁黎巴嫩境内180个真主党发射装置", "child_title": "以军称摧毁黎巴嫩境内180个真主党发射装置"}
+{"parent": "s0026", "child": "s0069", "day": "2026-04-06", "n_parent": 11, "n_child": 2, "cosine": 0.839, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗军方高官：抵抗阵线在对美以战斗中展现力量"}
+{"parent": "s0036", "child": "s0070", "day": "2026-04-06", "n_parent": 7, "n_child": 4, "cosine": 0.8492, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗导弹击中以色列海法居民楼致4人死亡"}
+{"parent": "s0040", "child": "s0071", "day": "2026-04-06", "n_parent": 7, "n_child": 2, "cosine": 0.847, "parent_title": "特朗普称美军将很快撤出伊朗战事", "child_title": "特朗普称7日是同伊朗达成协议的最终期限"}
+{"parent": "s0051", "child": "s0072", "day": "2026-04-06", "n_parent": 12, "n_child": 2, "cosine": 0.8354, "parent_title": "伊朗悬赏活捉早先被击落的美战斗机飞行员", "child_title": "美媒称美军炸毁两架执行救援任务的故障运输机"}
+{"parent": "s0055", "child": "s0073", "day": "2026-04-06", "n_parent": 5, "n_child": 3, "cosine": 0.8717, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”"}
+{"parent": "s0065", "child": "s0074", "day": "2026-04-06", "n_parent": 4, "n_child": 3, "cosine": 0.8728, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗外长喊话沙特“是时候驱逐美军了”"}
+{"parent": "s0018", "child": "s0075", "day": "2026-04-06", "n_parent": 10, "n_child": 2, "cosine": 0.8465, "parent_title": "以军称摧毁黎巴嫩境内180个真主党发射装置", "child_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡"}
+{"parent": "s0040", "child": "s0076", "day": "2026-04-06", "n_parent": 5, "n_child": 2, "cosine": 0.8382, "parent_title": "特朗普称美军将很快撤出伊朗战事", "child_title": "伊朗媒体：特朗普深陷战争泥潭"}
+{"parent": "s0006", "child": "s0080", "day": "2026-04-07", "n_parent": 5, "n_child": 2, "cosine": 0.877, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "伊朗回应美方停战提议 提出10项条款"}
+{"parent": "s0026", "child": "s0081", "day": "2026-04-07", "n_parent": 10, "n_child": 2, "cosine": 0.8635, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗称击中敌方先进战机"}
+{"parent": "s0026", "child": "s0082", "day": "2026-04-07", "n_parent": 8, "n_child": 2, "cosine": 0.8579, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势"}
+{"parent": "s0018", "child": "s0083", "day": "2026-04-08", "n_parent": 7, "n_child": 5, "cosine": 0.8947, "parent_title": "以军称摧毁黎巴嫩境内180个真主党发射装置", "child_title": "黎巴嫩称以军袭击已致黎1268人死亡"}
+{"parent": "s0027", "child": "s0084", "day": "2026-04-08", "n_parent": 5, "n_child": 2, "cosine": 0.839, "parent_title": "以军称打击1600公里外的伊朗防空设施", "child_title": "以伊继续互相打击 德黑兰部分地区停电"}
+{"parent": "s0073", "child": "s0085", "day": "2026-04-08", "n_parent": 4, "n_child": 2, "cosine": 0.8386, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "美众议员：伊朗“正在赢得这场战争”"}
+{"parent": "s0075", "child": "s0086", "day": "2026-04-08", "n_parent": 4, "n_child": 2, "cosine": 0.8665, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "阿盟敦促以色列停止袭击黎巴嫩"}
+{"parent": "s0080", "child": "s0087", "day": "2026-04-08", "n_parent": 4, "n_child": 3, "cosine": 0.8609, "parent_title": "伊朗回应美方停战提议 提出10项条款", "child_title": "伊朗回应美方提议：拒绝临时停火 强调永久停战"}
+{"parent": "s0018", "child": "s0092", "day": "2026-04-09", "n_parent": 6, "n_child": 2, "cosine": 0.8695, "parent_title": "以军称摧毁黎巴嫩境内180个真主党发射装置", "child_title": "以军空袭黎巴嫩东部一宗教场所 造成2人死亡"}
+{"parent": "s0040", "child": "s0093", "day": "2026-04-09", "n_parent": 4, "n_child": 4, "cosine": 0.888, "parent_title": "特朗普称美军将很快撤出伊朗战事", "child_title": "特朗普称美军将很快撤出伊朗战事"}
+{"parent": "s0055", "child": "s0094", "day": "2026-04-09", "n_parent": 6, "n_child": 2, "cosine": 0.8376, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗常驻联合国代表团：特朗普企图将中东拖入无休止战争"}
+{"parent": "s0075", "child": "s0095", "day": "2026-04-09", "n_parent": 4, "n_child": 3, "cosine": 0.8658, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "黎巴嫩向以色列提出停火倡议 尚未收到回应"}
+{"parent": "s0055", "child": "s0096", "day": "2026-04-09", "n_parent": 3, "n_child": 3, "cosine": 0.8748, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗称中东美军基地“已不再安全”"}
+{"parent": "s0036", "child": "s0099", "day": "2026-04-10", "n_parent": 7, "n_child": 4, "cosine": 0.8945, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗红新月会：多个非军事设施遭空袭"}
+{"parent": "s0086", "child": "s0100", "day": "2026-04-10", "n_parent": 11, "n_child": 2, "cosine": 0.8587, "parent_title": "阿盟敦促以色列停止袭击黎巴嫩", "child_title": "伊朗伊斯兰革命卫队否认停火以来袭击任何国家"}
+{"parent": "s0036", "child": "s0101", "day": "2026-04-10", "n_parent": 5, "n_child": 2, "cosine": 0.8186, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗司法部长：轰炸居民区和平民属于战争罪"}
+{"parent": "s0083", "child": "s0105", "day": "2026-04-11", "n_parent": 7, "n_child": 2, "cosine": 0.8337, "parent_title": "黎巴嫩称以军袭击已致黎1268人死亡", "child_title": "以军在叙利亚南部发动袭击"}
+{"parent": "s0086", "child": "s0106", "day": "2026-04-11", "n_parent": 10, "n_child": 4, "cosine": 0.8903, "parent_title": "阿盟敦促以色列停止袭击黎巴嫩", "child_title": "伊朗警告如黎巴嫩继续遭侵略伊朗将“退出停火”"}
+{"parent": "s0035", "child": "s0109", "day": "2026-04-12", "n_parent": 16, "n_child": 2, "cosine": 0.8826, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "以军称伊朗向以色列发动新一轮导弹袭击"}
+{"parent": "s0073", "child": "s0110", "day": "2026-04-12", "n_parent": 7, "n_child": 2, "cosine": 0.7938, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "综合消息｜美伊昼夜谈判陷“胶着点” 美舰穿行海峡成“罗生门”"}
+{"parent": "s0098", "child": "s0111", "day": "2026-04-12", "n_parent": 4, "n_child": 2, "cosine": 0.872, "parent_title": "普京宣布东正教复活节停火 希望乌克兰跟进", "child_title": "乌军称袭击里海两座钻井平台"}
+{"parent": "s0035", "child": "s0112", "day": "2026-04-12", "n_parent": 14, "n_child": 2, "cosine": 0.8871, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "以军说已使用约1.6万枚弹药 摧毁数千个目标"}
+{"parent": "s0024", "child": "s0118", "day": "2026-04-13", "n_parent": 5, "n_child": 2, "cosine": 0.827, "parent_title": "美以军事高官会晤 讨论对伊朗军事行动", "child_title": "美以军事高官会晤 讨论对伊朗军事行动"}
+{"parent": "s0064", "child": "s0119", "day": "2026-04-13", "n_parent": 5, "n_child": 2, "cosine": 0.7914, "parent_title": "胡塞武装称向以色列特拉维夫发射弹道导弹", "child_title": "内塔尼亚胡证实以军空袭伊朗石化设施 称行动进一步升级"}
+{"parent": "s0082", "child": "s0120", "day": "2026-04-13", "n_parent": 11, "n_child": 2, "cosine": 0.7826, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "特朗普：美军将消灭任何靠近封锁区的伊朗“快速攻击艇”"}
+{"parent": "s0086", "child": "s0121", "day": "2026-04-13", "n_parent": 9, "n_child": 2, "cosine": 0.8867, "parent_title": "阿盟敦促以色列停止袭击黎巴嫩", "child_title": "西班牙敦促以色列在“所有战线”停火"}
+{"parent": "s0024", "child": "s0124", "day": "2026-04-14", "n_parent": 3, "n_child": 3, "cosine": 0.8445, "parent_title": "美以军事高官会晤 讨论对伊朗军事行动", "child_title": "以总理称美承诺“伊朗在未来几十年内将不具备铀浓缩的能力”"}
+{"parent": "s0036", "child": "s0125", "day": "2026-04-14", "n_parent": 4, "n_child": 2, "cosine": 0.8428, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "美以空袭伊拉克民兵武装致一名指挥官丧生"}
+{"parent": "s0080", "child": "s0126", "day": "2026-04-14", "n_parent": 4, "n_child": 2, "cosine": 0.7997, "parent_title": "伊朗回应美方停战提议 提出10项条款", "child_title": "伊朗说同意谈判但对美国“完全不信任”"}
+{"parent": "s0086", "child": "s0127", "day": "2026-04-14", "n_parent": 9, "n_child": 2, "cosine": 0.8663, "parent_title": "阿盟敦促以色列停止袭击黎巴嫩", "child_title": "黎巴嫩真主党领导人称不会解除武装 继续抵抗以色列的侵略"}
+{"parent": "s0098", "child": "s0128", "day": "2026-04-14", "n_parent": 4, "n_child": 2, "cosine": 0.8942, "parent_title": "普京宣布东正教复活节停火 希望乌克兰跟进", "child_title": "普京宣布东正教复活节停火 希望乌克兰跟进"}
+{"parent": "s0073", "child": "s0134", "day": "2026-04-15", "n_parent": 7, "n_child": 6, "cosine": 0.894, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗军方说只要政治领导层认为“合适”就会继续战斗"}
+{"parent": "s0134", "child": "s0135", "day": "2026-04-15", "n_parent": 4, "n_child": 2, "cosine": 0.7771, "parent_title": "伊朗军方说只要政治领导层认为“合适”就会继续战斗", "child_title": "伊朗内政部长指示边境省份“消除海上封锁威胁”"}
+{"parent": "s0018", "child": "s0136", "day": "2026-04-16", "n_parent": 6, "n_child": 2, "cosine": 0.8762, "parent_title": "以军称摧毁黎巴嫩境内180个真主党发射装置", "child_title": "以军称近日空袭已致逾250名黎真主党成员身亡"}
+{"parent": "s0075", "child": "s0137", "day": "2026-04-16", "n_parent": 5, "n_child": 4, "cosine": 0.8663, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡"}
+{"parent": "s0087", "child": "s0138", "day": "2026-04-16", "n_parent": 4, "n_child": 2, "cosine": 0.8692, "parent_title": "伊朗回应美方提议：拒绝临时停火 强调永久停战", "child_title": "伊朗回应美方提议：拒绝临时停火 强调永久停战"}
+{"parent": "s0075", "child": "s0143", "day": "2026-04-17", "n_parent": 4, "n_child": 2, "cosine": 0.8814, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军向黎巴嫩南部地区居民发布紧急撤离警告"}
+{"parent": "s0082", "child": "s0148", "day": "2026-04-18", "n_parent": 13, "n_child": 2, "cosine": 0.8396, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势"}
+{"parent": "s0097", "child": "s0149", "day": "2026-04-18", "n_parent": 4, "n_child": 2, "cosine": 0.8274, "parent_title": "乌军鼓励私企自购武器击落来袭无人机", "child_title": "英国计划今年向乌克兰提供12万架无人机"}
+{"parent": "s0111", "child": "s0150", "day": "2026-04-18", "n_parent": 7, "n_child": 4, "cosine": 0.8962, "parent_title": "乌军称袭击里海两座钻井平台", "child_title": "乌军称袭击里海两座钻井平台"}
+{"parent": "s0082", "child": "s0151", "day": "2026-04-18", "n_parent": 11, "n_child": 2, "cosine": 0.8476, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "美军称在霍尔木兹海峡启动扫雷作业"}
+{"parent": "s0111", "child": "s0152", "day": "2026-04-18", "n_parent": 5, "n_child": 2, "cosine": 0.8188, "parent_title": "乌军称袭击里海两座钻井平台", "child_title": "俄国家原子能公司：乌军再次袭击扎波罗热核电站"}
+{"parent": "s0082", "child": "s0153", "day": "2026-04-18", "n_parent": 9, "n_child": 2, "cosine": 0.8826, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "伊朗革命卫队：军事船只靠近霍尔木兹海峡将被视为违反停火"}
+{"parent": "s0082", "child": "s0154", "day": "2026-04-18", "n_parent": 6, "n_child": 3, "cosine": 0.8916, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "伊朗：霍尔木兹海峡在严密监控与完全掌控之下"}
+{"parent": "s0006", "child": "s0156", "day": "2026-04-19", "n_parent": 16, "n_child": 3, "cosine": 0.8974, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "特朗普威胁伊朗：炸毁一切 接管石油"}
+{"parent": "s0073", "child": "s0157", "day": "2026-04-19", "n_parent": 10, "n_child": 2, "cosine": 0.8357, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "中国代表：安理会不能在战事可能升级背景下发出错误信号"}
+{"parent": "s0075", "child": "s0158", "day": "2026-04-19", "n_parent": 7, "n_child": 2, "cosine": 0.8881, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军总参谋长：将继续在黎巴嫩境内作战"}
+{"parent": "s0082", "child": "s0159", "day": "2026-04-19", "n_parent": 7, "n_child": 2, "cosine": 0.8944, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "霍尔木兹海峡“开了又关” 美伊“拉锯”走向何方"}
+{"parent": "s0083", "child": "s0160", "day": "2026-04-19", "n_parent": 8, "n_child": 2, "cosine": 0.8588, "parent_title": "黎巴嫩称以军袭击已致黎1268人死亡", "child_title": "以黎冲突升级已致以军11人死亡"}
+{"parent": "s0082", "child": "s0165", "day": "2026-04-20", "n_parent": 7, "n_child": 3, "cosine": 0.8139, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "特朗普：美军武力拦截并控制一艘伊朗货船"}
+{"parent": "s0075", "child": "s0172", "day": "2026-04-21", "n_parent": 7, "n_child": 2, "cosine": 0.8816, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军要求黎巴嫩多地民众撤离 称将继续在黎开展军事行动"}
+{"parent": "s0082", "child": "s0173", "day": "2026-04-21", "n_parent": 5, "n_child": 3, "cosine": 0.8838, "parent_title": "伊朗革命卫队称“完全掌控”霍尔木兹海峡局势", "child_title": "英海事分析公司：美国实施封锁后 仍有部分船舶通过霍尔木兹海峡"}
+{"parent": "s0099", "child": "s0174", "day": "2026-04-21", "n_parent": 4, "n_child": 2, "cosine": 0.7969, "parent_title": "伊朗红新月会：多个非军事设施遭空袭", "child_title": "美军上调对伊朗战事伤员人数：近400人"}
+{"parent": "s0111", "child": "s0175", "day": "2026-04-21", "n_parent": 4, "n_child": 2, "cosine": 0.8268, "parent_title": "乌军称袭击里海两座钻井平台", "child_title": "乌克兰首都基辅遭袭 已致多人死伤"}
+{"parent": "s0075", "child": "s0176", "day": "2026-04-21", "n_parent": 5, "n_child": 2, "cosine": 0.8778, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以媒：以军在黎巴嫩南部设立新“黄线” 旨在实行“加沙模式”"}
+{"parent": "s0006", "child": "s0179", "day": "2026-04-22", "n_parent": 18, "n_child": 3, "cosine": 0.8902, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "英媒：伊朗消息人士称伊朗拒绝“临时停火”"}
+{"parent": "s0036", "child": "s0180", "day": "2026-04-22", "n_parent": 4, "n_child": 2, "cosine": 0.8383, "parent_title": "伊朗外长喊话沙特“是时候驱逐美军了”", "child_title": "伊朗向国际机构提交米纳卜小学遭袭事件报告"}
+{"parent": "s0087", "child": "s0181", "day": "2026-04-22", "n_parent": 4, "n_child": 2, "cosine": 0.8702, "parent_title": "伊朗回应美方提议：拒绝临时停火 强调永久停战", "child_title": "巴基斯坦总理：伊美停火立即生效 10日将开始谈判"}
+{"parent": "s0126", "child": "s0182", "day": "2026-04-22", "n_parent": 8, "n_child": 2, "cosine": 0.8865, "parent_title": "伊朗说同意谈判但对美国“完全不信任”", "child_title": "伊朗优先考虑在伊斯兰堡举行新一轮伊美会谈"}
+{"parent": "s0035", "child": "s0191", "day": "2026-04-24", "n_parent": 17, "n_child": 2, "cosine": 0.843, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "伊朗媒体：启动防空系统旨在应对小型无人机"}
+{"parent": "s0040", "child": "s0192", "day": "2026-04-24", "n_parent": 4, "n_child": 3, "cosine": 0.8952, "parent_title": "特朗普称美军将很快撤出伊朗战事", "child_title": "以总理：与伊朗停火只是以方实现所有目标的一个阶段"}
+{"parent": "s0073", "child": "s0193", "day": "2026-04-24", "n_parent": 16, "n_child": 2, "cosine": 0.8338, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗陆军司令：伊斯法罕省行动失败是敌方停火主因"}
+{"parent": "s0134", "child": "s0194", "day": "2026-04-24", "n_parent": 4, "n_child": 2, "cosine": 0.855, "parent_title": "伊朗军方说只要政治领导层认为“合适”就会继续战斗", "child_title": "伊朗军方说只要政治领导层认为“合适”就会继续战斗"}
+{"parent": "s0173", "child": "s0195", "day": "2026-04-24", "n_parent": 4, "n_child": 2, "cosine": 0.8747, "parent_title": "英海事分析公司：美国实施封锁后 仍有部分船舶通过霍尔木兹海峡", "child_title": "伊朗外长：美国封锁港口是战争行为 伊朗能够“化解限制”"}
+{"parent": "s0073", "child": "s0201", "day": "2026-04-25", "n_parent": 14, "n_child": 4, "cosine": 0.8708, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗外长：若美方有诚意 彻底结束战争“完全可能”"}
+{"parent": "s0105", "child": "s0202", "day": "2026-04-25", "n_parent": 6, "n_child": 2, "cosine": 0.8616, "parent_title": "以军在叙利亚南部发动袭击", "child_title": "以色列称打死多名杰哈德和哈马斯成员"}
+{"parent": "s0137", "child": "s0203", "day": "2026-04-25", "n_parent": 4, "n_child": 2, "cosine": 0.8373, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "联黎部队车队在黎南部被以军拦停"}
+{"parent": "s0165", "child": "s0204", "day": "2026-04-25", "n_parent": 5, "n_child": 2, "cosine": 0.8335, "parent_title": "特朗普：美军武力拦截并控制一艘伊朗货船", "child_title": "美军称开火拦截一艘伊朗货船 使其失去推进动力"}
+{"parent": "s0111", "child": "s0206", "day": "2026-04-27", "n_parent": 5, "n_child": 2, "cosine": 0.8727, "parent_title": "乌军称袭击里海两座钻井平台", "child_title": "俄称大规模打击乌国防工业及能源综合体设施"}
+{"parent": "s0146", "child": "s0212", "day": "2026-04-28", "n_parent": 3, "n_child": 3, "cosine": 0.7799, "parent_title": "东部战区位东海相关海空域开展联合战备巡航", "child_title": "东部战区位东海相关海空域开展联合战备巡航"}
+{"parent": "s0006", "child": "s0225", "day": "2026-04-30", "n_parent": 20, "n_child": 4, "cosine": 0.8582, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "特朗普不满美英“特殊关系” 斯塔默说不会妥协"}
+{"parent": "s0111", "child": "s0226", "day": "2026-04-30", "n_parent": 5, "n_child": 4, "cosine": 0.879, "parent_title": "乌军称袭击里海两座钻井平台", "child_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应"}
+{"parent": "s0035", "child": "s0228", "day": "2026-05-01", "n_parent": 17, "n_child": 2, "cosine": 0.8595, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "美以官员称伊朗导弹发射装置损毁过半但可修复"}
+{"parent": "s0226", "child": "s0229", "day": "2026-05-01", "n_parent": 4, "n_child": 2, "cosine": 0.8627, "parent_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应", "child_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应"}
+{"parent": "s0006", "child": "s0234", "day": "2026-05-02", "n_parent": 20, "n_child": 2, "cosine": 0.8698, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "特朗普考虑继续打 伊朗议长：“奉陪”"}
+{"parent": "s0225", "child": "s0235", "day": "2026-05-02", "n_parent": 7, "n_child": 2, "cosine": 0.7572, "parent_title": "特朗普不满美英“特殊关系” 斯塔默说不会妥协", "child_title": "特朗普称与俄乌总统进行“良好沟通” 寻求推动冲突解决"}
+{"parent": "s0225", "child": "s0236", "day": "2026-05-02", "n_parent": 5, "n_child": 2, "cosine": 0.8187, "parent_title": "特朗普不满美英“特殊关系” 斯塔默说不会妥协", "child_title": "特朗普不满美英“特殊关系” 斯塔默说不会妥协"}
+{"parent": "s0006", "child": "s0241", "day": "2026-05-03", "n_parent": 19, "n_child": 2, "cosine": 0.8679, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "伊朗媒体：伊朗为特朗普可能的疯狂之举准备了“惊喜”"}
+{"parent": "s0075", "child": "s0242", "day": "2026-05-03", "n_parent": 17, "n_child": 2, "cosine": 0.8634, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军称以北部遭来自黎巴嫩火箭弹袭击"}
+{"parent": "s0035", "child": "s0248", "day": "2026-05-04", "n_parent": 18, "n_child": 3, "cosine": 0.8346, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "英媒：以色列已向阿联酋部署激光防御系统应对伊朗"}
+{"parent": "s0111", "child": "s0249", "day": "2026-05-04", "n_parent": 5, "n_child": 2, "cosine": 0.817, "parent_title": "乌军称袭击里海两座钻井平台", "child_title": "泽连斯基称乌持续制裁俄“影子舰队” 击中两艘进港油轮"}
+{"parent": "s0165", "child": "s0250", "day": "2026-05-04", "n_parent": 7, "n_child": 4, "cosine": 0.8659, "parent_title": "特朗普：美军武力拦截并控制一艘伊朗货船", "child_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航"}
+{"parent": "s0225", "child": "s0251", "day": "2026-05-04", "n_parent": 3, "n_child": 3, "cosine": 0.8919, "parent_title": "特朗普不满美英“特殊关系” 斯塔默说不会妥协", "child_title": "美国拟从德国撤出五千驻军"}
+{"parent": "s0035", "child": "s0252", "day": "2026-05-04", "n_parent": 16, "n_child": 2, "cosine": 0.8804, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "以总理称已“摧毁”伊朗核计划与导弹计划"}
+{"parent": "s0165", "child": "s0253", "day": "2026-05-04", "n_parent": 5, "n_child": 2, "cosine": 0.8251, "parent_title": "特朗普：美军武力拦截并控制一艘伊朗货船", "child_title": "伊朗舰艇护送一散货船进入领海"}
+{"parent": "s0073", "child": "s0255", "day": "2026-05-05", "n_parent": 25, "n_child": 2, "cosine": 0.8328, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗外交部发言人：伊核问题相关安排仍存在多种选项"}
+{"parent": "s0073", "child": "s0256", "day": "2026-05-06", "n_parent": 24, "n_child": 2, "cosine": 0.8335, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗最高领袖外事顾问：伊美之间仍处于战争状态"}
+{"parent": "s0226", "child": "s0257", "day": "2026-05-06", "n_parent": 7, "n_child": 2, "cosine": 0.8751, "parent_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应", "child_title": "乌称波尔塔瓦州遭袭 已致4死31伤"}
+{"parent": "s0202", "child": "s0258", "day": "2026-05-07", "n_parent": 8, "n_child": 2, "cosine": 0.8057, "parent_title": "以色列称打死多名杰哈德和哈马斯成员", "child_title": "以色列称打死多名杰哈德和哈马斯成员"}
+{"parent": "s0250", "child": "s0259", "day": "2026-05-07", "n_parent": 6, "n_child": 4, "cosine": 0.8876, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航"}
+{"parent": "s0035", "child": "s0260", "day": "2026-05-08", "n_parent": 18, "n_child": 2, "cosine": 0.8141, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "美媒：美军在中东8国16处军事设施在伊朗袭击中受损"}
+{"parent": "s0073", "child": "s0261", "day": "2026-05-08", "n_parent": 25, "n_child": 2, "cosine": 0.8461, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗议长：伊朗民众和武装部队已为各类情况做好准备"}
+{"parent": "s0259", "child": "s0262", "day": "2026-05-08", "n_parent": 8, "n_child": 3, "cosine": 0.8964, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "伊朗媒体：伊海军在霍尔木兹海峡附近攻击3艘美军驱逐舰"}
+{"parent": "s0250", "child": "s0269", "day": "2026-05-10", "n_parent": 7, "n_child": 2, "cosine": 0.8368, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "海事情报公司：一载有伊朗液化天然气船只似突破美军封锁"}
+{"parent": "s0254", "child": "s0270", "day": "2026-05-10", "n_parent": 11, "n_child": 2, "cosine": 0.889, "parent_title": "俄罗斯宣布胜利日停火 希望乌克兰跟进", "child_title": "俄罗斯公布胜利日阅兵日程 再次呼吁各国及时从基辅撤离人员"}
+{"parent": "s0254", "child": "s0271", "day": "2026-05-10", "n_parent": 9, "n_child": 2, "cosine": 0.8948, "parent_title": "俄罗斯宣布胜利日停火 希望乌克兰跟进", "child_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区"}
+{"parent": "s0254", "child": "s0272", "day": "2026-05-10", "n_parent": 7, "n_child": 2, "cosine": 0.8965, "parent_title": "俄罗斯宣布胜利日停火 希望乌克兰跟进", "child_title": "特朗普：俄乌9日起停火三天 互换千名战俘"}
+{"parent": "s0035", "child": "s0275", "day": "2026-05-11", "n_parent": 19, "n_child": 2, "cosine": 0.8378, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "伊朗南部一海军基地遭美以袭击"}
+{"parent": "s0192", "child": "s0276", "day": "2026-05-11", "n_parent": 6, "n_child": 2, "cosine": 0.8033, "parent_title": "以总理：与伊朗停火只是以方实现所有目标的一个阶段", "child_title": "以军称密切关注局势发展 准备“强有力回应”"}
+{"parent": "s0250", "child": "s0277", "day": "2026-05-11", "n_parent": 6, "n_child": 2, "cosine": 0.8098, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "美媒：海湾地区一货船疑遭导弹袭击 多名船员受伤"}
+{"parent": "s0259", "child": "s0278", "day": "2026-05-11", "n_parent": 5, "n_child": 5, "cosine": 0.8839, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航"}
+{"parent": "s0035", "child": "s0279", "day": "2026-05-11", "n_parent": 15, "n_child": 4, "cosine": 0.8834, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "以媒：以空军两名技术人员涉嫌“为伊朗从事间谍活动”"}
+{"parent": "s0192", "child": "s0280", "day": "2026-05-11", "n_parent": 3, "n_child": 3, "cosine": 0.8754, "parent_title": "以总理：与伊朗停火只是以方实现所有目标的一个阶段", "child_title": "以总理：与伊朗停火只是以方实现所有目标的一个阶段"}
+{"parent": "s0250", "child": "s0281", "day": "2026-05-11", "n_parent": 4, "n_child": 2, "cosine": 0.8681, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "伊朗媒体：美军袭击民用船只致5人死亡"}
+{"parent": "s0035", "child": "s0285", "day": "2026-05-12", "n_parent": 14, "n_child": 2, "cosine": 0.8211, "parent_title": "美以对伊朗军事打击战事速览（29日下午版）", "child_title": "6500吨军事装备从美国运抵以色列"}
+{"parent": "s0254", "child": "s0286", "day": "2026-05-12", "n_parent": 7, "n_child": 2, "cosine": 0.8858, "parent_title": "俄罗斯宣布胜利日停火 希望乌克兰跟进", "child_title": "泽连斯基称乌方将“对等”回应俄方袭击"}
+{"parent": "s0226", "child": "s0288", "day": "2026-05-13", "n_parent": 7, "n_child": 2, "cosine": 0.8744, "parent_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应", "child_title": "乌军方称袭击俄方多处石油设施"}
+{"parent": "s0226", "child": "s0289", "day": "2026-05-13", "n_parent": 4, "n_child": 3, "cosine": 0.8647, "parent_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应", "child_title": "泽连斯基称乌多地遭袭 造成人员伤亡"}
+{"parent": "s0083", "child": "s0291", "day": "2026-05-14", "n_parent": 18, "n_child": 2, "cosine": 0.8928, "parent_title": "黎巴嫩称以军袭击已致黎1268人死亡", "child_title": "联合国报告称近期至少200名巴勒斯坦人死于以军袭击"}
+{"parent": "s0226", "child": "s0294", "day": "2026-05-15", "n_parent": 4, "n_child": 2, "cosine": 0.8699, "parent_title": "乌称俄袭击敖德萨已致8死16伤 俄方暂无回应", "child_title": "俄称乌军大规模袭击扎波罗热地区 多处能源基础设施受损"}
+{"parent": "s0278", "child": "s0296", "day": "2026-05-16", "n_parent": 4, "n_child": 3, "cosine": 0.8286, "parent_title": "美官员称霍尔木兹海峡护航倡议或不包含美舰直接护航", "child_title": "伊朗副外长：法英勿加剧危机 只有伊朗能保障霍尔木兹海峡安全"}
+{"parent": "s0075", "child": "s0301", "day": "2026-05-17", "n_parent": 31, "n_child": 2, "cosine": 0.884, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军被曝越过利塔尼河向黎南部纵深推进"}
+{"parent": "s0220", "child": "s0304", "day": "2026-05-18", "n_parent": 4, "n_child": 2, "cosine": 0.8013, "parent_title": "国防部回应美菲“肩并肩”：亚太地区最不需要引入外部力量制造分裂对抗", "child_title": "国防部回应美菲“肩并肩”：亚太地区最不需要引入外部力量制造分裂对抗"}
+{"parent": "s0257", "child": "s0305", "day": "2026-05-18", "n_parent": 7, "n_child": 2, "cosine": 0.7615, "parent_title": "乌称波尔塔瓦州遭袭 已致4死31伤", "child_title": "尼日利亚军方称用无人机打死至少70名疑似恐怖分子"}
+{"parent": "s0073", "child": "s0313", "day": "2026-05-19", "n_parent": 34, "n_child": 4, "cosine": 0.8983, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "俄联邦安全会议：美以或利用谈判准备对伊地面行动"}
+{"parent": "s0006", "child": "s0316", "day": "2026-05-20", "n_parent": 25, "n_child": 2, "cosine": 0.8466, "parent_title": "美国务卿就霍尔木兹海峡向伊朗发出威胁", "child_title": "鲁比奥确认对伊朗“史诗怒火”军事行动已结束"}
+{"parent": "s0083", "child": "s0317", "day": "2026-05-20", "n_parent": 18, "n_child": 2, "cosine": 0.8755, "parent_title": "黎巴嫩称以军袭击已致黎1268人死亡", "child_title": "联黎部队称多起无人机爆炸危及维和人员安全"}
+{"parent": "s0257", "child": "s0318", "day": "2026-05-20", "n_parent": 7, "n_child": 2, "cosine": 0.7861, "parent_title": "乌称波尔塔瓦州遭袭 已致4死31伤", "child_title": "北约战机在爱沙尼亚击落一架乌克兰无人机"}
+{"parent": "s0279", "child": "s0319", "day": "2026-05-20", "n_parent": 4, "n_child": 2, "cosine": 0.7597, "parent_title": "以媒：以空军两名技术人员涉嫌“为伊朗从事间谍活动”", "child_title": "伊朗称摧毁一架入侵的敌方无人机"}
+{"parent": "s0073", "child": "s0325", "day": "2026-05-21", "n_parent": 34, "n_child": 6, "cosine": 0.8966, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息"}
+{"parent": "s0251", "child": "s0326", "day": "2026-05-21", "n_parent": 5, "n_child": 4, "cosine": 0.8948, "parent_title": "美国拟从德国撤出五千驻军", "child_title": "撤军规模可能超5000人，跨大西洋同盟裂痕加深，驻德美军撤离计划引发北约混乱"}
+{"parent": "s0325", "child": "s0327", "day": "2026-05-21", "n_parent": 3, "n_child": 3, "cosine": 0.8506, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息"}
+{"parent": "s0288", "child": "s0331", "day": "2026-05-23", "n_parent": 4, "n_child": 2, "cosine": 0.7492, "parent_title": "乌军方称袭击俄方多处石油设施", "child_title": "乌军方称袭击俄方多处石油设施"}
+{"parent": "s0288", "child": "s0337", "day": "2026-05-24", "n_parent": 6, "n_child": 2, "cosine": 0.8666, "parent_title": "乌军方称袭击俄方多处石油设施", "child_title": "基辅遭大规模空袭 至少三人受伤"}
+{"parent": "s0288", "child": "s0338", "day": "2026-05-24", "n_parent": 4, "n_child": 2, "cosine": 0.8131, "parent_title": "乌军方称袭击俄方多处石油设施", "child_title": "乌官员称俄军袭击致8死11伤"}
+{"parent": "s0073", "child": "s0340", "day": "2026-05-25", "n_parent": 34, "n_child": 2, "cosine": 0.8006, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗总统：我们永远不会向敌人屈服"}
+{"parent": "s0073", "child": "s0341", "day": "2026-05-25", "n_parent": 32, "n_child": 2, "cosine": 0.8428, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗前最高领袖高级助理：警惕谈判沦为延长战争的幌子"}
+{"parent": "s0105", "child": "s0347", "day": "2026-05-26", "n_parent": 14, "n_child": 5, "cosine": 0.8855, "parent_title": "以军在叙利亚南部发动袭击", "child_title": "以军在叙利亚南部发动袭击"}
+{"parent": "s0073", "child": "s0350", "day": "2026-05-27", "n_parent": 30, "n_child": 6, "cosine": 0.8978, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗媒体：伊朗已为战火重燃做好准备"}
+{"parent": "s0083", "child": "s0351", "day": "2026-05-27", "n_parent": 19, "n_child": 2, "cosine": 0.8925, "parent_title": "黎巴嫩称以军袭击已致黎1268人死亡", "child_title": "以军称监测到黎巴嫩方向火箭弹和无人机袭击"}
+{"parent": "s0105", "child": "s0352", "day": "2026-05-27", "n_parent": 14, "n_child": 2, "cosine": 0.8694, "parent_title": "以军在叙利亚南部发动袭击", "child_title": "内塔尼亚胡称接近完成加沙行动一大目标"}
+{"parent": "s0350", "child": "s0353", "day": "2026-05-27", "n_parent": 3, "n_child": 3, "cosine": 0.8368, "parent_title": "伊朗媒体：伊朗已为战火重燃做好准备", "child_title": "伊朗陆军发言人：战争尚未结束 军队严阵以待"}
+{"parent": "s0279", "child": "s0365", "day": "2026-05-28", "n_parent": 5, "n_child": 2, "cosine": 0.821, "parent_title": "以媒：以空军两名技术人员涉嫌“为伊朗从事间谍活动”", "child_title": "伊朗驳斥美方“米纳卜市遭袭小学位于导弹基地内”说法"}
+{"parent": "s0325", "child": "s0366", "day": "2026-05-28", "n_parent": 11, "n_child": 2, "cosine": 0.843, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "美军称在霍尔木兹海峡击沉两艘伊朗布雷船"}
+{"parent": "s0325", "child": "s0367", "day": "2026-05-28", "n_parent": 6, "n_child": 5, "cosine": 0.8219, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "科威特指伊朗“武装渗透”布比延岛 伊朗说巡逻船“导航故障”"}
+{"parent": "s0276", "child": "s0370", "day": "2026-05-29", "n_parent": 4, "n_child": 2, "cosine": 0.8902, "parent_title": "以军称密切关注局势发展 准备“强有力回应”", "child_title": "以军称其兵力逼近临界点 警告多线作战难以为继"}
+{"parent": "s0325", "child": "s0371", "day": "2026-05-29", "n_parent": 5, "n_child": 3, "cosine": 0.8769, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "伊朗外交部强烈谴责美军袭击伊朗油轮"}
+{"parent": "s0325", "child": "s0376", "day": "2026-05-30", "n_parent": 4, "n_child": 2, "cosine": 0.873, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "美军称发动“自卫性”空袭 伊媒称目前局势平静"}
+{"parent": "s0083", "child": "s0379", "day": "2026-05-31", "n_parent": 20, "n_child": 2, "cosine": 0.7994, "parent_title": "黎巴嫩称以军袭击已致黎1268人死亡", "child_title": "以色列北部多地响起防空警报"}
+{"parent": "s0325", "child": "s0380", "day": "2026-05-31", "n_parent": 5, "n_child": 2, "cosine": 0.7918, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "伊朗称击落一架敌方无人机并找到残骸"}
+{"parent": "s0359", "child": "s0381", "day": "2026-05-31", "n_parent": 4, "n_child": 2, "cosine": 0.7883, "parent_title": "中方将派出哪些代表出席在新加坡举行的香格里拉对话会？国防部回应", "child_title": "解放军少将质问日方：有没有资格在国际场合大谈防务合作？"}
+{"parent": "s0073", "child": "s0387", "day": "2026-06-01", "n_parent": 34, "n_child": 2, "cosine": 0.8594, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗外交部发言人：最高领袖穆杰塔巴全面掌控局势"}
+{"parent": "s0325", "child": "s0388", "day": "2026-06-01", "n_parent": 4, "n_child": 2, "cosine": 0.8595, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "美军证实击中一艘试图驶往伊朗港口的货船"}
+{"parent": "s0338", "child": "s0389", "day": "2026-06-01", "n_parent": 3, "n_child": 3, "cosine": 0.8075, "parent_title": "乌官员称俄军袭击致8死11伤", "child_title": "乌官员称俄军袭击致8死11伤"}
+{"parent": "s0073", "child": "s0390", "day": "2026-06-01", "n_parent": 32, "n_child": 2, "cosine": 0.7462, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "美国与古巴两军高级将领举行罕见会晤"}
+{"parent": "s0073", "child": "s0391", "day": "2026-06-01", "n_parent": 30, "n_child": 2, "cosine": 0.8578, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "美国为打击伊朗找理由 法律专家批“毫无说服力”"}
+{"parent": "s0389", "child": "s0395", "day": "2026-06-02", "n_parent": 6, "n_child": 2, "cosine": 0.8722, "parent_title": "乌官员称俄军袭击致8死11伤", "child_title": "乌官员称俄军袭击致8死11伤"}
+{"parent": "s0075", "child": "s0399", "day": "2026-06-03", "n_parent": 63, "n_child": 7, "cosine": 0.8944, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "黎巴嫩总统：将“竭尽所能”制止以色列对黎战争"}
+{"parent": "s0325", "child": "s0400", "day": "2026-06-03", "n_parent": 4, "n_child": 3, "cosine": 0.8808, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "美媒：美军再次短暂空袭伊朗"}
+{"parent": "s0347", "child": "s0401", "day": "2026-06-03", "n_parent": 9, "n_child": 2, "cosine": 0.8283, "parent_title": "以军在叙利亚南部发动袭击", "child_title": "以军在叙利亚南部发动袭击"}
+{"parent": "s0350", "child": "s0402", "day": "2026-06-03", "n_parent": 3, "n_child": 3, "cosine": 0.8213, "parent_title": "伊朗媒体：伊朗已为战火重燃做好准备", "child_title": "伊朗袭击科威特美军基地致7人轻伤 均已恢复执勤"}
+{"parent": "s0399", "child": "s0403", "day": "2026-06-03", "n_parent": 5, "n_child": 2, "cosine": 0.8844, "parent_title": "黎巴嫩总统：将“竭尽所能”制止以色列对黎战争", "child_title": "黎巴嫩议会议长：真主党已准备好和以色列达成停火协议"}
+{"parent": "s0271", "child": "s0409", "day": "2026-06-05", "n_parent": 31, "n_child": 2, "cosine": 0.7478, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "俄罗斯与乌克兰交换370名被俘军人"}
+{"parent": "s0073", "child": "s0412", "day": "2026-06-06", "n_parent": 37, "n_child": 2, "cosine": 0.82, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗武装力量警告或打击以色列北部地区"}
+{"parent": "s0271", "child": "s0413", "day": "2026-06-06", "n_parent": 29, "n_child": 6, "cosine": 0.8968, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "乌克兰称俄军正筹划新攻势，拉夫罗夫：俄罗斯并未在乌克兰动用所有可用手段"}
+{"parent": "s0338", "child": "s0414", "day": "2026-06-06", "n_parent": 3, "n_child": 3, "cosine": 0.8252, "parent_title": "乌官员称俄军袭击致8死11伤", "child_title": "俄媒称乌克兰无人机袭击扎波罗热核电站"}
+{"parent": "s0347", "child": "s0415", "day": "2026-06-06", "n_parent": 11, "n_child": 2, "cosine": 0.7906, "parent_title": "以军在叙利亚南部发动袭击", "child_title": "伊拉克民兵武装打死一名“伊斯兰国”头目"}
+{"parent": "s0402", "child": "s0416", "day": "2026-06-06", "n_parent": 5, "n_child": 3, "cosine": 0.8772, "parent_title": "伊朗袭击科威特美军基地致7人轻伤 均已恢复执勤", "child_title": "巴林称拦截并摧毁来自伊朗的导弹和多架无人机"}
+{"parent": "s0413", "child": "s0417", "day": "2026-06-06", "n_parent": 4, "n_child": 2, "cosine": 0.8256, "parent_title": "乌克兰称俄军正筹划新攻势，拉夫罗夫：俄罗斯并未在乌克兰动用所有可用手段", "child_title": "乌袭击圣彼得堡市 俄称将系统性回击"}
+{"parent": "s0073", "child": "s0425", "day": "2026-06-08", "n_parent": 35, "n_child": 4, "cosine": 0.8999, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗最高领袖会见武装部队司令并下达新指令"}
+{"parent": "s0389", "child": "s0426", "day": "2026-06-08", "n_parent": 5, "n_child": 2, "cosine": 0.8165, "parent_title": "乌官员称俄军袭击致8死11伤", "child_title": "乌克兰称俄军袭击铁路机车致人员伤亡"}
+{"parent": "s0412", "child": "s0427", "day": "2026-06-08", "n_parent": 3, "n_child": 3, "cosine": 0.8501, "parent_title": "伊朗武装力量警告或打击以色列北部地区", "child_title": "伊朗武装力量警告或打击以色列北部地区"}
+{"parent": "s0325", "child": "s0431", "day": "2026-06-09", "n_parent": 4, "n_child": 3, "cosine": 0.8632, "parent_title": "伊朗黑客组织称已公布近2400名驻中东美军士兵信息", "child_title": "伊朗伊斯兰革命卫队称对美以船只实施打击"}
+{"parent": "s0073", "child": "s0436", "day": "2026-06-10", "n_parent": 36, "n_child": 2, "cosine": 0.8423, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗称仍在评估谅解备忘录最终文本 尚未回应美方"}
+{"parent": "s0371", "child": "s0437", "day": "2026-06-10", "n_parent": 16, "n_child": 2, "cosine": 0.8322, "parent_title": "伊朗外交部强烈谴责美军袭击伊朗油轮", "child_title": "伊朗消息人士称反击行动击中七成预定目标"}
+{"parent": "s0380", "child": "s0438", "day": "2026-06-10", "n_parent": 5, "n_child": 2, "cosine": 0.7959, "parent_title": "伊朗称击落一架敌方无人机并找到残骸", "child_title": "美军“阿帕奇”武装直升机在霍尔木兹海峡附近坠毁"}
+{"parent": "s0073", "child": "s0439", "day": "2026-06-10", "n_parent": 34, "n_child": 2, "cosine": 0.8494, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "美防长称当前“首要任务”是寻求协议结束伊朗战事"}
+{"parent": "s0371", "child": "s0440", "day": "2026-06-10", "n_parent": 14, "n_child": 2, "cosine": 0.8538, "parent_title": "伊朗外交部强烈谴责美军袭击伊朗油轮", "child_title": "伊朗革命卫队暗示曼德海峡通航将受管控"}
+{"parent": "s0371", "child": "s0441", "day": "2026-06-10", "n_parent": 11, "n_child": 3, "cosine": 0.8925, "parent_title": "伊朗外交部强烈谴责美军袭击伊朗油轮", "child_title": "伊朗外交部强烈谴责美军袭击伊朗油轮"}
+{"parent": "s0371", "child": "s0442", "day": "2026-06-10", "n_parent": 9, "n_child": 2, "cosine": 0.8746, "parent_title": "伊朗外交部强烈谴责美军袭击伊朗油轮", "child_title": "伊朗伊斯兰革命卫队称对美空军基地进行打击"}
+{"parent": "s0276", "child": "s0450", "day": "2026-06-12", "n_parent": 7, "n_child": 2, "cosine": 0.8445, "parent_title": "以军称密切关注局势发展 准备“强有力回应”", "child_title": "以总理称以军将进一步扩大在黎军事行动"}
+{"parent": "s0371", "child": "s0451", "day": "2026-06-12", "n_parent": 9, "n_child": 2, "cosine": 0.8675, "parent_title": "伊朗外交部强烈谴责美军袭击伊朗油轮", "child_title": "伊媒：伊朗自南部地区向“特定目标”发射导弹"}
+{"parent": "s0399", "child": "s0452", "day": "2026-06-12", "n_parent": 13, "n_child": 2, "cosine": 0.8365, "parent_title": "黎巴嫩总统：将“竭尽所能”制止以色列对黎战争", "child_title": "联合国秘书长欢迎黎以宣布停火"}
+{"parent": "s0371", "child": "s0453", "day": "2026-06-12", "n_parent": 6, "n_child": 3, "cosine": 0.8763, "parent_title": "伊朗外交部强烈谴责美军袭击伊朗油轮", "child_title": "伊朗革命卫队称中东地区美军基地遭袭"}
+{"parent": "s0380", "child": "s0456", "day": "2026-06-13", "n_parent": 4, "n_child": 2, "cosine": 0.8817, "parent_title": "伊朗称击落一架敌方无人机并找到残骸", "child_title": "美军：击落4架伊朗无人机 空袭沿海雷达站"}
+{"parent": "s0276", "child": "s0459", "day": "2026-06-14", "n_parent": 6, "n_child": 2, "cosine": 0.8219, "parent_title": "以军称密切关注局势发展 准备“强有力回应”", "child_title": "以军评估与伊朗战事或持续数日"}
+{"parent": "s0075", "child": "s0462", "day": "2026-06-15", "n_parent": 74, "n_child": 2, "cosine": 0.8423, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "以军称已占领黎南部博福特城堡"}
+{"parent": "s0271", "child": "s0463", "day": "2026-06-15", "n_parent": 43, "n_child": 2, "cosine": 0.851, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "乌克兰首都基辅再次拉响防空警报"}
+{"parent": "s0276", "child": "s0468", "day": "2026-06-17", "n_parent": 7, "n_child": 2, "cosine": 0.8738, "parent_title": "以军称密切关注局势发展 准备“强有力回应”", "child_title": "以军总参谋长称袭击伊朗是为更大打击做准备"}
+{"parent": "s0075", "child": "s0471", "day": "2026-06-18", "n_parent": 72, "n_child": 3, "cosine": 0.8934, "parent_title": "以军称即将空袭黎叙边境口岸 战火重燃已致黎方1422人死亡", "child_title": "黎以军事谈判无果 以军主力越过利塔尼河"}
+{"parent": "s0271", "child": "s0472", "day": "2026-06-18", "n_parent": 48, "n_child": 2, "cosine": 0.8392, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "北约向北极派无人机特遣队，俄专家：俄罗斯须保持军事警惕"}
+{"parent": "s0338", "child": "s0476", "day": "2026-06-19", "n_parent": 4, "n_child": 2, "cosine": 0.8691, "parent_title": "乌官员称俄军袭击致8死11伤", "child_title": "国际原子能机构第六次促成俄乌局部停火"}
+{"parent": "s0426", "child": "s0477", "day": "2026-06-19", "n_parent": 4, "n_child": 2, "cosine": 0.8073, "parent_title": "乌克兰称俄军袭击铁路机车致人员伤亡", "child_title": "乌克兰空军苏-24轰炸机坠毁 两人遇难"}
+{"parent": "s0073", "child": "s0480", "day": "2026-06-20", "n_parent": 48, "n_child": 3, "cosine": 0.8504, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "国际社会欢迎美伊达成协议 呼吁迅速全面落实"}
+{"parent": "s0399", "child": "s0481", "day": "2026-06-21", "n_parent": 19, "n_child": 2, "cosine": 0.8616, "parent_title": "黎巴嫩总统：将“竭尽所能”制止以色列对黎战争", "child_title": "以色列和黎巴嫩同意停火 但有前提"}
+{"parent": "s0105", "child": "s0485", "day": "2026-06-22", "n_parent": 21, "n_child": 4, "cosine": 0.8968, "parent_title": "以军在叙利亚南部发动袭击", "child_title": "哈马斯证实其军事领导人及家人在以军空袭中身亡"}
+{"parent": "s0426", "child": "s0486", "day": "2026-06-23", "n_parent": 3, "n_child": 3, "cosine": 0.812, "parent_title": "乌克兰称俄军袭击铁路机车致人员伤亡", "child_title": "乌方称俄军袭击民船和巴士致1死9伤"}
+{"parent": "s0399", "child": "s0495", "day": "2026-06-24", "n_parent": 18, "n_child": 2, "cosine": 0.8771, "parent_title": "黎巴嫩总统：将“竭尽所能”制止以色列对黎战争", "child_title": "以方称不受美伊协议涉黎条款约束 将继续在黎军事部署"}
+{"parent": "s0462", "child": "s0505", "day": "2026-06-25", "n_parent": 9, "n_child": 3, "cosine": 0.8714, "parent_title": "以军称已占领黎南部博福特城堡", "child_title": "以媒称以军在考虑从黎南部部分地区撤出"}
+{"parent": "s0073", "child": "s0509", "day": "2026-06-26", "n_parent": 48, "n_child": 3, "cosine": 0.8923, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗最高领袖呼吁民众争取经济和文化斗争胜利"}
+{"parent": "s0073", "child": "s0510", "day": "2026-06-26", "n_parent": 46, "n_child": 2, "cosine": 0.8616, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "以色列高层评估认为美方仍倾向对伊重启军事行动"}
+{"parent": "s0399", "child": "s0513", "day": "2026-06-27", "n_parent": 17, "n_child": 2, "cosine": 0.8709, "parent_title": "黎巴嫩总统：将“竭尽所能”制止以色列对黎战争", "child_title": "特朗普称预计“所有战线都将实现全面停火”"}
+{"parent": "s0489", "child": "s0514", "day": "2026-06-27", "n_parent": 4, "n_child": 2, "cosine": 0.8261, "parent_title": "日本拟推防卫装备工厂国有化引广泛担忧", "child_title": "日本拟推防卫装备工厂国有化引广泛担忧"}
+{"parent": "s0485", "child": "s0516", "day": "2026-06-28", "n_parent": 3, "n_child": 3, "cosine": 0.8839, "parent_title": "哈马斯证实其军事领导人及家人在以军空袭中身亡", "child_title": "哈马斯证实其军事领导人及家人在以军空袭中身亡"}
+{"parent": "s0489", "child": "s0532", "day": "2026-07-02", "n_parent": 5, "n_child": 3, "cosine": 0.8273, "parent_title": "日本拟推防卫装备工厂国有化引广泛担忧", "child_title": "日本将设“航空宇宙自卫队” 军事扩张引发担忧"}
+{"parent": "s0484", "child": "s0553", "day": "2026-07-07", "n_parent": 4, "n_child": 2, "cosine": 0.7832, "parent_title": "中国海军舰艇编队将访问俄罗斯", "child_title": "中国海军83舰编队抵达俄罗斯进行友好访问"}
+{"parent": "s0485", "child": "s0554", "day": "2026-07-07", "n_parent": 8, "n_child": 2, "cosine": 0.7961, "parent_title": "哈马斯证实其军事领导人及家人在以军空袭中身亡", "child_title": "埃及、土耳其同哈马斯讨论落实加沙停火事宜"}
+{"parent": "s0271", "child": "s0562", "day": "2026-07-10", "n_parent": 90, "n_child": 2, "cosine": 0.7684, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "泽连斯基呼吁在乌克兰生产“爱国者”导弹"}
+{"parent": "s0338", "child": "s0563", "day": "2026-07-10", "n_parent": 6, "n_child": 3, "cosine": 0.8566, "parent_title": "乌官员称俄军袭击致8死11伤", "child_title": "国际原子能机构总干事：破坏核安全的袭击不可接受"}
+{"parent": "s0551", "child": "s0564", "day": "2026-07-10", "n_parent": 9, "n_child": 2, "cosine": 0.8438, "parent_title": "美媒称伊朗革命卫队在霍尔木兹海峡击中两艘商船", "child_title": "伊媒：伊朗防御系统正在应对美军打击"}
+{"parent": "s0271", "child": "s0565", "day": "2026-07-10", "n_parent": 88, "n_child": 2, "cosine": 0.8165, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "俄称正在顿涅茨克北部发起强攻"}
+{"parent": "s0551", "child": "s0566", "day": "2026-07-10", "n_parent": 7, "n_child": 2, "cosine": 0.8802, "parent_title": "美媒称伊朗革命卫队在霍尔木兹海峡击中两艘商船", "child_title": "伊朗战事爆发后 美军一两栖作战群也因故障“靠边”"}
+{"parent": "s0551", "child": "s0567", "day": "2026-07-10", "n_parent": 5, "n_child": 2, "cosine": 0.8746, "parent_title": "美媒称伊朗革命卫队在霍尔木兹海峡击中两艘商船", "child_title": "美媒称伊朗革命卫队在霍尔木兹海峡击中两艘商船"}
+{"parent": "s0073", "child": "s0570", "day": "2026-07-13", "n_parent": 71, "n_child": 2, "cosine": 0.8382, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "填补防卫空缺，扩大采购武器，北约峰会前欧洲忙安抚美国"}
+{"parent": "s0073", "child": "s0571", "day": "2026-07-13", "n_parent": 68, "n_child": 3, "cosine": 0.8285, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "胡塞武装称沙特战机侵犯也门领空"}
+{"parent": "s0485", "child": "s0575", "day": "2026-07-15", "n_parent": 10, "n_child": 2, "cosine": 0.8305, "parent_title": "哈马斯证实其军事领导人及家人在以军空袭中身亡", "child_title": "以军在约旦河西岸发起大规模突袭行动"}
+{"parent": "s0558", "child": "s0576", "day": "2026-07-15", "n_parent": 4, "n_child": 2, "cosine": 0.8347, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "美军空袭伊朗胡齐斯坦省已致3死多伤"}
+{"parent": "s0558", "child": "s0579", "day": "2026-07-16", "n_parent": 6, "n_child": 2, "cosine": 0.7673, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "伊朗方面称发现被击落的美军MQ-9无人机残骸"}
+{"parent": "s0462", "child": "s0582", "day": "2026-07-19", "n_parent": 22, "n_child": 2, "cosine": 0.808, "parent_title": "以军称已占领黎南部博福特城堡", "child_title": "以军方称美将增派加油机至以色列空军基地"}
+{"parent": "s0560", "child": "s0583", "day": "2026-07-19", "n_parent": 5, "n_child": 2, "cosine": 0.7791, "parent_title": "科威特军方称拦截4枚导弹和10架无人机", "child_title": "科威特一海水淡化和发电设施在袭击中受损"}
+{"parent": "s0551", "child": "s0590", "day": "2026-07-20", "n_parent": 63, "n_child": 7, "cosine": 0.8928, "parent_title": "美媒称伊朗革命卫队在霍尔木兹海峡击中两艘商船", "child_title": "中东多国启动防空系统、拉响警报"}
+{"parent": "s0590", "child": "s0591", "day": "2026-07-20", "n_parent": 4, "n_child": 3, "cosine": 0.8716, "parent_title": "中东多国启动防空系统、拉响警报", "child_title": "中东多国启动防空系统、拉响警报"}
+{"parent": "s0271", "child": "s0594", "day": "2026-07-21", "n_parent": 93, "n_child": 21, "cosine": 0.8928, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "乌称基辅遭无人机袭击 俄方暂无回应"}
+{"parent": "s0485", "child": "s0595", "day": "2026-07-22", "n_parent": 10, "n_child": 2, "cosine": 0.8289, "parent_title": "哈马斯证实其军事领导人及家人在以军空袭中身亡", "child_title": "以军空袭加沙城致8人死亡"}
+{"parent": "s0558", "child": "s0596", "day": "2026-07-22", "n_parent": 11, "n_child": 2, "cosine": 0.8807, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "伊朗多处民用设施遭袭受损"}
+{"parent": "s0558", "child": "s0597", "day": "2026-07-22", "n_parent": 9, "n_child": 2, "cosine": 0.857, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "伊朗外长谴责美军打击伊朗桥梁"}
+{"parent": "s0558", "child": "s0598", "day": "2026-07-22", "n_parent": 6, "n_child": 3, "cosine": 0.8758, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "美国近期军事打击已造成伊朗约300人伤亡"}
+{"parent": "s0551", "child": "s0602", "day": "2026-07-23", "n_parent": 76, "n_child": 5, "cosine": 0.8755, "parent_title": "美媒称伊朗革命卫队在霍尔木兹海峡击中两艘商船", "child_title": "美军称开始对伊朗发动“一系列有力”打击"}
+{"parent": "s0571", "child": "s0603", "day": "2026-07-23", "n_parent": 7, "n_child": 2, "cosine": 0.8747, "parent_title": "胡塞武装称沙特战机侵犯也门领空", "child_title": "胡塞武装称沙特战机侵犯也门领空"}
+{"parent": "s0571", "child": "s0604", "day": "2026-07-23", "n_parent": 5, "n_child": 2, "cosine": 0.8521, "parent_title": "胡塞武装称沙特战机侵犯也门领空", "child_title": "沙特证实一艘油轮在红海遭袭起火"}
+{"parent": "s0558", "child": "s0608", "day": "2026-07-24", "n_parent": 7, "n_child": 3, "cosine": 0.887, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "伊朗沙赫尔机场遭袭 致1人死亡"}
+{"parent": "s0590", "child": "s0609", "day": "2026-07-24", "n_parent": 4, "n_child": 3, "cosine": 0.8265, "parent_title": "中东多国启动防空系统、拉响警报", "child_title": "约旦称击落3枚伊朗导弹 将保持最高级别戒备"}
+{"parent": "s0602", "child": "s0610", "day": "2026-07-24", "n_parent": 4, "n_child": 3, "cosine": 0.8678, "parent_title": "美军称开始对伊朗发动“一系列有力”打击", "child_title": "伊朗革命卫队证实袭击油轮 警告勿与侵略者合作"}
+{"parent": "s0571", "child": "s0612", "day": "2026-07-25", "n_parent": 3, "n_child": 3, "cosine": 0.8641, "parent_title": "胡塞武装称沙特战机侵犯也门领空", "child_title": "胡塞武装指责沙特空袭机场 也门称胡塞劫持飞机"}
+{"parent": "s0073", "child": "s0615", "day": "2026-07-27", "n_parent": 106, "n_child": 6, "cosine": 0.8801, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "特朗普：1000枚导弹已瞄准伊朗"}
+{"parent": "s0615", "child": "s0616", "day": "2026-07-27", "n_parent": 3, "n_child": 3, "cosine": 0.8058, "parent_title": "特朗普：1000枚导弹已瞄准伊朗", "child_title": "特朗普：1000枚导弹已瞄准伊朗"}
+{"parent": "s0560", "child": "s0622", "day": "2026-07-28", "n_parent": 5, "n_child": 4, "cosine": 0.8539, "parent_title": "科威特军方称拦截4枚导弹和10架无人机", "child_title": "科威特拦截“敌方”无人机 巴林拉响防空警报"}
+{"parent": "s0584", "child": "s0626", "day": "2026-07-29", "n_parent": 4, "n_child": 2, "cosine": 0.8095, "parent_title": "中国海警局公布菲蓄意挑衅现场画面", "child_title": "南部战区新闻发言人就菲律宾拉拢域外国家组织所谓“联合巡航”发表谈话"}
+{"parent": "s0594", "child": "s0633", "day": "2026-07-30", "n_parent": 21, "n_child": 2, "cosine": 0.822, "parent_title": "乌称基辅遭无人机袭击 俄方暂无回应", "child_title": "伊朗布什尔省两处军事基地遭袭"}
+{"parent": "s0595", "child": "s0636", "day": "2026-07-31", "n_parent": 3, "n_child": 3, "cosine": 0.7814, "parent_title": "以军空袭加沙城致8人死亡", "child_title": "以军称在加沙地带打死两名哈马斯成员"}
+{"parent": "s0602", "child": "s0637", "day": "2026-07-31", "n_parent": 6, "n_child": 2, "cosine": 0.8263, "parent_title": "美军称开始对伊朗发动“一系列有力”打击", "child_title": "伊朗外交部：霍尔木兹海峡仍然关闭"}
+{"parent": "s0608", "child": "s0640", "day": "2026-08-01", "n_parent": 4, "n_child": 2, "cosine": 0.8468, "parent_title": "伊朗沙赫尔机场遭袭 致1人死亡", "child_title": "伊朗谴责美军袭击格什姆岛居民区致3人死亡"}
+{"parent": "s0604", "child": "s0646", "day": "2026-08-04", "n_parent": 4, "n_child": 2, "cosine": 0.7536, "parent_title": "沙特证实一艘油轮在红海遭袭起火", "child_title": "阿曼附近一艘油轮报告听到爆炸声"}
+{"parent": "s0629", "child": "s0659", "day": "2026-08-07", "n_parent": 4, "n_child": 2, "cosine": 0.8472, "parent_title": "国防部：日本拥核野心不可纵 挑战红线不能容", "child_title": "国防部新闻发言人陈曦就日本政府2026版《防卫白皮书》答记者问"}
+{"parent": "s0636", "child": "s0672", "day": "2026-08-13", "n_parent": 6, "n_child": 2, "cosine": 0.8414, "parent_title": "以军称在加沙地带打死两名哈马斯成员", "child_title": "以媒：美军中央司令部司令访以讨论“多战线局势”"}
+{"parent": "s0648", "child": "s0673", "day": "2026-08-13", "n_parent": 4, "n_child": 2, "cosine": 0.8298, "parent_title": "以军声称对黎巴嫩南部发动“精确打击”", "child_title": "以军称两名军人在黎南部遇袭身亡"}
+{"parent": "s0636", "child": "s0674", "day": "2026-08-13", "n_parent": 3, "n_child": 3, "cosine": 0.8765, "parent_title": "以军称在加沙地带打死两名哈马斯成员", "child_title": "以军称在加沙地带打死两名哈马斯成员"}
+{"parent": "s0629", "child": "s0682", "day": "2026-08-15", "n_parent": 4, "n_child": 2, "cosine": 0.8538, "parent_title": "国防部：日本拥核野心不可纵 挑战红线不能容", "child_title": "国防部：日本拥核野心不可纵 挑战红线不能容"}
+{"parent": "s0653", "child": "s0683", "day": "2026-08-15", "n_parent": 13, "n_child": 2, "cosine": 0.8796, "parent_title": "也门胡塞武装袭击致35名政府军士兵死亡", "child_title": "也门胡塞武装称使用无人机袭击沙特炼油厂"}
+{"parent": "s0648", "child": "s0685", "day": "2026-08-16", "n_parent": 5, "n_child": 2, "cosine": 0.8945, "parent_title": "以军声称对黎巴嫩南部发动“精确打击”", "child_title": "美官员批评以防长“长期占领黎南部”言论"}
+{"parent": "s0678", "child": "s0696", "day": "2026-08-19", "n_parent": 4, "n_child": 3, "cosine": 0.8617, "parent_title": "美“林肯”号航母250天不靠港 船员精神崩溃", "child_title": "伊朗战事延宕 美航母部署时长恐将再刷纪录"}
+{"parent": "s0689", "child": "s0697", "day": "2026-08-19", "n_parent": 4, "n_child": 2, "cosine": 0.883, "parent_title": "特朗普要求“大幅缩减”美韩军演规模", "child_title": "韩美联合军演将提前6天结束"}
+{"parent": "s0629", "child": "s0699", "day": "2026-08-20", "n_parent": 4, "n_child": 2, "cosine": 0.8198, "parent_title": "国防部：日本拥核野心不可纵 挑战红线不能容", "child_title": "【环时深度】冲击战后国际秩序，日本军事动作频繁"}
+{"parent": "s0648", "child": "s0703", "day": "2026-08-21", "n_parent": 5, "n_child": 2, "cosine": 0.8873, "parent_title": "以军声称对黎巴嫩南部发动“精确打击”", "child_title": "以军被曝逮捕巴方耶路撒冷事务部长等31人"}
+{"parent": "s0604", "child": "s0726", "day": "2026-08-28", "n_parent": 8, "n_child": 3, "cosine": 0.8585, "parent_title": "沙特证实一艘油轮在红海遭袭起火", "child_title": "美伊冲突外溢 中东硝烟四起"}
+{"parent": "s0674", "child": "s0732", "day": "2026-08-31", "n_parent": 5, "n_child": 3, "cosine": 0.8664, "parent_title": "以军称在加沙地带打死两名哈马斯成员", "child_title": "以军称打死一名哈马斯下属军事武装成员"}
+{"parent": "s0702", "child": "s0743", "day": "2026-09-03", "n_parent": 6, "n_child": 2, "cosine": 0.794, "parent_title": "中阿将举行“猎鹰盾牌-2026”空军联合训练", "child_title": "中俄蒙将举行“边防合作-2026”联合演练"}
+{"parent": "s0702", "child": "s0746", "day": "2026-09-04", "n_parent": 5, "n_child": 2, "cosine": 0.7892, "parent_title": "中阿将举行“猎鹰盾牌-2026”空军联合训练", "child_title": "中国和新加坡海军将举行“海上合作-2026”联演"}
+{"parent": "s0703", "child": "s0751", "day": "2026-09-05", "n_parent": 6, "n_child": 2, "cosine": 0.8, "parent_title": "以军被曝逮捕巴方耶路撒冷事务部长等31人", "child_title": "以军被曝逮捕巴方耶路撒冷事务部长等31人"}
+{"parent": "s0703", "child": "s0753", "day": "2026-09-06", "n_parent": 5, "n_child": 3, "cosine": 0.8679, "parent_title": "以军被曝逮捕巴方耶路撒冷事务部长等31人", "child_title": "以军再袭黎巴嫩南部地区"}
+{"parent": "s0726", "child": "s0754", "day": "2026-09-06", "n_parent": 4, "n_child": 3, "cosine": 0.8883, "parent_title": "美伊冲突外溢 中东硝烟四起", "child_title": "美军称已清除霍尔木兹海峡国际航道水雷"}
+{"parent": "s0732", "child": "s0761", "day": "2026-09-07", "n_parent": 4, "n_child": 2, "cosine": 0.8509, "parent_title": "以军称打死一名哈马斯下属军事武装成员", "child_title": "以军称打死一名哈马斯下属军事武装成员"}
+{"parent": "s0726", "child": "s0766", "day": "2026-09-09", "n_parent": 7, "n_child": 2, "cosine": 0.788, "parent_title": "美伊冲突外溢 中东硝烟四起", "child_title": "美伊冲突外溢 中东硝烟四起"}
+{"parent": "s0746", "child": "s0767", "day": "2026-09-09", "n_parent": 4, "n_child": 2, "cosine": 0.7652, "parent_title": "中国和新加坡海军将举行“海上合作-2026”联演", "child_title": "中老“和平列车-2026”联合演习在万象开幕"}
+{"parent": "s0726", "child": "s0768", "day": "2026-09-09", "n_parent": 5, "n_child": 2, "cosine": 0.8804, "parent_title": "美伊冲突外溢 中东硝烟四起", "child_title": "伊朗称成功打击两艘美军驱逐舰"}
+{"parent": "s0761", "child": "s0770", "day": "2026-09-10", "n_parent": 4, "n_child": 2, "cosine": 0.8144, "parent_title": "以军称打死一名哈马斯下属军事武装成员", "child_title": "以军称袭击加沙地带三个武器库和一处火箭弹发射阵地"}
+{"parent": "s0744", "child": "s0774", "day": "2026-09-11", "n_parent": 9, "n_child": 2, "cosine": 0.7816, "parent_title": "也门政府军与胡塞武装激烈交火 双方约28人死亡", "child_title": "胡塞武装攻占曼德海峡更多战略要地"}
+{"parent": "s0744", "child": "s0777", "day": "2026-09-12", "n_parent": 9, "n_child": 2, "cosine": 0.8604, "parent_title": "也门政府军与胡塞武装激烈交火 双方约28人死亡", "child_title": "也门政府军与胡塞武装激烈交火 双方约28人死亡"}
+{"parent": "s0744", "child": "s0778", "day": "2026-09-12", "n_parent": 5, "n_child": 4, "cosine": 0.8913, "parent_title": "也门政府军与胡塞武装激烈交火 双方约28人死亡", "child_title": "沙特称南部多地再遭胡塞武装袭击"}
+{"parent": "s0073", "child": "s0782", "day": "2026-09-13", "n_parent": 163, "n_child": 3, "cosine": 0.8542, "parent_title": "伊朗外长说将继续针对“侵略者”开展“防御行动”", "child_title": "伊朗官员警告他国勿在霍尔木兹海峡采取军事行动"}
+{"parent": "s0761", "child": "s0793", "day": "2026-09-16", "n_parent": 4, "n_child": 2, "cosine": 0.8611, "parent_title": "以军称打死一名哈马斯下属军事武装成员", "child_title": "哈马斯下属卡桑旅证实其高级成员被以军打死"}
+{"parent": "s0744", "child": "s0796", "day": "2026-09-17", "n_parent": 16, "n_child": 2, "cosine": 0.8737, "parent_title": "也门政府军与胡塞武装激烈交火 双方约28人死亡", "child_title": "沙特称也门胡塞武装袭击造成2人受伤"}
+{"parent": "s0754", "child": "s0797", "day": "2026-09-17", "n_parent": 4, "n_child": 3, "cosine": 0.8625, "parent_title": "美军称已清除霍尔木兹海峡国际航道水雷", "child_title": "伊朗官员：两艘渔船遭无人机袭击 多名渔民失踪"}
+{"parent": "s0744", "child": "s0798", "day": "2026-09-17", "n_parent": 14, "n_child": 2, "cosine": 0.8689, "parent_title": "也门政府军与胡塞武装激烈交火 双方约28人死亡", "child_title": "也门胡塞武装称红海航行“不受威胁”"}
+{"parent": "s0778", "child": "s0802", "day": "2026-09-18", "n_parent": 4, "n_child": 4, "cosine": 0.8369, "parent_title": "沙特称南部多地再遭胡塞武装袭击", "child_title": "沙特称南部多地再遭胡塞武装袭击"}
+{"parent": "s0753", "child": "s0808", "day": "2026-09-20", "n_parent": 4, "n_child": 2, "cosine": 0.8535, "parent_title": "以军再袭黎巴嫩南部地区", "child_title": "以防长：以色列不会从黎巴嫩安全区撤军"}
+{"parent": "s0778", "child": "s0809", "day": "2026-09-20", "n_parent": 4, "n_child": 3, "cosine": 0.8348, "parent_title": "沙特称南部多地再遭胡塞武装袭击", "child_title": "巴基斯坦军方表示“不惜一切”支持沙特"}
+{"parent": "s0271", "child": "s0817", "day": "2026-09-21", "n_parent": 192, "n_child": 3, "cosine": 0.8415, "parent_title": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区", "child_title": "乌克兰空军一架F-16战机坠毁"}
+{"parent": "s0797", "child": "s0818", "day": "2026-09-21", "n_parent": 4, "n_child": 2, "cosine": 0.7689, "parent_title": "伊朗官员：两艘渔船遭无人机袭击 多名渔民失踪", "child_title": "伊朗官员：两艘渔船遭无人机袭击 多名渔民失踪"}
+{"parent": "s0786", "child": "s0855", "day": "2026-09-24", "n_parent": 5, "n_child": 2, "cosine": 0.8033, "parent_title": "董军同老挝副总理兼国防部长举行会谈", "child_title": "国防部：北京香山论坛每一次对话倾听都为和平增添一分希望"}
+{"parent": "s0801", "child": "s0878", "day": "2026-09-27", "n_parent": 8, "n_child": 4, "cosine": 0.7857, "parent_title": "菲船只碰撞我海警艇，中国海警正告菲方", "child_title": "菲船只碰撞我海警艇，中国海警正告菲方"}
+{"parent": "s0801", "child": "s0879", "day": "2026-09-27", "n_parent": 5, "n_child": 3, "cosine": 0.8611, "parent_title": "菲船只碰撞我海警艇，中国海警正告菲方", "child_title": "中国人民解放军南部战区位黄岩岛周边海空域组织海空联合演训"}
+{"parent": "s0801", "child": "s0885", "day": "2026-09-28", "n_parent": 4, "n_child": 2, "cosine": 0.8588, "parent_title": "菲船只碰撞我海警艇，中国海警正告菲方", "child_title": "中国海警在黄岩岛附近海域组织维权执法管控演练"}
+{"parent": "s0817", "child": "s0895", "day": "2026-09-29", "n_parent": 4, "n_child": 2, "cosine": 0.8391, "parent_title": "乌克兰空军一架F-16战机坠毁", "child_title": "乌克兰空军一架F-16战机坠毁"}
