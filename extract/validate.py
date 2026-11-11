@@ -162,9 +162,19 @@ def canonicalize_role(role: str) -> str | None:
     return None
 
 
+_VAGUE = re.compile(
+    r"^(?:这|该|此|其|上述|前述)"
+    r"(?:些|批|种|类)?"
+    r"(?:[一二两三四五六七八九十数多几]|\d+)?"
+    r"(?:艘|架|名|位|个|批|支|家|辆|枚|部|座|处|款|群|队)?"
+)
+
+
 def is_pronoun(text: str) -> bool:
     t = (text or "").strip()
-    if t in PRONOUNS or t in ("该", "此", "这"):
+    if t in PRONOUNS or t in ("该", "此", "这", "其"):
+        return True
+    if _VAGUE.match(t):
         return True
     return t.casefold() in EN_PRONOUNS
 

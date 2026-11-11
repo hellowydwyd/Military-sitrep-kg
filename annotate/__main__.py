@@ -1,25 +1,21 @@
-"""python -m annotate [--host 127.0.0.1] [--port 8765]"""
+"""python -m annotate [--host 0.0.0.0] [--port 8767]
+
+三任务标注服务：NER / EE / RE 分卷标注。
+"""
 
 from __future__ import annotations
 
 import argparse
-import sys
-from pathlib import Path
 
-# 保证仓库根在 path 上
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
-
-from annotate.server import run
+from annotate.task_server import run
 
 
 def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description="开放事件标注前端（P1 试点）")
-    p.add_argument("--host", default="127.0.0.1")
-    p.add_argument("--port", type=int, default=8765)
-    args = p.parse_args(argv)
-    run(host=args.host, port=args.port)
+    p = argparse.ArgumentParser(description="三任务标注服务")
+    p.add_argument("--host", default="0.0.0.0")
+    p.add_argument("--port", type=int, default=8767)
+    a = p.parse_args(argv)
+    run(a.host, a.port)
     return 0
 
 

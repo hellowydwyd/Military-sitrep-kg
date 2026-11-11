@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 import time
 from pathlib import Path
 from typing import Optional
@@ -57,13 +58,15 @@ def chat_json(
     *,
     temperature: float = 0.0,
     retries: int = 3,
-    timeout: int = 90,
+    timeout: int = 180,
+    max_tokens: int = 8000,
 ) -> str:
     key, base, model = resolve_client()
     url = base + "/chat/completions"
     payload = {
         "model": model,
         "temperature": temperature,
+        "max_tokens": max_tokens,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
@@ -71,17 +74,32 @@ def chat_json(
     }
     headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
     last: Exception | None = None
+    # 连接与读取分开限时，避免逐字节回传时整体超时被绕过
+    deadline = (min(15, timeout), max(60, timeout))
     for attempt in range(retries):
         try:
-            resp = requests.post(url, json=payload, headers=headers, timeout=timeout)
+            resp = requests.post(url, json=payload, headers=headers, timeout=deadline)
             if resp.status_code in (429, 500, 502, 503):
                 time.sleep(1.5 * (attempt + 1))
                 last = RuntimeError(f"HTTP {resp.status_code}")
                 continue
             resp.raise_for_status()
             data = resp.json()
-            return data["choices"][0]["message"]["content"]
-        except (requests.RequestException, KeyError, json.JSONDecodeError, RuntimeError) as exc:
+            choice = data["choices"][0]
+            content = choice["message"]["content"]
+            if not isinstance(content, str) or not content.strip():
+                last = RuntimeError("空响应")
+                time.sleep(1.0 * (attempt + 1))
+                continue
+            finish = str(choice.get("finish_reason") or "")
+            if finish == "length":
+                # 输出被 token 上限截断，结果不完整，按失败重试
+                last = RuntimeError("输出被截断 finish_reason=length")
+                print(f"  [warn] 输出截断，重试第 {attempt + 1} 次", file=sys.stderr)
+                time.sleep(1.0 * (attempt + 1))
+                continue
+            return content
+        except (requests.RequestException, KeyError, IndexError, TypeError, json.JSONDecodeError, RuntimeError) as exc:
             last = exc
             time.sleep(1.0 * (attempt + 1))
     raise RuntimeError(f"LLM 调用失败: {last}")

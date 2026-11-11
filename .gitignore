@@ -3,17 +3,35 @@ __pycache__/
 .venv/
 *.egg-info/
 .env
-data/raw/cmnee/
+.vscode/
+.pytest_cache/
+
+# 采集与去重
 data/seen.sqlite
+data/raw/cmnee/
 data/reports/
+
+# 抽取与写图产物（体积大，换机器重跑）
 data/extract/
 data/graph/
+data/archive/
+
+# 维基百科索引压缩包（212MB，可用 ingest.zhwiki 重新下载）
+data/zhwiki/
+
+# 评测数据集（外部语料，364MB）
+eval/story_discovery/
+
+# 向量与调参中间件
 data/theme/embed.npz
-align/cache/
-.vscode/
 data/theme/assign_tune_grid.json
 data/theme/assign_tune_grid_sp.json
 data/theme/*nosplit*
 data/theme/*_sp0.82*
 data/theme/*_sp0.92*
+align/cache/
+
+# 标注记录随标注员产生，不入库
+data/annotations/*.jsonl
+
 !data/.gitkeep

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 
+from extract.validate import is_pronoun
 from actor.aliases import en_canon_of, is_en_generic
 from actor.types import COUNTRIES, COUNTRY_ALIAS, GENERIC_MIL, ORG_SEED, PERSON_SEED, country_of
 
@@ -147,7 +148,8 @@ PERSON_PREFIX = re.compile(
 NAMED_EQUIP = re.compile(
     r"号(?:航母|驱逐舰|护卫舰|巡洋舰|潜艇|舰)?|号$|"
     r"F-\d|MQ-\d|歼-\d|轰-\d|运-\d|苏-\d|KC-\d|"
-    r"爱国者|萨德|阿帕奇|死神|黑鹰|海马斯|朱姆沃尔特|尼米兹|福特级"
+    r"爱国者|萨德|阿帕奇|死神|黑鹰|海马斯|朱姆沃尔特|尼米兹|福特级|"
+    r"铁穹|铁光束|铁束"
 )
 
 SHIP_STRIP = (
@@ -176,6 +178,9 @@ SYSTEM_KEYS = (
     ("MQ－9", "MQ-9"),
     ("爱国者", "爱国者"),
     ("萨德", "萨德"),
+    ("铁穹", "铁穹"),
+    ("铁光束", "铁束"),
+    ("铁束", "铁束"),
     ("阿帕奇", "阿帕奇"),
     ("黑鹰", "黑鹰"),
     ("海马斯", "海马斯"),
@@ -272,6 +277,16 @@ def is_clause(text: str) -> bool:
     return False
 
 
+_NAME_TAIL = re.compile(r"^[\u4e00-\u9fff·•A-Za-z][\u4e00-\u9fff·•A-Za-z.\- ]{0,16}$")
+
+
+def _has_personal_name(text: str, title: str) -> bool:
+    if person_seed_of(text):
+        return True
+    tail = text.split(title)[-1].lstrip("的").strip()
+    return bool(tail) and bool(_NAME_TAIL.fullmatch(tail))
+
+
 def keep_surface(text: str, role: str = "") -> bool:
     t = (text or "").strip()
     if len(t) < 2 or len(t) > 28:
@@ -284,7 +299,9 @@ def keep_surface(text: str, role: str = "") -> bool:
         return False
     if t.endswith(("无人机", "导弹", "战机", "弹药", "雷达")) and not NAMED_EQUIP.search(t):
         return False
-    if t.startswith(("此次", "该项", "该", "其", "一名", "一架", "一部", "一艘", "三艘", "数艘")):
+    if is_pronoun(t) or t.startswith(("此次", "该项", "一名", "一架", "一部", "一艘", "三艘", "数艘")):
+        return False
+    if "发言人" in t and not _has_personal_name(t, "发言人"):
         return False
     if t.endswith(("商船", "油轮", "桥梁", "淡化厂", "快艇", "部队")) and not t.endswith(("革命卫队", "武装部队")):
         return False

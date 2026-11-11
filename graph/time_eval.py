@@ -8,9 +8,9 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections import Counter
 from pathlib import Path
 
-from extract.compare import load_rows, metrics
 from graph.store import build_graph, load_openie, load_graph, save_graph, stats
 from graph.time import event_meta
 from reason.daily import events_on_day
@@ -19,6 +19,69 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 GOLD = DATA / "eval" / "time_gold.json"
 SEQ_CUES = ("随后", "之后", "接着", "然后")
+TALK = ("称", "表示", "透露", "指出", "强调", "警告", "声称", "认为", "说", "谴责", "批评")
+
+
+def load_rows(path: Path) -> dict[str, dict]:
+    """读抽取 JSONL，按 doc_id 建索引。"""
+    out = {}
+    for line in Path(path).read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        row = json.loads(line)
+        if row.get("doc_id"):
+            out[row["doc_id"]] = row
+    return out
+
+
+def metrics(rows: list[dict]) -> dict:
+    """粒度、时间、摘录三类指标。"""
+    n_chunk = n_ev = n_talk = empty_raw = dup = no_actor = evd_ok = 0
+    ev_per = []
+    kinds: Counter = Counter()
+    for r in rows:
+        for c in r.get("chunks") or []:
+            evs = c.get("events") or []
+            n_chunk += 1
+            n_ev += len(evs)
+            ev_per.append(len(evs))
+            ct = Counter(e.get("trigger") for e in evs)
+            dup += sum(v - 1 for v in ct.values() if v > 1)
+            for e in evs:
+                t = e.get("trigger") or ""
+                if any(k in t for k in TALK):
+                    n_talk += 1
+                rt = (e.get("raw_time") or "").strip()
+                if not rt or rt in ("空", "无"):
+                    empty_raw += 1
+                if not any(
+                    k in str(a.get("role"))
+                    for k in ("主体", "发起", "参与")
+                    for a in e.get("arguments") or []
+                ):
+                    no_actor += 1
+                evd = e.get("evidence") or ""
+                if evd and t and t in evd:
+                    evd_ok += 1
+                k = e.get("kind") or ""
+                if k:
+                    kinds[k] += 1
+    total = n_ev or 1
+    p90 = sorted(ev_per)[int(len(ev_per) * 0.9)] if ev_per else 0
+    return {
+        "docs": len(rows),
+        "chunks": n_chunk,
+        "events": n_ev,
+        "ev_per_chunk_mean": round(sum(ev_per) / len(ev_per), 2) if ev_per else 0,
+        "ev_per_chunk_p90": p90,
+        "ev_per_chunk_max": max(ev_per) if ev_per else 0,
+        "talk_pct": round(100 * n_talk / total, 1),
+        "empty_raw_pct": round(100 * empty_raw / total, 1),
+        "dup_extra": dup,
+        "no_actor": no_actor,
+        "evidence_has_trigger_pct": round(100 * evd_ok / total, 1),
+        "kinds": dict(kinds),
+    }
 
 
 def _load_gold() -> dict:

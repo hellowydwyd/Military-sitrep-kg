@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <title>三任务标注</title>
+  <link rel="stylesheet" href="task.css?v=4" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">标</span>
+      <div class="brand-text">
+        <h1>军事新闻三任务标注</h1>
+        <p id="subtitle">NER 实体识别</p>
+      </div>
+    </div>
+
+    <nav class="seg" id="task-seg" role="tablist">
+      <button class="seg-btn on" data-task="ner">实体 NER</button>
+      <button class="seg-btn" data-task="ee">事件 EE</button>
+      <button class="seg-btn" data-task="re">关系 RE</button>
+    </nav>
+
+    <div class="right">
+      <div class="pill-group" id="split-seg">
+        <button class="pill on" data-split="train">train</button>
+        <button class="pill" data-split="dev">dev</button>
+        <button class="pill" data-split="test">test</button>
+      </div>
+      <label class="who">
+        标注员
+        <input id="annotator" value="A" maxlength="2" />
+      </label>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="rail">
+      <div class="stat-card">
+        <div class="stat-num" id="remain">0</div>
+        <div class="stat-lbl">本卷剩余</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-mini">
+          <span id="total-docs">0</span>
+          <em>总篇数</em>
+        </div>
+        <div class="stat-mini">
+          <span id="done-docs">0</span>
+          <em>已标</em>
+        </div>
+      </div>
+
+      <div class="rail-sec">
+        <div class="rail-title">本卷进度</div>
+        <div class="bar-track"><div class="bar-fill" id="bar"></div></div>
+        <div class="rail-note" id="bar-note">0%</div>
+      </div>
+
+      <div class="rail-sec">
+        <div class="rail-title">本篇候选</div>
+        <div class="cnt-row"><span class="dot keep"></span><em id="cnt-keep">0</em><em class="muted">保留</em></div>
+        <div class="cnt-row"><span class="dot modify"></span><em id="cnt-modify">0</em><em class="muted">修改</em></div>
+        <div class="cnt-row"><span class="dot drop"></span><em id="cnt-drop">0</em><em class="muted">删除</em></div>
+        <div class="cnt-row"><span class="dot manual"></span><em id="cnt-add">0</em><em class="muted">补标</em></div>
+      </div>
+
+      <div class="rail-sec grow">
+        <div class="rail-title">操作提示</div>
+        <ul class="hints">
+          <li><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> 保留 / 修改 / 删除</li>
+          <li><kbd>←</kbd><kbd>→</kbd> 切换候选，点高亮同效</li>
+          <li><kbd>/</kbd> 进入框选，拖选即补标</li>
+          <li><kbd>Enter</kbd> 提交并下一篇</li>
+          <li><kbd>Esc</kbd> 退出框选</li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="docpane">
+      <div class="doc-head">
+        <div class="doc-titlewrap">
+          <h2 id="doctitle">加载中</h2>
+          <div class="doc-meta" id="docmeta"></div>
+        </div>
+        <div class="doc-tools">
+          <span id="hint" class="hint"></span>
+          <button id="select-mode" class="ghost">框选补标</button>
+        </div>
+      </div>
+      <div class="text" id="text"></div>
+    </section>
+
+    <aside class="judge">
+      <div class="judge-head">
+        <span class="judge-title">候选判定</span>
+        <span class="judge-sub" id="schema-brief"></span>
+      </div>
+      <div class="cands" id="cands"></div>
+      <div class="actions">
+        <textarea id="notes" rows="2" placeholder="备注：争议点、为什么判其他、漏标说明"></textarea>
+        <div class="act-row">
+          <button id="clear" class="ghost">清空</button>
+          <button id="skip" class="ghost">跳过</button>
+          <button id="submit" class="primary">提交并下一篇</button>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="tip" id="tip"></div>
+  <script src="task.js?v=4"></script>
+</body>
+</html>

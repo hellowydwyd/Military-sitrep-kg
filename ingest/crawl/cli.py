@@ -47,6 +47,7 @@ def _run_source(
     limit: int,
     force: bool,
     since: datetime | None,
+    until: datetime | None = None,
 ) -> tuple[list[NewsDoc], dict]:
     stats = {
         "listed": 0,
@@ -58,6 +59,8 @@ def _run_source(
     kwargs: dict = {"max_items": limit}
     if since is not None:
         kwargs["since"] = since
+    if until is not None:
+        kwargs["until"] = until
     items = module.fetch_list(session, **kwargs)
     stats["listed"] = len(items)
     docs: list[NewsDoc] = []
@@ -148,6 +151,7 @@ def cmd_crawl(args: argparse.Namespace) -> int:
                 limit=args.limit,
                 force=args.force,
                 since=since,
+                until=until,
             )
             all_docs.extend(docs)
             print(
@@ -173,8 +177,8 @@ def cmd_crawl(args: argparse.Namespace) -> int:
             report_path,
             notes=(
                 [
-                    "source=rss_api，英语白名单；RSS 有全文用 contentText，否则补爬 HTML",
-                    "不覆盖环球网；拦爬源与 topwar 不入库",
+                    "source=rss_api；默认不按军事分组过滤。语言按 --lang，拦爬源不入库",
+                    "RSS 有全文用 contentText，否则补爬 HTML；不覆盖环球网",
                 ]
                 if args.source == "rss"
                 else None
@@ -229,21 +233,20 @@ def main(argv: list[str] | None = None) -> int:
         sp.add_argument("--until", default=None, help="截止日期（含），RSS 源可用")
         sp.add_argument(
             "--variant",
-            default="military",
-            choices=["military", "intel"],
-            help="RSS 采集分组",
+            default="all",
+            help="RSS 分组。默认 all，不按军事或其他 variant 过滤；也可指定 military、intel、tech 等",
         )
         sp.add_argument(
             "--lang",
             default="en",
-            help="RSS 语言：en 只收英语源；all 收白名单全部语言",
+            help="RSS 语言：en 只收英语；all 不按语言过滤",
         )
         sp.add_argument("--min-docs", type=int, default=1)
         sp.add_argument(
             "--per-day",
             type=int,
             default=0,
-            help="RSS：每个见报日最多入库篇数（0 不截）。优先全文+冲突源",
+            help="RSS：每个见报日最多入库篇数（0 不截）。优先保留已有全文的稿",
         )
 
     sm = sub.add_parser("smoke", help="验收：少量稿件并写报告")

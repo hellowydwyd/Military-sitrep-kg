@@ -8,6 +8,8 @@ from pathlib import Path
 
 from extract.validate import canonicalize_role, is_pronoun
 from actor.clean import canonicalize_surface
+from ingest.datatypes import classify
+from actor.person import parse_person_surface, raw_type_index
 from actor.config import (
     ACTOR_DIR,
     EXTRACT_PATH,
@@ -37,16 +39,38 @@ def harvest_extract(path: Path | None = None) -> list[dict]:
         url = rec.get("url") or ""
         source = rec.get("source") or ""
         lang = rec.get("lang") or ""
-        source_name = rec.get("source_name") or rec.get("extra", {}).get("outlet") or ""
+        extra = rec.get("extra") if isinstance(rec.get("extra"), dict) else {}
+        source_name = rec.get("source_name") or extra.get("outlet") or ""
         if source == "huanqiu_mil":
             source_name = source_name or "环球网军事"
         elif source == "rss_api":
             source_name = source_name or "RSS"
+        data_type = str(rec.get("data_type") or "") or classify(source, extra)
+        if not data_type and doc_id:
+            data_type = raw_type_index().get(doc_id, "")
         for ci, ch in enumerate(rec.get("chunks") or []):
             hay = ch.get("text") or ""
             for ei, ev in enumerate(ch.get("events") or []):
                 trig = str(ev.get("trigger") or "").strip()
                 kind = str(ev.get("kind") or "").strip()
+                raw_time = str(ev.get("raw_time") or "").strip()
+                places: list[str] = []
+                subjects: list[str] = []
+                objects: list[str] = []
+                for arg in ev.get("arguments") or []:
+                    if not isinstance(arg, dict):
+                        continue
+                    role = canonicalize_role(str(arg.get("role") or ""))
+                    text = str(arg.get("text") or "").strip()
+                    if not text or is_pronoun(text):
+                        continue
+                    if role == "地点":
+                        places.append(text)
+                    elif role == "主体":
+                        subjects.append(text)
+                    elif role == "对象":
+                        objects.append(text)
+                place = "、".join(dict.fromkeys(places))
                 for arg in ev.get("arguments") or []:
                     if not isinstance(arg, dict):
                         continue
@@ -62,6 +86,9 @@ def harvest_extract(path: Path | None = None) -> list[dict]:
                     if len(text) < MIN_NAME_CHARS or len(text) > MAX_NAME_CHARS:
                         continue
                     typ = rule_type(text, role) or ""
+                    identity = parse_person_surface(raw)
+                    pool = objects if role == "主体" else subjects if role == "对象" else []
+                    argument = raw.strip()
                     rows.append(
                         {
                             "mention_id": f"m{mid:06d}",
@@ -72,12 +99,22 @@ def harvest_extract(path: Path | None = None) -> list[dict]:
                             "source": source,
                             "source_name": source_name,
                             "lang": lang,
+                            "data_type": data_type,
                             "chunk_i": ci,
                             "event_i": ei,
                             "trigger": trig,
                             "kind": kind,
+                            "raw_time": raw_time,
+                            "place": place,
+                            "counterpart": "、".join(
+                                dict.fromkeys(x for x in pool if x != text and x != argument)
+                            ),
                             "role": role,
                             "surface": text,
+                            "argument": argument,
+                            "post": identity["post"],
+                            "nationality": identity["nationality"],
+                            "org": identity["org"],
                             "type_rule": typ,
                             "evidence": (hay[:180] if hay else title),
                             "via": "extract",
@@ -149,6 +186,7 @@ def harvest_stats(rows: list[dict]) -> dict:
         "roles": dict(Counter(r["role"] for r in rows)),
         "via": dict(Counter(r.get("via") or "extract" for r in rows)),
         "sources": dict(Counter(r.get("source") or "" for r in rows)),
+        "data_types": dict(Counter(r.get("data_type") or "" for r in rows)),
         "langs": dict(Counter(r.get("lang") or "" for r in rows)),
         "typed": sum(1 for r in rows if r.get("type_rule")),
         "days": sorted({r["day"] for r in rows if r.get("day")}),

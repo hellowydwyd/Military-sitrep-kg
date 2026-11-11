@@ -99,11 +99,8 @@ function monthLabel(k) {
       if (aM === bM) return aM + "月" + aD + "–" + bD + "日";
       return aM + "月" + aD + "日–" + bM + "月" + bD + "日";
     }
-    if (a === "2026-04" && b === "2026-09") {
-      return "全程（4–9月）";
-    }
-    if (a === "2026-04" && b === "2026-08") {
-      return "4–8月";
+    if (a === "2026-01" && b === "2026-10") {
+      return "全程（1–10月）";
     }
     return Number(a.slice(5)) + "–" + Number(b.slice(5)) + "月对照";
   }
@@ -118,7 +115,7 @@ function sliceKeys() {
   const months = keys.filter((k) => k.length === 7).sort();
   const days = keys.filter((k) => k.length === 10).sort();
   const spans = keys.filter((k) => k.includes("~")).sort();
-  const hide = keys.includes("2026-04~2026-09") ? new Set(["2026-04~2026-08"]) : new Set();
+  const hide = new Set(["2026-04~2026-08", "2026-04~2026-09"]);
   return months.concat(days).concat(spans.filter((k) => !hide.has(k)));
 }
 

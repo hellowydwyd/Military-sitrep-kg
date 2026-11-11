@@ -77,12 +77,20 @@ def _iso_dt(value: Optional[str]) -> Optional[datetime]:
         return None
 
 
+def _until_end(until: datetime) -> datetime:
+    """日期参数按整天含入，例如 2026-03-31 收到当天 23:59:59。"""
+    if until.hour == until.minute == until.second == until.microsecond == 0:
+        return until.replace(hour=23, minute=59, second=59)
+    return until
+
+
 def fetch_list(
     session: PoliteSession,
     *,
     max_items: int = 40,
     page_size: int = 20,
     since: Optional[datetime] = None,
+    until: Optional[datetime] = None,
 ) -> list[ListItem]:
     tree = session.get(CHANNEL_API, json_mode=True, headers=_HQ_API_HEADERS).json()
     nodes = _pick_nodes(tree)
@@ -91,12 +99,14 @@ def fetch_list(
     offset = 0
     seen = set()
     hit_old = False
-    while len(items) < max_items and not hit_old:
+    until_end = _until_end(until) if until is not None else None
+    while len(items) < max_items and not hit_old and offset <= 40000:
         node_enc = quote(node_q, safe=',"/')
         url = f"{HOST}/api/list?node={node_enc}&offset={offset}&limit={page_size}"
         payload = session.get(url, json_mode=True, headers=_HQ_API_HEADERS).json()
         rows = payload.get("list") or []
-        got = 0
+        if not rows:
+            break
         for row in rows:
             if not isinstance(row, dict) or not row.get("aid"):
                 continue
@@ -115,6 +125,8 @@ def fetch_list(
                 continue
             pub = ts_to_iso(row.get("ctime") or row.get("xtime"))
             pub_dt = _iso_dt(pub)
+            if until_end and pub_dt and pub_dt > until_end:
+                continue
             if since and pub_dt and pub_dt < since:
                 hit_old = True
                 continue
@@ -129,11 +141,8 @@ def fetch_list(
                     addltype=addl,
                 )
             )
-            got += 1
             if len(items) >= max_items:
                 break
-        if got == 0 and not hit_old:
-            break
         print(f"  [list] offset={offset} collected={len(items)} hit_old={hit_old}")
         offset += page_size
     return items[:max_items]

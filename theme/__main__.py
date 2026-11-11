@@ -68,19 +68,28 @@ def cmd_assign(
     grid_sp: bool,
     entity_block: bool,
     all_days: bool,
+    day_from: str | None,
+    day_to: str | None,
+    span: str | None,
 ) -> int:
     from theme.assign import grid_split, grid_theta, run_assign, write_assign
 
+    day_from = day_from or TUNE_FROM
+    day_to = day_to or (TEST_TO if all_days else TUNE_TO)
+    use_span = span or ("all" if all_days or day_from < TUNE_FROM else "tune")
     tag = (
-        f"tune_{'split' if do_split else 'nosplit'}"
+        f"{'all' if use_span == 'all' else 'tune'}_{'split' if do_split else 'nosplit'}"
         f"_t{theta_in:.2f}_d{delta}"
         + ("_elink" if entity_block else "")
         + (f"_sp{theta_sp:.2f}" if do_split else "")
     )
+    default_to = TEST_TO if all_days else TUNE_TO
+    if day_from != TUNE_FROM or day_to != default_to:
+        tag = f"{day_from}_{day_to}_{tag}"
     out = run_assign(
-        split="all" if all_days else "tune",
-        day_from=TUNE_FROM,
-        day_to=TEST_TO if all_days else TUNE_TO,
+        split=use_span,
+        day_from=day_from,
+        day_to=day_to,
         theta_in=theta_in,
         delta=delta,
         do_split=do_split,
@@ -187,6 +196,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--grid-sp", action="store_true", help="顺带扫一组 θ_sp（有分裂）")
     ap.add_argument("--entity-block", action="store_true", help="标题战场不相交则禁止并入")
     ap.add_argument("--all-days", action="store_true", help="接线到测试段末日，纳入 RSS")
+    ap.add_argument("--from", dest="day_from", default=None, help="接线起始日，如 2026-01-01")
+    ap.add_argument("--to", dest="day_to", default=None, help="接线截止日，如 2026-03-31")
+    ap.add_argument("--span", default=None, choices=["tune", "all"], help="tune 只接调参段；all 含 other")
     sp = sub.add_parser("slice", help="查询窗 ThemeSlice（只读调参段接线）")
     sp.add_argument("--from", dest="day_from", default="2026-08-01")
     sp.add_argument("--to", dest="day_to", default=TUNE_TO)
@@ -225,6 +237,9 @@ def main(argv: list[str] | None = None) -> int:
             grid_sp=args.grid_sp,
             entity_block=args.entity_block,
             all_days=args.all_days,
+            day_from=args.day_from,
+            day_to=args.day_to,
+            span=args.span,
         )
     if args.cmd == "slice":
         return cmd_slice(

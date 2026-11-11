@@ -32,8 +32,8 @@ from theme.config import (
     THETA_ATTACH,
     THETA_THEME,
     THETA_UNLABELED,
-    TEST_TO,
-    TUNE_FROM,
+    WINDOW_FROM,
+    WINDOW_TO,
     Z_EPS,
     Z_MAX,
 )
@@ -506,8 +506,8 @@ def build_slice(
     name_mode: str = "auto",
 ) -> dict:
     tag = tag or default_assign_tag()
-    if ta < TUNE_FROM or tb > TEST_TO:
-        raise ValueError(f"查询窗须在 {TUNE_FROM}～{TEST_TO}，收到 {ta}～{tb}")
+    if ta < WINDOW_FROM or tb > WINDOW_TO:
+        raise ValueError(f"查询窗须在 {WINDOW_FROM}～{WINDOW_TO}，收到 {ta}～{tb}")
     stories, assigns = load_story_lib(tag)
     cat_by = {
         r["doc_id"]: r

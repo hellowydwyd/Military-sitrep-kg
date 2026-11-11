@@ -278,6 +278,44 @@ ORG_SEED = {
     "韩军联参",
     "联参",
 }
+PLACE_ENDS = (
+    "国际机场",
+    "机场",
+    "航站楼",
+    "空军基地",
+    "海军基地",
+    "基地",
+    "港口",
+    "码头",
+    "海峡",
+    "附近地区",
+    "地区",
+    "海域",
+    "空域",
+    "居住区",
+    "油田",
+    "炼油厂",
+    "大桥",
+    "桥梁",
+    "阵地",
+    "设施",
+)
+ORG_ENDS = (
+    "大使馆",
+    "领事馆",
+    "办公室",
+    "委员会",
+    "大学",
+    "学院",
+    "司令部",
+    "总部",
+    "参谋部",
+    "卫队",
+    "防卫省",
+    "国防部",
+    "外交部",
+    "联合参谋本部",
+)
 PERSON_HINT = (
     "总统",
     "总理",
@@ -348,6 +386,8 @@ MIL_HINT = (
     "潜艇",
     "爱国者",
     "萨德",
+    "铁穹",
+    "铁束",
     "F-35",
     "F-16",
     "苏-35",
@@ -383,7 +423,14 @@ def rule_type(text: str, role: str = "") -> str | None:
         return "MilitaryEntity"
     if country_of(t) and t not in ORG_SEED and not t.endswith("军"):
         return "Country"
-    if t.endswith(("司令部", "卫队", "防卫省", "国防部", "外交部", "参谋部", "联合参谋本部")):
+    if t.endswith("令") and not t.endswith("司令") or t.endswith(("协议", "条约", "协定", "备忘录", "法案", "决议", "命令", "声明", "文件")):
+        if "·" not in t:
+            return "Document"
+    if t.endswith(("会议", "会谈", "演习")) and "·" not in t:
+        return None
+    if any(t.endswith(s) for s in PLACE_ENDS):
+        return "Location"
+    if any(t.endswith(s) for s in ORG_ENDS):
         return "Org"
     if any(h in t for h in PERSON_HINT) and len(t) <= 28:
         return "Person"

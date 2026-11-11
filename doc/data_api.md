@@ -2,6 +2,8 @@
 
 面向外部研究与安全分析场景的只读数据接口,提供军事、情报安全领域新闻的结构化检索。 接口基于统一的 RSS 新闻归档服务。 本文档描述该服务在军事 / 情报安全场景下的专用调用方式、数据构成与边界。通用字段 语义、表结构、限流机制以主文档为准,不在此重复。
 
+> 主文档 `rss-archive-api.md` 由服务提供方维护，不在本仓库。下文中指向它的章节链接已失效，保留文字描述作为参照。
+
 ## 基本信息
 
 
@@ -89,7 +91,7 @@ The War Zone、Defense News、Task & Purpose 等)。
 
 ## 响应结构
 
-响应格式与主接口一致,详见 [rss-archive-api.md § 接口](./rss-archive-api.md)。
+响应格式与主接口一致,详见 rss-archive-api.md § 接口。
 军事 / 情报安全场景下的典型条目示例:
 
 ```json
@@ -132,7 +134,7 @@ The War Zone、Defense News、Task & Purpose 等)。
 (`articleCount=0`),信源数量不代表实际数据量。
 - 其余通用数据边界(作者 / 分类标签 / 正文字段的补齐时间点、`publishedAt`
 未经校验、Google News 代理源不可达等)见主文档
-[§ 数据边界](./rss-archive-api.md#数据边界请先读这节)。
+§ 数据边界。
 
 
 
@@ -141,5 +143,5 @@ The War Zone、Defense News、Task & Purpose 等)。
 本接口与主接口共用限流与授权规则:每 IP 每分钟 60 次请求,每 IP 每小时 10 万行
 返回量,超限返回 `429` 并附 `Retry-After`。数据引用需标注 `url`、`source`、
 `author` 字段;涉及原文内容再分发的,需自行确认对应信源的授权条款。详见主文档
-[§ 限流](./rss-archive-api.md#限流)与
-[§ 引用与版权](./rss-archive-api.md#引用与版权)。
+§ 限流与
+§ 引用与版权。

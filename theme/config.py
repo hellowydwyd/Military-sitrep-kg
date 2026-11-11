@@ -16,11 +16,14 @@ MODEL_ID = "BAAI/bge-small-zh-v1.5"
 MODEL_PATH = Path("/data/users/wyd/models/embedding/bge-small-zh-v1.5")
 EMBED_DIM = 512
 
-# 见报日闭区间
+# 见报日闭区间。调参/测试切分看数后不得改。
 TUNE_FROM = "2026-03-29"
 TUNE_TO = "2026-08-31"
 TEST_FROM = "2026-09-01"
 TEST_TO = "2026-10-02"
+# 查询窗可以盖住已入库的见报日。调参/测试切分仍停在 TUNE_* / TEST_*。
+WINDOW_FROM = "2026-01-01"
+WINDOW_TO = "2026-10-31"
 GOLD_FROM = "2026-09-19"
 GOLD_TO = "2026-10-02"
 

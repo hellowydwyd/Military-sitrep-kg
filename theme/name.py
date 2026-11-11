@@ -210,18 +210,25 @@ def _parse_names(raw: str) -> dict[str, str]:
 
 
 def llm_names(items: list[dict]) -> tuple[dict[str, str], str]:
-    """items: {id, titles}。返回 (id→name, model)。失败抛异常。"""
+    """items: {id, titles}。返回 (id→name, model)。按批请求，避免一次输出被截断。"""
     from extract.llm import chat_json, resolve_client
 
     _key, _base, model = resolve_client()
-    payload = {
-        "items": [
-            {"id": it["id"], "titles": sample_titles(it["docs"], 15) if "docs" in it else it.get("titles") or []}
-            for it in items
-        ]
-    }
-    raw = chat_json(SYSTEM, json.dumps(payload, ensure_ascii=False), temperature=0.0, timeout=120)
-    return _parse_names(raw), model
+    mapping: dict[str, str] = {}
+    step = 20
+    for start in range(0, len(items), step):
+        chunk = items[start : start + step]
+        payload = {
+            "items": [
+                {"id": it["id"], "titles": sample_titles(it["docs"], 8) if "docs" in it else it.get("titles") or []}
+                for it in chunk
+            ]
+        }
+        raw = chat_json(SYSTEM, json.dumps(payload, ensure_ascii=False), temperature=0.0, timeout=120)
+        mapping.update(_parse_names(raw))
+    if not mapping:
+        raise RuntimeError("LLM 起名没有返回可用名称")
+    return mapping, model
 
 
 def apply_names(payload: dict, *, mode: str = "auto") -> dict:

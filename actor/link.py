@@ -76,9 +76,15 @@ def surfaces_of(mentions: list[dict]) -> dict[str, dict]:
     out = {}
     for s, rec in bag.items():
         voted = rec["type_votes"].most_common(1)[0][0] if rec["type_votes"] else ""
-        if not voted:
-            top_role = rec["roles"].most_common(1)[0][0]
-            voted = rule_type(s, top_role) or ""
+        top_role = rec["roles"].most_common(1)[0][0]
+        fresh = rule_type(s, top_role) or ""
+        # 旧提及把「总统令」标成人物时，以新规则为准。
+        if fresh and fresh != "Person" and (not voted or voted == "Person"):
+            voted = fresh
+        elif not voted:
+            voted = fresh
+        elif not fresh and voted == "Person" and s.endswith(("演习", "会议", "会谈")):
+            voted = ""
         out[s] = {
             "surface": s,
             "n": rec["n"],

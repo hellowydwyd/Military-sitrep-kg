@@ -12,10 +12,10 @@ RSS_EXTRACT_PATH = DATA / "extract" / "openie_event_rss.jsonl"
 REPORT_DIR = DATA / "reports"
 WEB_DIR = ROOT / "theme" / "web"
 
-DEFAULT_FROM = "2026-04-01"
-DEFAULT_TO = "2026-09-30"
+DEFAULT_FROM = "2026-01-01"
+DEFAULT_TO = "2026-10-31"
 
-TYPES = ("Person", "Org", "Country", "MilitaryEntity", "Media")
+TYPES = ("Person", "Org", "Country", "MilitaryEntity", "Location", "Document", "Media")
 KEEP_ROLES = ("主体", "对象", "装备")
 MAX_NAME_CHARS = 36
 MIN_NAME_CHARS = 2

@@ -1,4 +1,4 @@
-"""合作方 RSS 归档 → NewsDoc。白名单源；RSS 有全文则用之，否则礼貌抓 HTML。"""
+"""合作方 RSS 归档 → NewsDoc。不按军事分组过滤；RSS 有全文则用之，否则礼貌抓 HTML。"""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import Any, Optional
 from urllib.parse import urlparse
 
-from ingest.crawl.allowlist import ALLOW_DOMAINS, BLOCKED_DOMAINS, EN_DOMAINS
+from ingest.crawl.allowlist import BLOCKED_DOMAINS
 from ingest.crawl.fulltext import (
     Fetcher,
     api_get,
@@ -25,41 +25,6 @@ from ingest.envelope import (
     build_doc,
     make_doc_id,
     ts_to_iso,
-)
-
-# 与环球网军事稿更可比的英文源（冲突/官方口径，不当百科铺开）
-PREFERRED_DOMAINS = frozenset(
-    {
-        "tass.com",
-        "jpost.com",
-        "ukrinform.net",
-        "en.mehrnews.com",
-        "en.interfax.com.ua",
-        "defensemirror.com",
-        "kyivpost.com",
-        "kyivindependent.com",
-        "ynetnews.com",
-    }
-)
-KINETIC_MARK = (
-    "missile",
-    "drone",
-    "strike",
-    "attack",
-    "troops",
-    "forces",
-    "idf",
-    "irgc",
-    "houthi",
-    "ukraine",
-    "israel",
-    "iran",
-    "saudi",
-    "yemen",
-    "intercept",
-    "airstrike",
-    "shelling",
-    "killed",
 )
 
 try:
@@ -98,15 +63,29 @@ def _detect_lang(*parts: str) -> str:
         return "unknown"
 
 
+def _want_lang(lang: str) -> str:
+    """空字符串表示不按语言过滤。en / en-only 都收英语。"""
+    if lang in ("", "all", "any"):
+        return ""
+    if lang in ("en", "en-only"):
+        return "en"
+    return lang
+
+
 def fetch_list(
     *,
     max_items: int,
-    variant: str = "military",
+    variant: str = "",
     since: datetime | None = None,
     until: datetime | None = None,
     lang: str = "en",
 ) -> list[RssItem]:
-    params: dict[str, Any] = {"variant": variant, "limit": min(1000, max(1, max_items))}
+    params: dict[str, Any] = {"limit": min(1000, max(1, max_items))}
+    if variant and variant not in ("all", "any"):
+        params["variant"] = variant
+    want_lang = _want_lang(lang)
+    if want_lang:
+        params["lang"] = want_lang
     if since is not None:
         params["from"] = since.date().isoformat()
     if until is not None:
@@ -164,11 +143,8 @@ def _parse_item(raw: dict) -> Optional[RssItem]:
 
 def overlap_score(item: RssItem) -> tuple:
     body = item.content_text or ""
-    blob = f"{item.title} {item.description} {body}".lower()
-    kin = sum(1 for k in KINETIC_MARK if k in blob)
     full = 1 if len(body.strip()) >= MIN_BODY_CHARS else 0
-    pref = 1 if item.domain in PREFERRED_DOMAINS else 0
-    return (full, pref, kin, len(body))
+    return (full, len(body))
 
 
 def cap_per_day(items: list[RssItem], per_day: int) -> list[RssItem]:
@@ -187,11 +163,21 @@ def cap_per_day(items: list[RssItem], per_day: int) -> list[RssItem]:
 def _skip_preview(item: RssItem, lang: str) -> bool:
     if item.domain in BLOCKED_DOMAINS:
         return True
-    if item.domain not in ALLOW_DOMAINS:
-        return True
-    if lang in ("en", "en-only") and item.domain not in EN_DOMAINS:
+    want = _want_lang(lang)
+    got = (item.lang_api or "").lower()
+    if want and got and not got.startswith(want):
         return True
     return False
+
+
+def _channel(item: RssItem) -> str:
+    cat = (item.category or "").strip()
+    variant = (item.variant or "").strip()
+    if cat == "intel-security" or variant == "intel":
+        return "情报安全"
+    if cat.startswith("military-") or variant == "military":
+        return "军事"
+    return cat or variant or "综合"
 
 
 def fetch_article(fetcher: Fetcher, item: RssItem) -> NewsDoc:
@@ -234,7 +220,7 @@ def fetch_article(fetcher: Fetcher, item: RssItem) -> NewsDoc:
         lang=lang if lang != "unknown" else "en",
     )
     doc.source_name = item.source_name
-    doc.channel = "军事" if item.variant != "intel" else "情报安全"
+    doc.channel = _channel(item)
     return doc
 
 
@@ -259,7 +245,7 @@ def run(
         "skipped_source": 0,
         "errors": 0,
     }
-    # 按日抽样时把窗口内白名单列表拉全，再打分截断
+    # 按日抽样时把窗口内列表拉全，再按正文长度截断
     list_cap = 20000 if per_day else max(limit * 4, limit)
     listed = fetch_list(
         max_items=list_cap,

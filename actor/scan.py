@@ -9,6 +9,7 @@ from actor.aliases import SEED_GROUPS
 from actor.clean import canonicalize_surface
 from actor.config import DATA, KEEP_ROLES
 from actor.types import COUNTRIES, COUNTRY_ALIAS, ORG_SEED, PERSON_SEED, rule_type
+from ingest.datatypes import classify
 
 
 def _lexicon() -> list[str]:
@@ -77,6 +78,7 @@ def harvest_scan(
                     "title": doc.title,
                     "source": doc.source,
                     "source_name": doc.source_name or "环球网军事",
+                    "data_type": classify(doc.source, doc.extra or {}, doc.channel),
                     "chunk_i": 0,
                     "event_i": 0,
                     "trigger": "",

@@ -3,6 +3,8 @@ const TYPE_ZH = {
   Org: "机构",
   Country: "国家",
   MilitaryEntity: "军事实体",
+  Document: "文件",
+  Location: "地点",
   Media: "媒体",
 };
 const TYPE_COLOR = {
@@ -10,6 +12,8 @@ const TYPE_COLOR = {
   Org: "#5ec4a0",
   Country: "#e2c17a",
   MilitaryEntity: "#d97a6c",
+  Document: "#c4b07a",
+  Location: "#7ec4b0",
   Media: "#8b97a8",
 };
 const TYPE_SHAPE = {
@@ -17,17 +21,65 @@ const TYPE_SHAPE = {
   Org: "hexagon",
   Country: "rect",
   MilitaryEntity: "diamond",
+  Document: "rect",
+  Location: "parallelogram",
   Media: "parallelogram",
 };
-const TYPE_ORDER = ["Country", "Org", "Person", "MilitaryEntity", "Media"];
-const KIND_ZH = { attacks: "打击", opposes: "对立", cooperates: "合作", belongs_to: "从属" };
+const TYPE_ORDER = ["Country", "Location", "Org", "Person", "Document", "MilitaryEntity", "Media"];
+const KIND_ZH = {
+  strikes: "打击",
+  intercepts: "拦截",
+  launches: "发射",
+  deploys: "部署",
+  withdraws: "撤离",
+  sanctions: "制裁",
+  condemns: "谴责",
+  threatens: "威胁",
+  confronts: "对峙",
+  meets: "会谈",
+  aids: "援助",
+  signs: "签署",
+  cooperates: "合作",
+  belongs_to: "从属",
+  attacks: "打击",
+  opposes: "对立",
+};
 const KIND_COLOR = {
+  strikes: "#e06a5c",
+  intercepts: "#c45c6a",
+  launches: "#d4846a",
+  deploys: "#5c8fd4",
+  withdraws: "#7aa0c4",
+  sanctions: "#e0a15c",
+  condemns: "#d4a15c",
+  threatens: "#d4a017",
+  confronts: "#c48a4a",
+  meets: "#4fb38a",
+  aids: "#3d9a78",
+  signs: "#6fbfa0",
+  cooperates: "#2f8f6e",
+  belongs_to: "#6d7788",
   attacks: "#e06a5c",
   opposes: "#e0a15c",
-  cooperates: "#4fb38a",
-  belongs_to: "#6d7788",
 };
-const KIND_ORDER = ["attacks", "opposes", "cooperates", "belongs_to"];
+const KIND_ORDER = [
+  "strikes",
+  "intercepts",
+  "launches",
+  "deploys",
+  "withdraws",
+  "sanctions",
+  "condemns",
+  "threatens",
+  "confronts",
+  "meets",
+  "aids",
+  "signs",
+  "cooperates",
+  "belongs_to",
+  "attacks",
+  "opposes",
+];
 const VW = 1180;
 const VH = 820;
 const WORLD_W = 6400;
@@ -40,6 +92,7 @@ let graphDrag = null;
 
 let S = window.ACTOR_SLICE;
 let selected = null;
+let selectedRel = null;
 let typeTab = "Country";
 let kindFilter = null;
 const tip = document.getElementById("tip");
@@ -90,8 +143,8 @@ function monthLabel(k) {
       if (aM === bM) return aM + "月" + aD + "–" + bD + "日";
       return aM + "月" + aD + "日–" + bM + "月" + bD + "日";
     }
-    if (a === "2026-04" && b === "2026-09") {
-      return "全程（4–9月）";
+    if (a === "2026-01" && b === "2026-10") {
+      return "全程（1–10月）";
     }
     return Number(a.slice(5)) + "–" + Number(b.slice(5)) + "月对照";
   }
@@ -108,10 +161,22 @@ function sliceKeys() {
   return months.concat(days).concat(spans);
 }
 function entityOf(id) {
-  return (S.entities || []).find((e) => e.id === id);
+  const lists = [S.entities || [], (S.graph && S.graph.nodes) || []];
+  Object.values(S.ranks || {}).forEach((rows) => lists.push(rows));
+  for (const rows of lists) {
+    const hit = rows.find((e) => e.id === id);
+    if (hit) return hit;
+  }
+  return null;
 }
 function setSelect(id) {
+  selectedRel = null;
   selected = id && id === selected ? null : id || null;
+  draw();
+}
+function setRel(edge) {
+  selectedRel = edge;
+  selected = edge ? edge.source : null;
   draw();
 }
 function pickDefault() {
@@ -166,10 +231,10 @@ function drawKpis() {
   if (!host) return;
   const m = S.metrics || {};
   const rel = m.n_rel || {};
-  const nRel = ["attacks", "opposes", "cooperates"].reduce((s, k) => s + (rel[k] || 0), 0);
+  const nRel = Object.entries(rel).reduce((s, [k, n]) => s + (k === "belongs_to" ? 0 : n || 0), 0);
   const top = visibleEdges()[0];
   const bits = [`${m.n_docs || 0} 篇`];
-  if (nRel) bits.push(`${nRel} 条打击/对立/合作`);
+  if (nRel) bits.push(`${nRel} 条行为关系`);
   else if (rel.belongs_to) bits.push(`${rel.belongs_to} 条从属`);
   if (m.n_media) bits.push(`${m.n_media} 家信源`);
   if (top) bits.push(`最显著：${nameOf(top.source)} ${KIND_ZH[top.kind] || ""} ${nameOf(top.target)}`);
@@ -228,20 +293,26 @@ function drawRels() {
     return;
   }
   host.innerHTML = rows
-    .map((e) => {
+    .map((e, i) => {
       const on = selected && (selected === e.source || selected === e.target);
       const dim = selected && !on;
       const lab = KIND_ZH[e.kind] || e.label || "";
       const when = zhSpan(e);
-      return `<button type="button" class="rel-row ${on ? "on" : dim ? "dim" : ""}" data-src="${esc(e.source)}" data-tgt="${esc(e.target)}">
-        <span class="who left">${esc(nameOf(e.source))}</span>
-        <span class="mid"><span class="badge" style="background:${KIND_COLOR[e.kind]}">${esc(lab)}</span>${when ? `<span class="when">${esc(when)}</span>` : ""}</span>
-        <span class="who right">${esc(nameOf(e.target))}</span>
+      const ex = (e.examples || [])[0];
+      const sub = [ex && ex.title, e.payload, when].filter(Boolean).join(" · ");
+      const full = `${nameOf(e.source)} ${lab} ${nameOf(e.target)}${sub ? " " + sub : ""}`;
+      return `<button type="button" class="rel-row ${on ? "on" : dim ? "dim" : ""}" data-i="${i}" title="${esc(full)}">
+        <span class="ends">
+          <span class="who left">${esc(nameOf(e.source))}</span>
+          <span class="badge" style="background:${KIND_COLOR[e.kind] || "#8b97a8"}">${esc(lab)}</span>
+          <span class="who right">${esc(nameOf(e.target))}</span>
+        </span>
+        ${sub ? `<span class="sub">${esc(sub)}</span>` : ""}
       </button>`;
     })
     .join("");
   host.querySelectorAll(".rel-row").forEach((n) => {
-    n.onclick = () => setSelect(n.getAttribute("data-src"));
+    n.onclick = () => setRel(rows[Number(n.getAttribute("data-i"))]);
   });
 }
 
@@ -329,18 +400,29 @@ function graphEdges() {
 }
 
 function positionsFor(nodes) {
-  const key = "shape1:" + sliceKeyOf(S) + ":" + nodes.map((n) => n.id).join(",");
+  const key = "spread3:" + sliceKeyOf(S) + ":" + nodes.map((n) => n.id).join(",");
   if (layoutCache.has(key)) return layoutCache.get(key);
   const n = Math.max(nodes.length, 1);
-  const ring = 900 + n * 28;
+  const cols = Math.max(6, Math.ceil(Math.sqrt(n * 1.15)));
+  const gapX = 340;
+  const gapY = 230;
+  const rows = Math.ceil(n / cols);
+  const gw = (cols - 1) * gapX;
+  const gh = (rows - 1) * gapY;
+  const ox = WORLD_W / 2 - gw / 2;
+  const oy = WORLD_H / 2 - gh / 2;
+  const minX = Math.min(220, ox - 280);
+  const maxX = Math.max(WORLD_W - 220, ox + gw + 280);
+  const minY = Math.min(220, oy - 280);
+  const maxY = Math.max(WORLD_H - 220, oy + gh + 280);
   const pts = nodes.map((node, i) => {
-    const a = (i / n) * Math.PI * 2 - Math.PI / 2;
-    const jitter = ((i * 19) % 13) - 6;
     const pill = pillOf(node.name, node.type);
+    const col = i % cols;
+    const row = Math.floor(i / cols);
     return {
       id: node.id,
-      x: WORLD_W / 2 + Math.cos(a) * (ring + jitter * 40),
-      y: WORLD_H / 2 + Math.sin(a) * (ring * 0.72 + jitter * 32),
+      x: ox + col * gapX,
+      y: oy + row * gapY,
       vx: 0,
       vy: 0,
       pw: pill.pw,
@@ -354,16 +436,17 @@ function positionsFor(nodes) {
   const links = ((S.graph && S.graph.edges) || [])
     .map((e) => ({ s: idx[e.source], t: idx[e.target], kind: e.kind }))
     .filter((l) => l.s != null && l.t != null);
-  for (let k = 0; k < 360; k++) {
-    const alpha = 0.16 * (1 - k / 360);
+  const steps = n > 140 ? 80 : n > 80 ? 140 : 280;
+  for (let k = 0; k < steps; k++) {
     for (let i = 0; i < pts.length; i++) {
       for (let j = i + 1; j < pts.length; j++) {
         let dx = pts[j].x - pts[i].x;
         let dy = pts[j].y - pts[i].y;
         let d2 = dx * dx + dy * dy || 1;
         let d = Math.sqrt(d2);
-        const minD = (pts[i].pw + pts[j].pw) / 2 + 90;
-        const force = 160000 / d2 + (d < minD ? (minD - d) * 0.35 : 0);
+        const minD = (pts[i].pw + pts[j].pw) / 2 + 48;
+        if (d > minD * 2.2) continue;
+        const force = (d < minD ? (minD - d) * 0.55 : 0) + 42000 / d2;
         const fx = (dx / d) * force;
         const fy = (dy / d) * force;
         pts[i].vx -= fx;
@@ -378,8 +461,8 @@ function positionsFor(nodes) {
       let dx = b.x - a.x;
       let dy = b.y - a.y;
       let d = Math.sqrt(dx * dx + dy * dy) || 1;
-      const rest = l.kind === "belongs_to" ? 280 : 560;
-      const f = (d - rest) * 0.012;
+      const rest = l.kind === "belongs_to" ? 340 : 720;
+      const f = (d - rest) * 0.004;
       const fx = (dx / d) * f;
       const fy = (dy / d) * f;
       a.vx += fx;
@@ -388,15 +471,42 @@ function positionsFor(nodes) {
       b.vy -= fy;
     }
     for (const p of pts) {
-      p.vx += (WORLD_W / 2 - p.x) * 0.0012;
-      p.vy += (WORLD_H / 2 - p.y) * 0.0012;
+      p.vx += (WORLD_W / 2 - p.x) * 0.00025;
+      p.vy += (WORLD_H / 2 - p.y) * 0.00025;
       p.vx *= 0.64;
       p.vy *= 0.64;
-      p.x += p.vx * 14 * (alpha / 0.16);
-      p.y += p.vy * 14 * (alpha / 0.16);
-      p.x = Math.max(220, Math.min(WORLD_W - 220, p.x));
-      p.y = Math.max(220, Math.min(WORLD_H - 220, p.y));
+      p.x += p.vx * 6;
+      p.y += p.vy * 6;
+      p.x = Math.max(minX, Math.min(maxX, p.x));
+      p.y = Math.max(minY, Math.min(maxY, p.y));
     }
+  }
+  for (let k = 0; k < 80; k++) {
+    let moved = false;
+    for (let i = 0; i < pts.length; i++) {
+      for (let j = i + 1; j < pts.length; j++) {
+        let dx = pts[j].x - pts[i].x;
+        let dy = pts[j].y - pts[i].y;
+        let d = Math.hypot(dx, dy);
+        if (d < 1) {
+          const ang = ((i * 17 + j * 5) % 360) * (Math.PI / 180);
+          dx = Math.cos(ang);
+          dy = Math.sin(ang);
+          d = 1;
+        }
+        const minD = (pts[i].pw + pts[j].pw) / 2 + 36;
+        if (d >= minD) continue;
+        const push = (minD - d) / 2;
+        const ux = dx / d;
+        const uy = dy / d;
+        pts[i].x -= ux * push;
+        pts[i].y -= uy * push;
+        pts[j].x += ux * push;
+        pts[j].y += uy * push;
+        moved = true;
+      }
+    }
+    if (!moved) break;
   }
   const pos = {};
   pts.forEach((p) => {
@@ -688,9 +798,14 @@ function paintWorld() {
       "stroke-width": 28,
     });
     hit.style.cursor = "pointer";
-    const tipHtml = `${esc(nameOf(e.source))} ${esc(KIND_ZH[e.kind] || e.kind)} ${esc(nameOf(e.target))}${zhSpan(e) ? "<br>见报 " + esc(zhSpan(e)) : ""}`;
+    const ex = (e.examples || [])[0];
+    const tipHtml = `${esc(nameOf(e.source))} ${esc(KIND_ZH[e.kind] || e.kind)} ${esc(nameOf(e.target))}${ex && ex.title ? "<br>" + esc(ex.title) : ""}${zhSpan(e) ? "<br>见报 " + esc(zhSpan(e)) : ""}`;
     hit.addEventListener("mousemove", (ev) => showTip(ev, tipHtml));
     hit.addEventListener("mouseleave", hideTip);
+    hit.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      setRel(e);
+    });
     wrap.appendChild(path);
     wrap.appendChild(hit);
     if (e.kind !== "belongs_to") {
@@ -806,17 +921,52 @@ function drawRank() {
   }
   host.innerHTML = rows
     .map(
-      (r, i) => `<button type="button" class="core-card ${selected === r.id ? "on" : selected ? "dim" : ""}" data-id="${esc(r.id)}">
+      (r, i) => {
+        const post = (r.profile && r.profile.post) || "";
+        return `<button type="button" class="core-card ${selected === r.id ? "on" : selected ? "dim" : ""}" data-id="${esc(r.id)}">
         <span class="rank">${i + 1}</span>
-        <span class="name">${esc(r.name)}</span>
+        <span class="name">${esc(r.name)}${post ? `<span class="post">${esc(post)}</span>` : ""}</span>
         <span class="mass">${r.mass} 篇</span>
         <span class="stage">${r.n_source}/${r.n_target} · 度 ${r.degree}</span>
-      </button>`
+      </button>`;
+      }
     )
     .join("");
   host.querySelectorAll("[data-id]").forEach((n) => {
     n.onclick = () => setSelect(n.getAttribute("data-id"));
   });
+}
+
+function articleKey(a) {
+  return (a && (a.url || a.title)) || "";
+}
+
+function articlesOfEdges(edges) {
+  const seen = new Set();
+  const out = [];
+  (edges || []).forEach((e) => {
+    (e.examples || []).forEach((a) => {
+      const key = articleKey(a);
+      if (!key || seen.has(key)) return;
+      seen.add(key);
+      out.push(a);
+    });
+  });
+  return out;
+}
+
+function renderArticles(list) {
+  if (!list.length) return '<p class="empty">没有稿。</p>';
+  return list
+    .map((a) => {
+      const media = a.source_name ? `<span class="media">${esc(a.source_name)}</span>` : "";
+      const what = a.payload ? `<span class="media">${esc(a.payload)}</span>` : "";
+      const inner = `<span class="day">${esc((a.day || "").slice(5))}</span>${media}${what}${esc(a.title)}`;
+      return a.url
+        ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${inner}</a>`
+        : `<span class="nolink">${inner}</span>`;
+    })
+    .join("");
 }
 
 function neighborsOf(id) {
@@ -836,10 +986,10 @@ function neighborsOf(id) {
         first_day: e.first_day,
         last_day: e.last_day,
         dir: out ? "→" : "←",
+        edge: e,
       };
     })
-    .sort((a, b) => b.w - a.w)
-    .slice(0, 14);
+    .sort((a, b) => b.w - a.w);
 }
 
 function drawDetail() {
@@ -850,33 +1000,75 @@ function drawDetail() {
       '<p class="empty-detail">点图上的名字、底下一条关系，或上面排行。</p>';
     return;
   }
-  const neigh = neighborsOf(t.id)
-    .map(
-      (n) =>
-        `<li class="branch"><span>${esc(KIND_ZH[n.kind] || n.kind)} ${n.dir}</span> ${esc(n.name)} <span class="n">${esc(zhSpan(n) || n.trigger)}</span></li>`
-    )
-    .join("");
-  const arts = (t.articles || [])
-    .map((a) => {
-      const media = a.source_name ? `<span class="media">${esc(a.source_name)}</span>` : "";
-      const inner = `<span class="day">${esc((a.day || "").slice(5))}</span>${media}${esc(a.title)}`;
-      return a.url
-        ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${inner}</a>`
-        : `<span class="nolink">${inner}</span>`;
+  const neighRows = neighborsOf(t.id);
+  const neigh = neighRows
+    .map((n, i) => {
+      const ex = (n.edge.examples || [])[0];
+      const doc = ex ? `${(ex.day || "").slice(5)} ${ex.title}` : "没有对应文稿";
+      return `<button type="button" class="rel-mini" data-i="${i}">
+        <span class="rel-mini-k">${esc(KIND_ZH[n.kind] || n.kind)} ${n.dir} ${esc(n.name)}</span>
+        <span class="rel-mini-doc">${esc(doc)}</span>
+      </button>`;
     })
     .join("");
+  const incident = ((S.graph && S.graph.edges) || []).filter(
+    (e) => e.source === t.id || e.target === t.id
+  );
+  const relArts = articlesOfEdges(selectedRel ? [selectedRel] : incident);
+  const seenArts = new Set(relArts.map(articleKey));
+  const otherArts = selectedRel
+    ? []
+    : (t.articles || []).filter((a) => !seenArts.has(articleKey(a)));
+  const arts = renderArticles(relArts.concat(otherArts));
   const mediaLine = (t.media || [])
     .slice(0, 6)
     .map((x) => `${x.name} ${x.n}`)
     .join(" · ");
+  const profile = t.profile || {};
+  const ident = [
+    profile.post ? `职务 ${profile.post}${profile.post_as_of ? "（" + profile.post_as_of.slice(5) + "）" : ""}` : "",
+    profile.nationality ? `国籍 ${profile.nationality}` : "",
+    profile.org ? `机构 ${profile.org}` : "",
+  ].filter(Boolean);
+  const PERSON_FIELDS = [
+    ["name", "姓名"],
+    ["post", "职务"],
+    ["nationality", "国籍"],
+    ["org", "所属机构"],
+    ["role", "事件角色"],
+    ["action", "相关行为"],
+    ["kind", "行为类别"],
+    ["event_time", "行为时间"],
+    ["place", "发生地点"],
+    ["counterpart", "行为对象"],
+  ];
+  const facts = (t.person_elements || [])
+    .map((e) => {
+      const cells = PERSON_FIELDS.map(([key, label]) => {
+        const value = key === "name" ? t.name : e[key];
+        if (!value) return "";
+        return `<dt>${label}</dt><dd>${esc(value)}</dd>`;
+      }).join("");
+      return `<article class="fact">
+        <div class="fact-top"><time>${esc((e.day || "").slice(5))}</time></div>
+        <dl class="fact-grid">${cells}</dl>
+      </article>`;
+    })
+    .join("");
+  const kinds = PERSON_FIELDS.map(([, label]) => label).join(" · ");
   host.innerHTML = `
     <p class="detail-name">${esc(t.name)}</p>
     <p class="detail-meta">${TYPE_ZH[t.type] || t.type} · ${t.mass} 篇 · 主体 ${t.n_source} / 对象 ${t.n_target} · 关系度 ${t.degree}</p>
+    ${ident.length ? `<p class="id-chips">${ident.map((x) => `<span>${esc(x)}</span>`).join("")}</p>` : ""}
+    ${facts ? `<div class="fact-block"><p class="arts-kicker">人物要素 · 10 项</p><p class="elem-kinds">${kinds}</p><div class="fact-list">${facts}</div></div>` : ""}
     ${mediaLine ? `<p class="detail-meta">信源 ${esc(mediaLine)}</p>` : ""}
     ${t.aliases && t.aliases.length ? `<p class="detail-meta">别名 ${esc(t.aliases.join("、"))}</p>` : ""}
-    ${neigh ? `<ul class="tree">${neigh}</ul>` : ""}
-    <div class="arts"><p class="arts-kicker">全部见报稿</p>${arts || '<p class="empty">没有稿。</p>'}</div>
+    ${neigh ? `<div class="rel-minis">${neigh}</div>` : ""}
+    <div class="arts art-scroll"><p class="arts-kicker">见报稿</p>${arts}</div>
   `;
+  host.querySelectorAll(".rel-mini").forEach((btn) => {
+    btn.onclick = () => setRel(neighRows[Number(btn.getAttribute("data-i"))].edge);
+  });
 }
 
 function drawShapeLegend() {
@@ -886,6 +1078,8 @@ function drawShapeLegend() {
     const fill = TYPE_COLOR[t];
     if (t === "Person")
       return `<ellipse cx="12" cy="10" rx="10" ry="8" fill="${fill}" stroke="#0c1016" stroke-width="1.2"/>`;
+    if (t === "Document")
+      return `<rect x="3" y="2" width="16" height="16" rx="1" fill="${fill}" stroke="#0c1016" stroke-width="1.2"/>`;
     if (t === "Country")
       return `<rect x="2" y="4" width="20" height="12" rx="2" fill="${fill}" stroke="#0c1016" stroke-width="1.2"/>`;
     if (t === "Org")
