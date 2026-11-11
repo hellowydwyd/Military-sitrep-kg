@@ -2,12 +2,12 @@
   "model_id": "BAAI/bge-small-zh-v1.5",
   "model_path": "/data/users/wyd/models/embedding/bge-small-zh-v1.5",
   "dim": 512,
-  "n": 2713,
-  "n_reused": 2549,
-  "n_encoded": 164,
+  "n": 4167,
+  "n_reused": 2713,
+  "n_encoded": 1454,
   "title_repeat": 1,
   "npz": "/data/users/wyd/workspace/Military-sitrep-kg/data/theme/embed.npz",
-  "sha256": "389066be2b76f2b85fab82113b7629f65baeae6e218d10b50cdd4e2b9eee7c97",
+  "sha256": "62f94ee4266f0d55ea12e1806ea520857bfc4e8ab98c2f3495d9a123464706ac",
   "replay8_ok": true,
-  "replay8_max_abs": 1.1920928955078125e-07
+  "replay8_max_abs": 1.1594966053962708e-07
 }

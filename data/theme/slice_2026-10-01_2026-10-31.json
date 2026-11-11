@@ -1,0 +1,1799 @@
+{
+  "window": {
+    "from": "2026-10-01",
+    "to": "2026-10-31"
+  },
+  "assign_tag": "tune_split_t0.72_d7_sp0.90",
+  "params": {
+    "rho": 0.15,
+    "lambda": 0.7,
+    "m_min": 2,
+    "m_min_ch": 2,
+    "delta": 7,
+    "delta_slice": 7,
+    "overlap": 0,
+    "core_max": 8,
+    "theta_m": 0.82,
+    "theta_sh": 0.9,
+    "eta": 0.4,
+    "smooth_days": 7,
+    "cluster_mode": "tree",
+    "theta_theme": 0.78,
+    "theta_unlabeled": 0.86,
+    "theta_attach": 0.78,
+    "judge_model": "",
+    "name_mode": "rule",
+    "name_prompt_sha": "ff723946703a"
+  },
+  "themes": [
+    {
+      "theme_id": "t00",
+      "parent_theme": 0,
+      "root_story": "s0271",
+      "lead_story": "s0271",
+      "mass": 7,
+      "z": 0.0,
+      "score": 0.7,
+      "stage": "emerge",
+      "color_key": 0,
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 3,
+          "n_smooth": 3.0
+        },
+        {
+          "day": "2026-10-02",
+          "n": 4,
+          "n_smooth": 3.5
+        }
+      ],
+      "story_ids": [
+        "s0254",
+        "s0270",
+        "s0271",
+        "s0409",
+        "s0413",
+        "s0417",
+        "s0463",
+        "s0472",
+        "s0562",
+        "s0565",
+        "s0594",
+        "s0633",
+        "s0817",
+        "s0895",
+        "s0272",
+        "s0286"
+      ],
+      "n_stories": 16,
+      "theaters": [
+        "ukraine"
+      ],
+      "partition": "tree",
+      "name": "俄乌相互空袭",
+      "headline": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+      "recent": [
+        {
+          "day": "2026-10-02",
+          "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区"
+        },
+        {
+          "day": "2026-10-02",
+          "title": "普京：宣称让俄遭遇“战略失败”将提高冲突升级风险"
+        },
+        {
+          "day": "2026-10-02",
+          "title": "乌克兰空军一架米格-29战机被击落"
+        }
+      ],
+      "title0": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区",
+      "narrative": {
+        "lede": "2026年10月初，俄乌相互空袭持续，俄军无人机袭击乌克兰国家科学院核研究所，并击中基辅一所学校。到窗口末日，乌方一架米格-29战机被俄军导弹击落，普京则就冲突升级风险表态。",
+        "beats": [
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "起因",
+            "text": "俄军无人机袭击乌克兰国家科学院核研究所，调查机构评估该研究所设施受损情况，其反应堆处于停堆状态。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "俄军无人机击中基辅一所学校，校内避难有100多名学生和约60名教职员工。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "俄罗斯一架图-95轰炸机坠毁，为11年来首架。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "乌克兰空军一架米格-29战机遭俄军一枚导弹击中并被击落。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "后果",
+            "text": "普京表示宣称让俄遭遇“战略失败”将提高冲突升级风险，并称俄军9月在特别军事行动区域控制1301平方公里地区。"
+          }
+        ]
+      }
+    },
+    {
+      "theme_id": "t01",
+      "parent_theme": 0,
+      "root_story": "s0744",
+      "lead_story": "s0744",
+      "mass": 7,
+      "z": 0.0,
+      "score": 0.7,
+      "stage": "persist",
+      "color_key": 1,
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 0,
+          "n_smooth": 0.0
+        },
+        {
+          "day": "2026-10-02",
+          "n": 7,
+          "n_smooth": 3.5
+        }
+      ],
+      "story_ids": [
+        "s0744",
+        "s0774",
+        "s0777",
+        "s0778",
+        "s0802",
+        "s0809",
+        "s0796",
+        "s0798"
+      ],
+      "n_stories": 8,
+      "theaters": [
+        "houthi"
+      ],
+      "partition": "tree",
+      "name": "胡塞袭击沙特目标",
+      "headline": "也门胡塞武装称24小时内遭沙特空袭47次",
+      "recent": [
+        {
+          "day": "2026-10-02",
+          "title": "也门胡塞武装称24小时内遭沙特空袭47次"
+        },
+        {
+          "day": "2026-10-02",
+          "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机"
+        },
+        {
+          "day": "2026-10-02",
+          "title": "战事加剧 也门政府军和胡塞武装激战"
+        }
+      ],
+      "title0": "也门政府军与胡塞武装激烈交火 双方约28人死亡",
+      "narrative": {
+        "lede": "胡塞武装袭击沙特主导联军位于也门亚丁的一处军事设施，并向沙特发射导弹和无人机。到窗口末，沙特主导联军称拦截并摧毁胡塞武装的导弹和无人机，胡塞武装则称24小时内遭沙特空袭47次。",
+        "beats": [
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "起因",
+            "text": "胡塞武装袭击沙特主导联军位于也门亚丁的一处军事设施，总台报道员听到亚丁传出爆炸声。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "胡塞武装加大对政府军攻势，在也门西南省份与政府军激战，政府军方面称30名胡塞武装人员被打死。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "沙特阿拉伯战机空袭塔伊兹省受胡塞武装控制的多处阵地，并空袭塔伊兹、萨达和焦夫省。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "胡塞武装向沙特发射导弹和无人机，袭击麦地那的一处配电站，海米斯穆谢特民防部门处置被拦截导弹碎片坠落居民区的事件。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "转折",
+            "text": "沙特主导的多国联军拦截并摧毁胡塞武装发射的导弹和无人机，并采取作战措施。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "后果",
+            "text": "胡塞武装称24小时内遭沙特空袭47次，沙特方面对胡塞武装所称空袭也门多地暂无回应。"
+          }
+        ]
+      }
+    },
+    {
+      "theme_id": "t02",
+      "parent_theme": 0,
+      "root_story": "s0907",
+      "lead_story": "s0907",
+      "mass": 3,
+      "z": 0.0,
+      "score": 0.3,
+      "stage": "emerge",
+      "color_key": 2,
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1,
+          "n_smooth": 1.0
+        },
+        {
+          "day": "2026-10-02",
+          "n": 2,
+          "n_smooth": 1.5
+        }
+      ],
+      "story_ids": [
+        "s0907"
+      ],
+      "n_stories": 1,
+      "theaters": [],
+      "partition": "tree",
+      "name": "德国防军将于2027年组",
+      "headline": "德国防军将于2027年组建首个无人机团",
+      "recent": [
+        {
+          "day": "2026-10-02",
+          "title": "德国防军将于2027年组建首个无人机团"
+        },
+        {
+          "day": "2026-10-02",
+          "title": "德国联邦国防军将组建首支无人系统作战团级部队"
+        },
+        {
+          "day": "2026-10-01",
+          "title": "美防长宣布组建“自主作战司令部”"
+        }
+      ],
+      "title0": "美防长宣布组建“自主作战司令部”",
+      "narrative": {
+        "lede": "美国防长赫格塞思宣布组建“自主作战司令部”并启动研究未来战争形态的新计划，德国联邦国防军随即推进无人系统部队建设。到窗口末，皮斯托里乌斯视察联邦国防军首个无人机作战团，该团下设电子战作战单位，并明确将于2027年组建。",
+        "beats": [
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "起因",
+            "text": "美国国防部长赫格塞思宣布组建“自主作战司令部”，涵盖无人机、人工智能以及指挥控制系统，并宣布一项旨在“研究未来战争形态”的新计划。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "德国联邦国防军组建首支专门负责无人系统作战的团级部队。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "德国工程师研发针对喷气式无人机的新型拦截系统。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "后果",
+            "text": "皮斯托里乌斯视察联邦国防军首个无人机作战团，该团下设“电子战作战单位”，并明确德国防军将于2027年组建该团。"
+          }
+        ]
+      }
+    },
+    {
+      "theme_id": "t03",
+      "parent_theme": 0,
+      "root_story": "s0902",
+      "lead_story": "s0902",
+      "mass": 2,
+      "z": 0.0,
+      "score": 0.2,
+      "stage": "persist",
+      "color_key": 3,
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 2,
+          "n_smooth": 2.0
+        },
+        {
+          "day": "2026-10-02",
+          "n": 0,
+          "n_smooth": 1.0
+        }
+      ],
+      "story_ids": [
+        "s0902"
+      ],
+      "n_stories": 1,
+      "theaters": [],
+      "partition": "tree",
+      "name": "“大西洋城行动”让海军陆",
+      "headline": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿",
+      "recent": [
+        {
+          "day": "2026-10-01",
+          "title": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿"
+        }
+      ],
+      "title0": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿",
+      "narrative": {
+        "lede": "美国海军陆战队因参加挪威主导的演习而罕见前往偏远的北极岛屿。到窗口结束时，这一行动已涉及美军和英军运输机运送车辆及一个美国海军集装箱。",
+        "beats": [
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "起因",
+            "text": "美国海军陆战队参加了挪威主导的演习，前往偏远的北极岛屿。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "一架美国空军C-17运输机运送了一个美国海军集装箱。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "后果",
+            "text": "美国和英国货运飞机运送了车辆。"
+          }
+        ]
+      }
+    },
+    {
+      "theme_id": "t04",
+      "parent_theme": 0,
+      "root_story": "s0904",
+      "lead_story": "s0904",
+      "mass": 2,
+      "z": 0.0,
+      "score": 0.2,
+      "stage": "persist",
+      "color_key": 4,
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 2,
+          "n_smooth": 2.0
+        },
+        {
+          "day": "2026-10-02",
+          "n": 0,
+          "n_smooth": 1.0
+        }
+      ],
+      "story_ids": [
+        "s0904"
+      ],
+      "n_stories": 1,
+      "theaters": [
+        "ukraine"
+      ],
+      "partition": "tree",
+      "name": "俄乌战事",
+      "headline": "乌克兰F-16最新进展：来自比利时的战机、维护担忧及Block 70/72战斗机",
+      "recent": [
+        {
+          "day": "2026-10-01",
+          "title": "乌克兰F-16最新进展：来自比利时的战机、维护担忧及Block 70/72战斗机"
+        },
+        {
+          "day": "2026-10-01",
+          "title": "乌克兰的F-16机队陷入战备危机"
+        }
+      ],
+      "title0": "乌克兰的F-16机队陷入战备危机",
+      "narrative": {
+        "lede": "乌克兰的F-16机队战备问题在2026年10月初成为焦点，起因是比利时交付战机与维护担忧并存。到窗口结束时，基辅一面与洛克希德·马丁讨论后续方案，一面应对机队战备危机。",
+        "beats": [
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "起因",
+            "text": "比利时向乌克兰转让F-16，其中三架已交付，同时乌方对维护问题表达担忧。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "基辅与洛克希德·马丁讨论F-16相关事宜，涉及Block 70/72战斗机。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "五角大楼将合同授予比利时公司Sabena Aerospace，涉及F-16保障。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "乌克兰F-16飞行员在空战中击落超过3,150个敌方空中目标。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "后果",
+            "text": "乌克兰的F-16机队陷入战备危机，基辅同时就数万项额外需求进行谈判。"
+          }
+        ]
+      }
+    },
+    {
+      "theme_id": "t05",
+      "parent_theme": 0,
+      "root_story": "s0915",
+      "lead_story": "s0915",
+      "mass": 2,
+      "z": 0.0,
+      "score": 0.2,
+      "stage": "persist",
+      "color_key": 5,
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 0,
+          "n_smooth": 0.0
+        },
+        {
+          "day": "2026-10-02",
+          "n": 2,
+          "n_smooth": 1.0
+        }
+      ],
+      "story_ids": [
+        "s0915"
+      ],
+      "n_stories": 1,
+      "theaters": [
+        "ukraine"
+      ],
+      "partition": "tree",
+      "name": "俄乌相互空袭",
+      "headline": "乌克兰称首次在实战中使用FP-7弹道导弹",
+      "recent": [
+        {
+          "day": "2026-10-02",
+          "title": "乌克兰称首次在实战中使用FP-7弹道导弹"
+        },
+        {
+          "day": "2026-10-02",
+          "title": "泽连斯基称乌国产FP-7弹道导弹完成首次实战"
+        }
+      ],
+      "title0": "泽连斯基称乌国产FP-7弹道导弹完成首次实战",
+      "narrative": {
+        "lede": "乌克兰称首次在实战中使用FP-7弹道导弹，泽连斯基同日称该弹道导弹完成首次实战。到窗口结束时，乌方对FP-7的实战使用与泽连斯基的表态成为这条线上最新一步。",
+        "beats": [
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "起因",
+            "text": "乌克兰称首次在实战中使用FP-7弹道导弹。"
+          },
+          {
+            "from": "2026-10-01",
+            "to": "2026-10-02",
+            "role": "推进",
+            "text": "泽连斯基称乌国产FP-7弹道导弹完成首次实战。"
+          }
+        ]
+      }
+    }
+  ],
+  "minors": [],
+  "stories": [
+    {
+      "story_id": "s0744",
+      "parent_story": "",
+      "theme_id": "t01",
+      "mass": 7,
+      "role": "lead",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 7
+        }
+      ],
+      "doc_ids": [
+        "053bf4ff5c4ce31a0de291dc5e5d2d1ebc62b856",
+        "0a1f18833b7414c7689e1f29fbe4a2cabc4e6d40",
+        "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+        "6f55e23f9ee3cb9ceeca0c2f65f40c1cdebfa7ac",
+        "b5b61040c9dc162c631b4315854b1e2aef9305a2",
+        "d230f13ec8689ba1da3fbbe679d9393300c100ec",
+        "dbd4a5728f1d34676175aeba85d46044ce7cbf27"
+      ],
+      "title0": "也门政府军与胡塞武装激烈交火 双方约28人死亡"
+    },
+    {
+      "story_id": "s0271",
+      "parent_story": "s0254",
+      "theme_id": "t00",
+      "mass": 6,
+      "role": "lead",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 3
+        },
+        {
+          "day": "2026-10-02",
+          "n": 3
+        }
+      ],
+      "doc_ids": [
+        "2647f2bbc5714236a0086c7803d7aa244b14f888",
+        "6ce3dc031ac01e9a401691edcf307de9c263e74f",
+        "7c71d7768aa683fdd7e1062217c22f574cc6f668",
+        "52b23668ce113199c23f1c7b78f1586586f06dd8",
+        "cf0ab734a841b771d52ccd0e2c1759f7fc15be05",
+        "ff09add1e9b08d4355b8d7ddcac1e172ee4d88f5"
+      ],
+      "title0": "俄方称乌方违反停火安排 乌方称俄军炮击顿涅茨克乌控区"
+    },
+    {
+      "story_id": "s0907",
+      "parent_story": "",
+      "theme_id": "t02",
+      "mass": 3,
+      "role": "lead",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        },
+        {
+          "day": "2026-10-02",
+          "n": 2
+        }
+      ],
+      "doc_ids": [
+        "632d1b5dd02074fb2539cfcad02a00c86608e65f",
+        "5b90f7f319bc848935719b3ce1eb182b428ca151",
+        "fd74cc12d130dfa4ec07b73e933f953b51441bb6"
+      ],
+      "title0": "美防长宣布组建“自主作战司令部”"
+    },
+    {
+      "story_id": "s0902",
+      "parent_story": "",
+      "theme_id": "t03",
+      "mass": 2,
+      "role": "lead",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 2
+        }
+      ],
+      "doc_ids": [
+        "0a77cc35f4b78d0b0ffcf4493a64bdcb26ca491b",
+        "36d386b41cc5bdd3ce145c5ff348ba72dabd0c2d"
+      ],
+      "title0": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿"
+    },
+    {
+      "story_id": "s0904",
+      "parent_story": "",
+      "theme_id": "t04",
+      "mass": 2,
+      "role": "lead",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 2
+        }
+      ],
+      "doc_ids": [
+        "27ce5352d5f8b2fc8509707b6c32736de545e51a",
+        "7459857389ebe0f717c9dd899ffd0e8b84c48a01"
+      ],
+      "title0": "乌克兰的F-16机队陷入战备危机"
+    },
+    {
+      "story_id": "s0915",
+      "parent_story": "",
+      "theme_id": "t05",
+      "mass": 2,
+      "role": "lead",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 2
+        }
+      ],
+      "doc_ids": [
+        "019bf0ac21a2019b7d6b1de68d5103f794448aa3",
+        "1ae14ff2ed7d78c99af543a4a2777fd52c40a47c"
+      ],
+      "title0": "泽连斯基称乌国产FP-7弹道导弹完成首次实战"
+    },
+    {
+      "story_id": "s0753",
+      "parent_story": "s0703",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "83e517ccc893e9f16375ba9a6e3b12bea59c3c22"
+      ],
+      "title0": "以军再袭黎巴嫩南部地区"
+    },
+    {
+      "story_id": "s0860",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "6e1cbdf13bf8ee46d3b713554b24f4d0163e35aa"
+      ],
+      "title0": "俄乌战争第1674天：2026年前八个月乌克兰平民伤亡人数超过去年全年"
+    },
+    {
+      "story_id": "s0895",
+      "parent_story": "s0817",
+      "theme_id": "t00",
+      "mass": 1,
+      "role": "core_tree",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "a284f53c44c4edb4106580d9020110583d24b4dc"
+      ],
+      "title0": "乌克兰空军一架F-16战机坠毁"
+    },
+    {
+      "story_id": "s0903",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "225234644a6d46a1fbd98d294f0b960fbca76a0f"
+      ],
+      "title0": "两辆乌克兰坦克布满钢刺，并由一架轰炸无人机掩护，向俄罗斯渗透者发起冲锋，最终幸存下来"
+    },
+    {
+      "story_id": "s0905",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "55fb42ad2879bc252a4f22df080d72ba3f5110ec"
+      ],
+      "title0": "伊情报显示以色列欲制造袭击“嫁祸”伊朗 以方暂无回应"
+    },
+    {
+      "story_id": "s0906",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "62752487f424a605fbe5d2e3d6ec9459115270c1"
+      ],
+      "title0": "希腊自今日起担任联合国安理会轮值主席国"
+    },
+    {
+      "story_id": "s0908",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "65319316cfe1d29346b4c210a2981cf7c7c9c646"
+      ],
+      "title0": "塞浦路斯独立日阅兵展示希腊F-16、Barak MX及外国军队"
+    },
+    {
+      "story_id": "s0909",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "a06e5ba32143583a373011a4c0405b07f504cd4b"
+      ],
+      "title0": "航母都在哪里？：2026年9月30日"
+    },
+    {
+      "story_id": "s0910",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "adb664d52a87e4559b01f47a021b308c9d41c6ad"
+      ],
+      "title0": "中国海军“吉祥方舟”号医院船结束访问塞内加尔"
+    },
+    {
+      "story_id": "s0911",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "c06e4cc442d2e8af171e2b392ecc2afb71d61f57"
+      ],
+      "title0": "美国须在10月18日前选定对俄制裁目标——如果有的话。基辅的愿望清单以那些为俄罗斯“星链”克隆版提供支持的公司为首"
+    },
+    {
+      "story_id": "s0912",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "c0f9d85b90535500a366b76c4aea62ae865fc5d7"
+      ],
+      "title0": "F-15EX可能终于要获得美国空军最初吝于采购的导弹预警系统"
+    },
+    {
+      "story_id": "s0913",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-01",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "caa41b894529b56719b4af8974068589e5135bbb"
+      ],
+      "title0": "赫格塞思在“部队状况”讲话中揭晓新的自主战争司令部"
+    },
+    {
+      "story_id": "s0914",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "002b3ced8c9c8a368251b82c9b5399e9379aa3fa"
+      ],
+      "title0": "美国海军签署244亿美元标准-6导弹协议以加速导弹生产"
+    },
+    {
+      "story_id": "s0916",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "070067d73d962ced6911024c6a80f49626525ef7"
+      ],
+      "title0": "打开驾驶舱门的印度籍迪拜航空飞行员向总理纳伦德拉·莫迪讲述经过"
+    },
+    {
+      "story_id": "s0917",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "12cdf972da101f5b1eafb5d45d94031dfcb37bd6"
+      ],
+      "title0": "当局撤销着陆许可后，以色列航空被迫取消首批飞往迪拜的救援航班"
+    },
+    {
+      "story_id": "s0918",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "1334d0eb49b718dbc08afd3c5a162c20035bd06e"
+      ],
+      "title0": "消息人士称，阿曼迪拜航空劫机嫌疑人未持有第二国籍——独家"
+    },
+    {
+      "story_id": "s0919",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "1496d0f6c28c285f3f43d0f6a8447a6d343585f5"
+      ],
+      "title0": "日本最西端将首次部署日美岸舰导弹"
+    },
+    {
+      "story_id": "s0920",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "22ea194b7c6eaf78042faed37e2946363721eb23"
+      ],
+      "title0": "希腊将其“爱国者”导弹在沙特阿拉伯再保留一个月"
+    },
+    {
+      "story_id": "s0921",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "622096b77c17a01e0d2284970dadc498d8d96cfd"
+      ],
+      "title0": "西班牙、比利时和波兰向乌克兰提供F-16机炮弹药，以对抗俄罗斯的喷气式无人机"
+    },
+    {
+      "story_id": "s0922",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "6a652b4990ac0dac137e1bc5b0dd913c6f023b6f"
+      ],
+      "title0": "关于少数民族教育权利的法案在最高拉达登记，以解除匈牙利对开启谈判集群的否决"
+    },
+    {
+      "story_id": "s0923",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "6c65281f5df791cc0119985863e28c6bca39eb7b"
+      ],
+      "title0": "美国参议院一致通过两党决议，纪念10月7日美国遇难者"
+    },
+    {
+      "story_id": "s0924",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "918823c441df8a1c06c3d72a2de9c00cf857561a"
+      ],
+      "title0": "乌克兰公司在北约最大规模海军无人机演习中部署11艘无人艇和8架无人机"
+    },
+    {
+      "story_id": "s0925",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "ada7a7d209e9157010d9e171af59a6ee146054d3"
+      ],
+      "title0": "以色列国防官员称，随着核谈判停滞，伊朗正在权衡针对美国和以色列的选项"
+    },
+    {
+      "story_id": "s0926",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "bad12ea46d3f4e2ccaa461ff75357fc3979d3206"
+      ],
+      "title0": "美国向中东部署更多“爱国者”系统保护油气设施"
+    },
+    {
+      "story_id": "s0927",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "ee63d1f5135c19b377e0f84272da31c590d50df5"
+      ],
+      "title0": "政府将紧急预备役征召延长至11月，并将上限降至20万人"
+    },
+    {
+      "story_id": "s0928",
+      "parent_story": "",
+      "theme_id": "",
+      "mass": 1,
+      "role": "other",
+      "daily": [
+        {
+          "day": "2026-10-02",
+          "n": 1
+        }
+      ],
+      "doc_ids": [
+        "f4d8073b6ddb00bcfdb25bf07f9633bc541852f7"
+      ],
+      "title0": "F-22飞行员因在中央司令部的行动，包括“午夜之锤”行动，获颁杰出飞行十字勋章"
+    }
+  ],
+  "docs": [
+    {
+      "doc_id": "0a77cc35f4b78d0b0ffcf4493a64bdcb26ca491b",
+      "day": "2026-10-01",
+      "title": "Operation Atlantic City ushers Marines on rare trip to ... remote Arctic island",
+      "title_zh": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿",
+      "source": "rss_api",
+      "source_name": "Defense News - Global",
+      "lang": "en",
+      "url": "https://www.defensenews.com/news/your-military/2026/09/30/operation-atlantic-city-ushers-marines-on-rare-trip-to-remote-arctic-island",
+      "story_id": "s0902",
+      "theme_id": "t03"
+    },
+    {
+      "doc_id": "225234644a6d46a1fbd98d294f0b960fbca76a0f",
+      "day": "2026-10-01",
+      "title": "Bristling with steel spikes and guarded by a bomber drone, two Ukrainian tanks charged Russian infiltrators and lived to tell the tale",
+      "title_zh": "两辆乌克兰坦克布满钢刺，并由一架轰炸无人机掩护，向俄罗斯渗透者发起冲锋，最终幸存下来",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/01/drones-escort-tanks",
+      "story_id": "s0903",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "2647f2bbc5714236a0086c7803d7aa244b14f888",
+      "day": "2026-10-01",
+      "title": "Ukraine is downing Russia’s fastest drones—just not often enough, and scaling up comes down to money",
+      "title_zh": "乌克兰正在击落俄罗斯最快的无人机——只是频率还不够高，而扩大规模的关键在于资金",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/01/ukraine-is-downing-russias-fastest-drones-just-not-often-enough-and-scaling-up-comes-down-to-money",
+      "story_id": "s0271",
+      "theme_id": "t00"
+    },
+    {
+      "doc_id": "27ce5352d5f8b2fc8509707b6c32736de545e51a",
+      "day": "2026-10-01",
+      "title": "Ukraine’s F-16 Fleet Is In A Readiness Crisis",
+      "title_zh": "乌克兰的F-16机队陷入战备危机",
+      "source": "rss_api",
+      "source_name": "TWZ - Air",
+      "lang": "en",
+      "url": "https://www.twz.com/air/ukraines-f-16-fleet-is-in-a-readiness-crisis",
+      "story_id": "s0904",
+      "theme_id": "t04"
+    },
+    {
+      "doc_id": "36d386b41cc5bdd3ce145c5ff348ba72dabd0c2d",
+      "day": "2026-10-01",
+      "title": "Operation Atlantic City ushers Marines on rare trip to ... remote Arctic island",
+      "title_zh": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿",
+      "source": "rss_api",
+      "source_name": "Marine Corps Times",
+      "lang": "en",
+      "url": "https://www.marinecorpstimes.com/news/your-military/2026/09/30/operation-atlantic-city-ushers-marines-on-rare-trip-to-remote-arctic-island",
+      "story_id": "s0902",
+      "theme_id": "t03"
+    },
+    {
+      "doc_id": "55fb42ad2879bc252a4f22df080d72ba3f5110ec",
+      "day": "2026-10-01",
+      "title": "伊情报显示以色列欲制造袭击“嫁祸”伊朗 以方暂无回应",
+      "title_zh": "伊情报显示以色列欲制造袭击“嫁祸”伊朗 以方暂无回应",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TQwhsiaH3S",
+      "story_id": "s0905",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "62752487f424a605fbe5d2e3d6ec9459115270c1",
+      "day": "2026-10-01",
+      "title": "Greece Assumes UN Security Council Presidency As Of Today",
+      "title_zh": "希腊自今日起担任联合国安理会轮值主席国",
+      "source": "rss_api",
+      "source_name": "Greek City Times Defence",
+      "lang": "en",
+      "url": "https://greekcitytimes.com/2026/10/01/greece-assumes-un-security-council-presidency-as-of-today",
+      "story_id": "s0906",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "632d1b5dd02074fb2539cfcad02a00c86608e65f",
+      "day": "2026-10-01",
+      "title": "美防长宣布组建“自主作战司令部”",
+      "title_zh": "美防长宣布组建“自主作战司令部”",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TQg8tcSJMr",
+      "story_id": "s0907",
+      "theme_id": "t02"
+    },
+    {
+      "doc_id": "65319316cfe1d29346b4c210a2981cf7c7c9c646",
+      "day": "2026-10-01",
+      "title": "Cyprus Independence Day parade showcases Greek F-16s, Barak MX and foreign troops",
+      "title_zh": "塞浦路斯独立日阅兵展示希腊F-16、Barak MX及外国军队",
+      "source": "rss_api",
+      "source_name": "Greek City Times Defence",
+      "lang": "en",
+      "url": "https://greekcitytimes.com/2026/10/01/cyprus-independence-day-parade-f16-barak-mx",
+      "story_id": "s0908",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "6ce3dc031ac01e9a401691edcf307de9c263e74f",
+      "day": "2026-10-01",
+      "title": "乌克兰称乌国家科学院核研究所遭袭",
+      "title_zh": "乌克兰称乌国家科学院核研究所遭袭",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRFHRz0Xm4",
+      "story_id": "s0271",
+      "theme_id": "t00"
+    },
+    {
+      "doc_id": "7459857389ebe0f717c9dd899ffd0e8b84c48a01",
+      "day": "2026-10-01",
+      "title": "Ukraine F-16 Update: Jets From Belgium, Maintenance Concerns And Block 70/72 fighters",
+      "title_zh": "乌克兰F-16最新进展：来自比利时的战机、维护担忧及Block 70/72战斗机",
+      "source": "rss_api",
+      "source_name": "The Aviationist",
+      "lang": "en",
+      "url": "https://theaviationist.com/2026/09/30/ukraine-f-16-update",
+      "story_id": "s0904",
+      "theme_id": "t04"
+    },
+    {
+      "doc_id": "7c71d7768aa683fdd7e1062217c22f574cc6f668",
+      "day": "2026-10-01",
+      "title": "Russia just accidentally crashed its first Tu-95 bomber in 11 years. Its missiles will keep striking Ukraine anyway",
+      "title_zh": "俄罗斯刚刚意外坠毁其11年来首架图-95轰炸机。其导弹仍将继续打击乌克兰",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/01/tu-95-crashed",
+      "story_id": "s0271",
+      "theme_id": "t00"
+    },
+    {
+      "doc_id": "83e517ccc893e9f16375ba9a6e3b12bea59c3c22",
+      "day": "2026-10-01",
+      "title": "以军称过去一个月空袭超500个军事目标",
+      "title_zh": "以军称过去一个月空袭超500个军事目标",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TQxWxHXlzo",
+      "story_id": "s0753",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "a06e5ba32143583a373011a4c0405b07f504cd4b",
+      "day": "2026-10-01",
+      "title": "Where Are The Aircraft Carriers?: September 30, 2026",
+      "title_zh": "航母都在哪里？：2026年9月30日",
+      "source": "rss_api",
+      "source_name": "TWZ - Sea",
+      "lang": "en",
+      "url": "https://www.twz.com/sea/where-are-the-aircraft-carriers-september-30-2026",
+      "story_id": "s0909",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "adb664d52a87e4559b01f47a021b308c9d41c6ad",
+      "day": "2026-10-01",
+      "title": "中国海军“吉祥方舟”号医院船结束访问塞内加尔",
+      "title_zh": "中国海军“吉祥方舟”号医院船结束访问塞内加尔",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRC24vgc19",
+      "story_id": "s0910",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "c06e4cc442d2e8af171e2b392ecc2afb71d61f57",
+      "day": "2026-10-01",
+      "title": "The US has until 18 October to choose its Russia sanctions targets—if any. Kyiv’s wish list leads with the firms feeding Russia’s Starlink clone",
+      "title_zh": "美国须在10月18日前选定对俄制裁目标——如果有的话。基辅的愿望清单以那些为俄罗斯“星链”克隆版提供支持的公司为首",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/01/the-us-has-until-18-october-to-choose-its-russia-sanctions-targets-if-any-kyivs-wish-list-leads-with-the-firms-feeding-russias-starlink-clone",
+      "story_id": "s0911",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "c0f9d85b90535500a366b76c4aea62ae865fc5d7",
+      "day": "2026-10-01",
+      "title": "F-15EX May Finally Get Missile Warning System The USAF Originally Skimped On Buying",
+      "title_zh": "F-15EX可能终于要获得美国空军最初吝于采购的导弹预警系统",
+      "source": "rss_api",
+      "source_name": "TWZ - Air",
+      "lang": "en",
+      "url": "https://www.twz.com/air/f-15exs-may-finally-get-missile-warning-systems-the-usaf-originally-skimped-on-buying",
+      "story_id": "s0912",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "caa41b894529b56719b4af8974068589e5135bbb",
+      "day": "2026-10-01",
+      "title": "Hegseth Unveils New Autonomous Warfare Command in ‘State of the Force’ Address",
+      "title_zh": "赫格塞思在“部队状况”讲话中揭晓新的自主战争司令部",
+      "source": "rss_api",
+      "source_name": "Air & Space Forces Magazine",
+      "lang": "en",
+      "url": "https://www.airandspaceforces.com/hegseth-drones-autonomous-warfare-command-state-of-the-force",
+      "story_id": "s0913",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "002b3ced8c9c8a368251b82c9b5399e9379aa3fa",
+      "day": "2026-10-02",
+      "title": "U S Navy Signs 24 4B Standard Missile-6 Deal to Accelerate Missile Production",
+      "title_zh": "美国海军签署244亿美元标准-6导弹协议以加速导弹生产",
+      "source": "rss_api",
+      "source_name": "Defense Mirror",
+      "lang": "en",
+      "url": "https://www.defensemirror.com/news/42116",
+      "story_id": "s0914",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "019bf0ac21a2019b7d6b1de68d5103f794448aa3",
+      "day": "2026-10-02",
+      "title": "泽连斯基称乌国产FP-7弹道导弹完成首次实战",
+      "title_zh": "泽连斯基称乌国产FP-7弹道导弹完成首次实战",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRTI1fgkue",
+      "story_id": "s0915",
+      "theme_id": "t05"
+    },
+    {
+      "doc_id": "053bf4ff5c4ce31a0de291dc5e5d2d1ebc62b856",
+      "day": "2026-10-02",
+      "title": "胡塞武装袭击地区军事设施 也门亚丁传出爆炸声",
+      "title_zh": "胡塞武装袭击地区军事设施 也门亚丁传出爆炸声",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRaRxYRJTi",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "070067d73d962ced6911024c6a80f49626525ef7",
+      "day": "2026-10-02",
+      "title": "Indian flydubai pilot who opened cockpit door shares story with Prime Minister Narendra Modi",
+      "title_zh": "打开驾驶舱门的印度籍迪拜航空飞行员向总理纳伦德拉·莫迪讲述经过",
+      "source": "rss_api",
+      "source_name": "Jerusalem Post - Defense",
+      "lang": "en",
+      "url": "https://www.jpost.com/international/article-910404",
+      "story_id": "s0916",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "0a1f18833b7414c7689e1f29fbe4a2cabc4e6d40",
+      "day": "2026-10-02",
+      "title": "胡塞武装称沙特空袭也门多地 沙特方面暂无回应",
+      "title_zh": "胡塞武装称沙特空袭也门多地 沙特方面暂无回应",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRTXPwvIa2",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "12cdf972da101f5b1eafb5d45d94031dfcb37bd6",
+      "day": "2026-10-02",
+      "title": "El Al forced to cancel first rescue flights to Dubai after authorities revoke landing permissions",
+      "title_zh": "当局撤销着陆许可后，以色列航空被迫取消首批飞往迪拜的救援航班",
+      "source": "rss_api",
+      "source_name": "Jerusalem Post - Defense",
+      "lang": "en",
+      "url": "https://www.jpost.com/israel-news/article-910399",
+      "story_id": "s0917",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "1334d0eb49b718dbc08afd3c5a162c20035bd06e",
+      "day": "2026-10-02",
+      "title": "Omani flydubai hijacking suspect held no second nationality, sources say – exclusive",
+      "title_zh": "消息人士称，阿曼迪拜航空劫机嫌疑人未持有第二国籍——独家",
+      "source": "rss_api",
+      "source_name": "Jerusalem Post - Defense",
+      "lang": "en",
+      "url": "https://www.jpost.com/israel-news/article-910405",
+      "story_id": "s0918",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "1496d0f6c28c285f3f43d0f6a8447a6d343585f5",
+      "day": "2026-10-02",
+      "title": "日本最西端将首次部署日美岸舰导弹",
+      "title_zh": "日本最西端将首次部署日美岸舰导弹",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRda39JYYy",
+      "story_id": "s0919",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "1ae14ff2ed7d78c99af543a4a2777fd52c40a47c",
+      "day": "2026-10-02",
+      "title": "Ukraine Claims First Combat Use Of FP-7 Ballistic Missile",
+      "title_zh": "乌克兰称首次在实战中使用FP-7弹道导弹",
+      "source": "rss_api",
+      "source_name": "TWZ - Land",
+      "lang": "en",
+      "url": "https://www.twz.com/news-features/ukraine-claims-first-combat-use-of-fp-7-ballistic-missile",
+      "story_id": "s0915",
+      "theme_id": "t05"
+    },
+    {
+      "doc_id": "22ea194b7c6eaf78042faed37e2946363721eb23",
+      "day": "2026-10-02",
+      "title": "Greece is keeping its Patriot missiles in Saudi Arabia for one more month",
+      "title_zh": "希腊将其“爱国者”导弹在沙特阿拉伯再保留一个月",
+      "source": "rss_api",
+      "source_name": "Greek City Times Defence",
+      "lang": "en",
+      "url": "https://greekcitytimes.com/2026/10/02/greece-patriot-saudi-arabia-extension-dendias",
+      "story_id": "s0920",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "52b23668ce113199c23f1c7b78f1586586f06dd8",
+      "day": "2026-10-02",
+      "title": "Russo-Ukrainian war, day 1681: Russian drone hit Kyiv school sheltering more than 100 students and about 60 staff",
+      "title_zh": "俄乌战争第1681天：俄罗斯无人机击中基辅一所学校，校内避难有100多名学生和约60名教职员工",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/02/russo-ukrainian-war-day-1681-russian-drone-hit-kyiv-school-sheltering-more-than-100-students-and-about-60-staff",
+      "story_id": "s0271",
+      "theme_id": "t00"
+    },
+    {
+      "doc_id": "5b90f7f319bc848935719b3ce1eb182b428ca151",
+      "day": "2026-10-02",
+      "title": "德国联邦国防军将组建首支无人系统作战团级部队",
+      "title_zh": "德国联邦国防军将组建首支无人系统作战团级部队",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRTNsrR3xd",
+      "story_id": "s0907",
+      "theme_id": "t02"
+    },
+    {
+      "doc_id": "622096b77c17a01e0d2284970dadc498d8d96cfd",
+      "day": "2026-10-02",
+      "title": "Spain, Belgium, and Poland are sending Ukraine F-16 cannon rounds to fight Russia’s jet drones",
+      "title_zh": "西班牙、比利时和波兰向乌克兰提供F-16机炮弹药，以对抗俄罗斯的喷气式无人机",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/02/spain-belgium-and-poland-are-sending-ukraine-f-16-cannon-rounds-to-fight-russias-jet-drones",
+      "story_id": "s0921",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "6a652b4990ac0dac137e1bc5b0dd913c6f023b6f",
+      "day": "2026-10-02",
+      "title": "Bill on national minority education rights registered in Rada to lift Hungary's veto on opening negotiation clusters",
+      "title_zh": "关于少数民族教育权利的法案在最高拉达登记，以解除匈牙利对开启谈判集群的否决",
+      "source": "rss_api",
+      "source_name": "Interfax Ukraine",
+      "lang": "en",
+      "url": "https://en.interfax.com.ua/news/general/1213319.html",
+      "story_id": "s0922",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "6c65281f5df791cc0119985863e28c6bca39eb7b",
+      "day": "2026-10-02",
+      "title": "US Senate unanimously passes bipartisan resolution honoring American October 7 victims",
+      "title_zh": "美国参议院一致通过两党决议，纪念10月7日美国遇难者",
+      "source": "rss_api",
+      "source_name": "Jerusalem Post - Defense",
+      "lang": "en",
+      "url": "https://www.jpost.com/american-politics/article-910401",
+      "story_id": "s0923",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "6d877d169ab6b50e8d4349d15f57f16f6ad3ca74",
+      "day": "2026-10-02",
+      "title": "导弹、无人机飞向沙特，也门多线激战",
+      "title_zh": "导弹、无人机飞向沙特，也门多线激战",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRXHyrHMRT",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "6e1cbdf13bf8ee46d3b713554b24f4d0163e35aa",
+      "day": "2026-10-02",
+      "title": "Russia lost 2026-record 46,230 troops in September by Ukraine’s count, as fighting around Donetsk fortress cities grinds on",
+      "title_zh": "乌克兰统计称俄罗斯9月损失2026年创纪录的46230名士兵，顿涅茨克要塞城市周边战斗持续",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/01/russia-lost-2026-record-46230-troops-in-september-by-ukraines-count-as-fighting-around-donetsk-fortress-cities-grinds-on",
+      "story_id": "s0860",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "6f55e23f9ee3cb9ceeca0c2f65f40c1cdebfa7ac",
+      "day": "2026-10-02",
+      "title": "也门西南省份战事加剧 30名胡塞武装人员被打死",
+      "title_zh": "也门西南省份战事加剧 30名胡塞武装人员被打死",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRTJnaggwm",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "918823c441df8a1c06c3d72a2de9c00cf857561a",
+      "day": "2026-10-02",
+      "title": "Ukrainian firm fields 11 crewless boats and eight drones at NATO’s biggest naval drone drill",
+      "title_zh": "乌克兰公司在北约最大规模海军无人机演习中部署11艘无人艇和8架无人机",
+      "source": "rss_api",
+      "source_name": "Euromaidan Press",
+      "lang": "en",
+      "url": "https://euromaidanpress.com/2026/10/02/ukrainian-firm-fields-11-crewless-boats-and-eight-drones-at-natos-biggest-naval-drone-drill",
+      "story_id": "s0924",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "a284f53c44c4edb4106580d9020110583d24b4dc",
+      "day": "2026-10-02",
+      "title": "乌克兰空军一架米格-29战机被击落",
+      "title_zh": "乌克兰空军一架米格-29战机被击落",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRbDQ3jMoy",
+      "story_id": "s0895",
+      "theme_id": "t00"
+    },
+    {
+      "doc_id": "ada7a7d209e9157010d9e171af59a6ee146054d3",
+      "day": "2026-10-02",
+      "title": "Iran weighing options against US, Israel as nuclear talks stall, Israeli defense official says",
+      "title_zh": "以色列国防官员称，随着核谈判停滞，伊朗正在权衡针对美国和以色列的选项",
+      "source": "rss_api",
+      "source_name": "Jerusalem Post - Defense",
+      "lang": "en",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-910402",
+      "story_id": "s0925",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "b5b61040c9dc162c631b4315854b1e2aef9305a2",
+      "day": "2026-10-02",
+      "title": "战事加剧 也门政府军和胡塞武装激战",
+      "title_zh": "战事加剧 也门政府军和胡塞武装激战",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRnmtcUWwv",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "bad12ea46d3f4e2ccaa461ff75357fc3979d3206",
+      "day": "2026-10-02",
+      "title": "美国向中东部署更多“爱国者”系统保护油气设施",
+      "title_zh": "美国向中东部署更多“爱国者”系统保护油气设施",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRiCFLZVDW",
+      "story_id": "s0926",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "cf0ab734a841b771d52ccd0e2c1759f7fc15be05",
+      "day": "2026-10-02",
+      "title": "普京：宣称让俄遭遇“战略失败”将提高冲突升级风险",
+      "title_zh": "普京：宣称让俄遭遇“战略失败”将提高冲突升级风险",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRYHHFuP6T",
+      "story_id": "s0271",
+      "theme_id": "t00"
+    },
+    {
+      "doc_id": "d230f13ec8689ba1da3fbbe679d9393300c100ec",
+      "day": "2026-10-02",
+      "title": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+      "title_zh": "沙特主导联军称拦截也门胡塞武装导弹和无人机",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRWLVcQtvU",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "dbd4a5728f1d34676175aeba85d46044ce7cbf27",
+      "day": "2026-10-02",
+      "title": "也门胡塞武装称24小时内遭沙特空袭47次",
+      "title_zh": "也门胡塞武装称24小时内遭沙特空袭47次",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRTROxmEOh",
+      "story_id": "s0744",
+      "theme_id": "t01"
+    },
+    {
+      "doc_id": "ee63d1f5135c19b377e0f84272da31c590d50df5",
+      "day": "2026-10-02",
+      "title": "Government extends emergency reservist call-ups through November, lowers cap to 200,000",
+      "title_zh": "政府将紧急预备役征召延长至11月，并将上限降至20万人",
+      "source": "rss_api",
+      "source_name": "Jerusalem Post - Defense",
+      "lang": "en",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-910398",
+      "story_id": "s0927",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "f4d8073b6ddb00bcfdb25bf07f9633bc541852f7",
+      "day": "2026-10-02",
+      "title": "F-22 Pilots Awarded Distinguished Flying Cross for Actions in CENTCOM, Including Midnight Hammer",
+      "title_zh": "F-22飞行员因在中央司令部的行动，包括“午夜之锤”行动，获颁杰出飞行十字勋章",
+      "source": "rss_api",
+      "source_name": "Air & Space Forces Magazine",
+      "lang": "en",
+      "url": "https://www.airandspaceforces.com/f-22-pilots-distinguished-flying-cross-middle-east-midnight-hammer",
+      "story_id": "s0928",
+      "theme_id": ""
+    },
+    {
+      "doc_id": "fd74cc12d130dfa4ec07b73e933f953b51441bb6",
+      "day": "2026-10-02",
+      "title": "德国防军将于2027年组建首个无人机团",
+      "title_zh": "德国防军将于2027年组建首个无人机团",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRYEuHdfEA",
+      "story_id": "s0907",
+      "theme_id": "t02"
+    },
+    {
+      "doc_id": "ff09add1e9b08d4355b8d7ddcac1e172ee4d88f5",
+      "day": "2026-10-02",
+      "title": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+      "title_zh": "普京：俄军9月在特别军事行动区域控制1301平方公里地区",
+      "source": "huanqiu_mil",
+      "source_name": "环球网军事",
+      "lang": "zh",
+      "url": "https://mil.huanqiu.com/article/4TRWfa3akCv",
+      "story_id": "s0271",
+      "theme_id": "t00"
+    }
+  ],
+  "other": {
+    "daily": [
+      {
+        "day": "2026-10-01",
+        "n": 10
+      },
+      {
+        "day": "2026-10-02",
+        "n": 15
+      }
+    ]
+  },
+  "migration": [],
+  "derived": [],
+  "columns": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-02",
+      "units": [
+        {
+          "theme_id": "t00",
+          "mass": 7,
+          "name": "俄乌相互空袭",
+          "headline": "普京：俄军9月在特别军事行动区域控制1301平方公里地区"
+        },
+        {
+          "theme_id": "t01",
+          "mass": 7,
+          "name": "胡塞袭击沙特目标",
+          "headline": "也门胡塞武装称24小时内遭沙特空袭47次"
+        },
+        {
+          "theme_id": "t02",
+          "mass": 3,
+          "name": "德国防军将于2027年组",
+          "headline": "德国防军将于2027年组建首个无人机团"
+        },
+        {
+          "theme_id": "t03",
+          "mass": 2,
+          "name": "“大西洋城行动”让海军陆",
+          "headline": "“大西洋城行动”让海军陆战队罕见前往……偏远的北极岛屿"
+        },
+        {
+          "theme_id": "t04",
+          "mass": 2,
+          "name": "俄乌战事",
+          "headline": "乌克兰F-16最新进展：来自比利时的战机、维护担忧及Block 70/72战斗机"
+        },
+        {
+          "theme_id": "t05",
+          "mass": 2,
+          "name": "俄乌相互空袭",
+          "headline": "乌克兰称首次在实战中使用FP-7弹道导弹"
+        }
+      ],
+      "other": 25
+    }
+  ],
+  "split_events": [],
+  "metrics": {
+    "n_docs": 48,
+    "n_days": 2,
+    "n_days_with_docs": 2,
+    "n_core_raw": 6,
+    "n_core": 6,
+    "n_minor": 0,
+    "n_derived": 0,
+    "n_stories_in_w": 32,
+    "core_docs": 23,
+    "minor_docs": 0,
+    "other_docs": 25,
+    "other_rate": 0.5208,
+    "conservation_ok": true,
+    "conservation_fail": [],
+    "n_migration": 0,
+    "n_columns": 1,
+    "columns": [
+      {
+        "from": "2026-10-01",
+        "to": "2026-10-02"
+      }
+    ],
+    "slice_sha256": "2892aa51eaedacb83d87ce73690210f9ad9c43f4cb12ca11c86f8fe054d8d321",
+    "n_core_dropped_cap": 0,
+    "cluster_mode": "tree",
+    "n_cand": 6,
+    "judge_model": "",
+    "n_leftover": 0,
+    "n_attached": 0,
+    "n_rescue_groups": 0,
+    "n_rescue_docs": 0,
+    "n_true_scatter": 0,
+    "n_media": 13,
+    "media": [
+      {
+        "name": "环球网军事",
+        "n": 20
+      },
+      {
+        "name": "Euromaidan Press",
+        "n": 8
+      },
+      {
+        "name": "Jerusalem Post - Defense",
+        "n": 6
+      },
+      {
+        "name": "Greek City Times Defence",
+        "n": 3
+      },
+      {
+        "name": "TWZ - Air",
+        "n": 2
+      },
+      {
+        "name": "Air & Space Forces Magazine",
+        "n": 2
+      },
+      {
+        "name": "Defense News - Global",
+        "n": 1
+      },
+      {
+        "name": "Marine Corps Times",
+        "n": 1
+      },
+      {
+        "name": "The Aviationist",
+        "n": 1
+      },
+      {
+        "name": "TWZ - Sea",
+        "n": 1
+      },
+      {
+        "name": "Defense Mirror",
+        "n": 1
+      },
+      {
+        "name": "TWZ - Land",
+        "n": 1
+      },
+      {
+        "name": "Interfax Ukraine",
+        "n": 1
+      }
+    ],
+    "name_mode": "rule"
+  }
+}

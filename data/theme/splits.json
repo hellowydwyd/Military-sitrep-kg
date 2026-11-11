@@ -17,12 +17,12 @@
     "rss_api"
   ],
   "min_body_chars": 80,
-  "n_kept": 2713,
+  "n_kept": 4167,
   "n_dropped": 7,
   "splits": {
-    "tune": 2221,
-    "test": 436,
-    "other": 56
+    "other": 1507,
+    "tune": 2224,
+    "test": 436
   },
   "n_gold": 245
 }
