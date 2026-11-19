@@ -171,6 +171,22 @@ input:focus, select:focus, textarea:focus { border-color: #3b5170; }
   font-size: 13px;
 }
 
+.file-pick {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.file-pick select {
+  max-width: 240px;
+  padding: 5px 8px;
+  font-size: 12.5px;
+  border-radius: 7px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+}
+
 /* ---------- 布局 ---------- */
 
 .layout {
@@ -340,6 +356,39 @@ kbd {
 }
 .doc-tools { display: flex; align-items: center; gap: 10px; flex: none; }
 
+/* 翻页导航 */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-btn {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+.nav-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.nav-btn:disabled:hover { background: transparent; }
+.nav-pos {
+  min-width: 62px;
+  text-align: center;
+  font-size: 11.5px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.done-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--green-dim);
+  border: 1px solid rgba(79, 179, 138, 0.45);
+  color: var(--green);
+  font-size: 11px;
+  white-space: nowrap;
+}
+.done-badge[hidden] { display: none; }
+
 .hint {
   font-size: 12px;
   color: var(--gold);
@@ -362,6 +411,45 @@ kbd {
   white-space: pre-wrap;
   word-break: break-word;
 }
+
+/* 对照模式：左译文右原文 */
+.doc-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+.doc-body > .text { flex: 1 1 58%; }
+.docpane.dual .text {
+  padding: 22px 24px 60px;
+  border-right: 1px solid var(--line-soft);
+}
+
+.orig {
+  flex: 1 1 42%;
+  min-width: 0;
+  overflow-y: auto;
+  padding: 22px 24px 60px;
+  font-size: 13.5px;
+  line-height: 1.85;
+  color: var(--muted);
+  background: var(--surface);
+}
+.orig[hidden] { display: none; }
+.orig-head {
+  margin-bottom: 10px;
+  font-size: 11px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.orig-title {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.orig-body { word-break: break-word; }
 
 .text.selecting { cursor: crosshair; }
 
@@ -500,9 +588,9 @@ kbd {
 
 .cand-meta {
   margin-top: 4px;
-  font-size: 11.5px;
+  font-size: 13px;
   color: var(--muted);
-  line-height: 1.55;
+  line-height: 1.6;
   word-break: break-word;
 }
 
@@ -645,4 +733,131 @@ button.del-add:hover { background: var(--red-dim); }
   .judge { grid-row: 2; border-left: 0; }
   .topbar { gap: 14px; padding: 0 14px; }
   .brand-text p { display: none; }
+}
+
+/* 论元编辑器：每行一个槽位，角色可换、值可改、可删、可加 */
+.arg-box {
+  margin-top: 8px;
+  padding: 8px 9px 7px;
+  border: 1px solid rgba(217, 185, 120, 0.2);
+  border-radius: 7px;
+  background: rgba(217, 185, 120, 0.045);
+}
+.arg-title {
+  font-size: 12px;
+  color: var(--gold);
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+  margin-bottom: 5px;
+}
+.arg-n {
+  display: inline-block;
+  min-width: 15px;
+  padding: 0 5px;
+  margin-left: 4px;
+  border-radius: 8px;
+  background: rgba(217, 185, 120, 0.16);
+  color: var(--gold);
+  font-size: 11px;
+  text-align: center;
+}
+.arg-empty { opacity: 0.6; }
+.arg-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+}
+.arg-row select.arg-role {
+  flex: 0 0 104px;
+  font-size: 12.5px;
+  padding: 3px 4px;
+}
+.arg-row input.arg-val {
+  flex: 1 1 auto;
+  min-width: 0;
+  font: inherit;
+  font-size: 13px;
+  padding: 4px 7px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid rgba(217, 185, 120, 0.28);
+  border-radius: 5px;
+  outline: none;
+}
+.arg-row input.arg-val:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(217, 185, 120, 0.14);
+}
+.arg-row input.arg-val::placeholder { color: var(--muted); opacity: 0.55; }
+/* 值不在事件原文中：留个问号提示，不阻断提交 */
+.arg-warn {
+  flex: 0 0 auto;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--gold);
+  border: 1px solid rgba(217, 185, 120, 0.5);
+  border-radius: 50%;
+  cursor: help;
+}
+.arg-row.arg-miss input.arg-val { border-color: rgba(217, 185, 120, 0.55); }
+.arg-warn[hidden] { display: none; }
+.arg-warn-note { font-size: 11.5px; color: var(--muted); opacity: 0.6; }
+.arg-del {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  line-height: 1;
+  font-size: 15px;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.arg-del:hover {
+  color: var(--red);
+  background: rgba(207, 107, 118, 0.12);
+  border-color: rgba(207, 107, 118, 0.3);
+}
+
+/* 槽位提示：列出该事件类型允许的论元角色 */
+.slot-hint {
+  color: var(--gold);
+  opacity: 0.85;
+  font-size: 12.5px;
+}
+
+/* 触发词：在事件句里另做标记，用实心底色 */
+.text mark[data-kind="trigger"] {
+  background: rgba(207, 107, 118, 0.34);
+  border-bottom: 1.5px solid rgba(207, 107, 118, 0.9);
+  font-weight: 600;
+}
+.trig {
+  color: var(--red);
+  font-weight: 600;
+}
+
+/* EE 事件文本较长，超过两行折叠，点击展开 */
+.cand-main.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer;
+}
+.cand-main.clamp.open {
+  -webkit-line-clamp: unset;
+  display: block;
+}
+.cand-main .trig {
+  color: var(--red);
+  font-weight: 600;
 }

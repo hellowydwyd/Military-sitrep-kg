@@ -117,6 +117,10 @@ class NewsDoc:
     fetched_at: str = ""
     channel: str = "军事"
     extra: Optional[dict] = None
+    # 译文稿：原文标题与正文，供标注界面对照
+    title_orig: str = ""
+    body_orig: str = ""
+    translated: bool = False
 
     def to_dict(self) -> dict:
         d = asdict(self)

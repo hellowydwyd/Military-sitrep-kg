@@ -11,8 +11,8 @@ from pathlib import Path
 
 from align.verify import resolve_actor, resolve_location
 from extract.validate import evidence_sentence
-from graph.proximity import _anchor_day, _entities, _jaccard
-from graph.store import load_graph
+from legacy.graph.proximity import _anchor_day, _entities, _jaccard
+from legacy.graph.store import load_graph
 from graph.time import overlaps_window
 
 ROOT = Path(__file__).resolve().parents[1]

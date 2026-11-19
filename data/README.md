@@ -5,15 +5,15 @@
 | 目录 | 来源 | 内容 | 入库 |
 | --- | --- | --- | --- |
 | `raw/huanqiu_mil/`、`raw/rss_api/` | 采集 | 按日 jsonl，一篇一行，含标题、正文、时间、链接 | 是 |
-| `extract/` | `extract.kg_batch` | 事件、五类实体、角色关系、人物属性 | 否（体积大） |
+| `extract/` | `extract.kg_batch` | 七类事件、六类实体、封闭论元、结构关系 | 否（体积大） |
 | `dataset/` | `dataset.build` | NER / EE / RE 三分卷，7:1.5:1.5 | 是 |
 | `dataset/export/` | `dataset.export` | BIO / CMNEE / DuIE 三种格式 | 是 |
 | `annotations/` | 标注工具 | 每任务每标注员一个 jsonl | 否（随标注产生） |
-| `zh/` | `align.zh` | 汉语规范名对照、人物底档 | 是（重新生成要 55 分钟） |
+| `zh/` | 早期规范名对照 | 汉语规范名、人物底档；生成它的 `align.zh` 已不在仓库里 | 是 |
 | `zhwiki/` | `ingest.zhwiki` | 维基索引压缩包与标题表 | 否（212MB 可重下） |
 | `theme/` | `theme.slice` | 议题切片、网页数据 | 部分是 |
 | `actor/` | `actor.slice` | 主体提及、共现、切片 | 部分是 |
-| `graph/` | `graph.build10` | 属性图 JSON | 否（体积大） |
+| `graph/` | `graph.build` | 事件图谱 JSON，默认 `sitrep.json` | 否（体积大） |
 | `reports/` | 各环节 | Markdown 报告 | 否 |
 | `eval/` | 手工 | 金标、缓存 | 部分是 |
 | `archive/` | 整理时 | 旧版本中间文件，只作回溯 | 否 |
@@ -24,9 +24,9 @@
 
 | 文件 | 用途 |
 | --- | --- |
-| `full_zh_localized2.jsonl` | `align.zh localize` 的输出，`title_fix` 的输入 |
-| `full_zh_final2.jsonl` | `align.disamb` 的输入 |
-| `full_zh_titlefix.jsonl` | 职务串改判后的最新版 |
+| `full_zh_localized2.jsonl` | 早期规范名写回的结果，`title_fix` 还能读 |
+| `full_zh_final2.jsonl` | 早期消歧流程的输入，对应代码已移除 |
+| `full_zh_titlefix.jsonl` | 职务串改判后的一版 |
 
 其余 13 个中间版本（`clean`、`evfix`、`typed`、`typed2`、`scenefix`、`localized`、`final`、`final3`、`resolved`、`resolved2`、`edges`、`edges2`、`edges3`）已移到 `archive/extract/`，共 566MB。
 

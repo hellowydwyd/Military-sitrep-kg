@@ -21,13 +21,22 @@ from collections import Counter
 from pathlib import Path
 from typing import Optional
 
+from extract import country_infer, entity_norm
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT_DIR = DATA / "dataset"
 
-# 十个结构关系归 RE，角色关系与包含归 EE
+# 关系归属统一取自 extract/slots.py。
+# 注意「部署方」是同名多义：作事件论元（事件→机构）归 EE，作装备关系（装备→机构）归 RE。
+# 所以按「关系名 + 头端点是否事件」判别，不能只看名字。
+from extract.slots import DOMAIN, ROLE_NAMES  # noqa: E402
+
+# 十个实体间结构关系归 RE
 RE_RELATIONS = {"隶属", "辖属", "驻地", "部署方", "去向", "任职", "会晤", "搭载", "位于", "敌对"}
-EE_RELATIONS = {"施事", "受事", "到场", "使用", "涉及", "表态", "包含"}
+# EE 卷的论元：slots.py 里声明的全部槽位（不含包含）
+EE_RELATIONS = set(ROLE_NAMES)
+# 「部署方」等同名多义靠头端点区分：头是事件的算论元，头是装备的算实体关系
 
 # 预筛正则：原文出现这些语义才可能标出结构关系
 RE_HINTS = {
@@ -52,16 +61,19 @@ def load_rows(src: Path) -> list[dict]:
 
 
 def attach_body(rows: list[dict]) -> list[dict]:
-    """抽取结果不带正文，从 raw 按 url 补齐，标注时需要看原文。"""
-    body_by_url: dict[str, str] = {}
-    raw = DATA / "raw"
+    """抽取结果不带正文，从 raw 按 url 补齐，标注时需要看原文。
+
+    译文稿同时带上英文原文，标注界面可做对照。
+    """
+    raw: dict[str, dict] = {}
+    src_dir = DATA / "raw"
     need = {(r.get("url") or "") for r in rows if not r.get("body")}
     if not need:
         return rows
-    for src_dir in raw.iterdir():
-        if not src_dir.is_dir():
+    for d in src_dir.iterdir():
+        if not d.is_dir():
             continue
-        for path in src_dir.glob("*.jsonl"):
+        for path in d.glob("*.jsonl"):
             for line in path.open(encoding="utf-8"):
                 if not line.strip():
                     continue
@@ -70,21 +82,47 @@ def attach_body(rows: list[dict]) -> list[dict]:
                 except json.JSONDecodeError:
                     continue
                 url = rec.get("url") or ""
-                if url in need and url not in body_by_url:
-                    body_by_url[url] = rec.get("body") or ""
+                if url in need and url not in raw:
+                    raw[url] = rec
     for r in rows:
-        if not r.get("body"):
-            r["body"] = body_by_url.get(r.get("url") or "", "")
+        url = r.get("url") or ""
+        if r.get("body"):
+            # 译文稿自带 body 与 body_orig，不用回填
+            continue
+        rec = raw.get(url) or {}
+        r["body"] = rec.get("body") or ""
+        # 英文稿译成中文后，body 是译文，body_orig 是原文
+        if r.get("translated"):
+            r.setdefault("title_orig", rec.get("title") or "")
+            r.setdefault("body_orig", rec.get("body") or "")
+        elif rec.get("lang", "").startswith("en"):
+            # 未译的英文稿，body 即英文，供界面提示
+            r["body_orig"] = r["body"]
+            r["title_orig"] = rec.get("title") or ""
     return rows
 
 
 def re_score(row: dict) -> tuple[int, list[str]]:
     """评估一篇稿件可标出多少类结构关系，用于 RE 卷排序与筛选。"""
-    rels = {x["name"] for x in row.get("relations") or [] if x["name"] in RE_RELATIONS}
+    events = {e["text"] for e in row.get("events") or []}
+    rels = {
+        x["name"] for x in row.get("relations") or []
+        if x["name"] in RE_RELATIONS and x["head"] not in events
+    }
     text = f"{row.get('title') or ''} {row.get('body') or ''}"
     hints = [k for k, rx in RE_HINTS.items() if rx.search(text)]
     score = len(rels) * 2 + len(set(hints) - rels)
     return score, sorted(rels | set(hints))
+
+
+def _bilingual(row: dict) -> dict:
+    """译文稿带上原文与译文字段，供标注界面对照。"""
+    out: dict = {}
+    if row.get("translated"):
+        out["title_orig"] = row.get("title_orig") or ""
+        out["text_orig"] = row.get("body_orig") or ""
+        out["translated"] = True
+    return out
 
 
 def to_ner(row: dict) -> dict:
@@ -96,6 +134,7 @@ def to_ner(row: dict) -> dict:
         "title": row.get("title"),
         "text": row.get("body") or "",
         "entities": ents,
+        **_bilingual(row),
     }
 
 
@@ -104,19 +143,27 @@ def to_ee(row: dict) -> dict:
     for ev in row.get("events") or []:
         args = []
         for x in row.get("relations") or []:
-            if x["name"] not in EE_RELATIONS or x["name"] == "包含":
-                continue
             if x["head"] != ev["text"]:
                 continue
+            # 头端点就是本事件，必是论元；再排除「包含」这类事件间结构
+            if x["name"] == "包含" or x["name"] not in EE_RELATIONS:
+                continue
             item = {"role": x["name"], "text": x["tail"]}
+            # 端点被降级为泛称：值保留，但没有对应的图节点
+            if x.get("tail_literal"):
+                item["literal"] = True
             if x.get("stance"):
                 item["stance"] = x["stance"]
             args.append(item)
         events.append({
-            "trigger": ev["text"],
+            "text": ev["text"],
+            "trigger": ev.get("trigger") or "",
             "event_type": ev["event_type"],
-            "setting": ev["setting"],
+            "subtype": ev.get("subtype") or "",
             "kind": ev["kind"],
+            "time_raw": ev.get("raw_time") or "",
+            "time_norm": ev.get("time_norm") or "",
+            "time_precision": ev.get("time_precision") or "unknown",
             "arguments": args,
             "evidence": ev.get("evidence") or "",
         })
@@ -125,7 +172,7 @@ def to_ee(row: dict) -> dict:
         comps.append({
             "text": c["text"],
             "event_type": c["event_type"],
-            "setting": c["setting"],
+            "subtype": c.get("subtype") or "",
             "kind": c["kind"],
             "covers": c.get("covers") or [],
             "fallback": bool(c.get("fallback")),
@@ -136,25 +183,31 @@ def to_ee(row: dict) -> dict:
         "text": row.get("body") or "",
         "events": events,
         "composites": comps,
+        **_bilingual(row),
     }
 
 
 def to_re(row: dict) -> dict:
     triples = []
+    events = {e["text"] for e in row.get("events") or []}
     for x in row.get("relations") or []:
-        if x["name"] not in RE_RELATIONS:
+        # 「部署方」等同名多义：头端点是事件的是论元，不进 RE 卷
+        if x["name"] not in RE_RELATIONS or x["head"] in events:
             continue
         triples.append({
             "head": x["head"],
             "relation": x["name"],
             "tail": x["tail"],
             "evidence": x.get("evidence") or "",
+            # 辖属等边区分来源：text=原文可证，marker=名称含国别标志，inferred=常识推断
+            **({"source": x["source"]} if x.get("source") else {}),
         })
     return {
         "doc_id": row.get("doc_id"),
         "title": row.get("title"),
         "text": row.get("body") or "",
         "triples": triples,
+        **_bilingual(row),
     }
 
 
@@ -186,7 +239,15 @@ def run(src: Path, sample: int = 0, seed: int = 7, re_ratio: float = 0.6) -> dic
         rows = random.Random(seed).sample(rows, sample)
         rows.sort(key=lambda r: r.get("publish_time") or "")
 
+    # 实体归一与泛称降级：简称合成全称，泛称设施/通名装备不建节点
+    rows, norm_stat = entity_norm.apply(rows)
+    # 辖属边：打 source 标记，并剔除跨国/双边机构的错误归属
+    rows, _ = country_infer.mark_sources(rows)
+    rows, affiliation_stat = country_infer.fix_affiliation(rows)
+
     stats = Counter()
+    stats["norm"] = norm_stat
+    stats["affiliation"] = affiliation_stat
     # NER 与 EE 用全部篇目
     ner_rows = [to_ner(r) for r in rows]
     ee_rows = [to_ee(r) for r in rows]

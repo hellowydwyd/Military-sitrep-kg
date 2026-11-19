@@ -6,8 +6,8 @@ import re
 from collections import defaultdict
 from typing import Any
 
-from graph.s4 import events_on_day
-from graph.s5 import states_as_of
+from legacy.graph.s4 import events_on_day
+from legacy.graph.s5 import states_as_of
 from graph.time import overlaps_window
 from reason.pack import serialize_pack
 from reason.validate import CITE_RE, validate_brief

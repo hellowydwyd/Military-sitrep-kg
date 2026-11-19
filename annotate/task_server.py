@@ -80,8 +80,11 @@ class Handler(BaseHTTPRequestHandler):
             return self._static("task.html")
         if path.startswith("/static/"):
             return self._static(path[len("/static/") :])
-        if path in ("/task.js", "/task.css"):
+        if path in ("/task.css", "/core.js", "/app-server.js"):
             return self._static(path.lstrip("/"))
+
+        if path == "/api/files":
+            return self._send(*_json_bytes({"files": taskmod.list_files()}))
 
         if path == "/api/volumes":
             vols = taskmod.list_volumes()
@@ -92,13 +95,18 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/api/next":
             task = (q.get("task") or ["ner"])[0]
             split = (q.get("split") or ["train"])[0]
+            file = (q.get("file") or [""])[0]
             if task not in taskmod.TASKS:
                 return self._send(*_json_bytes({"ok": False, "error": "bad task"}, 400))
             skip = set()
             for raw in q.get("skip") or []:
                 skip.update(x for x in raw.split(",") if x)
-            doc = taskmod.next_doc(task, split, self._annotator(), skip)
-            rows = taskmod.load_volume(task, split)
+            try:
+                offset = int((q.get("offset") or ["0"])[0])
+            except ValueError:
+                offset = 0
+            doc = taskmod.next_doc(task, split, self._annotator(), skip, file, offset)
+            rows = taskmod.load_volume(task, split, file)
             done = taskmod.load_verdicts(task, self._annotator())
             remaining = sum(1 for r in rows if r.get("doc_id") not in done)
             payload = doc or {"done": True}
@@ -108,11 +116,28 @@ class Handler(BaseHTTPRequestHandler):
             payload["skipped"] = len(skip)
             return self._send(*_json_bytes(payload))
 
+        if path == "/api/at":
+            task = (q.get("task") or ["ner"])[0]
+            split = (q.get("split") or ["train"])[0]
+            file = (q.get("file") or [""])[0]
+            try:
+                index = int((q.get("index") or ["0"])[0])
+            except ValueError:
+                return self._send(*_json_bytes({"ok": False, "error": "bad index"}, 400))
+            doc = taskmod.doc_at(task, split, index, file, self._annotator())
+            if not doc:
+                return self._send(*_json_bytes({"ok": False, "error": "out of range"}, 404))
+            rows = taskmod.load_volume(task, split, file)
+            done = taskmod.load_verdicts(task, self._annotator())
+            doc["remaining"] = sum(1 for r in rows if r.get("doc_id") not in done)
+            return self._send(*_json_bytes(doc))
+
         if path == "/api/doc":
             task = (q.get("task") or ["ner"])[0]
             doc_id = (q.get("doc_id") or [""])[0]
             split = (q.get("split") or ["train"])[0]
-            for row in taskmod.load_volume(task, split):
+            file = (q.get("file") or [""])[0]
+            for row in taskmod.load_volume(task, split, file):
                 if row.get("doc_id") == doc_id:
                     return self._send(*_json_bytes(taskmod.view(task, row)))
             return self._send(*_json_bytes({"ok": False, "error": "not found"}, 404))

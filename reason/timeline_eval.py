@@ -9,7 +9,7 @@ import argparse
 import json
 from pathlib import Path
 
-from graph.store import load_graph
+from legacy.graph.store import load_graph
 from reason.timeline import (
     MAX_DELTA_DAYS,
     NEIGHBOR_K,

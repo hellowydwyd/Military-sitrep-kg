@@ -10,7 +10,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from graph.store import load_graph
+from legacy.graph.store import load_graph
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -25,7 +25,7 @@ def events_on_day(graph: dict, day: str) -> list[dict]:
     """新图只收 precision=day；旧图仍把 pub/triple 回填算进当日（B0 基线）。"""
     layer = graph.get("layer") or ""
     if layer.startswith(("s4", "s5", "s6", "s7")):
-        from graph.s4 import events_on_day as s4_day
+        from legacy.graph.s4 import events_on_day as s4_day
 
         return s4_day(graph, day)
     out = []

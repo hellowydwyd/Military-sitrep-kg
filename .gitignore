@@ -35,3 +35,4 @@ align/cache/
 data/annotations/*.jsonl
 
 !data/.gitkeep
+annotate/dist/

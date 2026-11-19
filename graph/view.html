@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>__(TITLE)__</title>
+<style>
+:root {
+  --bg: #101216; --panel: #171a1f; --line: #23272f; --line2: #2e333d;
+  --ink: #dde2ea; --muted: #79828f; --gold: #d9b978; --red: #cf6b76;
+  --blue: #6fa8dc; --green: #5fb3a1; --purple: #9b8ec4;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
+  font: 13px/1.6 "Source Han Sans SC", "Noto Sans SC", system-ui, sans-serif; }
+body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+
+header { display: flex; align-items: center; gap: 18px; padding: 0 18px;
+  height: 50px; flex: 0 0 50px; background: var(--panel);
+  border-bottom: 1px solid var(--line); }
+h1 { font-size: 14px; margin: 0; font-weight: 600; letter-spacing: .02em; }
+.tabs { display: flex; gap: 2px; margin-left: 8px; }
+.tab { padding: 6px 14px; border-radius: 6px; font-size: 12.5px; cursor: pointer;
+  color: var(--muted); border: 1px solid transparent; }
+.tab:hover { color: var(--ink); }
+.tab.on { background: #222730; color: var(--gold); border-color: var(--line2); }
+.meta { margin-left: auto; color: var(--muted); font-size: 12px; }
+
+main { flex: 1; overflow: auto; padding: 18px; min-height: 0; }
+/* 网络图视图：整屏填满，内部自己滚动 */
+#v-net.on { display: flex; flex-direction: column; height: 100%; }
+/* 事件网络：同样整屏填充 */
+#v-evnet.on { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+#v-map.on { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+#v-map .card { margin-bottom: 0; }
+#v-evnet .card { margin-bottom: 0; }
+#v-evnet #evwrap { flex: 1 1 auto; }
+#v-net .card { display: flex; flex-direction: column; flex: 1; min-height: 0; margin-bottom: 0; }
+.view { display: none; }
+.view.on { display: block; }
+
+.card { background: var(--panel); border: 1px solid var(--line);
+  border-radius: 9px; padding: 16px; margin-bottom: 16px; }
+.card-h { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+.card-h h2 { font-size: 13px; margin: 0; font-weight: 600; color: var(--ink); }
+.card-h .hint { color: var(--muted); font-size: 11.5px; }
+
+/* 时间轴：整页一列。类型统计在顶上，图拉满宽，点开某天后再把列表放在图下面 */
+#v-timeline.on { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+#v-timeline .tl-main { flex: 1 1 auto; display: flex; flex-direction: column;
+  min-height: 0; margin-bottom: 0; overflow: hidden; }
+.tl-stats { display: flex; gap: 8px; margin-bottom: 14px; flex: 0 0 auto; }
+.tl-stat { flex: 1 1 0; min-width: 0; cursor: pointer; border-radius: 8px;
+  padding: 6px 8px 8px; border: 1px solid transparent; }
+.tl-stat:hover { background: #14181e; }
+.tl-stat.on { background: #14181e; border-color: var(--line2); }
+#typeBars.filtering .tl-stat:not(.on) { opacity: .42; }
+.tl-stat .nm { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.tl-stat .nm i { width: 8px; height: 8px; border-radius: 2px; flex: 0 0 auto; }
+.tl-stat .num { margin-top: 3px; font-size: 18px; font-variant-numeric: tabular-nums;
+  line-height: 1.2; display: flex; align-items: baseline; gap: 8px; }
+.tl-stat .num em { font-style: normal; color: var(--muted); font-size: 12px; }
+.tl-stat .bar { margin-top: 6px; height: 3px; background: #262b33; border-radius: 2px; overflow: hidden; }
+.tl-stat .bar i { display: block; height: 100%; }
+.tl-wrap { flex: 1 1 auto; min-height: 140px; display: flex; flex-direction: column; }
+#v-timeline.has-day .tl-wrap { flex: 1 1 0; min-height: 120px; }
+.tl-months { display: flex; border-bottom: 1px solid var(--line);
+  margin-bottom: 3px; padding-bottom: 3px; flex: 0 0 auto; }
+.tl-month { font-size: 11px; color: var(--muted); text-align: center;
+  border-left: 1px solid var(--line); min-width: 0; overflow: hidden;
+  white-space: nowrap; }
+.tl-month:first-child { border-left: 0; }
+.tl-days { flex: 1 1 auto; min-height: 0; display: flex; align-items: flex-end; gap: 1px; }
+.tl-day { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column-reverse;
+  cursor: pointer; }
+.tl-day i { display: block; width: 100%; min-height: 1px; }
+.tl-day:hover { opacity: .72; }
+.tl-day.on { outline: 1px solid #d5dbe4; outline-offset: 1px; }
+#tlDetail { flex: 1.4 1 0; min-height: 0; margin-top: 12px; padding-top: 8px;
+  border-top: 1px solid var(--line); overflow: auto; }
+#tlDetail h3 { margin: 0 0 2px; font-size: 13px; font-weight: 600; position: sticky;
+  top: 0; background: var(--panel); padding-bottom: 6px; }
+
+/* 网络图：SVG 渲染，支持节点拖动 */
+#netwrap { position: relative; width: 100%; flex: 1 1 auto; min-height: 320px;
+  border-radius: 10px; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 42%, #1b2029 0%, #12151a 72%); }
+#netsvg { width: 100%; height: 100%; display: block; cursor: grab;
+  user-select: none; -webkit-user-select: none; }
+#netsvg.grabbing { cursor: grabbing; }
+#netsvg .edge { fill: none; stroke-linecap: round; transition: opacity .12s; }
+#netsvg .enode { cursor: grab; transition: filter .12s; }
+#netsvg .enode.dragging { cursor: grabbing; }
+#netsvg .elabel { font-size: 12px; fill: #c9d1dc; text-anchor: middle;
+  pointer-events: none; font-weight: 500; }
+#netsvg .eval { font-size: 11px; text-anchor: middle; pointer-events: none;
+  font-weight: 700; paint-order: stroke; stroke: #12151a; stroke-width: 3px;
+  stroke-linejoin: round; }
+#netsvg .ehalo { fill: rgba(91,159,196,.13); pointer-events: none; }
+.dim .edge { opacity: .10; }
+.dim .enode { opacity: .28; }
+.dim .elabel { opacity: .35; }
+.dim .hot .edge { opacity: .95; }
+.dim .hot .enode { opacity: 1; }
+.dim .hot .elabel { opacity: 1; }
+/* 事件脉络：与主界面同一套深色。类型、子类型、论元分行，不挤在一句里 */
+#mtModal { position: fixed; inset: 0; background: rgba(8,10,14,.62);
+  display: none; z-index: 200; align-items: center; justify-content: center; }
+#mtModal.open { display: flex; }
+#mtCard { width: min(880px, 94vw); max-height: 86vh; display: flex;
+  flex-direction: column; background: var(--panel); color: var(--ink);
+  border: 1px solid var(--line2); border-top: 2px solid var(--gold);
+  border-radius: 10px; overflow: hidden; }
+#mtHead { display: flex; align-items: baseline; gap: 14px;
+  padding: 16px 22px 12px; border-bottom: 1px solid var(--line); flex: 0 0 auto; }
+#mtHead b { font-size: 18px; color: var(--ink); font-weight: 600; }
+#mtHead .ct { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+#mtHead .ops { margin-left: auto; display: flex; gap: 16px; align-self: center; }
+#mtHead .ops span, #mtX { font-size: 13px; color: var(--muted); cursor: pointer; padding: 0; }
+#mtHead .ops span:hover, #mtX:hover { color: var(--gold); }
+#mtTypes { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 22px 12px;
+  border-bottom: 1px solid var(--line); flex: 0 0 auto; }
+.mt-type { display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line2);
+  font-size: 12.5px; color: var(--muted); background: transparent; }
+.mt-type i { width: 7px; height: 7px; border-radius: 2px; flex: 0 0 auto; }
+.mt-type b { font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; }
+.mt-type:hover { color: var(--ink); }
+.mt-type.on { color: var(--ink); background: #14181e; border-color: var(--gold); }
+#mtTypes.filtering .mt-type:not(.on) { opacity: .42; }
+#mtBody2 { flex: 1 1 auto; overflow-y: auto; padding: 4px 22px 28px; }
+#mtBody2::-webkit-scrollbar { width: 10px; }
+#mtBody2::-webkit-scrollbar-thumb { background: #2c323c; }
+
+.mt-group { display: flex; align-items: center; gap: 8px;
+  margin: 22px 0 6px; padding-bottom: 6px; border-bottom: 1px solid var(--line2); }
+.mt-group i { width: 8px; height: 8px; border-radius: 2px; flex: 0 0 auto; }
+.mt-group .gname { font-size: 13px; color: var(--ink); font-weight: 600; }
+.mt-group .gnum { margin-left: auto; font-size: 13px; color: var(--gold);
+  font-variant-numeric: tabular-nums; }
+
+.mt-block { border-bottom: 1px solid var(--line); }
+.mt-block.open { background: #14181e; border-radius: 8px; border-bottom-color: transparent;
+  margin: 4px 0; }
+.mt-l1, .mt-l2 { display: grid; grid-template-columns: 64px 1fr; column-gap: 12px; }
+.mt-l1 { padding: 11px 10px 10px; cursor: pointer; }
+.mt-l1:hover .title { color: #fff; }
+.when { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums;
+  line-height: 1.35; padding-top: 3px; }
+.when small { display: block; font-size: 11px; color: #5c6572; margin-top: 1px; }
+.fold { display: block; color: var(--gold); font-size: 12px; }
+.when small + .fold { margin-top: 6px; }
+.mt-l1 .title { font-size: 14.5px; font-weight: 600; color: var(--ink); line-height: 1.5; }
+.kind { margin-top: 3px; font-size: 12px; color: var(--gold); }
+.slots { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 6px; }
+.slot { font-size: 12.5px; color: var(--ink); line-height: 1.6; }
+.slot em { font-style: normal; color: var(--gold); margin-right: 6px; }
+
+.mt-kids { margin: 0 10px 8px 74px; padding: 2px 0 4px 12px;
+  border-left: 1px solid var(--line2); }
+.mt-l2 { padding: 7px 0; }
+.mt-l2 + .mt-l2 { border-top: 1px solid #22262e; }
+.mt-l2 .title { font-size: 13px; font-weight: 400; color: #c5ccd6; line-height: 1.5; }
+.mt-l2 .when { padding-top: 2px; font-size: 12px; }
+.mt-l2 .kind { color: #8b93a1; }
+.mt-more { padding: 4px 0 2px; font-size: 12px; color: var(--muted); }
+
+.mt-empty { padding: 64px 20px; text-align: center; color: var(--muted); font-size: 13px; }
+
+/* 世界地图 */
+#mapsvg { cursor: grab; }
+#mapsvg.grabbing { cursor: grabbing; }
+#mapsvg .mcountry { stroke: #1e2630; stroke-width: .5; transition: fill .15s; }
+#mapsvg .mcountry:hover { stroke: #d9b978; stroke-width: 1; }
+#mapsvg .marc { fill: none; stroke-linecap: round; pointer-events: none; }
+#mapsvg .mlabel { font-size: 10px; fill: #cbd3de; pointer-events: none;
+  paint-order: stroke; stroke: #0d1117; stroke-width: 2.5px; }
+.mpanel-ev { padding: 5px 0; border-bottom: 1px solid #1e232b; font-size: 12.5px; }
+.mpanel-ev:last-child { border-bottom: 0; }
+.mpanel-ev .t { color: #cfd6e0; }
+.mpanel-ev .m { color: #6b7280; font-size: 11.5px; margin-top: 2px; }
+.mpanel-ev .a { color: #7d8794; font-size: 11.5px; margin-top: 2px; }
+.mpanel-ev .a b { color: var(--gold); font-weight: 500; }
+
+/* 事件树（缩进列表） */
+#trlist { font-size: 13px; }
+.tr-row { display: flex; align-items: flex-start; gap: 8px; padding: 5px 8px;
+  border-radius: 6px; cursor: pointer; border-left: 3px solid transparent; }
+.tr-row:hover { background: #1e232b; }
+.tr-row.sel { background: #262c35; border-left-color: var(--gold); }
+.tr-row.root { margin-top: 2px; }
+.tr-row.child { padding-left: 26px; font-size: 12.5px; color: #b9c2cf; }
+.tr-row.child:hover { background: #1a1f26; }
+.tr-tw { flex: 0 0 auto; width: 14px; text-align: center; color: var(--muted);
+  font-size: 11px; line-height: 1.7; user-select: none; }
+.tr-dot { flex: 0 0 auto; width: 7px; height: 7px; border-radius: 50%;
+  margin-top: 7px; }
+.tr-body { flex: 1 1 auto; min-width: 0; }
+.tr-txt { line-height: 1.55; word-break: break-word; }
+.tr-meta { font-size: 11.5px; color: #6b7280; margin-top: 2px; display: flex;
+  gap: 10px; flex-wrap: wrap; }
+.tr-meta .k { color: var(--gold); }
+.tr-args { font-size: 11.5px; color: #7d8794; margin-top: 3px; display: none;
+  gap: 4px 14px; flex-wrap: wrap; }
+.tr-row.sel .tr-args, .tr-row:hover .tr-args { display: flex; }
+.tr-args b { color: var(--gold); font-weight: 500; }
+.tr-bandh { padding: 10px 8px 4px; font-size: 11px; color: #8b93a1;
+  letter-spacing: .06em; text-transform: uppercase; border-bottom: 1px solid var(--line);
+  margin-bottom: 2px; display: flex; justify-content: space-between; }
+.tr-bandh em { font-style: normal; color: #5f6773; }
+.tree-tip { position: absolute; pointer-events: none; background: #23272ff5;
+  border: 1px solid #3a4150; border-radius: 7px; padding: 8px 11px;
+  font-size: 12px; display: none; z-index: 30; box-shadow: 0 6px 20px #000b;
+  max-width: 320px; line-height: 1.7; }
+.tree-tip b { color: #e8edf4; }
+.tree-tip .tl { color: #8b93a1; font-size: 11.5px; }
+.tree-tip .tr { display: flex; justify-content: space-between; gap: 12px; }
+
+#evsvg .ecard { transition: filter .12s; }
+#evsvg .etext { font-size: 11px; fill: #eef2f7; pointer-events: none;
+  paint-order: stroke; stroke: #0f1216; stroke-width: 3px;
+  stroke-linejoin: round; font-weight: 500; }
+#evsvg .eedge { fill: none; }
+#evsvg.dimmed .eedge { opacity: .08; }
+#evsvg.dimmed .ecard { opacity: .25; }
+#evsvg.dimmed .hot .eedge { opacity: .9; }
+#evsvg.dimmed .hot .ecard { opacity: 1; }
+.net-tip { position: absolute; pointer-events: none; background: #23272ff2;
+  border: 1px solid #3a4150; border-radius: 7px; padding: 8px 11px;
+  font-size: 12px; display: none; z-index: 20; box-shadow: 0 6px 20px #000b;
+  max-width: 260px; line-height: 1.65; }
+.net-tip b { color: #e8edf4; }
+.net-tip .tl { color: #8b93a1; font-size: 11.5px; }
+.net-tip .tr { display: flex; justify-content: space-between; gap: 14px; }
+.net-hint { position: absolute; right: 12px; bottom: 10px; font-size: 11px;
+  color: #5f6773; pointer-events: none; }
+.tl-legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px;
+  margin-right: 5px; vertical-align: -1px; }
+
+/* 网络图：自适应画布，不压缩变形 */
+#netcv { display: block; width: 100%; height: 620px; background:
+  radial-gradient(circle at 50% 45%, #1a1e25 0%, #13161b 70%);
+  border-radius: 8px; cursor: grab; }
+#netcv:active { cursor: grabbing; }
+/* 世界地图 */
+#mapsvg { cursor: grab; }
+#mapsvg.grabbing { cursor: grabbing; }
+#mapsvg .mcountry { stroke: #1e2630; stroke-width: .5; transition: fill .15s; }
+#mapsvg .mcountry:hover { stroke: #d9b978; stroke-width: 1; }
+#mapsvg .marc { fill: none; stroke-linecap: round; pointer-events: none; }
+#mapsvg .mlabel { font-size: 10px; fill: #cbd3de; pointer-events: none;
+  paint-order: stroke; stroke: #0d1117; stroke-width: 2.5px; }
+.mpanel-ev { padding: 5px 0; border-bottom: 1px solid #1e232b; font-size: 12.5px; }
+.mpanel-ev:last-child { border-bottom: 0; }
+.mpanel-ev .t { color: #cfd6e0; }
+.mpanel-ev .m { color: #6b7280; font-size: 11.5px; margin-top: 2px; }
+.mpanel-ev .a { color: #7d8794; font-size: 11.5px; margin-top: 2px; }
+.mpanel-ev .a b { color: var(--gold); font-weight: 500; }
+
+/* 事件树（缩进列表） */
+#trlist { font-size: 13px; }
+.tr-row { display: flex; align-items: flex-start; gap: 8px; padding: 5px 8px;
+  border-radius: 6px; cursor: pointer; border-left: 3px solid transparent; }
+.tr-row:hover { background: #1e232b; }
+.tr-row.sel { background: #262c35; border-left-color: var(--gold); }
+.tr-row.root { margin-top: 2px; }
+.tr-row.child { padding-left: 26px; font-size: 12.5px; color: #b9c2cf; }
+.tr-row.child:hover { background: #1a1f26; }
+.tr-tw { flex: 0 0 auto; width: 14px; text-align: center; color: var(--muted);
+  font-size: 11px; line-height: 1.7; user-select: none; }
+.tr-dot { flex: 0 0 auto; width: 7px; height: 7px; border-radius: 50%;
+  margin-top: 7px; }
+.tr-body { flex: 1 1 auto; min-width: 0; }
+.tr-txt { line-height: 1.55; word-break: break-word; }
+.tr-meta { font-size: 11.5px; color: #6b7280; margin-top: 2px; display: flex;
+  gap: 10px; flex-wrap: wrap; }
+.tr-meta .k { color: var(--gold); }
+.tr-args { font-size: 11.5px; color: #7d8794; margin-top: 3px; display: none;
+  gap: 4px 14px; flex-wrap: wrap; }
+.tr-row.sel .tr-args, .tr-row:hover .tr-args { display: flex; }
+.tr-args b { color: var(--gold); font-weight: 500; }
+.tr-bandh { padding: 10px 8px 4px; font-size: 11px; color: #8b93a1;
+  letter-spacing: .06em; text-transform: uppercase; border-bottom: 1px solid var(--line);
+  margin-bottom: 2px; display: flex; justify-content: space-between; }
+.tr-bandh em { font-style: normal; color: #5f6773; }
+.tree-tip { position: absolute; pointer-events: none; background: #23272ff5;
+  border: 1px solid #3a4150; border-radius: 7px; padding: 8px 11px;
+  font-size: 12px; display: none; z-index: 30; box-shadow: 0 6px 20px #000b;
+  max-width: 320px; line-height: 1.7; }
+.tree-tip b { color: #e8edf4; }
+.tree-tip .tl { color: #8b93a1; font-size: 11.5px; }
+.tree-tip .tr { display: flex; justify-content: space-between; gap: 12px; }
+
+#evsvg .ecard { transition: filter .12s; }
+#evsvg .etext { font-size: 11px; fill: #eef2f7; pointer-events: none;
+  paint-order: stroke; stroke: #0f1216; stroke-width: 3px;
+  stroke-linejoin: round; font-weight: 500; }
+#evsvg .eedge { fill: none; }
+#evsvg.dimmed .eedge { opacity: .08; }
+#evsvg.dimmed .ecard { opacity: .25; }
+#evsvg.dimmed .hot .eedge { opacity: .9; }
+#evsvg.dimmed .hot .ecard { opacity: 1; }
+.net-tip { position: absolute; pointer-events: none; background: #23272fee;
+  border: 1px solid #3a4150; border-radius: 6px; padding: 6px 10px;
+  font-size: 12px; display: none; z-index: 20; box-shadow: 0 4px 14px #000a;
+  white-space: nowrap; }
+
+/* 排行 */
+.rank { display: grid; grid-template-columns: 28px minmax(96px, 32%) 1fr 108px; gap: 12px;
+  align-items: center; padding: 7px 2px; border-bottom: 1px solid var(--line);
+  cursor: pointer; }
+.rank:last-child { border-bottom: 0; }
+.rank:hover .nm { color: #fff; }
+.rank .no { color: var(--muted); font-size: 12px; text-align: right; }
+.rank .nm { font-size: 13px; }
+.rank .bar { height: 7px; background: var(--line2); border-radius: 2px; overflow: hidden; }
+.rank .bar i { display: block; height: 100%; }
+.rank .ct { font-size: 12px; color: var(--muted); text-align: right; white-space: nowrap;
+  font-variant-numeric: tabular-nums; }
+.ty { display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  margin-right: 6px; vertical-align: 1px; }
+
+/* 事件列表 */
+.ev { border-bottom: 1px solid var(--line); padding: 9px 0; cursor: pointer; }
+.ev:last-child { border-bottom: 0; }
+.ev:hover { background: #1c2027; }
+.ev-h { display: flex; align-items: baseline; gap: 9px; }
+.ev-t { font-size: 12.5px; flex: 1; }
+.ev-d { color: var(--muted); font-size: 11px; white-space: nowrap; }
+.chip { display: inline-block; padding: 1px 7px; border-radius: 10px;
+  font-size: 10.5px; border: 1px solid currentColor; opacity: .9; white-space: nowrap; }
+.ev-a { margin-top: 5px; padding-left: 2px; display: none; flex-wrap: wrap; gap: 5px 12px; }
+.ev.open .ev-a { display: flex; }
+.arg { font-size: 11.5px; color: var(--muted); }
+.arg b { color: var(--gold); font-weight: 500; }
+.arg-loc b { color: var(--green); }
+.ev-doc { font-size: 11px; color: #5f6773; margin-top: 4px; display: none; }
+.ev.open .ev-doc { display: block; }
+
+input.f { background: #12151a; border: 1px solid var(--line2); color: var(--ink);
+  border-radius: 6px; padding: 5px 10px; font-size: 12.5px; outline: none; width: 220px; }
+input.f:focus { border-color: var(--gold); }
+.row { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+select.f { background: #12151a; border: 1px solid var(--line2); color: var(--ink);
+  border-radius: 6px; padding: 5px 8px; font-size: 12.5px; }
+.empty { color: var(--muted); padding: 20px 0; text-align: center; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>军事事件图谱</h1>
+  <nav class="tabs" id="tabs">
+    <div class="tab on" data-v="map">世界地图</div>
+    <div class="tab" data-v="net">国家关系</div>
+    <div class="tab" data-v="timeline">时间分布</div>
+    <div class="tab" data-v="rank">实体排行</div>
+    <div class="tab" data-v="events">事件检索</div>
+  </nav>
+  <div class="meta" id="meta"></div>
+</header>
+
+<main>
+  <section class="view on" id="v-map">
+    <div class="card" style="display:flex;flex-direction:column;flex:1;min-height:0;margin-bottom:0">
+      <div class="card-h">
+        <h2>世界态势地图</h2>
+        <span class="hint">点一个国家，弹出该国的事件脉络。颜色深浅为对抗强度。</span>
+      </div>
+      <div class="row">
+        <select class="f" id="mapMode">
+          <option value="hostile">对抗强度</option>
+          <option value="all">全部事件</option>
+          <option value="coop">合作强度</option>
+        </select>
+        <select class="f" id="mapType">
+          <option value="">全部类型</option>
+          <option value="对抗">只看对抗</option>
+          <option value="表态">只看表态</option>
+          <option value="部署">只看部署</option>
+          <option value="合作">只看合作</option>
+          <option value="灾伤">只看灾伤</option>
+        </select>
+        <label style="display:flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)">
+          <input type="checkbox" id="mapArcs" checked /> 跨国连线
+        </label>
+        <span class="hint" id="mapStat"></span>
+      </div>
+      <div id="mapsplit" style="display:flex;flex:1 1 auto;min-height:0">
+        <div id="mapwrap" style="position:relative;flex:1 1 100%;min-width:0;
+          border-radius:10px;overflow:hidden;background:#0d1117">
+          <svg id="mapsvg" style="width:100%;height:100%;display:block"></svg>
+          <div class="net-tip" id="mapTip"></div>
+          <div class="net-hint">点击国家查看事件脉络 · 滚轮缩放 · 拖拽平移</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="view" id="v-net">
+    <div class="card">
+      <div class="card-h">
+        <h2>国家关系网络</h2>
+        <span class="hint">机构已上卷到国家。连线粗细表示共同事件数，红色为对抗、绿色为合作。</span>
+      </div>
+      <div class="row">
+        <span class="hint">最少事件数</span>
+        <input type="range" id="netTh" min="1" max="20" value="2" style="width:180px" />
+        <span class="hint" id="netThV">2</span>
+        <select class="f" id="netMode">
+          <option value="all">全部互动</option>
+          <option value="对抗">只看对抗</option>
+          <option value="合作">只看合作</option>
+        </select>
+      </div>
+      <div id="netwrap">
+        <svg id="netsvg"></svg>
+        <div class="net-tip" id="netTip"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="v-timeline">
+    <div class="card tl-main">
+      <div class="card-h">
+        <h2>事件时间分布</h2>
+        <span class="hint" id="tlHint">点一个类型只看这一类的时间分布，再点一次恢复全部。柱高是当天的事件数，点一根柱子看当天的事件。</span>
+      </div>
+      <div class="tl-stats" id="typeBars"></div>
+      <div class="tl-wrap">
+        <div class="tl-months" id="tlMonths"></div>
+        <div class="tl-days" id="tlDays"></div>
+      </div>
+      <div id="tlDetail" style="display:none"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-rank">
+    <div class="card">
+      <div class="card-h">
+        <h2>实体排行</h2>
+        <span class="hint">按关联关系数排序。点一行，到事件检索里看它出现在哪些事件。</span>
+      </div>
+      <div class="row">
+        <select class="f" id="rankType"></select>
+      </div>
+      <div id="rankList"></div>
+    </div>
+  </section>
+
+  <section class="view" id="v-events">
+    <div class="card">
+      <div class="card-h">
+        <h2>事件检索</h2>
+        <span class="hint">输入关键词（事件文本、实体名、触发词）筛选，点击展开论元。</span>
+      </div>
+      <div class="row">
+        <input class="f" id="q" placeholder="搜索事件或实体…" />
+        <select class="f" id="evType"></select>
+        <span class="hint" id="evCount"></span>
+      </div>
+      <div id="evList"></div>
+    </div>
+  </section>
+</main>
+
+<div id="mtModal">
+  <div id="mtCard">
+    <div id="mtHead">
+      <b id="mmCountry"></b>
+      <span class="ct" id="mmCount"></span>
+      <span class="ops">
+        <span id="mmExpand">展开</span>
+        <span id="mmCollapse">收起</span>
+        <span id="mtX">关闭</span>
+      </span>
+    </div>
+    <div id="mtTypes"></div>
+    <div id="mtBody2"></div>
+  </div>
+</div>
+
+
+<script>
+const G = __(DATA)__;
+const TYPE_COLOR = {
+  "对抗": "#cf6b76", "部署": "#6fa8dc", "合作": "#5fb3a1",
+  "表态": "#d9b978", "灾伤": "#9b8ec4", "治理": "#a8a8a8", "其他": "#6b7280",
+};
+const NODE_COLOR = {
+  "国家": "#cf6b76", "机构": "#d9b978", "人物": "#6fa8dc",
+  "装备": "#9b8ec4", "地点": "#5fb3a1", "作品": "#a8a8a8",
+  "事件": "#e07a5f", "文档": "#4a5260",
+};
+
+const nodes = new Map(G.nodes.map(n => [n.id, n]));
+const events = G.nodes.filter(n => n.type === "事件");
+const orgCountry = G.org_country || {};
+
+// 事件 -> 论元
+const evArgs = new Map();
+for (const e of G.edges) {
+  if (e.kind !== "arg") continue;
+  if (!evArgs.has(e.from)) evArgs.set(e.from, []);
+  evArgs.get(e.from).push({ role: e.rel, target: e.to });
+}
+
+// 机构上卷到国家
+function toCountry(id) {
+  const n = nodes.get(id);
+  if (!n) return null;
+  if (n.type === "国家") return id;
+  if (n.type === "机构") return orgCountry[id] || null;
+  return null;
+}
+const ACTOR = new Set(__(ACTOR_ROLES)__);
+
+
+// ---------- 视图：世界态势地图 ----------
+// 以下三个共享结构原属「事件树/事件网络」，删掉那两个视图后仍需保留，地图页要用。
+const TR_COLOR = {
+  "对抗": "#cf6b76", "部署": "#5b9fc4", "合作": "#5fb3a1",
+  "表态": "#d9b978", "灾伤": "#9b8ec4", "治理": "#8b93a1", "其他": "#6b7280",
+};
+
+// 复合事件 -> 原子子事件
+const TR_KIDS = new Map();
+for (const e of G.edges) {
+  if (e.rel !== "subevent") continue;
+  if (!TR_KIDS.has(e.from)) TR_KIDS.set(e.from, []);
+  TR_KIDS.get(e.from).push(e.to);
+}
+
+// 事件 -> 论元（role, target）
+const evArgMap = new Map();
+for (const e of G.edges) {
+  if (e.kind !== "arg") continue;
+  if (!evArgMap.has(e.from)) evArgMap.set(e.from, []);
+  evArgMap.get(e.from).push({ role: e.rel, target: e.to });
+}
+
+// 中文国名 -> GeoJSON 里的英文名。只收本项目出现过的 44 个。
+const CN2EN = {
+  "中国": "China", "乌克兰": "Ukraine", "也门": "Yemen", "以色列": "Israel",
+  "伊拉克": "Iraq", "伊朗": "Iran", "俄罗斯": "Russia", "克罗地亚": "Croatia",
+  "加拿大": "Canada", "加纳": "Ghana", "卡塔尔": "Qatar", "印度": "India",
+  "叙利亚": "Syria", "土耳其": "Turkey", "尼日利亚": "Nigeria",
+  "巴勒斯坦": "Palestine", "巴基斯坦": "Pakistan", "巴拿马": "Panama",
+  "巴林": "Bahrain", "希腊": "Greece", "意大利": "Italy", "斯里兰卡": "Sri Lanka",
+  "日本": "Japan", "朝鲜": "North Korea", "柬埔寨": "Cambodia",
+  "格陵兰岛": "Greenland", "沙特": "Saudi Arabia", "沙特阿拉伯": "Saudi Arabia",
+  "法国": "France", "波兰": "Poland", "泰国": "Thailand", "瑞士": "Switzerland",
+  "科威特": "Kuwait", "约旦": "Jordan", "美国": "United States of America",
+  "苏丹": "Sudan", "英国": "United Kingdom", "菲律宾": "Philippines",
+  "蒙古": "Mongolia", "阿根廷": "Argentina", "阿联酋": "United Arab Emirates",
+  "韩国": "South Korea", "马里": "Mali", "黎巴嫩": "Lebanon",
+};
+
+// 国家中心坐标（经纬度），用于画弧与标注
+const CN_LL = {
+  "中国": [104, 35], "乌克兰": [31, 49], "也门": [48, 15.5], "以色列": [35, 31.5],
+  "伊拉克": [44, 33], "伊朗": [53, 32], "俄罗斯": [90, 61], "克罗地亚": [16, 45],
+  "加拿大": [-100, 56], "加纳": [-1.5, 7.5], "卡塔尔": [51.2, 25.3],
+  "印度": [79, 22], "叙利亚": [38, 35], "土耳其": [35, 39], "尼日利亚": [8, 9],
+  "巴勒斯坦": [35.2, 31.9], "巴基斯坦": [69, 30], "巴拿马": [-80, 9],
+  "巴林": [50.5, 26], "希腊": [22, 39], "意大利": [12.5, 42.8],
+  "斯里兰卡": [80.7, 7.8], "日本": [138, 36], "朝鲜": [127, 40],
+  "柬埔寨": [105, 12.5], "格陵兰岛": [-42, 72], "沙特": [45, 24],
+  "沙特阿拉伯": [45, 24], "法国": [2, 46], "波兰": [19, 52], "泰国": [101, 15],
+  "瑞士": [8, 46.8], "科威特": [47.8, 29.3], "约旦": [36, 31.2],
+  "美国": [-98, 39], "苏丹": [30, 15.5], "英国": [-2, 54], "菲律宾": [122, 12],
+  "蒙古": [103, 46], "阿根廷": [-64, -34], "阿联酋": [54, 24],
+  "韩国": [127.5, 36], "马里": [-4, 17.5], "黎巴嫩": [35.8, 34],
+};
+
+let mapGeo = null;          // GeoJSON
+let mapView = { x: 0, y: 0, k: 1 };
+let mapDrag = null;
+let mapSel = null;
+
+// 每国事件统计
+let mapStat = new Map();    // countryName -> {total, hostile, coop, byType}
+let mapEvents = new Map();  // countryName -> [eventId...]
+
+/** 投影：等距圆柱，把经纬度映射到画布坐标 */
+function mapProject(lon, lat, W, H) {
+  return [ (lon + 180) / 360 * W, (90 - lat) / 180 * H ];
+}
+
+/** 计算每国的事件统计。事件按「事发地点/受击方」所属国家归属。 */
+function buildMapStats() {
+  mapStat = new Map();
+  mapEvents = new Map();
+  const typeFilter = document.getElementById("mapType").value;
+
+  // 事件 -> 国家：优先用 事发地点(国家)，其次 受击方(国家)，再次 打击方(国家)
+  for (const n of G.nodes) {
+    if (n.type !== "事件") continue;
+    if (typeFilter && n.event_type !== typeFilter) continue;
+    const args = evArgMap.get(n.id) || [];
+    // 一个事件可能涉及多个国家，全部计数（受击方优先标"主要国"）
+    const countries = new Set();
+    for (const a of args) {
+      const tn = nodes.get(a.target) || {};
+      if (tn.type === "国家") countries.add(tn.name);
+      else if (tn.type === "机构") {
+        const c = G.org_country[a.target];
+        if (c) countries.add(c);
+      }
+    }
+    if (!countries.size) continue;
+
+    for (const country of countries) {
+      if (!mapStat.has(country)) {
+        mapStat.set(country, { total: 0, hostile: 0, coop: 0, byType: {} });
+        mapEvents.set(country, []);
+      }
+      const st = mapStat.get(country);
+      st.total++;
+      if (n.event_type === "对抗") st.hostile++;
+      if (n.event_type === "合作") st.coop++;
+      st.byType[n.event_type] = (st.byType[n.event_type] || 0) + 1;
+      mapEvents.get(country).push(n.id);
+      // 关键：复合事件的论元都挂在原子子事件上，自身没有边。
+      // 因此原子事件归属某国时，把它的父复合事件也算进该国。
+      for (const e of G.edges) {
+        if (e.rel !== "subevent" || e.to !== n.id) continue;
+        const pid = e.from;
+        if (!mapEvents.get(country).includes(pid)) mapEvents.get(country).push(pid);
+      }
+    }
+  }
+}
+
+/** 跨国连线：同一事件里同时出现的两个国家 */
+function buildMapArcs() {
+  const arcs = [];
+  const seen = new Set();
+  const typeFilter = document.getElementById("mapType").value;
+  for (const [ev, args] of evArgs) {
+    const en = nodes.get(ev) || {};
+    if (en.type !== "事件") continue;
+    if (typeFilter && en.event_type !== typeFilter) continue;
+    const set = new Set();
+    for (const a of args) {
+      if (!ACTOR.has(a.role)) continue;
+      const c = toCountry(a.target);
+      if (c && CN_LL[c]) set.add(c);
+    }
+    const arr = [...set];
+    for (let i = 0; i < arr.length; i++)
+      for (let j = i + 1; j < arr.length; j++) {
+        const k = [arr[i], arr[j]].sort().join("|");
+        if (seen.has(k)) continue;
+        seen.add(k);
+        arcs.push({ a: arr[i], b: arr[j], type: en.event_type || "其他" });
+      }
+  }
+  return arcs;
+}
+
+function colorFor(v, max, mode) {
+  if (!v) return "#1a212b";
+  const t = Math.min(1, v / Math.max(max, 1));
+  if (mode === "coop") {
+    // 绿
+    return `rgba(${Math.round(40 + 55 * (1 - t))},${Math.round(120 + 90 * t)},${Math.round(110 + 60 * t)},${0.25 + t * 0.65})`;
+  }
+  // 对抗/全部：红橙
+  return `rgba(${Math.round(150 + 85 * t)},${Math.round(50 + 60 * (1 - t))},${Math.round(60 + 20 * (1 - t))},${0.25 + t * 0.7})`;
+}
+
+function buildMap() {
+  const svg = document.getElementById("mapsvg");
+  if (!svg || !mapGeo) return;
+  const mode = document.getElementById("mapMode").value;
+  buildMapStats();
+
+  const W = svg.clientWidth || 900, H = svg.clientHeight || 460;
+  // 地图保持 2:1 比例，居中
+  const mapH = Math.min(H, W / 2);
+  const offY = (H - mapH) / 2;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+  const g = document.createElementNS(SVG_NS, "g");
+  g.setAttribute("transform", `translate(${mapView.x},${mapView.y}) scale(${mapView.k})`);
+  // 竖直居中偏移在地图坐标系里加
+  svg.appendChild(g);
+
+  const inner = document.createElementNS(SVG_NS, "g");
+  inner.setAttribute("transform", `translate(0,${offY})`);
+  g.appendChild(inner);
+
+  // 按数值取最大，决定色阶
+  const vals = [];
+  for (const [c, st] of mapStat) {
+    const v = mode === "coop" ? st.coop : (mode === "hostile" ? st.hostile : st.total);
+    vals.push(v);
+  }
+  const maxV = Math.max(1, ...vals);
+
+  // 国家路径
+  for (const f of mapGeo.features) {
+    const en = f.properties.name;
+    const cn = Object.keys(CN2EN).find(k => CN2EN[k] === en);
+    const st = cn ? mapStat.get(cn) : null;
+    const v = st ? (mode === "coop" ? st.coop : (mode === "hostile" ? st.hostile : st.total)) : 0;
+
+    const d = geoToPath(f.geometry, W, mapH);
+    if (!d) continue;
+    const path = document.createElementNS(SVG_NS, "path");
+    path.setAttribute("d", d);
+    path.setAttribute("class", "mcountry");
+    path.setAttribute("fill", colorFor(v, maxV, mode));
+    if (cn === mapSel) {
+      path.setAttribute("stroke", "#ffd98a");
+      path.setAttribute("stroke-width", 1.4);
+    }
+    if (cn && st) {
+      path.style.cursor = "pointer";
+      path.addEventListener("mouseenter", ev => {
+        const tip = document.getElementById("mapTip");
+        const tb = Object.entries(st.byType).sort((x, y) => y[1] - x[1])
+          .map(([k, n]) => `${k} ${n}`).join("　");
+        tip.innerHTML = `<b>${esc(cn)}</b><div class="tl">${st.total} 个事件</div>`
+          + `<div class="tl">${tb}</div>`;
+        tip.style.display = "block";
+        const wr = document.getElementById("mapwrap").getBoundingClientRect();
+        tip.style.left = Math.min(ev.clientX - wr.left + 14, wr.width - 220) + "px";
+        tip.style.top = Math.max(4, ev.clientY - wr.top - 10) + "px";
+      });
+      path.addEventListener("mouseleave", () => {
+        const tip = document.getElementById("mapTip");
+        if (tip) tip.style.display = "none";
+      });
+      path.addEventListener("click", ev => {
+        ev.stopPropagation();
+        mapSel = cn;
+        buildMap();
+        openMtModal(cn);
+      });
+    }
+    inner.appendChild(path);
+  }
+
+  // 跨国连线
+  if (document.getElementById("mapArcs").checked) {
+    const arcs = buildMapArcs();
+    const maxArc = Math.max(1, ...arcs.length ? [1] : [1]);
+    for (const a of arcs) {
+      const p = CN_LL[a.a], q = CN_LL[a.b];
+      if (!p || !q) continue;
+      const [x1, y1] = mapProject(p[0], p[1], W, mapH);
+      const [x2, y2] = mapProject(q[0], q[1], W, mapH);
+      const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+      const dx = x2 - x1, dy = y2 - y1;
+      const len = Math.hypot(dx, dy) || 1;
+      const cx = mx - dy / len * len * 0.18;
+      const cy = my + dx / len * len * 0.18;
+      const path = document.createElementNS(SVG_NS, "path");
+      path.setAttribute("d", `M${x1},${y1} Q${cx},${cy} ${x2},${y2}`);
+      path.setAttribute("class", "marc");
+      const col = TR_COLOR[a.type] || "#8b93a1";
+      path.setAttribute("stroke", col);
+      path.setAttribute("stroke-width", 1.1);
+      path.setAttribute("stroke-opacity", 0.32);
+      inner.appendChild(path);
+    }
+    document.getElementById("mapStat").textContent =
+      `${mapStat.size} 个国家 · ${arcs.length} 条跨国连线`;
+  } else {
+    document.getElementById("mapStat").textContent = `${mapStat.size} 个国家有事件`;
+  }
+
+  // 国家名标注（事件多的才标）
+  const top = [...mapStat.entries()].sort((a, b) => b[1].total - a[1].total).slice(0, 12);
+  for (const [c, st] of top) {
+    const ll = CN_LL[c];
+    if (!ll) continue;
+    const [x, y] = mapProject(ll[0], ll[1], W, mapH);
+    const t = document.createElementNS(SVG_NS, "text");
+    t.setAttribute("x", x); t.setAttribute("y", y);
+    t.setAttribute("class", "mlabel");
+    t.setAttribute("text-anchor", "middle");
+    t.textContent = c;
+    inner.appendChild(t);
+  }
+}
+
+/** GeoJSON 几何 -> SVG path，坐标用等距圆柱投影 */
+function geoToPath(geom, W, H) {
+  if (!geom) return "";
+  const polys = geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates;
+  let d = "";
+  for (const poly of polys) {
+    for (const ring of poly) {
+      if (!ring || ring.length < 3) continue;
+      ring.forEach((pt, i) => {
+        const [x, y] = mapProject(pt[0], pt[1], W, H);
+        d += (i === 0 ? "M" : "L") + x.toFixed(1) + "," + y.toFixed(1);
+      });
+      d += "Z";
+    }
+  }
+  return d;
+}
+
+/** 打开某国事件脉络的弹出层 */
+let mtCollapsed = new Set();
+let mtType = "";
+let mtCountry = "";
+
+function openMtModal(country) {
+  const modal = document.getElementById("mtModal");
+  if (!modal) return;
+  if (country !== mtCountry) {
+    mtType = "";
+    mtCountry = country;
+  }
+  modal.classList.add("open");
+  renderMt(country);
+}
+
+function closeMtModal() {
+  const modal = document.getElementById("mtModal");
+  if (modal) modal.classList.remove("open");
+  mapSel = null;
+  buildMap();
+}
+
+/** 渲染脉络内容到弹出层 */
+function renderMt(country) {
+  const ids = new Set(mapEvents.get(country) || []);
+  document.getElementById("mmCountry").textContent = country;
+
+  const isComp = (n) => n && ((TR_KIDS.get(n.id) || []).length > 0 || n.level === "composite");
+  const comps = [];
+  const orphan = [];
+  for (const id of ids) {
+    const n = nodes.get(id);
+    if (!n) continue;
+    if (isComp(n)) comps.push(n);
+    else {
+      // 父复合事件也在本国集合里就跳过（避免重复显示）
+      const parents = G.edges.filter(e => e.rel === "subevent" && e.to === id).map(e => e.from);
+      if (!parents.some(pid => ids.has(pid))) orphan.push(n);
+    }
+  }
+
+  comps.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
+  orphan.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
+
+  const ORDER = ["对抗", "部署", "合作", "表态", "灾伤", "治理", "其他"];
+  const byType = new Map();
+  for (const c of comps) {
+    const t = c.event_type || "其他";
+    if (!byType.has(t)) byType.set(t, []);
+    byType.get(t).push(c);
+  }
+  const types = [...byType.keys()].sort((a, b) => ORDER.indexOf(a) - ORDER.indexOf(b));
+  const orphanByType = new Map();
+  for (const n of orphan) {
+    const t = n.event_type || "其他";
+    if (!orphanByType.has(t)) orphanByType.set(t, []);
+    orphanByType.get(t).push(n);
+  }
+  const chipTypes = ORDER.filter(t => byType.has(t) || orphanByType.has(t));
+
+  const bar = document.getElementById("mtTypes");
+  bar.classList.toggle("filtering", !!mtType);
+  bar.innerHTML = `<span class="mt-type${mtType ? "" : " on"}" data-t="">全部 <b>${ids.size}</b></span>`
+    + chipTypes.map(t => {
+      const n = (byType.get(t) || []).length + (orphanByType.get(t) || []).length;
+      const col = TR_COLOR[t] || "#8b93a1";
+      return `<span class="mt-type${mtType === t ? " on" : ""}" data-t="${esc(t)}"><i style="background:${col}"></i>${esc(t)} <b>${n}</b></span>`;
+    }).join("");
+  bar.querySelectorAll(".mt-type").forEach(el => {
+    el.onclick = () => {
+      mtType = el.dataset.t || "";
+      renderMt(country);
+    };
+  });
+
+  const shownOrphan = mtType ? (orphanByType.get(mtType) || []) : orphan;
+  document.getElementById("mmCount").textContent = mtType
+    ? `${ids.size} 个事件 · 只看${mtType}`
+    : `${ids.size} 个事件 · ${comps.length} 组脉络`;
+
+  let html = "";
+  const visibleTypes = mtType ? (byType.has(mtType) ? [mtType] : []) : types;
+
+  for (const t of visibleTypes) {
+    const list = byType.get(t);
+    const col = TR_COLOR[t] || "#8b93a1";
+    html += `<div class="mt-group">
+      <i style="background:${col}"></i>
+      <span class="gname">${esc(t)}</span>
+      <span class="gnum">${list.length}</span>
+    </div>`;
+    for (const root of list) html += renderL1(root, ids, t);
+  }
+
+  if (shownOrphan.length) {
+    html += `<div class="mt-group">
+      <i style="background:#6b7280"></i>
+      <span class="gname">未归组</span>
+      <span class="gnum">${shownOrphan.length}</span>
+    </div>`;
+    for (const n of shownOrphan.slice(0, 50)) {
+      html += renderL1(n, ids, n.event_type || "其他");
+    }
+  }
+
+  const body = document.getElementById("mtBody2");
+  const keep = body.scrollTop;
+  body.innerHTML = html || '<div class="mt-empty">这一类没有可展示的事件</div>';
+  body.scrollTop = keep;
+
+  // 点击一层节点：展开/收起
+  body.querySelectorAll(".mt-l1").forEach(el => {
+    el.addEventListener("click", () => {
+      const id = el.dataset.id;
+      if (mtCollapsed.has(id)) mtCollapsed.delete(id);
+      else mtCollapsed.add(id);
+      renderMt(country);
+    });
+  });
+  document.getElementById("mmExpand").onclick = () => { mtCollapsed.clear(); renderMt(country); };
+  document.getElementById("mmCollapse").onclick = () => {
+    comps.forEach(c => mtCollapsed.add(c.id));
+    renderMt(country);
+  };
+}
+
+function fmtDate(t) {
+  const s = (t || "").slice(0, 10);
+  if (s.length < 10) return { y: "", md: "—" };
+  return { y: s.slice(0, 4), md: s.slice(5) };
+}
+
+/** 论元单独成行：角色名在前，实体在后，一项一块 */
+function argSlots(id, n) {
+  const args = (evArgMap.get(id) || []).slice(0, n);
+  if (!args.length) return "";
+  return `<div class="slots">${args.map(a => {
+    const tn = nodes.get(a.target) || {};
+    return `<span class="slot"><em>${esc(a.role)}</em>${esc((tn.name || a.target).slice(0, 18))}</span>`;
+  }).join("")}</div>`;
+}
+
+/** 一层：复合事件。左日期，右标题 / 子类型 / 论元三行 */
+function renderL1(n, countryIds, type) {
+  const kids = (TR_KIDS.get(n.id) || []).filter(k => countryIds.has(k));
+  const open = kids.length && !mtCollapsed.has(n.id);
+  const d = fmtDate(n.time);
+  const kind = n.subtype || "";
+  const slots = argSlots(n.id, 6);
+  const fold = kids.length ? `<span class="fold">${open ? "收起" : kids.length + " 则"}</span>` : "";
+  const when = d.md === "—"
+    ? fold
+    : `${esc(d.md)}<small>${esc(d.y)}</small>${fold}`;
+
+  let h = `<div class="mt-block${open ? " open" : ""}">
+    <article class="mt-l1${open ? " open" : ""}" data-id="${esc(n.id)}">
+      <div class="when">${when}</div>
+      <div class="main">
+        <div class="title">${esc(n.name)}</div>
+        ${kind ? `<div class="kind">${esc(kind)}</div>` : ""}
+        ${slots}
+      </div>
+    </article>`;
+
+  if (open) {
+    h += `<div class="mt-kids">`;
+    for (const k of kids.slice(0, 12)) {
+      const kn = nodes.get(k);
+      if (!kn) continue;
+      h += renderL2(kn, n.subtype || type);
+    }
+    if (kids.length > 12) {
+      h += `<div class="mt-more">还有 ${kids.length - 12} 则</div>`;
+    }
+    h += `</div>`;
+  }
+  h += `</div>`;
+  return h;
+}
+
+/** 二层：原子事件。子类型和父事件相同就不重复写 */
+function renderL2(n, parentKind) {
+  const d = fmtDate(n.time);
+  const slots = argSlots(n.id, 4);
+  const kind = (n.subtype && n.subtype !== parentKind) ? n.subtype : "";
+  return `<div class="mt-l2" data-id="${esc(n.id)}">
+    <div class="when">${esc(d.md)}</div>
+    <div class="main">
+      <div class="title">${esc(n.name)}</div>
+      ${kind ? `<div class="kind">${esc(kind)}</div>` : ""}
+      ${slots}
+    </div>
+  </div>`;
+}
+
+// 弹出层关闭
+(function initModal() {
+  const x = document.getElementById("mtX");
+  const modal = document.getElementById("mtModal");
+  if (x) x.onclick = closeMtModal;
+  if (modal) {
+    modal.addEventListener("click", ev => {
+      if (ev.target === modal) closeMtModal();
+    });
+  }
+  document.addEventListener("keydown", ev => {
+    if (ev.key === "Escape") closeMtModal();
+  });
+})();
+
+// 交互：平移缩放
+const mapsvg = document.getElementById("mapsvg");
+if (mapsvg) {
+  mapsvg.addEventListener("mousedown", e => {
+    mapDrag = { x: e.clientX, y: e.clientY, vx: mapView.x, vy: mapView.y };
+    mapsvg.classList.add("grabbing");
+  });
+  window.addEventListener("mousemove", e => {
+    if (!mapDrag) return;
+    mapView.x = mapDrag.vx + (e.clientX - mapDrag.x);
+    mapView.y = mapDrag.vy + (e.clientY - mapDrag.y);
+    buildMap();
+  });
+  window.addEventListener("mouseup", () => {
+    mapDrag = null;
+    if (mapsvg) mapsvg.classList.remove("grabbing");
+  });
+  mapsvg.addEventListener("wheel", e => {
+    e.preventDefault();
+    const r = mapsvg.getBoundingClientRect();
+    const mx = e.clientX - r.left, my = e.clientY - r.top;
+    const f = e.deltaY < 0 ? 1.15 : 1 / 1.15;
+    const nk = Math.min(8, Math.max(0.7, mapView.k * f));
+    mapView.x = mx - (mx - mapView.x) * (nk / mapView.k);
+    mapView.y = my - (my - mapView.y) * (nk / mapView.k);
+    mapView.k = nk;
+    buildMap();
+  });
+}
+document.getElementById("mapMode").onchange = buildMap;
+document.getElementById("mapType").onchange = buildMap;
+document.getElementById("mapArcs").onchange = buildMap;
+
+// ---------- 视图 0：国家关系网络（SVG，可拖动节点）----------
+const SVG_NS = "http://www.w3.org/2000/svg";
+let netNodes = [], netLinks = [];
+let netView = { x: 0, y: 0, k: 1 };
+let netDrag = null;        // 平移
+let nodeDrag = null;       // 节点拖动
+let netHover = null;
+let netSel = null;
+
+/**
+ * 统计国家对。国家上卷后按类型标注对抗/合作。
+ * 同时计算每对的细分：对抗次数、合作次数、总次数。
+ */
+function buildNet() {
+  const pairEv = new Map();
+  for (const [ev, args] of evArgs) {
+    const n = nodes.get(ev) || {};
+    const set = new Set();
+    for (const a of args) {
+      if (!ACTOR.has(a.role)) continue;
+      const c = toCountry(a.target);
+      if (c) set.add(c);
+    }
+    const arr = [...set];
+    for (let i = 0; i < arr.length; i++)
+      for (let j = i + 1; j < arr.length; j++) {
+        const k = arr[i] < arr[j] ? arr[i] + "|" + arr[j] : arr[j] + "|" + arr[i];
+        if (!pairEv.has(k)) pairEv.set(k, []);
+        pairEv.get(k).push(n.event_type || "其他");
+      }
+  }
+  const th = Number(document.getElementById("netTh").value);
+  const mode = document.getElementById("netMode").value;
+
+  netLinks = [];
+  const deg = new Map();
+  for (const [k, evs] of pairEv) {
+    const [a, b] = k.split("|");
+    let list = evs;
+    if (mode !== "all") list = evs.filter(t => t === mode);
+    if (list.length < th) continue;
+    const hostile = list.filter(t => t === "对抗").length;
+    const coop = list.filter(t => t === "合作").length;
+    const kind = hostile >= coop ? "对抗" : (coop > 0 ? "合作" : "其他");
+    netLinks.push({ a, b, n: list.length, hostile, coop, kind });
+    deg.set(a, (deg.get(a) || 0) + list.length);
+    deg.set(b, (deg.get(b) || 0) + list.length);
+  }
+
+  const svg = document.getElementById("netsvg");
+  const W = svg.clientWidth || 900, H = svg.clientHeight || 640;
+  const cx = W / 2, cy = H / 2;
+  const ids = [...deg.keys()];
+  const baseR = 0.5;   // 半径系数，稍后按椭圆铺开
+
+  // 保留已有节点位置，避免每次筛选都跳位
+  const old = new Map(netNodes.map(n => [n.id, n]));
+  netNodes = ids.map((id, i) => {
+    const prev = old.get(id);
+    if (prev) { prev.deg = deg.get(id) || 1; return prev; }
+    // 按椭圆均匀铺开，充分利用横向空间
+    const ang = (i / Math.max(ids.length, 1)) * Math.PI * 2 - Math.PI / 2;
+    const rr = 0.62 + (i % 3) * 0.16;
+    return { id,
+             x: cx + Math.cos(ang) * W * 0.40 * rr,
+             y: cy + Math.sin(ang) * H * 0.40 * rr,
+             vx: 0, vy: 0, deg: deg.get(id) || 1, fixed: false };
+  });
+  document.getElementById("netThV").textContent = th;
+  layoutNet();
+}
+
+function layoutNet() {
+  const svg = document.getElementById("netsvg");
+  const W = svg.clientWidth || 900, H = svg.clientHeight || 640;
+  const cx = W / 2, cy = H / 2;
+  const maxDeg = Math.max(1, ...netNodes.map(n => n.deg));
+  const maxN = Math.max(1, ...netLinks.map(l => l.n));
+  netNodes.forEach(n => { n.r = 11 + Math.sqrt(n.deg / maxDeg) * 20; });
+
+  const index = new Map(netNodes.map(n => [n.id, n]));
+  const ITER = 460;
+  // 以"可用区域的半径"为基准做布局，使图自然铺满
+  const scale = Math.min(W, H) / 640;
+  const area_k = (W * H) / (885 * 371);
+
+  for (let it = 0; it < ITER; it++) {
+    const a1 = 1 - it / ITER;
+    // 斥力：节点越多、半径越大，斥力越强
+    for (let i = 0; i < netNodes.length; i++) {
+      for (let j = i + 1; j < netNodes.length; j++) {
+        const p = netNodes[i], q = netNodes[j];
+        let dx = p.x - q.x, dy = p.y - q.y;
+        let d2 = dx * dx + dy * dy;
+        if (d2 < 1) { dx = Math.random() - .5; dy = Math.random() - .5; d2 = 1; }
+        const minD = (p.r + q.r + 26) * scale;
+        const eff = Math.max(d2, minD * minD);
+        const f = (area_k * 26000) / eff;
+        const d = Math.sqrt(d2);
+        p.vx += dx / d * f * a1; p.vy += dy / d * f * a1;
+        q.vx -= dx / d * f * a1; q.vy -= dy / d * f * a1;
+      }
+    }
+    // 引力：强关系拉近
+    for (const l of netLinks) {
+      const p = index.get(l.a), q = index.get(l.b);
+      if (!p || !q) continue;
+      const dx = q.x - p.x, dy = q.y - p.y;
+      const d = Math.sqrt(dx * dx + dy * dy) || 1;
+      const rest = (330 - (l.n / maxN) * 170) * scale;
+      const f = (d - rest) * 0.024 * a1;
+      p.vx += dx / d * f; p.vy += dy / d * f;
+      q.vx -= dx / d * f; q.vy -= dy / d * f;
+    }
+    // 向心 + 阻尼
+    netNodes.forEach(n => {
+      if (n.fixed) { n.vx = 0; n.vy = 0; return; }
+      // 软边界：超出画布 85% 才回拉，避免全部挤向中心
+      const lx = W * 0.46, ly = H * 0.46;
+      if (n.x < cx - lx || n.x > cx + lx) n.vx += (cx - n.x) * 0.012;
+      if (n.y < cy - ly || n.y > cy + ly) n.vy += (cy - n.y) * 0.012;
+      n.x += n.vx; n.y += n.vy;
+      n.vx *= 0.68; n.vy *= 0.68;
+    });
+  }
+  fitNetView();
+}
+
+function fitNetView(pad = 24) {
+  const svg = document.getElementById("netsvg");
+  const W = svg.clientWidth || 900, H = svg.clientHeight || 640;
+  if (!netNodes.length) return;
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  let maxR = 1, maxLabel = 1;
+  for (const n of netNodes) {
+    x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x);
+    y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y);
+    maxR = Math.max(maxR, n.r);
+    maxLabel = Math.max(maxLabel, String(shortName(n.id)).length * 6.5);
+  }
+  // 包围盒 = 节点中心跨度 + 两侧的节点半径与标签宽度
+  const marginX = Math.max(maxR, maxLabel / 2) + 16;
+  const marginY = maxR + 26;
+  const bw = Math.max(x1 - x0 + marginX * 2, 1);
+  const bh = Math.max(y1 - y0 + marginY * 2, 1);
+  const k = Math.max(0.3, Math.min((W - pad) / bw, (H - pad) / bh, 2.4));
+  netView.k = k;
+  netView.x = (W - bw * k) / 2 - x0 * k;
+  netView.y = (H - bh * k) / 2 - y0 * k;
+  renderNet();
+}
+
+/** 用 SVG 重建整张图。节点少（十几个），重建成本可接受。 */
+function renderNet() {
+  const svg = document.getElementById("netsvg");
+  if (!svg) return;
+  const W = svg.clientWidth || 900, H = svg.clientHeight || 640;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+  const defs = document.createElementNS(SVG_NS, "defs");
+  defs.innerHTML = `
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="nodeFill" cx="34%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#9fd4f0"/>
+      <stop offset="48%" stop-color="#5b9fc4"/>
+      <stop offset="100%" stop-color="#2f6485"/>
+    </radialGradient>
+    <radialGradient id="nodeFillCoop" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#8fe0cd"/>
+      <stop offset="55%" stop-color="#5fb3a1"/>
+      <stop offset="100%" stop-color="#3d7d70"/>
+    </radialGradient>`;
+  svg.appendChild(defs);
+
+  const index = new Map(netNodes.map(n => [n.id, n]));
+  const maxN = Math.max(1, ...netLinks.map(l => l.n));
+  const g = document.createElementNS(SVG_NS, "g");
+  g.setAttribute("transform",
+    `translate(${netView.x},${netView.y}) scale(${netView.k})`);
+  svg.appendChild(g);
+
+  // 邻居表：用于悬停高亮
+  const nbr = new Map();
+  netLinks.forEach(l => {
+    (nbr.get(l.a) || nbr.set(l.a, new Set()).get(l.a)).add(l.b);
+    (nbr.get(l.b) || nbr.set(l.b, new Set()).get(l.b)).add(l.a);
+  });
+  const focus = netHover || netSel;
+  const hotSet = focus ? new Set([focus, ...(nbr.get(focus) || [])]) : null;
+
+  // ---- 边 ----
+  for (const l of netLinks) {
+    const p = index.get(l.a), q = index.get(l.b);
+    if (!p || !q) continue;
+    const isHot = !focus || (l.a === focus || l.b === focus);
+    const w = 1 + (l.n / maxN) * 7;
+    const col = l.kind === "对抗" ? "#cf6b76" : l.kind === "合作" ? "#5fb3a1" : "#7c8593";
+    const dx = q.x - p.x, dy = q.y - p.y;
+    const len = Math.hypot(dx, dy) || 1;
+    const bend = 0.09 * (1 - l.n / maxN) + 0.03;
+    const mx = (p.x + q.x) / 2 - dy / len * len * bend;
+    const my = (p.y + q.y) / 2 + dx / len * len * bend;
+
+    const path = document.createElementNS(SVG_NS, "path");
+    path.setAttribute("d", `M${p.x},${p.y} Q${mx},${my} ${q.x},${q.y}`);
+    path.setAttribute("class", "edge" + (isHot ? " hot" : ""));
+    path.setAttribute("data-a", l.a);
+    path.setAttribute("data-b", l.b);
+    path.setAttribute("stroke", col);
+    path.setAttribute("stroke-width", w);
+    path.setAttribute("stroke-opacity", isHot ? 0.78 : 0.12);
+    g.appendChild(path);
+
+    // 数值标签只在中高权重时显示，避免遮挡
+    if (l.n >= 4) {
+      const t = document.createElementNS(SVG_NS, "text");
+      t.setAttribute("x", mx); t.setAttribute("y", my + 3.5);
+      t.setAttribute("class", "eval");
+      t.setAttribute("data-a", l.a);
+      t.setAttribute("data-b", l.b);
+      t.setAttribute("fill", col);
+      t.setAttribute("opacity", isHot ? 0.95 : 0.15);
+      t.textContent = l.n;
+      g.appendChild(t);
+    }
+  }
+
+  // ---- 节点 ----
+  // 每次都重建 DOM 会导致拖动失效（按下瞬间元素被替换）。
+  // 改为：首次创建并缓存引用，之后只更新属性。
+  const prevGrp = new Map();
+  svg.querySelectorAll(".enode").forEach(el => {
+    prevGrp.set(el.getAttribute("data-id"), el);
+  });
+
+  for (const n of netNodes) {
+    const isHot = !focus || hotSet.has(n.id);
+    let grp = prevGrp.get(n.id);
+    let halo, circle, lab;
+
+    if (grp) {
+      // 复用已有元素，只改位置与状态
+      halo = grp.querySelector(".ehalo");
+      circle = grp.querySelector("circle:not(.ehalo)");
+      lab = grp.querySelector(".elabel");
+    } else {
+      grp = document.createElementNS(SVG_NS, "g");
+      grp.setAttribute("data-id", n.id);
+
+      halo = document.createElementNS(SVG_NS, "circle");
+      halo.setAttribute("class", "ehalo");
+      grp.appendChild(halo);
+
+      circle = document.createElementNS(SVG_NS, "circle");
+      circle.setAttribute("fill", "url(#nodeFill)");
+      grp.appendChild(circle);
+
+      lab = document.createElementNS(SVG_NS, "text");
+      lab.setAttribute("class", "elabel");
+      grp.appendChild(lab);
+
+      // 事件只绑一次
+      attachNodeEvents(grp, n);
+      g.appendChild(grp);
+    }
+
+    // class 两个分支都要设，拖动和悬停高亮都靠它
+    grp.setAttribute("class", "enode" + (isHot ? " hot" : ""));
+    grp.style.cursor = "grab";
+
+    halo.setAttribute("cx", n.x); halo.setAttribute("cy", n.y);
+    halo.setAttribute("r", n.r * 1.5);
+    halo.setAttribute("opacity", isHot ? 1 : 0.25);
+
+    circle.setAttribute("cx", n.x); circle.setAttribute("cy", n.y);
+    circle.setAttribute("r", n.r);
+    circle.setAttribute("stroke", n.id === netSel ? "#ffd98a" : "rgba(255,255,255,.28)");
+    circle.setAttribute("stroke-width", n.id === netSel ? 2.4 : 1.3);
+
+    lab.setAttribute("x", n.x);
+    lab.setAttribute("y", n.y + n.r + 15);
+    lab.setAttribute("opacity", isHot ? 1 : 0.3);
+    lab.textContent = shortName(n.id);
+
+    // 保证在边之后绘制（边的元素在前面）
+    g.appendChild(grp);
+  }
+
+  // 删除已不在图中的节点
+  svg.querySelectorAll(".enode").forEach(el => {
+    const id = el.getAttribute("data-id");
+    if (!netNodes.some(n => n.id === id)) el.remove();
+  });
+}
+
+/** 节点的鼠标事件，只绑定一次。用 id 查当前数据，避免闭包持有旧对象。 */
+function attachNodeEvents(grp, _n) {
+  const id = grp.getAttribute("data-id");
+  const find = () => netNodes.find(x => x.id === id);
+
+  grp.addEventListener("mousedown", ev => {
+    ev.stopPropagation();
+    ev.preventDefault();
+    const n = find();
+    if (!n) return;
+    const svg = document.getElementById("netsvg");
+    nodeDrag = { id, moved: false };
+    n.fixed = true;
+    svg.classList.add("grabbing");
+  });
+
+  grp.addEventListener("mouseenter", ev => {
+    if (nodeDrag) return;
+    netHover = id;
+    const n = find();
+    if (n) showTip(n, ev);
+  });
+
+  grp.addEventListener("mousemove", ev => {
+    if (nodeDrag) return;
+    const n = find();
+    if (n) showTip(n, ev);
+  });
+
+  grp.addEventListener("mouseleave", () => {
+    if (nodeDrag) return;
+    netHover = null;
+    hideTip();
+  });
+}
+
+/** 局部更新节点位置：节点 + 相连的边，不重建整图 */
+function moveNodeVisual(n) {
+  const svg = document.getElementById("netsvg");
+  if (!svg) return;
+  const grp = svg.querySelector(`.enode[data-id="${CSS.escape(n.id)}"]`);
+  if (grp) {
+    const halo = grp.querySelector(".ehalo");
+    const circle = grp.querySelector("circle:not(.ehalo)");
+    const lab = grp.querySelector(".elabel");
+    if (halo) { halo.setAttribute("cx", n.x); halo.setAttribute("cy", n.y); }
+    if (circle) { circle.setAttribute("cx", n.x); circle.setAttribute("cy", n.y); }
+    if (lab) { lab.setAttribute("x", n.x); lab.setAttribute("y", n.y + n.r + 15); }
+  }
+  // 重画与该节点相连的边
+  const index = new Map(netNodes.map(x => [x.id, x]));
+  svg.querySelectorAll("path.edge").forEach(path => {
+    const a = path.getAttribute("data-a"), b = path.getAttribute("data-b");
+    if (a !== n.id && b !== n.id) return;
+    const p = index.get(a), q = index.get(b);
+    if (!p || !q) return;
+    const dx = q.x - p.x, dy = q.y - p.y;
+    const len = Math.hypot(dx, dy) || 1;
+    const bend = 0.09;
+    const mx = (p.x + q.x) / 2 - dy / len * len * bend;
+    const my = (p.y + q.y) / 2 + dx / len * len * bend;
+    path.setAttribute("d", `M${p.x},${p.y} Q${mx},${my} ${q.x},${q.y}`);
+  });
+  // 数值标签同步
+  svg.querySelectorAll("text.eval").forEach(t => {
+    const a = t.getAttribute("data-a"), b = t.getAttribute("data-b");
+    if (a !== n.id && b !== n.id) return;
+    const p = index.get(a), q = index.get(b);
+    if (!p || !q) return;
+    const dx = q.x - p.x, dy = q.y - p.y;
+    const len = Math.hypot(dx, dy) || 1;
+    const bend = 0.09;
+    const mx = (p.x + q.x) / 2 - dy / len * len * bend;
+    const my = (p.y + q.y) / 2 + dx / len * len * bend;
+    t.setAttribute("x", mx);
+    t.setAttribute("y", my + 3.5);
+  });
+}
+
+function showTip(n, ev) {
+  const tip = document.getElementById("netTip");
+  if (!tip) return;
+  const rel = netLinks.filter(l => l.a === n.id || l.b === n.id)
+    .sort((x, y) => y.n - x.n).slice(0, 5);
+  let html = `<b>${esc(shortName(n.id))}</b>`;
+  html += `<div class="tl">关联 ${rel.length} 方 · 合计 ${n.deg} 次</div>`;
+  for (const l of rel) {
+    const other = l.a === n.id ? l.b : l.a;
+    const col = l.kind === "对抗" ? "#e08b95" : l.kind === "合作" ? "#7fcebd" : "#9aa3b0";
+    html += `<div class="tr"><span>${esc(shortName(other))}</span>`
+      + `<span style="color:${col}">${l.n}</span></div>`;
+  }
+  tip.innerHTML = html;
+  tip.style.display = "block";
+  const wrap = document.getElementById("netwrap").getBoundingClientRect();
+  const x = (ev ? ev.clientX : 0) - wrap.left + 16;
+  const y = (ev ? ev.clientY : 0) - wrap.top + 16;
+  tip.style.left = Math.min(x, wrap.width - 200) + "px";
+  tip.style.top = Math.min(y, wrap.height - 120) + "px";
+}
+
+function hideTip() {
+  const tip = document.getElementById("netTip");
+  if (tip) tip.style.display = "none";
+}
+
+// ---- 画布级交互：平移、缩放、节点拖动 ----
+const netsvg = document.getElementById("netsvg");
+if (netsvg) {
+  netsvg.addEventListener("mousedown", e => {
+    // 点空白处开始平移，并取消选中
+    netDrag = { x: e.clientX, y: e.clientY, vx: netView.x, vy: netView.y };
+    netsvg.classList.add("grabbing");
+    if (netSel) { netSel = null; renderNet(); }
+  });
+
+  window.addEventListener("mousemove", e => {
+    if (nodeDrag) {
+      const rect = netsvg.getBoundingClientRect();
+      const n = netNodes.find(x => x.id === nodeDrag.id);
+      if (n) {
+        n.x = (e.clientX - rect.left - netView.x) / netView.k;
+        n.y = (e.clientY - rect.top - netView.y) / netView.k;
+        nodeDrag.moved = true;
+        // 只移动该节点及其相连的边，避免整图重建导致拖动中断
+        moveNodeVisual(n);
+      }
+      return;
+    }
+    if (netDrag) {
+      netView.x = netDrag.vx + (e.clientX - netDrag.x);
+      netView.y = netDrag.vy + (e.clientY - netDrag.y);
+      renderNet();
+    }
+  });
+
+  window.addEventListener("mouseup", () => {
+    const wasNode = !!nodeDrag;
+    nodeDrag = null;
+    netDrag = null;
+    const sv = document.getElementById("netsvg");
+    if (sv) sv.classList.remove("grabbing");
+    // 拖过节点后，重新计算一次视图，保证不出界
+    if (wasNode && netNodes.length) {
+      const b = sv.getBoundingClientRect();
+      const outside = netNodes.some(n => {
+        const x = n.x * netView.k + netView.x, y = n.y * netView.k + netView.y;
+        return x < 0 || x > b.width || y < 0 || y > b.height;
+      });
+      if (outside) fitNetView();
+    }
+  });
+
+  netsvg.addEventListener("dblclick", () => {
+    // 双击空白：解除所有固定并重新布局
+    netNodes.forEach(n => { n.fixed = false; });
+    layoutNet();
+  });
+
+  netsvg.addEventListener("wheel", e => {
+    e.preventDefault();
+    const rect = netsvg.getBoundingClientRect();
+    const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+    const f = e.deltaY < 0 ? 1.12 : 1 / 1.12;
+    const nk = Math.min(5, Math.max(0.2, netView.k * f));
+    netView.x = mx - (mx - netView.x) * (nk / netView.k);
+    netView.y = my - (my - netView.y) * (nk / netView.k);
+    netView.k = nk;
+    renderNet();
+  });
+}
+
+let svg0 = null;
+document.getElementById("netTh").oninput = buildNet;
+document.getElementById("netMode").onchange = buildNet;
+window.addEventListener("resize", () => { fitNetView(); layoutTlBars(); });
+
+// ---------- 视图 2：时间轴 ----------
+const TL_ORDER = ["对抗", "部署", "合作", "表态", "灾伤", "治理", "其他"];
+let tlByDay = new Map();
+let tlMax = 1;
+let tlType = "";
+let tlDay = "";
+
+function buildTimeline() {
+  const src = events.filter(e => !tlType || (e.event_type || "其他") === tlType);
+  tlByDay = new Map();
+  for (const e of src) {
+    const d = (e.time || "").slice(0, 10);
+    if (!d) continue;
+    if (!tlByDay.has(d)) tlByDay.set(d, []);
+    tlByDay.get(d).push(e);
+  }
+  const days = [...tlByDay.keys()].sort();
+  tlMax = days.length ? Math.max(...[...tlByDay.values()].map(v => v.length)) : 1;
+  const maxN = tlMax;
+
+  const byMonth = new Map();
+  for (const d of days) {
+    const m = d.slice(0, 7);
+    byMonth.set(m, (byMonth.get(m) || 0) + 1);
+  }
+  let mh = "";
+  for (const [m, n] of byMonth) {
+    mh += `<div class="tl-month" style="flex:${n}">${n >= 8 ? m.slice(2) : ""}</div>`;
+  }
+  document.getElementById("tlMonths").innerHTML = mh;
+
+  let dh = "";
+  for (const d of days) {
+    const evs = tlByDay.get(d);
+    const h = Math.max(3, Math.round(evs.length / maxN * 164));
+    const tc = {};
+    evs.forEach(e => { const k = e.event_type || "其他"; tc[k] = (tc[k] || 0) + 1; });
+    const segs = TL_ORDER.filter(k => tc[k]).map(k =>
+      `<i style="flex:${tc[k]};background:${TYPE_COLOR[k] || "#666"}"></i>`).join("");
+    const tip = Object.entries(tc).map(([k, v]) => k + " " + v).join("，");
+    dh += `<div class="tl-day" data-d="${d}" data-n="${evs.length}" style="height:${h}px"
+      title="${d}：${evs.length} 个事件&#10;${esc(tip)}">${segs}</div>`;
+  }
+  const daysEl = document.getElementById("tlDays");
+  daysEl.innerHTML = dh || '<div class="empty">这一类没有带日期的事件</div>';
+  daysEl.onclick = ev => {
+    const day = ev.target.closest(".tl-day");
+    if (day) showDay(day.dataset.d);
+  };
+
+  const tc = {};
+  events.forEach(e => { const k = e.event_type || "其他"; tc[k] = (tc[k] || 0) + 1; });
+  const tot = events.length || 1;
+  let bh = "";
+  for (const t of TL_ORDER) {
+    const n = tc[t] || 0;
+    if (!n) continue;
+    const col = TYPE_COLOR[t] || "#666";
+    bh += `<div class="tl-stat" data-t="${esc(t)}">
+      <div class="nm"><i style="background:${col}"></i>${esc(t)}</div>
+      <div class="num">${n}<em>${(n / tot * 100).toFixed(0)}%</em></div>
+      <div class="bar"><i style="width:${n / tot * 100}%;background:${col}"></i></div>
+    </div>`;
+  }
+  const bars = document.getElementById("typeBars");
+  bars.classList.toggle("filtering", !!tlType);
+  bars.innerHTML = bh;
+  bars.querySelectorAll(".tl-stat").forEach(el => {
+    el.classList.toggle("on", el.dataset.t === tlType);
+    el.onclick = () => {
+      tlType = tlType === el.dataset.t ? "" : el.dataset.t;
+      buildTimeline();
+    };
+  });
+  const hint = document.getElementById("tlHint");
+  if (hint) {
+    hint.textContent = tlType
+      ? `当前只看${tlType}。再点一次「${tlType}」恢复全部。柱高是当天这一类的事件数。`
+      : "点一个类型只看这一类的时间分布，再点一次恢复全部。柱高是当天的事件数，点一根柱子看当天的事件。";
+  }
+  if (tlDay && tlByDay.has(tlDay)) showDay(tlDay);
+  else {
+    tlDay = "";
+    document.getElementById("v-timeline").classList.remove("has-day");
+    const panel = document.getElementById("tlDetail");
+    panel.style.display = "none";
+    panel.innerHTML = "";
+  }
+  requestAnimationFrame(layoutTlBars);
+}
+
+/** 柱高按图区当前高度重算，隐藏时 clientHeight 为 0，先跳过 */
+function layoutTlBars() {
+  const box = document.getElementById("tlDays");
+  if (!box) return;
+  const H = box.clientHeight;
+  if (H < 40) return;
+  box.querySelectorAll(".tl-day").forEach(el => {
+    const n = Number(el.dataset.n) || 0;
+    el.style.height = Math.max(2, Math.round(n / tlMax * (H - 2))) + "px";
+  });
+}
+
+function showDay(d) {
+  tlDay = d;
+  document.getElementById("v-timeline").classList.add("has-day");
+  document.querySelectorAll(".tl-day").forEach(el => el.classList.toggle("on", el.dataset.d === d));
+  const evs = (tlByDay.get(d) || []).slice().sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+  const panel = document.getElementById("tlDetail");
+  panel.style.display = "block";
+  requestAnimationFrame(layoutTlBars);
+  panel.innerHTML = `<h3>${esc(d)}　${evs.length} 个事件</h3>`
+    + evs.slice(0, 40).map(e => evRow(e.id)).join("");
+  panel.querySelectorAll(".ev").forEach(el => {
+    el.onclick = () => el.classList.toggle("open");
+  });
+}
+function evRow(id) {
+  const e = nodes.get(id) || {};
+  const col = TYPE_COLOR[e.event_type] || "#666";
+  const args = evArgs.get(id) || [];
+  // 论元按语义层次排序：谁做的 → 谁被打 → 在哪 → 打什么 → 用什么 → 结果
+  const ORDER = ["打击方","拦截方","发射方","控制方","部署方","袭击方","施动方","主体",
+                 "表态方","甲方","乙方","援助方","受援方","主办方","访问方","受访方",
+                 "受击方","受控方","受灾对象","对象",
+                 "事发地点","起点","终点",
+                 "打击对象","控制对象","拦截对象","受灾对象",
+                 "发射平台","发射物","兵力",
+                 "战果","伤亡数字","表态内容","协议","议题","结果","原因","处置结果"];
+  const rank = r => { const i = ORDER.indexOf(r); return i < 0 ? 99 : i; };
+  const sorted = [...args].sort((x, y) => rank(x.role) - rank(y.role));
+  let ah = "";
+  for (const a of sorted) {
+    const tn = nodes.get(a.target);
+    const cls = (a.role === "事发地点") ? "arg arg-loc" : "arg";
+    ah += `<span class="${cls}"><b>${esc(a.role)}</b> ${esc(tn ? tn.name : a.target)}</span>`;
+  }
+  const doc = G.docs[e.doc] || {};
+  return `<div class="ev" data-id="${id}">
+    <div class="ev-h">
+      <span class="ev-t">${esc(e.name)}</span>
+      <span class="chip" style="color:${col}">${esc(e.event_type)}·${esc(e.subtype||"-")}</span>
+      <span class="ev-d">${(e.time||"").slice(0,10) || "—"}</span>
+    </div>
+    <div class="ev-a">${ah || '<span class="arg">（无论元）</span>'}</div>
+    <div class="ev-doc">${esc(doc.title || "")}　触发词：${esc(e.trigger||"—")}</div>
+  </div>`;
+}
+
+function shortName(id) {
+  const n = nodes.get(id);
+  let s = n ? n.name : id;
+  s = s.replace(/阿拉伯联合酋长国/, "阿联酋")
+       .replace(/沙特阿拉伯/, "沙特")
+       .replace(/武装力量|武装部队|国防军/g, "")
+       .replace(/巴勒斯坦伊斯兰抵抗运动（哈马斯）/, "哈马斯")
+       .replace(/也门胡塞武装/, "胡塞武装");
+  return s.length > 6 ? s.slice(0, 6) : s;
+}
+
+// ---------- 视图 3：实体排行 ----------
+function buildRank() {
+  const types = ["国家", "机构", "人物", "地点", "装备", "作品"];
+  const sel = document.getElementById("rankType");
+  sel.innerHTML = types.map(t => `<option value="${t}">${t}</option>`).join("");
+  sel.onchange = () => renderRank(sel.value);
+  renderRank("国家");
+}
+
+function renderRank(type) {
+  const list = G.nodes.filter(n => n.type === type)
+    .sort((a, b) => b.degree - a.degree).slice(0, 30);
+  if (!list.length) {
+    document.getElementById("rankList").innerHTML = '<div class="empty">无数据</div>';
+    return;
+  }
+  const max = list[0].degree || 1;
+  const col = NODE_COLOR[type] || "#888";
+  let h = "";
+  list.forEach((n, i) => {
+    let aff = "";
+    const cid = orgCountry[n.id];
+    if (cid) {
+      const cn = nodes.get(cid);
+      aff = `<span style="color:#6b7280"> · ${esc(cn ? cn.name : cid)}</span>`;
+    }
+    h += `<div class="rank" data-name="${esc(n.name)}">
+      <span class="no">${i + 1}</span>
+      <span class="nm">${esc(n.name)}${aff}</span>
+      <span class="bar"><i style="width:${n.degree / max * 100}%;background:${col}"></i></span>
+      <span class="ct">${n.degree} · ${n.doc_count} 篇</span></div>`;
+  });
+  const box = document.getElementById("rankList");
+  box.innerHTML = h;
+  box.querySelectorAll(".rank").forEach(el => {
+    el.onclick = () => {
+      document.getElementById("q").value = el.dataset.name;
+      document.getElementById("evType").value = "";
+      document.querySelector('#tabs .tab[data-v="events"]').click();
+      renderEvents();
+    };
+  });
+}
+
+// ---------- 视图 4：事件检索 ----------
+function buildEvents() {
+  const types = [...new Set(events.map(e => e.event_type))].filter(Boolean);
+  const sel = document.getElementById("evType");
+  sel.innerHTML = '<option value="">全部类型</option>'
+    + types.map(t => `<option value="${t}">${t}</option>`).join("");
+  sel.onchange = renderEvents;
+  document.getElementById("q").oninput = renderEvents;
+  renderEvents();
+}
+
+function renderEvents() {
+  const q = document.getElementById("q").value.trim();
+  const t = document.getElementById("evType").value;
+  let list = events.filter(e => (!t || e.event_type === t));
+  if (q) {
+    list = list.filter(e => {
+      if (e.name.includes(q)) return true;
+      if ((e.trigger || "").includes(q)) return true;
+      const args = evArgs.get(e.id) || [];
+      return args.some(a => {
+        if ((a.target || "").includes(q)) return true;
+        const tn = nodes.get(a.target);
+        return !!(tn && (tn.name || "").includes(q));
+      });
+    });
+  }
+  list.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
+  const shown = Math.min(list.length, 300);
+  document.getElementById("evCount").textContent = list.length > shown
+    ? `显示最近 ${shown} 条，共 ${list.length} 条`
+    : `${list.length} 个事件`;
+
+  if (!list.length) {
+    document.getElementById("evList").innerHTML = '<div class="empty">没有匹配的事件</div>';
+    return;
+  }
+  let h = "";
+  for (const e of list.slice(0, 300)) {
+    h += evRow(e.id);
+  }
+  const box = document.getElementById("evList");
+  box.innerHTML = h;
+  box.querySelectorAll(".ev").forEach(el => {
+    el.onclick = () => el.classList.toggle("open");
+  });
+}
+
+function esc(s) {
+  return String(s == null ? "" : s)
+    .replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
+// ---------- 启动 ----------
+document.getElementById("meta").textContent =
+  `${G.meta.docs} 篇 · ${events.length} 事件 · ${G.meta.nodes} 节点`;
+
+document.querySelectorAll("#tabs .tab").forEach(t => {
+  t.onclick = () => {
+    document.querySelectorAll("#tabs .tab").forEach(x => x.classList.remove("on"));
+    document.querySelectorAll(".view").forEach(x => x.classList.remove("on"));
+    t.classList.add("on");
+    document.getElementById("v-" + t.dataset.v).classList.add("on");
+    if (t.dataset.v === "map") setTimeout(() => { if (mapGeo) buildMap(); }, 30);
+    if (t.dataset.v === "net") setTimeout(() => { if (netNodes.length) fitNetView(); }, 30);
+    if (t.dataset.v === "timeline") setTimeout(layoutTlBars, 30);
+  };
+});
+
+// 等布局稳定后再算，否则 clientHeight 可能还是 0
+// 加载世界地图数据后初始化地图视图
+fetch("world.geojson")
+  .then(r => r.json())
+  .then(d => {
+    mapGeo = d;
+    if (document.getElementById("v-map").classList.contains("on")) buildMap();
+  })
+  .catch(err => console.warn("地图数据加载失败", err));
+
+requestAnimationFrame(() => {
+  buildNet();
+  // 字体加载或滚动条出现会改变可用高度，再校正一次
+  setTimeout(() => { if (netNodes.length) fitNetView(); }, 120);
+});
+buildTimeline();
+buildRank();
+buildEvents();
+</script>
+</body>
+</html>

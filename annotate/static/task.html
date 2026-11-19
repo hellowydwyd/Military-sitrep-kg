@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Cache-Control" content="no-cache" />
   <title>三任务标注</title>
-  <link rel="stylesheet" href="task.css?v=4" />
+  <link rel="stylesheet" href="task.css?v=27" />
 </head>
 <body>
   <header class="topbar">
@@ -24,11 +24,12 @@
     </nav>
 
     <div class="right">
-      <div class="pill-group" id="split-seg">
-        <button class="pill on" data-split="train">train</button>
-        <button class="pill" data-split="dev">dev</button>
-        <button class="pill" data-split="test">test</button>
-      </div>
+      <label class="file-pick">
+        卷
+        <select id="file-select">
+          <option value="">全部卷</option>
+        </select>
+      </label>
       <label class="who">
         标注员
         <input id="annotator" value="A" maxlength="2" />
@@ -85,12 +86,22 @@
           <h2 id="doctitle">加载中</h2>
           <div class="doc-meta" id="docmeta"></div>
         </div>
-        <div class="doc-tools">
-          <span id="hint" class="hint"></span>
-          <button id="select-mode" class="ghost">框选补标</button>
+      <div class="doc-tools">
+        <span id="hint" class="hint"></span>
+        <span id="cur-done" class="done-badge" hidden>已标</span>
+        <div class="nav">
+          <button id="prev" class="ghost nav-btn" title="上一题（PageUp）">← 上一题</button>
+          <span id="nav-pos" class="nav-pos">0 / 0</span>
+          <button id="next" class="ghost nav-btn" title="下一题（PageDown）">下一题 →</button>
         </div>
+        <button id="orig-toggle" class="ghost" hidden>对照原文</button>
+        <button id="select-mode" class="ghost">框选补标</button>
       </div>
-      <div class="text" id="text"></div>
+      </div>
+      <div class="doc-body">
+        <div class="text" id="text"></div>
+        <aside class="orig" id="orig" hidden></aside>
+      </div>
     </section>
 
     <aside class="judge">
@@ -111,6 +122,7 @@
   </main>
 
   <div class="tip" id="tip"></div>
-  <script src="task.js?v=4"></script>
+  <script src="core.js?v=27"></script>
+  <script src="app-server.js?v=27"></script>
 </body>
 </html>

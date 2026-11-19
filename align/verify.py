@@ -12,7 +12,7 @@ from collections import Counter
 from pathlib import Path
 
 from align.cluster import pair_key
-from graph.store import load_graph
+from legacy.graph.store import load_graph
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"

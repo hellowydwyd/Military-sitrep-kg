@@ -27,7 +27,13 @@
 | `extract/chunk.py` | 按段切块，无人引用 |
 | `extract/report.py` | 旧管线的验收报告 |
 
-当前的抽取入口是 `python3 -m extract.kg_batch`，核心在 `extract/kg_extract.py`。
+当前的抽取入口是 `python3 -m extract.kg_batch`，核心在 `extract/kg_extract.py`。论元定义在 `extract/slots.py`。
+
+## graph：开放抽取分层图
+
+S1–S5、`store`、`merge`、`proximity`、`time_eval` 从 `graph/` 移到这里。`reason` 和 `align.verify` 仍通过 `legacy.graph` 调用。时间解析留在 `graph/time.py`，因为现行抽取也用它。
+
+现行图谱是 `python3 -m graph.build` 与 `python3 -m graph.view`，不经过这套分层图。
 
 ## 相关数据
 
